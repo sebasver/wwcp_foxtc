@@ -1,0 +1,649 @@
+ItemName	InternalName	EntityClass	TexturePrefix
+item.tc:minecartMK60	MK60	com.jcirmodelsquad.tcjcir.vehicles.locomotives.steam.SteamMK60	mk60-71_
+item.tc:minecartSkookTender	Skookum Tender	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.tender.TenderSkookTender	skookumtender
+item.tc:minecartLocoC62Class	Loco Steam C62Class	train.common.entity.rollingStock.steam.EntityLocoSteamC62Class	c62_engine_
+item.tc:minecartWCPMacky	WCPMacky	com.jcirmodelsquad.tcjcir.vehicles.locomotives.steam.SteamMacky	WCP_macky_three
+item.tc:minecart4ED172T	4ED172T	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.Diesel4ED172T	4ED-172T_
+item.tc:minecartSD45dash2B	SD45-2B	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSD45dash2B	sd45dash2b_
+item.tc:minecartFBFDL	FBFDL	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselFBFDL	fbfdl_
+item.tc:minecartgatc10000	gatc10000	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.tanker.GATC10000	gatc_10000_gal_
+item.tc:minecartAC4400C	AC4400C	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselAC4400C	ac4400c_
+item.tc:minecart44Ton	GE 44-ton	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGE44Ton	44_ton_
+item.tc:minecartGeometryCar	NXTrack Geometry Car	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.misc.ExperimentalGeometryCar	geometrycar_
+item.tc:minecartBigMeme	BigMeme	com.jcirmodelsquad.tcjcir.vehicles.locomotives.eletric.BigMeme	bigmeme_
+item.tc:minecartPDH2800	PDH2800	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.PDH2800	gatx_2800_pdh_
+item.tc:minecartRF16	RF16	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselRF16	RF-16_
+item.tc:minecartFreightGermanPost	Freight German Post	train.common.entity.rollingStock.EntityFreightGermanPost	german_post_
+item.tc:minecartVBShay2	2TruckVerticalBoilerShay	com.jcirmodelsquad.tcjcir.vehicles.locomotives.steam.SteamVBShay2	vbshay2_
+item.tc:minecartLocoD51Long	Loco Steam D51 Long Streamlining	train.common.entity.rollingStock.steam.EntityLocoSteamD51Long	d51_long_
+item.tc:minecartLocoMineTrain	Loco Electric Minetrain	train.common.entity.rollingStock.electric.EntityLocoElectricMinetrain	locoMinetrain
+item.tc:minecartSlugMA	SlugMA	com.jcirmodelsquad.tcjcir.vehicles.locomotives.SlugMA	SMA_
+item.tc:minecartShortCoveredHopper	Freight Short Covered Hopper	train.common.entity.rollingStock.freight.EntityFreightShortCoveredHopper	ShortCoveredHopper_
+item.tc:minecartW_A55	SEC W-A55	com.jcirmodelsquad.tcjcir.vehicles.locomotives.eletric.ElectricW_A55	W_A55_
+item.tc:minecartPCF6033	PCF6033	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.PCF6033	pcf_6033_
+item.tc:minecartDenverRioGrandeCombo	Passenger Denver Rio Grande Combo	train.common.entity.rollingStock.passenger.EntityPassengerDenverRioGrandeCombo	drg_combo_
+item.tc:minecartLocoSteamAdler	Loco Steam Adler	train.common.entity.rollingStock.steam.EntityLocoSteamAdler	locoAdler
+item.tc:minecartPS73Baggage	Freight PS 73 Baggage	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.baggagecar.PS73Baggage	PS_lightweight_73_Baggage_
+item.tc:minecartSkook	Skookum	com.jcirmodelsquad.tcjcir.vehicles.locomotives.steam.SteamSkook	skookum
+item.tc:minecartRF16B	RF16B	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselRF16B	RF-16B_
+item.tc:minecartTR4B	TR4B	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselTR4B	tr4b_
+item.tc:minecartOBBAR52SeatCoach_Dinette	OB BAR 52 Seat Coach-Dinette	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.OBBAR52SeatCoach_Dinette	OB_lightweight_BAR52SeatCoach_Dinette_
+item.tc:minecartSD40dash2B	SD40-2B	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSD40dash2B	sd40dash2b_
+item.tc:minecartCEEslug	CEEslug	com.jcirmodelsquad.tcjcir.vehicles.locomotives.eletric.ElectricCEEslug	CEEslug_
+item.tc:minecartPSBMDiner_Lounge	PS B&M Diner_Lounge	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PSBMDiner_Lounge	PS_lightweight_BMDiner_Lounge_
+item.tc:minecartGP39Dash2	GP39Dash2	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP39Dash2	gp39Dash2_
+item.tc:minecartChest	Freight Cart Yellow	train.common.entity.rollingStock.freight.EntityFreightCart	freightcart
+item.tc:minecartGP9b	GP9b	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP9b	gp9b_
+item.tc:minecartVanderbackTender	VanderbackTender	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.tender.TenderVanderback	vanderback_
+item.tc:minecartPassengerBamboo	Bamboo Flatcar Passenger	train.common.entity.rollingStock.passenger.EntityPassengerBamboo	passenger_bamboo_
+item.tc:minecartLocoSouthern1102	Loco Steam Southern 1102	train.common.entity.rollingStock.steam.EntityLocoSteamSouthern1102	Southern1102
+item.tc:minecartSD40	SD40	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSD40	sd40_
+item.tc:minecartE7B	E7B	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselE7B	EMDE7B_
+item.tc:minecartH24_66	H24-66	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselH24_66	FM_H24-66_
+item.tc:minecartDash944CW	Dash944CW	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselDash944CW	dash9_44cw_
+item.tc:minecartDR441500Phase2	DR441500Phase2	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselDR441500Phase2	DR441500Phase2_
+item.tc:minecartGS4_Observatory	Passenger GS4 Observatory	train.common.entity.rollingStock.passenger.EntityPassengerGS4_Observatory	GS4_Tavern_
+item.tc:minecartSDP40F	SDP40F	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSDP40F	sdp40f_
+item.tc:minecartFreightGondola_DB	Freight Gondola DB	train.common.entity.rollingStock.freight.EntityFreightGondola_DB	freightGondola_DB_
+item.tc:minecartLocoCD151	Loco Electric CD151	train.common.entity.rollingStock.electric.EntityLocoElectricCD151	CD151_
+item.tc:minecartPMNandN1	PMNandN1	com.jcirmodelsquad.tcjcir.vehicles.locomotives.steam.SteamPMNandN1	pm_n_locomotive_
+item.tc:minecartSB23R	SB23R	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSB23R	SB23R_
+item.tc:minecartGP7b	GP7b	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP7b	gp7b_
+item.tc:minecartE8B	E8B	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselE8B	EMDE8B_
+item.tc:minecartS12	S12	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselS12	S12_
+item.tc:minecartPSCenterDiner	PS Center Diner	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PScenterDiner	PS_lightweight_center_diner_
+item.tc:minecartM630	M630	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselM630	M630_
+item.tc:minecartEF1B	EF1B	com.jcirmodelsquad.tcjcir.vehicles.locomotives.eletric.ElectricEF1B	ef1b_
+item.tc:minecartPS30SeatParlor	PS 30 Seat Parlor	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PS30SeatParlor	PS_lightweight_30SeatParlor_
+item.tc:minecart4ED172T_G	4ED172T_G	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.Diesel4ED172T_G	4ED-172T_G_
+item.tc:minecartDRGWCoach1005Series	D&RGW Coach 1005 Series	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.DRGWCoach1005Series	DRGW_Coach_1005_Series_
+item.tc:minecartPropagandaUSSR	Propaganda USSR	train.common.entity.rollingStock.EntityPropagandaUSSR	propaganda_USSR_
+item.tc:minecartGSI60FootBulkhead	GSI_Bulkhead	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.GSI60FootBulkhead	gsi_60bulk_
+item.tc:minecartACFRailbox	ACF Railbox	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.ACFRailbox	ACFRailbox_
+item.tc:minecartICE1_1stClass	Passenger ICE 1st Class	train.common.entity.rollingStock.passenger.EntityPassengerICE_1class	ICE1_1st_class_
+item.tc:minecartGP38h3	GP38H3	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP38H3	gp38h3_
+item.tc:minecartB23S7	B23-S7	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselB23S7	b23-s7_
+item.tc:minecartTender460	Tender460	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.tender.Tender460	4-6-0_tender_
+item.tc:minecartFreightL	Freight Car L	train.common.entity.rollingStock.freight.EntityFreightCartL	freightCarL_
+item.tc:minecartCA11	CA11	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.workcart.CA11	icc_ca11_
+item.tc:minecartHHgregg	HHgregg	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselHHgregg	hhgregg
+item.tc:minecartEarlyFlat	EarlyFlat	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.EarlyFlat	EarlyFlatCar
+item.tc:minecartGSC60FootFlatcar	GSC_Flatcar	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.GSC60FootFlat	gsc_60flat_
+item.tc:minecartPSCNW20SeatCoachLounge	PS CNW 20 Seat Coach-Lounge	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PSCNW20SeatCoach_Lounge	PS_lightweight_CNW20SeatCoach_Lounge_
+item.tc:minecartFAFDL	FAFDL	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselFAFDL	fafdl_
+item.tc:minecart73centerbeam	73centerbeam	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.Freight73centerbeam	73ftcb_
+item.tc:minecartFP45	FP45	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselFP45	fp45_
+item.tc:minecartBQ23	BQ23-7	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselBQ23	bq23-7_
+item.tc:minecartSD9	SD9	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSD9	sd9_
+item.tc:minecartFourCorTail	FourCorTail	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PassengerFourCorTail	4-cor_
+item.tc:minecartFP9A	FP9A	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselFP9A	FP9A_
+item.tc:minecart4ED172T_E	4ED172T_E	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.Diesel4ED172T_E	4ED-172T_E_
+item.tc:minecartF7B	F7B	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselF7B	f7b_
+item.tc:minecartMILWPrewarBaggage	MILW Prewar Baggage	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.baggagecar.MILWPrewarBaggage	MILW_prewar_baggage_
+item.tc:minecartBuddATSF58SeatCoachObservation	Budd ATSF 58 Seat Coach-Observation	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.BuddATSF58SeatCoach_Observation	Budd_lightweight_ATSF50SeatCoach_Observation_
+item.tc:minecartP01a	P01a	com.jcirmodelsquad.tcjcir.vehicles.locomotives.steam.SteamP01a	p01a_
+item.tc:minecartthrall63centerbeam	63centerbeam	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.Thrall63centerbeam	thrall63centerbeam_
+item.tc:minecartE8A	E8A	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselE8A	EMDE8A_
+item.tc:minecartBombCart	Payload	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.funny.BombCart	payload_
+item.tc:minecartM640W	M640W	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselM640W	M640W_
+item.tc:minecartFOLM1B	FOL-M1B	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselFOLM1B	FOL_M1b_
+item.tc:minecartPCH120Car	PCH-120 Commute Car	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PCH120Coach	pch120car_
+item.tc:minecartLocoBR01_DB	Loco Steam BR01	train.common.entity.rollingStock.steam.EntityLocoSteamBR01_DB	locoBR01_DB
+item.tc:minecartCQ310PA	CQ310PA	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.CQ310PA	CQ_310_
+item.tc:minecartDenverRioGrandePassenger	Passenger Denver Rio Grande	train.common.entity.rollingStock.passenger.EntityPassengerDenverRioGrande	drg_passenger_
+item.tc:minecart11000DOT111	DOT11000	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.tanker.DOT11111000	dot11K_
+item.tc:minecartOB24SeatCoach_Dinette	OB 24 Seat Coach-Dinette	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.OB24SeatCoach_Dinette	OB_lightweight_24SeatCoach_Dinette_
+item.tc:minecartPMNstender	PMNstender	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.tender.TenderPMNstender	pm_n_tender_
+item.tc:minecartNYTram	Loco Electric Tram NY	train.common.entity.rollingStock.electric.EntityLocoElectricTramNY	locoTramNY_
+item.tc:minecartPSCNW12SeatParlor_Observation	PS CNW 12 Seat Parlor-Observation	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PSCNW12SeatParlor_Observation	PS_lightweight_CNW12SeatParlor_Observation_
+item.tc:minecartFreightOpen2	Freight Open RedBrown	train.common.entity.rollingStock.freight.EntityFreightOpen2	freightOpen2
+item.tc:minecartMailWagon_DB	Mail Wagon DB	train.common.entity.rollingStock.workcart.EntityMailWagen_DB	mailWagen_DB
+item.tc:minecartFB1	FB1	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselFB1	FB1_
+item.tc:minecartDRWGStockCar	DRWG Stock Cart	train.common.entity.rollingStock.EntityStockCarDRWG	drwgstockcar
+item.tc:minecartGS4_Tail	Passenger GS4 Tail	train.common.entity.rollingStock.passenger.EntityPassengerGS4_Tail	GS4_Tail_
+item.tc:minecartACFGN60SeatCoach	AC&F GN 60 Seat Coach	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.ACFGN60SeatCoach	AC&F_lightweight_GN60SeatCoach_
+item.tc:minecartB36	B36-7	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselB36	b36-7_
+item.tc:minecart4ED172T_C	4ED172T_C	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.Diesel4ED172T_C	4ED-172T_C_
+item.tc:minecartU23B	U23B	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselU23B	U23B_
+item.tc:minecartLocoUSATCUS	Loco Steam USATCUS	train.common.entity.rollingStock.steam.EntityLocoSteamUSATCUS	USATCUS
+item.tc:minecartM640	M640	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselM640	M640_
+item.tc:minecartPSRPO	PSRPO	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.rpo.PSRPO	PS_lightweight_RPO_
+item.tc:minecartTenderAdler	Tender Adler	train.common.entity.rollingStock.tender.EntityTenderAdler	tender_adler
+item.tc:minecartPSRPOPM	PSPMRPO	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.rpo.PSRPOPM	PS_lightweight_RPO_PM_
+item.tc:minecartACF3960	ACF3960	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.ACF3960	ACF_3960_
+item.tc:minecartLocoA4Mallard	Loco Steam A4 Mallard	train.common.entity.rollingStock.steam.EntityLocoSteamMallardA4	locoA4_UK_
+item.tc:minecartLocoWLs40	Loco WLs40	train.common.entity.rollingStock.diesel.EntityLocoDieselWLs40	wls40
+item.tc:minecartLocoD51Short	Loco Steam D51 Short Streamlining	train.common.entity.rollingStock.steam.EntityLocoSteamD51	d51_short_
+item.tc:minecartSD40dash3	SD40-3	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSD40dash3	sd40-3_
+item.tc:minecartDR441500BShark	DR441500BShark	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselDR441500BShark	DR441500BShark_
+item.tc:minecartHopper6260	6260 Cu Foot Jumbo Hopper	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.Hopper6260	6260_
+item.tc:minecartLocomogulBlue	Loco Steam Mogul	train.common.entity.rollingStock.steam.EntityLocoSteamMogulBlue	locoMogul
+item.tc:minecartLocoHighSpeedZeroED	Loco Electric High Speed ZeroED	train.common.entity.rollingStock.electric.EntityLocoElectricHighSpeedZeroED	locoHighSpeedZeroED_
+item.tc:minecartE9A	E9A	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselE9A	EMDE9A_
+item.tc:minecartCDCScaboose	CDCScaboose	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.workcart.CDCScaboose	CDCScaboose_
+item.tc:minecartHBC1Ccaboose	HBC1C	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.workcart.HBC1Cboose	HBC1C_
+item.tc:minecartLocoHallClass	Loco Hall Class	train.common.entity.rollingStock.steam.EntityLocoSteamHallClass	Hall_Class_Locomotive_
+item.tc:minecartLocoEr	Loco Steam ER_USSR	train.common.entity.rollingStock.steam.EntityLocoSteamEr_Ussr	locoEr_Ussr
+item.tc:minecartTrainBamboo	Bamboo Flatcar Engine	train.common.entity.rollingStock.diesel.EntityLocoDieselBamboo	loco_bamboo_
+item.tc:minecartPassengerRheingold	Passenger Rheingold	train.common.entity.rollingStock.passenger.EntityPassengerRheingold	Rheingold_passenger_
+item.tc:minecartPS54SeatCoach_Lounge	PS 54 Seat Coach-Lounge	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PS54SeatCoach_Lounge	PS_lightweight_54SeatCoach_Lounge_
+item.tc:minecartTenderSouthern1102	Tender Southern1102	train.common.entity.rollingStock.tender.EntityTender_Southern1102	Southern1102Tender
+item.tc:minecartWCPBuckingBull	WCPBuckingBull	com.jcirmodelsquad.tcjcir.vehicles.locomotives.steam.SteamBuckingBull	wcp_bucking_bull
+item.tc:minecartLocoC41_080	Loco Steam C41 0-8-0	train.common.entity.rollingStock.steam.EntityLocoSteamC41_080	locoC41_080
+item.tc:minecartC424	C424	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselC424	c424_
+item.tc:minecartGrain	Freight Hopper Green	train.common.entity.rollingStock.freight.EntityFreightGrain	hopper_
+item.tc:minecartBuddCN39SeatParlor_Observation	Budd CN 39 Seat Parlor-Observation	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.BuddCN39SeatParlor_Observation	Budd_lightweight_CN39SeatParlor_Observation_
+item.tc:minecartDR441500BPhase2	DR441500BPhase2	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselDR441500BPhase2	DR441500BPhase2_
+item.tc:minecartRoundHopper	Freight Round Covered Hopper	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.RoundHopper	roundedhopper_
+item.tc:minecartGSC5366FootBulkhead	GSC_53_66Bulkhead	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.GSC53Foot66Bulkhead	gsc_53_66flat_
+item.tc:minecart20600DOT111	DOT20600	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.tanker.DOT11120600	dot206K_
+item.tc:minecartLocoUSATCUK	Loco Steam USATCUK	train.common.entity.rollingStock.steam.EntityLocoSteamUSATCUK	USATCUK
+item.tc:minecartOnion	Onion	com.jcirmodelsquad.tcjcir.vehicles.locomotives.steam.SteamOnion	Onion_
+item.tc:minecartPRECOPendulumCoach	PRECO Pendulum Coach	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PRECOPendulumCoach	PRECO_lightweight_PendulumCoach_
+item.tc:minecartF40PH	F40PH	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselF40PH	f40ph_
+item.tc:minecartSW1	SW1	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSW1	sw1_new_
+item.tc:minecartES44h	ES44h	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselES44h	es44_h_
+item.tc:minecartAlcoPA1	PA1	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselPA1	AlcoPA1_
+item.tc:minecartOBBaggage_52SeatDividedCoach	OB Baggage-52 Seat Divided Coach	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.combinecar.OBBaggage_52SeatDividedCoach	OB_lightweight_Baggage_52SeatDividedCoach_
+item.tc:minecartFPB4	FPB4	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselFPB4	FPB4_
+item.tc:minecartNYCPrewar56SeatCoach	NYC Prewar 56 Seat Coach	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.NYCPrewar56SeatCoach	NYC_lightweight_Prewar56SeatCoach_
+item.tc:minecartStockCar	Stock Cart	train.common.entity.rollingStock.EntityStockCar	stockcar_
+item.tc:minecartPCH130Car2	PCH-130 Commute2 Car	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PCH130Coach	pch130coach_
+item.tc:minecartH24_66L	H24-66L	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselH24_66L	FM_H24-66_L_
+item.tc:minecartH24_66C	H24-66C	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselH24_66C	FM_H24-66_C_
+item.tc:minecartSkeletonLogCar	Skeleton	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.SkeletonLogCar	SkeletonLogCar_
+item.tc:minecartWorkdayHyrail	WorkdayHyrail	com.jcirmodelsquad.tcjcir.vehicles.locomotives.foxdrives.DieselWorkdayHyrail	workday_hyrail_
+item.tc:minecartBaggageMILW	MILW Baggage	train.common.entity.rollingStock.passenger.baggagecar.EntityFreightBaggageMILW	milw_baggage
+item.tc:minecartMILW1935Baggage_Dinette	MILW 1935 Baggage-Dinette	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.combinecar.MILW1935Baggage_Dinette	MILW1935Baggage_Dinette_
+item.tc:minecartGP35	GP35	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP35	gp35_
+item.tc:minecartGP15	GP15	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP15	gp15_
+item.tc:minecartPSSOURPO_30	PS SOU RPO (30' mail)	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.rpo.PSSOURPO_30	PS_lightweight_SOUPO30_
+item.tc:minecartHeavyweightMailcar	Heavyweight Freight Car	train.common.entity.rollingStock.EntityFreightHeavyweight	heavyweight_mailcar
+item.tc:minecartSB23E	SB23E	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSB23E	SB23E_
+item.tc:minecartPSBMCombine	PS B&M Combine	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.combinecar.PSBMCombine	PS_lightweight_BMCombine_
+item.tc:minecartFreightCenterBeam_Empty	Freight Center Beam Empty	train.common.entity.rollingStock.freight.EntityFreightCenterbeam_Empty	freight_centerbeam_empty_
+item.tc:minecartDash840BW	Dash840BW	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselDash840BW	b40-8w_
+item.tc:minecartPassengerHighSpeedCarZeroED	Passenger High Speed Zero ED	train.common.entity.rollingStock.passenger.EntityPassengerHighSpeedCarZeroED	passengerHighSpeedCarZeroED_
+item.tc:minecartHighrailVan	Highrail Van	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselHighrailVan	highrailvan_
+item.tc:minecartU18BW	U18BW	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselU18BW	U18BW_
+item.tc:minecartPSATSF50SeatCoachObservation	PS ATSF 50 Seat Coach-Observation	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PSATSF50SeatCoach_Observation	PS_lightweight_ATSF50SeatCoach_Observation_
+item.tc:minecartPSSleeper565DRGW	PS 5-6-5 Sleeper DRGW Edition	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PSSleeper565DRGW	PS_DRGW_lightweight_5-6-5_sleeper_
+item.tc:minecartACFGN1DR_17SeatParlor_Observation	AC&F GN 1DR-17 Seat Parlor-Observation	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.ACFGN1DR_17SeatParlorObservation	AC&F_lightweight_1DR_177SeatParlor_Observation_
+item.tc:minecartLocoEWSClass66	Loco Electric EWS Class 66	train.common.entity.rollingStock.diesel.EntityLocoDieselClass66	Class66_
+item.tc:minecartLocoA4MallardTender	Tender A4 Mallard	train.common.entity.rollingStock.tender.EntityTenderA4	tenderA4_UK_
+item.tc:minecartM420B	M420B	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselM420B	m420b_
+item.tc:minecartSlateWagon	Freight Slate Wagon	train.common.entity.rollingStock.freight.EntityFreightSlateWagon	freightslatewagon
+item.tc:minecartCabooseWork	Work Caboose	train.common.entity.rollingStock.workcart.EntityCabooseWorkCart	workcaboose
+item.tc:minecartBulkheadFlatCart	Freight Bulkhead Flat Cart	train.common.entity.rollingStock.freight.EntityBulkheadFlatCart	BulkheadFlat_
+item.tc:minecartBuddRDG56SeatCoachLounge	Budd RDG 56 Seat Coach-Lounge	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.BuddRDG56SeatCoach_Lounge	Budd_lightweight_RDG56SeatCoach_Lounge_
+item.tc:minecartGP7Red	Loco Diesel GP7	train.common.entity.rollingStock.diesel.EntityLocoDieselGP7Red	gp7_
+item.tc:minecarttenderBerk1225	1225 tender	train.common.entity.rollingStock.tender.EntityTenderBerk1225	Berkshire_tender_
+item.tc:minecartTenderEr	Tender ER_USSR	train.common.entity.rollingStock.tender.EntityTenderEr_Ussr	tenderEr_Ussr
+item.tc:minecartBethgonII	BethgonII	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.BethgonII	Bethgon_
+item.tc:minecartLocoLSSP7	Loco Steam LSSP7	train.common.entity.rollingStock.steam.EntityLocoSteamLSSP7	LSSP7
+item.tc:minecartSD38	SD38	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSD38	sd38_
+item.tc:minecartSDP40	SDP40	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSDP40	sdp40_
+item.tc:minecartPETender	Tender PETender	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.tender.TenderPETender	PETender
+item.tc:minecartFreight100TonHopper	Freight 100 Ton Hopper	train.common.entity.rollingStock.freight.EntityFreight100TonHopper	freight_100tonhopper_
+item.tc:minecartIngotPig	IngotPig	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.IngotPig	MoltenIngotPig_
+item.tc:minecartalco2102	Alco2102	com.jcirmodelsquad.tcjcir.vehicles.locomotives.steam.SteamAlco2102	alco_2-10-2st_
+item.tc:minecartDash832BWH	Dash832BWH	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselDash832BWH	b32-8wh_
+item.tc:minecartTenderBR01_DB	Tender BR01	train.common.entity.rollingStock.tender.EntityTenderBR01_DB	tenderBR01_DB
+item.tc:minecartBKno2a	BKno2a	com.jcirmodelsquad.tcjcir.vehicles.locomotives.steam.SteamBKno2a	BoothKelly_
+item.tc:minecartPS150	PS150	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.PS150	ps150_
+item.tc:minecartICCBaywindowWP	ICCBaywindowWP	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.workcart.ICCBaywindowWP	iccbaywindow_
+item.tc:minecartFNCC2375Hopper	FNCC2375Hopper	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.FNCC2375Hopper	FNCC2375_
+item.tc:minecartBoulderWagon	BoulderWagon	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.BoulderWagon	BoulderWagon_
+item.tc:minecartOBHWNH5570_5589Baggage	OB HW NH 5570-5589 Series Baggage	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.baggagecar.OBHWNH5570_5589Baggage	OB_heavyweight_NH5570_5589Baggage_
+item.tc:minecartW_A11	SEC W-A11	com.jcirmodelsquad.tcjcir.vehicles.locomotives.eletric.ElectricW_A11	W_A11_
+item.tc:minecartFRED	FRED	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.misc.FRED	fred
+item.tc:minecartB23	B23-7	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselB23	b23-7_
+item.tc:minecartR70Reefer2	R70Reefer2	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.R70Reefer2	R-70-15_
+item.tc:minecartPCC	PCC	com.jcirmodelsquad.tcjcir.vehicles.locomotives.eletric.ElectricPCC	Pcc_
+item.tc:minecartPassengerTramNY	Passenger Tram NY	train.common.entity.rollingStock.passenger.EntityPassengerTramNY	locoTramNY_
+item.tc:minecartNSCchildHUH	NSCReefer	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.NSCReefer	NSCReefer_
+item.tc:minecartAipkitExplorer2	Aipkit Explorer-II	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.AipkitExplorer2	aipkit_explorerii_
+item.tc:minecartCabooseLoggingPRR	PRR Caboose Logging	train.common.entity.rollingStock.workcart.EntityCabooseLoggingPRR	PRRCaboose_
+item.tc:minecartOpenWagon	Freight Open Wagon	train.common.entity.rollingStock.freight.EntityFreightOpenWagon	openwagon_
+item.tc:minecartTender	Tender Small Black	train.common.entity.rollingStock.tender.EntityTenderSmall	tender2_
+item.tc:minecartMILW1935_48SeatCoach	MILW 1935 48 Seat Coach	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.MILW1935_48SeatCoach	MILW1935_48SeatCoach_
+item.tc:minecartU23C	U23C	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselU23C	U23C_
+item.tc:minecartLocoSD40	Loco Diesel SD40	train.common.entity.rollingStock.diesel.EntityLocoDieselSD40	locoSD40_
+item.tc:minecartLoco3	Loco Steam Small	train.common.entity.rollingStock.steam.EntityLocoSteamSmall	loco3_
+item.tc:minecartClimaxNew	2TruckClimax	com.jcirmodelsquad.tcjcir.vehicles.locomotives.steam.SteamClimaxNew	climax_Grey
+item.tc:minecartFlatCart_DB	Flat Cart DB	train.common.entity.rollingStock.freight.EntityFlatCar_DB	flatCar_DB_
+item.tc:minecartFA2	FA2	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselFA2	FA2_
+item.tc:minecartFreightHopperUS	Freight Hopper US	train.common.entity.rollingStock.freight.EntityFreightHopperUS	freightHopperUS_
+item.tc:minecartSDL39	SDL39	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSDL39	sdl39_
+item.tc:minecartPCF_RBL_Smooth	PCF_RBL_Smooth	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.PCF_RBL_Smooth	pcf_rbl_smooth_
+item.tc:minecartPS160	PS160	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.PS160	ps160_
+item.tc:minecart67millgon	67millgon	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.gsco67millgon	gsco_67_millgon_
+item.tc:minecartGP7u	GP7u	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP7u	gp7u_atsf_
+item.tc:minecartPS2_4750	PS2_4750	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.PS2_4750	ps2cd_4750_
+item.tc:minecartPSCNW16_1_3Sleeper	PS CNW 16-1-3 Sleeper	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PSCNW16_1_3Sleeper	PS_lightweight_CNW16_1_3Sleeper_
+item.tc:minecartTramWood	Loco Electric Yellow Wood Tram	train.common.entity.rollingStock.electric.EntityLocoElectricTramWood	tram
+item.tc:minecartFourBuf	FourBuf	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PassengerFourBuf	4-buf_
+item.tc:minecartSW1500	SW1500	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSW1500	sw1500_
+item.tc:minecartGP18	GP18	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP18	gp18_
+item.tc:minecartMILW1935_44SeatCoach_Observation	MILW 1935 44 Seat Coach Observation	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.MILW1935_44SeatCoach_Observation	MILW1935_44SeatCoach_Observation_
+item.tc:minecartOB84SeatCoach	OB 84 Seat Coach	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.OB84SeatCoach	OB_lightweight_84SeatCoach_
+item.tc:minecartFA1	FA1	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselFA1	FA1_
+item.tc:minecartC415L	C415L	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselC415L	C415l_
+item.tc:minecartLocoAlcoSC4	Loco Steam Alco SC4	train.common.entity.rollingStock.steam.EntityLocoSteamAlcoSC4	AlcoSC4_
+item.tc:minecartGP40	GP40	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP40	gp40_
+item.tc:minecartPassenger2	Passenger Small Black	train.common.entity.rollingStock.passenger.EntityPassenger2	passenger3_
+item.tc:minecartCabooseLogging	Caboose Logging	train.common.entity.rollingStock.workcart.EntityCabooseLogging	cabLogging_
+item.tc:minecartPELocomotive	Loco Steam PELoco	com.jcirmodelsquad.tcjcir.vehicles.locomotives.steam.SteamPELoco	PELoco
+item.tc:minecartMILW1935_21SeatParlor_Observation	MILW 1935 21 Seat Parlor Observation	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.MILW1935_21SeatParlor_Observation	MILW1935_21SeatParlor_Observation_
+item.tc:minecartSB18R	SB18R	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSB18R	SB18R_
+item.tc:minecartPassengerMILWTail	Passenger MILW Tail	train.common.entity.rollingStock.passenger.EntityPassengerMILWTail	milw_passenger_tail
+item.tc:minecartSBMS	SBMS	com.jcirmodelsquad.tcjcir.vehicles.locomotives.SBMS	SBMS_
+item.tc:minecartFourCorTrailerComposite	FourCorTrailerComposite	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PassengerFourCorTrailerComposite	4-cor_trailer_
+item.tc:minecartPassengerBlue	Passenger Blue	train.common.entity.rollingStock.passenger.EntityPassengerBlue	passenger
+item.tc:minecartPSCEIRPO15_Baggage_LC_Lounge	PS C&EI RPO(15')-Baggage-LC-Lounge	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.combinecar.PSCEIRPO15_Baggage_LC_Lounge	PS_lightweight_CEIRPO15_Baggage_LC_Lounge_
+item.tc:minecartFreightCenterBeam_Wood_1	Freight Center Beam Wood1	train.common.entity.rollingStock.freight.EntityFreightCenterbeam_Wood_1	freight_centerbeam_wood_1_
+item.tc:minecartH1044	H1044	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselH1044	FM_H10-44_
+item.tc:minecartU30BH	U30BH	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselU30BH	U30BH_
+item.tc:minecartWVcaboose	WVcaboose	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.workcart.WVcaboose	wvcaboose_
+item.tc:minecartHCS_9k_Tender	HCS_9k_Tender	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.tender.HCS_9k_Tender	hcs_9kgal_
+item.tc:minecartLocoCherepanov	Loco Steam Cherepanov	train.common.entity.rollingStock.steam.EntityLocoSteamCherepanov	locoCherepanov
+item.tc:minecartPSCEIRPO15_Baggage_38SeatCoach	PS C&EI RPO(15')-Baggage-38 Seat Coach	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PSCEIRPO15_Baggage_38SeatCoach	PS_lightweight_CEIRPO15_Baggage_38SeatCoach_
+item.tc:minecartCD742	Loco Diesel CD742	train.common.entity.rollingStock.diesel.EntityLocoDieselCD742	cd742_
+item.tc:minecartLocoMILWClassA	Loco Steam MILW Class A	train.common.entity.rollingStock.steam.EntityLocoSteamMILWClassA	locoMILW_ClassA
+item.tc:minecartStampedeRack	StampedeRack	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.misc.StampedeRack	cswr_stampederack_
+item.tc:minecartSD39	SD39	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSD39	sd39_
+item.tc:minecartBuddNYC52SeatCoach	Budd NYC 52 Seat Coach	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.BuddNYC52SeatCoach	Budd_lightweight_52SeatCoach_
+item.tc:minecartLocoDD35B	DD35 B Unit	train.common.entity.rollingStock.EntityBUnitDD35	dd35b_
+item.tc:minecartCF7hh	CF7hh	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselCF7hh	CF7_highhood_
+item.tc:minecartFreightWagon_DB	Freight Wagon DB	train.common.entity.rollingStock.EntityFreightWagenDB	freightWagen_DB_
+item.tc:minecartDRGWBaggage740Series	D&RGW Baggage 740 Series	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.baggagecar.DRGWBaggage740Series	DRGW_Baggage_740_Series_
+item.tc:minecartPSCNWRPO15	PS CNW RPO(15')	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.baggagecar.PSCNWRPO15	PS_lightweight_CNWRPO15_
+item.tc:minecartU18BWH	U18BWH	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselU18BWH	U18BWH_
+item.tc:minecartHeavySteam	Loco Steam Heavy	train.common.entity.rollingStock.steam.EntityLocoSteamHeavy	heavysteam
+item.tc:minecartSP_B50	SP_B50	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.SP_B50	sp_b_50_
+item.tc:minecartGunderson89ftAutorack	89ftAutorack	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.Gunderson89ftAutorack	89ftAutorack_
+item.tc:minecartPEobserve	PEobserve	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PEobserve	PEObserve_
+item.tc:minecartAmfleet	Amfleet	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.Amfleet	amfleet_
+item.tc:minecartSD40dash2	SD40-2	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSD40dash2	sd40-2_
+item.tc:minecartR70Reefer	R70Reefer	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.R70Reefer	R70Reefer_
+item.tc:minecartPSCNWBaggage_LC_Diner	PS CNW Baggage-LC-Diner	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PSCNWBaggage_LC_Diner	PS_lightweight_CNWBaggage_LC_Diner_
+item.tc:minecartPassengerRheingoldPanorama	Rheingold Panorama	train.common.entity.rollingStock.passenger.EntityPassengerRheingoldPanorama	Rheingold_passenger_panorama_
+item.tc:minecartBuddCN68SeatCoach_Observation	Budd CN 68 Seat Coach-Observation	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.BuddCN68SeatCoach_Observation	Budd_lightweight_CN68SeatCoach_Observation_
+item.tc:minecartDR441500Shark	DR441500Shark	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselDR441500Shark	DR441500Shark_
+item.tc:minecartKClassRailBox	Freight K Class Rail Box	train.common.entity.rollingStock.freight.EntityFreightKClassRailBox	KClassRailBox_
+item.tc:minecartPS_40t_ss_box	PS_40t_ss_box	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.PS_40t_ss_box	ps_40t_ss_box_
+item.tc:minecartTGVMobile	TGVmobile	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselTGVmobile	tgvmobile_Orange
+item.tc:minecartMaPa35FootGondola	MaPa_35Gondola	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.MaPa35FootGondola	MaPa_35gondola_
+item.tc:minecartgtavthing	gtavthing	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.Dieselgtavthing	gtavthing_
+item.tc:minecartB23_wrx	B23-7_wrx	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselB23_wrx	b23-7_wrx_
+item.tc:minecartMineTrain	Freight Minecart Yellow	train.common.entity.rollingStock.freight.EntityFreightMinetrain	minetrain
+item.tc:minecartKof_DB	Loco Diesel KOF DB	train.common.entity.rollingStock.diesel.EntityLocoDieselKof_DB	locoKof_DB_
+item.tc:minecartDRGWRPO620Series	D&RGW RPO 620 Series	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.baggagecar.DRGWRPO620Series	DRGW_RPO_620_Series_
+item.tc:minecartPCH100HCoach	PCH-100H Coach	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PCH100HCoach	pch100hcoach_
+item.tc:minecartPS58SeatCoach_Observation	PS 58 Seat Coach-Observation	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PS58SeatCoach_Observation	PS_lightweight_58SeatCoach_Observation_
+item.tc:minecartDD55	DD55	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselDD55	DD55_
+item.tc:minecartJT7	JT7	com.jcirmodelsquad.tcjcir.vehicles.locomotives.eletric.ElectricJT7	jt7_bigJ_
+item.tc:minecartFreightDepressedFlatbed	Freight Depressed Flatcar	train.common.entity.rollingStock.freight.EntityFreightDepressedFlatbed	depressed_flatbed_
+item.tc:minecartCF7round3	CF7round3	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselCF7round3	CF7_Round_F_
+item.tc:minecartICC_Bobber	ICC_Bobber	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.workcart.ICC_Bobber	icc_bobber_
+item.tc:minecartSD45dash2	SD45	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSD45dash2	sd45_
+item.tc:minecartFourCorTrailerSecond	FourCorTrailerSecond	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PassengerFourCorTrailerSecond	4-cor_trailer_
+item.tc:minecartGM6C	GM6C	com.jcirmodelsquad.tcjcir.vehicles.locomotives.eletric.ElectricGM6C_2	gm6c_
+item.tc:minecartSF30B	SF30B	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSF30B	sf30b_
+item.tc:minecartMP900	MP900	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselMP900	mp900_
+item.tc:minecartSMSC1	SMSC1	com.jcirmodelsquad.tcjcir.vehicles.locomotives.SMSC1	SMSC1_
+item.tc:minecartEvans5100	Evans5100	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.Evans5100	Evans_5100_
+item.tc:minecartShunter	Loco Diesel Shunter	train.common.entity.rollingStock.diesel.EntityLocoDieselShunter	shunter_
+item.tc:minecartPSCNW48SeatDiner	PS CNW 48 Seat Diner	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PSCNW48SeatDiner	PS_lightweight_CNW48SeatCoachDiner_
+item.tc:minecartWPShops600Series	WPShops600Series	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.workcart.WPShops600Series	wp680series_
+item.tc:minecartSD70ACe_H	SD70ACe_H	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSD70ACe_H	sd70ace_h_
+item.tc:minecartAEM7	AEM7	com.jcirmodelsquad.tcjcir.vehicles.locomotives.eletric.ElectricAEM7	AEM-7_
+item.tc:minecartHotTubTender	HotTubTender	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.tender.HotTubTender	hottub_tender_
+item.tc:minecart17600DOT111	DOT17600	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.tanker.DOT11117600	17600galTank_
+item.tc:minecartCaboose	Caboose Red	train.common.entity.rollingStock.workcart.EntityCaboose	caboose
+item.tc:minecartTwoBil	TwoBil	com.jcirmodelsquad.tcjcir.vehicles.locomotives.eletric.ElectricTwoBil	2-bil_
+item.tc:minecartBuddCBQDome50SeatCoach	Budd CB&Q Dome-50 Seat Coach	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.BuddCBQDome50SeatCoach	Budd_lightweight_CBQDome50SeatCoach_
+item.tc:minecartF45	F45	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselF45	f45_
+item.tc:minecartSD70Mac	SD70Mac	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSD70Mac	sd70mac_
+item.tc:minecart1912WoodBoxcar	1912WoodBoxcar	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.Wood1912Boxcar	1912_wood_boxcar_
+item.tc:minecartPassenger7	Passenger Short Green	train.common.entity.rollingStock.passenger.EntityPassenger7	passenger7_
+item.tc:minecartAlcoPB1	PB1	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselPB1	AlcoPB1_
+item.tc:minecartDRGWCoach1000Series	D&RGW Coach 1000 Series	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.DRGWCoach1000Series	DRGW_Coach_1000_Series_
+item.tc:minecartSW1200	SW1200	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSW1200	sw1200_
+item.tc:minecartPCH130Commute2	PCH-130 Commute2	com.jcirmodelsquad.tcjcir.vehicles.locomotives.eletric.PCH130Commute2	pch130commute2_
+item.tc:minecartPSCNW20SeatCoachLounge_1959	PS CNW 20 Seat Coach-Lounge (1959)	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PSCNW20SeatCoach_Lounge_1959	PS_lightweight_CNW20SeatCoach_Lounge_1959_
+item.tc:minecartHopper5201	5201 Cu Foot Hopper	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.Hopper5201	5201_
+item.tc:minecartLocoSnowPlow	Loco Steam Snow Plow	train.common.entity.rollingStock.steam.EntityLocoSteamSnowPlow	train_snowplow
+item.tc:minecartU23BU	U23BU	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselU23BU	U23BU_
+item.tc:minecartC855b	C855b	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselC855b	c855b_
+item.tc:minecartPassenger5	Passenger Green Long	train.common.entity.rollingStock.passenger.EntityPassenger5	passenger5_
+item.tc:minecartE7A	E7A	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselE7A	EMDE7A_
+item.tc:minecartAlco0_6_0T	Alco0-6-0T	com.jcirmodelsquad.tcjcir.vehicles.locomotives.steam.SteamAlco0_6_0T	Alco0_6_0T_
+item.tc:minecartGP39	GP39	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP39	gp39_
+item.tc:minecartLocoBerk1225	Loco Berkshire 1225	train.common.entity.rollingStock.steam.EntityLocoSteamBerk1225	Berk1225_Locomotive_
+item.tc:minecartPS52seatCoach	PS 52 Seat Coach	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PS52SeatCoach	PS_lightweight_52seat_
+item.tc:minecartLocoForneyRed	Loco Steam Forney	train.common.entity.rollingStock.steam.EntityLocoSteamForneyRed	locoForney
+item.tc:minecartPSCNW27SeatParlor_Observation	PS CNW 27 Seat Parlor-Observation	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PSCNW27SeatParlor_Observation	PS_lightweight_CNW27SeatParlor_Observation_
+item.tc:minecartGP9	GP9	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP9	gp9_
+item.tc:minecartSDP45	SDP45	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSDP45	sdp45_
+item.tc:minecartOBNHGrillCar	OB NH Grill Car	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.OBNHGrillCar	OB_lightweight_NHGrillCar_
+item.tc:minecartLocoDD35A	Loco Diesel DD35A	train.common.entity.rollingStock.diesel.EntityLocoDieselDD35A	dd35a_
+item.tc:minecartAAR70TonHopper	AAR 70 Ton Hopper	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.AAR70TonHopper	AAR_70_ton_hopper_
+item.tc:minecartTenderC41	Tender C41	train.common.entity.rollingStock.tender.EntityTender_C41	C41Tender_
+item.tc:minecartOB76SeatDividedCoach	OB 76 Seat Divided Coach	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.OB76SeatDividedCoach	OB_lightweight_76SeatDividedCoach_
+item.tc:minecartThanos	Thanos	com.jcirmodelsquad.tcjcir.vehicles.locomotives.eletric.Thanos	thanos
+item.tc:minecartMillGondola	52footMillGondola	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.MillGondola	MillGondola_
+item.tc:minecartLocoSteamAlice	Loco Steam Alice	train.common.entity.rollingStock.steam.EntityLocoSteamAlice0_4_0	0-4-0-loco-alice
+item.tc:minecartChmE3	Loco Diesel ChME3	train.common.entity.rollingStock.diesel.EntityLocoDieselChME3	chme3
+item.tc:minecartGP40tc	GP40TC	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP40TC	gp40tc_
+item.tc:minecartDUPX39200	DUPX39200	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.tanker.DUPX39200	dupx_39200_
+item.tc:minecartPSCNW48SeatCoachLounge	PS CNW 48 Seat Coach-Lounge	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PSCNW48SeatCoach_Lounge	PS_lightweight_CNW48SeatCoach_Lounge_
+item.tc:minecartACF2Bay	ACF2Bay	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.ACF2Bay	acf_2980_
+item.tc:minecartFB2	FB2	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselFB2	FB2__
+item.tc:minecartTankWagonThreeDome	Tank Wagon Three Dome	train.common.entity.rollingStock.tanker.EntityTankWagonThreeDome	tanker_three_dome_
+item.tc:minecartPSLunchCounter_Lounge	PS Lunch Counter-Lounge	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PSLunchCounter_Lounge	PS_lightweight_LunchCounter_Lounge_
+item.tc:minecartSW9	SW9	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSW9	SW9_
+item.tc:minecartLocoKingClass	Loco King Class	train.common.entity.rollingStock.steam.EntityLocoSteamKingClass	King_Class_Locomotive_
+item.tc:minecartLocoSteamVBShay	Loco Steam VB Shay	train.common.entity.rollingStock.steam.EntityLocoSteamVBShay	vbshay
+item.tc:minecartU56	U56	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselU56	U56_
+item.tc:minecartFNCC50Foot	FNCC50FootBoxcar	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.FNCC50Foot	FNCC50Foot_
+item.tc:minecartGS4_Loco	Loco Steam GS4	train.common.entity.rollingStock.steam.EntityLocoSteamGS4	GS4_engine_
+item.tc:minecartLocoDeltic	Loco Diesel Deltic	train.common.entity.rollingStock.diesel.EntityLocoDieselDeltic	Deltic_
+item.tc:minecartLocoSteamGLYN	Loco Steam glyn	train.common.entity.rollingStock.steam.EntityLocoSteamGLYN042T	0-4-2-loco-glyn
+item.tc:minecartPSCNW1DR_22SeatParlor	PS CNW 1DR-22 Seat Parlor	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PSCNW1DR_22SeatParlor	PS_lightweight_CNW1DR_22SeatParlor_
+item.tc:minecartEF1	EF1	com.jcirmodelsquad.tcjcir.vehicles.locomotives.eletric.ElectricEF1	ef1_
+item.tc:minecart40highcube	40highcube	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.Freight40highcube	40highcube_
+item.tc:minecartLocoFowler	Loco Fowler	train.common.entity.rollingStock.steam.EntityLocoSteamFowler	loco_Fowler
+item.tc:minecartGN40	GN40	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.GN40	gn40_
+item.tc:minecartACF_SP_98seatcoach	AC&F SP 98 Seat Coach	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.ACF_SP_98seatcoach	acf_sp_72_c_1_
+item.tc:minecartAmfleetCab	AmfleetCab	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.controlcar.AmfleetCab	amfleet_Cabber_
+item.tc:minecartFlatCartSU	Flat Cart SU	train.common.entity.rollingStock.freight.EntityFlatCartSU	flatcarsu
+item.tc:minecartICE1_Restaurant	ICE Restaurant	train.common.entity.rollingStock.passenger.EntityPassengerICE_Restaurant	ICE1_Restaurant_
+item.tc:minecartDRGWRPO630Series	D&RGW RPO 630 Series	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.baggagecar.DRGWRPO630Series	DRGW_RPO_630_Series_
+item.tc:minecartClass74	Class74	com.jcirmodelsquad.tcjcir.vehicles.locomotives.eletric.ElectricClass74	Class_74_
+item.tc:minecartLocoBR185	Loco Electric BR 185	train.common.entity.rollingStock.electric.EntityLocoElectricBR185	BR185_Engine_
+item.tc:minecartGP39TDash2	GP39TDash2	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP39TDash2	gp39t_
+item.tc:minecartBuddCRIP52SeatCoach	Budd CRIP 52 Seat Coach	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.BuddCRIP52SeatCoach	Budd_lightweight_52SeatCoach_
+item.tc:minecartSquanderbackTender	SquanderbackTender	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.tender.TenderSquanderback	squanderback_
+item.tc:minecartU30C	U30C	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselU30C	U30C_new_
+item.tc:minecartPSGNRPO_30	PS GN RPO (30' mail)	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.rpo.PSGNRPO_30	PS_lightweight_GNRPO30_
+item.tc:minecartOreJenny	Ore Jenny	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.OreJenny	orejenny_
+item.tc:minecartAmCafe	AmCafe	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.AmCafe	amcafe_
+item.tc:minecart52millgon	52millgon	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.gsco52millgon	gsco_52_millgon_
+item.tc:minecartF01	F01	com.jcirmodelsquad.tcjcir.vehicles.locomotives.steam.SteamF01	F01_texture_
+item.tc:minecartFreightCenterBeam_Wood_2	Freight Center Beam Wood2	train.common.entity.rollingStock.freight.EntityFreightCenterbeam_Wood_2	freight_centerbeam_wood_2_
+item.tc:minecartOnionTender	Onion Tender	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.tender.TenderOnion	Onion_Tender_
+item.tc:minecart4000GallonTender	4000GallonTender	train.common.entity.rollingStock.tender.EntityTender4000	GWR_Tender_
+item.tc:minecartSD40A	SD40A	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSD40A	sd40a_
+item.tc:minecartPSCEIDiner	PS C&EI Diner	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PSCEIDiner	PS_lightweight_CEIDiner_
+item.tc:minecartFlatCartLogs_DB	Freight Flat Cart Logs DB	train.common.entity.rollingStock.freight.EntityFlatCarLogs_DB	flatCarLogs_DB_
+item.tc:minecartM630W	M630W	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselM630W	M630W_
+item.tc:minecartOBRPO15	OB RPO (15' mail)	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.OBRPO15	OB_lightweight_RPO15_
+item.tc:minecartPSCNWRPO15_Baggage_LC_Lounge	PS CNW RPO(15')-Baggage-LC-Lounge	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.combinecar.PSCNWRPO15_Baggage_LC_Lounge	PS_lightweight_CNWRPO15_Baggage_LC_Lounge_
+item.tc:minecartPS140	PS140	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.PS140	ps140_
+item.tc:minecartACF3500	ACF3500	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.ACF3500	ACF_3500_
+item.tc:minecartPassengerMILW	Passenger MILW	train.common.entity.rollingStock.passenger.EntityPassengerMILW	milw_passenger
+item.tc:minecartE10_DB	Loco Electric E10 DB	train.common.entity.rollingStock.electric.EntityLocoElectricE10_DB	locoe10_db_
+item.tc:minecartLocoC11	Loco Steam C11	com.jcirmodelsquad.tcjcir.vehicles.locomotives.steam.SteamC11	locoC11
+item.tc:minecartDenverRioGrandeBaggage	Denver Rio Grande Baggage	train.common.entity.rollingStock.EntityFreightDenverRioGrande	drg_baggage_
+item.tc:minecartCF7round	CF7round	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselCF7round	CF7_Round_
+item.tc:minecartKrautt	Krautt	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselKrautt	KM_ML4000_
+item.tc:minecartBuddDome54SeatCoach	Budd Dome-54 Seat Coach	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.BuddDome54SeatCoach	Budd_lightweight_Dome54SeatCoach_
+item.tc:minecartMILW1935_22SeatParlor	MILW 1935 22 Seat Parlor	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.MILW1935_22SeatParlor	MILW1935_22SeatParlor_
+item.tc:minecartReefer64	Reefer64	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.Reefer64Foot	reefer_64_
+item.tc:minecartLocoSteamClimax	Loco Steam Climax	train.common.entity.rollingStock.steam.EntityLocoSteamClimax	loco_climax
+item.tc:minecartDash818BE	Dash818BE	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselDash818BE	b18-8e_
+item.tc:minecartNP_11C_tender	NP_11C_Tender	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.tender.TenderNP_11C	np_11c_n_12c_tender_
+item.tc:minecartM420	M420	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselM420	m420_
+item.tc:minecartBuddCNDiner_Lounge	Budd CN Diner-Lounge	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.BuddCNDiner_Lounge	Budd_lightweight_CNDiner_Lounge_
+item.tc:minecartICE1_2ndClass	Passenger ICE 2nd Class	train.common.entity.rollingStock.passenger.EntityPassengerICE_2class	ICE1_2nd_class_
+item.tc:minecartF7A	F7A	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselF7A	f7a_
+item.tc:minecartDash840C	Dash840C	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselDash840C	c40-8_
+item.tc:minecartDRGWBaggage700Series	D&RGW Baggage 700 Series	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.baggagecar.DRGWBaggage700Series	DRGW_Baggage_700_Series_
+item.tc:minecartBuddATSF48SeatCoach	Budd ATSF 48 Seat Coach	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.BuddATSF48SeatCoach	Budd_lightweight_ATSF52SeatCoach_
+item.tc:minecartGP7f	GP7f	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP7f	gp7u_arr_
+item.tc:minecartSD40T2	SD40T-2	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSD40T2	SD40T_
+item.tc:minecartPCH120Commute	PCH-120 Commute	com.jcirmodelsquad.tcjcir.vehicles.locomotives.eletric.PCH120Commute	pch120commute_
+item.tc:minecartBuddRDGDiner_Lounge	Budd RDG Diner-Lounge	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.BuddRDGDiner_Lounge	Budd_lightweight_RDGDiner_Lounge_
+item.tc:minecartU18Balt	U18Balt	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselU18Balt	u18b_new_
+item.tc:minecartGSC5386FootBulkhead	GSC_53_86Bulkhead	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.GSC53Foot86Bulkhead	gsc_53_86flat_
+item.tc:minecartFourCor	FourCor	com.jcirmodelsquad.tcjcir.vehicles.locomotives.eletric.ElectricFourCor	4-cor_
+item.tc:minecartFowler4FTender	Fowler 4F Tender	train.common.entity.rollingStock.tender.EntityTenderFowler4F	Fowler_4F_Tender
+item.tc:minecartPropagandaBritish	Propaganda Britain	train.common.entity.rollingStock.EntityPropagandaBritain	propaganda_Britain_
+item.tc:minecartPower	Loco Steam 4-4-0	train.common.entity.rollingStock.steam.EntityLocoSteam4_4_0	4-4-0-loco_
+item.tc:minecartGP7	GP7	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP7	gp7new_
+item.tc:minecartFreightBamboo	Bamboo Flatcar Freight	train.common.entity.rollingStock.freight.EntityFreightBamboo	bamboo_freight_
+item.tc:minecart66centerbeam	66centerbeam	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.Freight66centerbeam	66ftcb_
+item.tc:minecartGP38	GP38	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP38	gp38_
+item.tc:minecartGP39TDash2B	GP39TDash2B	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP39TDash2B	gp39tb_
+item.tc:minecarthicube60foot	60 Foot Hi-Cube Boxcar	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.Hicube60foot	hicube60_
+item.tc:minecartPRRGLaHopper	PRR GLa hopper	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.PRRGLaHopper	PRR_GLa_hopper_
+item.tc:minecartMP15DCW9	MP15DCW9	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselMP15DCW9	mp15dcw-9_
+item.tc:minecartPSCEI1DR28SeatParlorObservation	PS C&EI 1DR-28 Seat Parlor-Observation	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PSCEI1DR_28SeatParlor_Observation	PS_lightweight_CEI1DR_28SeatParlor_Observation_
+item.tc:minecartPSFNCCBaggage_Dinette	PS FNCC Baggage-Dinette	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PSFNCCBaggage_Dinette	PS_lightweight_FNCCBaggage_Dinette_
+item.tc:minecartF3A	F3A	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselF3A	f3a_
+item.tc:minecartC415S	C415S	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselC415S	C415s_
+item.tc:minecartExperimentalHydrogenTrain	PCH-100H	com.jcirmodelsquad.tcjcir.vehicles.locomotives.PCH100H	pch100h_
+item.tc:minecartBoxcab23Ton	23 Ton Boxcab	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselBoxcab23Ton	boxcab_
+item.tc:minecartE9B	E9B	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselE9B	EMDE9B_
+item.tc:minecartMILW1935Dorm_56SeatCoach	MILW 1935 Dormitory-56 Seat Coach	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.MILW1935Dorm_56SeatCoach	MILW1935Dorm_56SeatCoach_
+item.tc:minecartW_A55_Combine	SEC W-A55 Combine	com.jcirmodelsquad.tcjcir.vehicles.locomotives.eletric.ElectricW_A55_Combine	W_A55_Combine_
+item.tc:minecartBuddCBQ52SeatCoach	Budd CB&Q 52 Seat Coach	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.BuddCBQ52SeatCoach	Budd_lightweight_52SeatCoach_
+item.tc:minecartTenderHeavy	Tender Heavy	train.common.entity.rollingStock.tender.EntityTenderHeavy	heavytender_
+item.tc:minecartWoodchipHopper	Woodchip Hopper	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.WoodchipHopper	woodchiphopper_
+item.tc:minecartMILWTender	Tender MILW	train.common.entity.rollingStock.tender.EntityTenderMILW	milw_tender
+item.tc:minecartBuddPrewarBaggage	Budd Prewar Baggage	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.baggagecar.BuddPrewarBaggage	Budd_lightweight_Prewar_Baggage_
+item.tc:minecartPEcooch	PEcoach	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PEcoach	PECoach_
+item.tc:minecartGS4_Baggage	Freight Cart GS4 Baggage	train.common.entity.rollingStock.passenger.baggagecar.EntityFreightGS4_Baggage	GS4_baggage_
+item.tc:minecartWatertransp	Tank Lava	train.common.entity.rollingStock.tanker.EntityTankLava	lavacar_
+item.tc:minecartSB36X	SB36X	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSB36X	SB36X_
+item.tc:minecartGeGenesis	P40	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselP40	p40dc_
+item.tc:minecartLocoClass85	Loco Electric Class 85	train.common.entity.rollingStock.electric.EntityLocoElectricClass85	Class85
+item.tc:minecartDash940C	Dash940C	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselDash940C	dash9_40c_
+item.tc:minecartACFUPRPO60	AC&F UP RPO(60')	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.ACFUPRPO60	AC&F_lightweight_UPRPO60_
+item.tc:minecartH16_66	H16-66	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselH16_66	FM_H16-66_
+item.tc:minecartAmfleet2	Amfleet2	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.Amfleet2	amfleet2_
+item.tc:minecartFreightCart2	Freight Cart Red	train.common.entity.rollingStock.freight.EntityFreightCart2	freightcart2_
+item.tc:minecartHH660	HH660	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselHH660	hh660_
+item.tc:minecartACFRailboxCushioned	ACF Railbox (Cushioned)	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.ACFRailboxCushioned	ACFRailboxCushioned_
+item.tc:minecartPCF_B100	PCF_B100	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.PCF_B100	pcf_b_100_40_
+item.tc:minecartPSCNWRPO60	PS CNW RPO(60')	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.rpo.PSCNWRPO60	PS_lightweight_CNWRPO60_
+item.tc:minecartTR4	TR4	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselTR4	tr4_
+item.tc:minecartLocoBP4	Loco Electric BP4	train.common.entity.rollingStock.electric.EntityLocoElectricBP4	bp4_
+item.tc:minecartLocoSteamPannier	Loco Steam Pannier	train.common.entity.rollingStock.steam.EntityLocoSteamPannier	locoPannier
+item.tc:minecartPSDamnitAnotherDiner	PS Center Diner 2	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PSDamnitAnotherDiner	PS_lightweight_center_diner_2_
+item.tc:minecartHCS_c57	HCS_c57	com.jcirmodelsquad.tcjcir.vehicles.locomotives.steam.SteamHCS_c57	HCS_c57_
+item.tc:minecartTenderDeseret	TenderDeseret	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.tender.TenderDeseret	wp_deserettender_
+item.tc:minecartPSCNW56SeatCoach	PS CNW 56 Seat Coach	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PSCNW56SeatCoach	PS_lightweight_CNW56SeatCoach_
+item.tc:minecartLocoC41T	Loco Steam C41T	train.common.entity.rollingStock.steam.EntityLocoSteamC41T	locoC41t
+item.tc:minecartMILW40boxcar	MILW40boxcar	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.MILW40boxcar	milw40_
+item.tc:minecartBrank	Brank2-6-2T	com.jcirmodelsquad.tcjcir.vehicles.locomotives.steam.SteamBrank	Brank_
+item.tc:minecartGP30	GP30	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP30	gp30_
+item.tc:minecartWork	Work Cart Yellow	train.common.entity.rollingStock.workcart.EntityWorkCart	workcart
+item.tc:minecartGP38dash9W	GP38dash9W	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP38dash9W	GP38-2W_Fixxed_MTS_2
+item.tc:minecartHighrailTruck	Highrail Truck	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselHighrailTruck	highrail_
+item.tc:minecartTankWagon_DB	Tank Wagon DB	train.common.entity.rollingStock.tanker.EntityTankWagon_DB	tankWagon_DB_
+item.tc:minecartBeep	Beep	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselBeep	atsfbeep
+item.tc:minecartDRGWCaboose	DRGWCaboose	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.workcart.DRGWboose	BAP_DRGW_01400_
+item.tc:minecartSW10	SW10	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSW10	sw10_
+item.tc:minecartU18BB	U18BB	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselU18BB	U18BB_
+item.tc:minecartPSCEI60SeatCoach	PS C&EI 60 Seat Coach	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PSCEI60SeatCoach	PS_lightweight_CEI60SeatCoach_
+item.tc:minecartASTFAutorack	Freight ASTF Autorack	train.common.entity.rollingStock.freight.EntityFreightASTFAutorack	astf_autorack
+item.tc:minecartFreightClosed	Freight Cart Closed RedBrown	train.common.entity.rollingStock.freight.EntityFreightClosed	freightClosed
+item.tc:minecartB_BEL	B-BEL	com.jcirmodelsquad.tcjcir.vehicles.locomotives.eletric.ElectricB_BEL	b-bel_
+item.tc:minecartPSCNWCommuterLounge	PS CNW Commuter Lounge	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PSCNWCommuterLounge	PS_lightweight_CNWCommuterLounge_
+item.tc:minecartBuddRDG56SeatCoach_Observation	Budd RDG 56 Seat Coach-Observation	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.BuddRDG56SeatCoach_Observation	Budd_lightweight_RDG56SeatCoach_Observation_
+item.tc:minecartM630R	M630R	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselM630R	M630R_
+item.tc:minecartLocoSteamShay	Loco Steam Shay	train.common.entity.rollingStock.steam.EntityLocoSteamShay	locoShay
+item.tc:minecartNP_13C_tender	NP_13C_Tender	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.tender.TenderNP_13C	np_13c_tender_
+item.tc:minecartWCPBaler	WCPBaler	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.tender.TenderBaler	wcp_baler
+item.tc:minecartTenderLima2_8_0	TenderLima2_8_0	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.tender.TenderLima2_8_0	Lima_Tender2_8_0_
+item.tc:minecartGP49	GP49	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP49	gp49_
+item.tc:minecartACF4650	ACF4650	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.ACF4650	acf_4650_
+item.tc:minecartCQ310PO	CQ310PO	com.jcirmodelsquad.tcjcir.vehicles.locomotives.eletric.ElectricCQ310PO	CQ_310_
+item.tc:minecartP32	P32	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselP32	p32dc_
+item.tc:minecartAAR50TonHopper	AAR 50 Ton Hopper	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.AAR50TonHopper	AAR_50_ton_hopper_
+item.tc:minecartNP_L9	NP_L9	com.jcirmodelsquad.tcjcir.vehicles.locomotives.steam.SteamNP_L9	np_l9_
+item.tc:minecartBuilder	Tracks Builder	train.common.entity.rollingStock.EntityTracksBuilder	builder2
+item.tc:minecartGATC4180Airslide	GATC4180Airslide	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.GATC4180Airslide	GATX_Airslide_
+item.tc:minecartGPFDL	GPFDL	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGPFDL	gpfdl_
+item.tc:minecartVO1000	VO1000	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselVO1000	vo1000_
+item.tc:minecartGSC53FootFlatcar	GSC_53Flatcar	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.GSC53FootFlat	gsc_53flat_
+item.tc:minecartFreightWood2	Freight Flat Logs	train.common.entity.rollingStock.freight.EntityFreightWood2	flatCartWood2
+item.tc:minecartVL10	Loco Electric VL10	train.common.entity.rollingStock.electric.EntityLocoElectricVL10	vl10
+item.tc:minecartNATX30600	NATX30600	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.tanker.NATX30600	natx_30600_
+item.tc:minecartGP13	GP13	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP13	gp13_
+item.tc:minecartDash839CE	Dash839CE	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselDash839CE	c39-8e_
+item.tc:minecartSD60	SD60	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSD60	sd60_
+item.tc:minecartPassengerRheingoldDining1	Rheingold Dining	train.common.entity.rollingStock.passenger.EntityPassengerRheingoldDining1	Rheingold_passenger_dining1_
+item.tc:minecartClimaxB	ClimaxB	com.jcirmodelsquad.tcjcir.vehicles.locomotives.steam.SteamClimaxB	50ton_climax_b_
+item.tc:minecartPassenger8_1class_DB	Passenger 1Class DB	train.common.entity.rollingStock.passenger.EntityPassenger_1class_DB	passenger_1class_DB_
+item.tc:minecartB30	B30-7	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselB30	b30-7_
+item.tc:minecartPassenger9_2class_DB	Passenger 2Class DB	train.common.entity.rollingStock.passenger.EntityPassenger_2class_DB	passenger_2class_DB_
+item.tc:minecartES44	ES44	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselES44	es44_new_
+item.tc:minecartFreightGTNG	Freight GTNG Ore Wagon	train.common.entity.rollingStock.EntityFreightGTNG	GTNGOreWagon
+item.tc:minecartU23BW	U23BW	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselU23BW	U23BW_
+item.tc:minecartAmCafe2	AmCafe2	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.AmCafe2	amcafe2_
+item.tc:minecartFlatCartUS	Flat Cart US	train.common.entity.rollingStock.freight.EntityFlatCartUS	flatCartUS
+item.tc:minecartBuddATSF50SeatCoachObservation	Budd ATSF 50 Seat Coach-Observation	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.BuddATSF50SeatCoach_Observation	Budd_lightweight_ATSF50SeatCoach_Observation_
+item.tc:minecartFlatCart	Flat Cart	train.common.entity.rollingStock.freight.EntityFlatCart	flatcart
+item.tc:minecartDash840BB	Dash840BB	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselDash840BB	dash8_40b_b_
+item.tc:minecartACFGNRPO_30	AC&F GN RPO (30' mail)	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.ACFGNRPO_30	AC&F_lightweight_GNRPO30_
+item.tc:minecartWood	Freight Flat Cart Log	train.common.entity.rollingStock.freight.EntityFreightWood	wood_Full
+item.tc:minecartLocoBR80_DB	Loco Steam BR80	train.common.entity.rollingStock.steam.EntityLocoSteamBR80_DB	locoBR80_DB_
+item.tc:minecartBuddATSF52SeatCoach	Budd ATSF 52 Seat Coach	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.BuddATSF52SeatCoach	Budd_lightweight_ATSF52SeatCoach_
+item.tc:minecartMaPa35FootFlatcar	MaPa_35Flatcar	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.MaPa35FootFlat	MaPa_35flat_
+item.tc:minecartSD50	SD50	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSD50	sd50_
+item.tc:minecartPSCNW56SeatDiner	PS CNW 56 Seat Diner	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PSCNW56SeatDiner	PS_lightweight_CNW56SeatCoachDiner_
+item.tc:minecartMILW1935Tap_Dinette	MILW 1935 Tap-Dinette	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.MILW1935Tap_Dinette	MILW1935Tap_Dinette_
+item.tc:minecartSF30C	SF30C	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSF30C	sf30c_
+item.tc:minecartLocoSteam040vb	Loco Steam 040VB	train.common.entity.rollingStock.steam.EntityLocoSteam040VB	loco040VB
+item.tc:minecartCF7angle	CF7angle	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselCF7angle	CF7_Angle_
+item.tc:minecartGunderson89ftFlat	89ftFlat	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.Gunderson89ftFlat	89ftFlat_
+item.tc:minecartTankWagonUS	Tank Wagon US	train.common.entity.rollingStock.tanker.EntityTankWagonUS	tankWagonUS_
+item.tc:minecartP42	P42	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselP42	p42dc_
+item.tc:minecartM636R	M636R	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselM636R	M636R_
+item.tc:minecart29080DOT111	DOT29080	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.tanker.DOT11129080	dot290K_
+item.tc:minecartLocoFOLM1	Loco FOL-M1	train.common.entity.rollingStock.diesel.EntityLocoDieselFOLM1	FOL_M1_
+item.tc:minecartU36B	U36B	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselU36B	U36B_
+item.tc:minecartRSD15	RSD15	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselRSD15	rsd15_
+item.tc:minecartHuskyStackWellcar	40ftHuskyStackWellcar	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.HuskyStack2	40FT_Husky_
+item.tc:minecartTB27	TB27	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselTB27	tb27_
+item.tc:minecartOB92SeatCoach	OB 92 Seat Coach	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.OB92SeatCoach	OB_lightweight_92SeatCoach_
+item.tc:minecartFlatCartWoodUS	Freight Flat Cart Wood US	train.common.entity.rollingStock.freight.EntityFlatCartWoodUS	flatCartWoodUS_
+item.tc:minecartFreightCartUS	Freight Cart US	train.common.entity.rollingStock.freight.EntityFreightCartUS	freightCartUS_
+item.tc:minecartF9A	F9A	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselF9A	f9a_
+item.tc:minecart25Ton	GE 25-ton	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGE25Ton	25ton_
+item.tc:minecartAlco460	Alco460	com.jcirmodelsquad.tcjcir.vehicles.locomotives.steam.SteamAlco460	4-6-0_
+item.tc:minecartACF41Gon	ACF41Gon	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.ACF41Gon	acf_41-6_gon_
+item.tc:minecartBKno2b	BKno2b	com.jcirmodelsquad.tcjcir.vehicles.locomotives.steam.SteamBKno2b	BoothKelly_
+item.tc:minecartSW1000	SW1000	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSW1000	sw1000_
+item.tc:minecartNRE3gs21b	NRE3gs21b	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselNRE3gs21b	3gs21b_
+item.tc:minecartACFGN28SeatCoach_Dinette	AC&F GN 28 Seat Coach-Dinette	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.ACFGN28SeatCoach_Dinette	AC&F_lightweight_GN28SeatCoach_Dinette_
+item.tc:minecartBuddDome46SeatCoach	Budd Dome-46 Seat Coach	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.BuddDome46SeatCoach	Budd_lightweight_Dome46SeatCoach_
+item.tc:minecartAC4400CW	AC4400CW	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselAC4400CW	ac4400cw_
+item.tc:minecartBR_E69	Loco Electric BR_E69	train.common.entity.rollingStock.electric.EntityLocoElectricBR_E69	locoBR_E69_
+item.tc:minecartLocoSteam262T	Loco Steam 262T	train.common.entity.rollingStock.steam.EntityLocoSteam262T	262t
+item.tc:minecartPSSOUBaggage	PS SOU Baggage	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.baggagecar.PSSOUBaggage	PS_lightweight_SOUBaggage_
+item.tc:minecartVersaLongi	VersaLongi	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.VersaLongi	versa_longi_
+item.tc:minecartF3B	F3B	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselF3B	f3b_
+item.tc:minecartGS4_Passenger	Passenger GS4	train.common.entity.rollingStock.passenger.EntityPassengerGS4	GS4_Passenger_
+item.tc:minecartRSFDL	RSFDL	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselRSFDL	rsfdl_
+item.tc:minecartAipkitExplorer	Aipkit Explorer	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.AipkitExplorer	aipkit_explorer
+item.tc:minecartPSSleeper565	PS 5-6-5 Sleeper	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PSSleeper565	PS_lightweight_5-6-5_sleeper_
+item.tc:minecart60centerbeam	60centerbeam	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.Freight60centerbeam	60ftcb_
+item.tc:minecartPCF_RBL_Ribbed	PCF_RBL_Ribbed	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.PCF_RBL_Ribbed	pcf_rbl_ribbed_
+item.tc:minecartBoxCartPRR	Freight Box Cart PRR	train.common.entity.rollingStock.freight.EntityBoxCartPRR	PRR_X31a
+item.tc:minecartPassengerDBOriental	Passenger DB oriental	train.common.entity.rollingStock.passenger.EntityPassengerDBOriental	passenger_DB_oriental_
+item.tc:minecartGP38dash2	GP38Dash2	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP38dash2	gp38dash2_
+item.tc:minecartV60_DB	Loco Diesel V60 DB	train.common.entity.rollingStock.diesel.EntityLocoDieselV60_DB	locoV60_DB_
+item.tc:minecartCoffinCar	CoffinCar	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.tanker.CoffinCar	CoffinCar_
+item.tc:minecartF7BSlug	F7BSlug	com.jcirmodelsquad.tcjcir.vehicles.locomotives.BUnitF7	Skin_Plane_ThisErrorIsERatedForEveryone
+item.tc:minecartE103	Loco Electric E103	train.common.entity.rollingStock.electric.EntityLocoElectricE103	E103_
+item.tc:minecartPassengerAdler	Passenger Adler	train.common.entity.rollingStock.passenger.EntityPassengerAdler	passengerAdler_
+item.tc:minecartFreightCartSmall	Freight Cart Small	train.common.entity.rollingStock.freight.EntityFreightCartSmall	freightCartSmall
+item.tc:minecartCF7angle3	CF7angle3	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselCF7angle3	CF7a_
+item.tc:minecartSW900	SW900	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSW900	SW900_
+item.tc:minecartHBC1Bcaboose	HBC1B	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.workcart.HBC1Bboose	HBC1B_
+item.tc:minecartTenderD51	Tender D51	train.common.entity.rollingStock.tender.EntityTenderD51	d51_tender
+item.tc:minecartDash839B	Dash839B	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselDash839B	b39-8_
+item.tc:minecartDH643	DH643	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselDH643	DH643_LRR_1
+item.tc:minecartTender10k	Tender10k	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.tender.Tender10k	wp_10k_
+item.tc:minecartC425	C425	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselC425	c425_
+item.tc:minecartSteelSlabFlat	SteelSlabFlat	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.SteelSlabFlat	steelslab15_
+item.tc:minecartPSCNWBaggage_LC_Lounge	PS CNW Baggage-LC-Lounge	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.combinecar.PSCNWBaggage_LC_Lounge	PS_lightweight_CNWBaggage_LC_Lounge_
+item.tc:minecartC415H	C415H	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselC415H	C415h_
+item.tc:minecartCaboose3	Caboose Black	train.common.entity.rollingStock.workcart.EntityCaboose3	caboose3
+item.tc:minecartSD40R	SD40R	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSD40R	sd40r_espee_
+item.tc:minecartTankWagon	Tank Wagon Yellow	train.common.entity.rollingStock.tanker.EntityTankWagon	tankwagon
+item.tc:minecartLocoSD70	Loco Diesel SD70	train.common.entity.rollingStock.diesel.EntityLocoDieselSD70	locoSD70_
+item.tc:minecartBuddCNCoach	Budd CN 72 or 54 Seat Coach-Observation	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.BuddCNCoach	Budd_lightweight_CNCoach_
+item.tc:minecartSW1600	SW1600	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSW1600	sw1600_
+item.tc:minecartLocoCoranationClass	Loco Steam Coranation Class	train.common.entity.rollingStock.steam.EntityLocoSteamCoranationClass	CoranationClass
+item.tc:minecartOWO60Verticube	OWO 60 Verticube	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.OWO60Verticube	verticube60_
+item.tc:minecartF9B	F9B	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselF9B	f9b_
+item.tc:minecartCF7angle2	CF7angle2	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselCF7angle2	CF7_Angle_DBRR_
+item.tc:minecartFNCC60FootBulk	FNCC60FootBulk	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.FNCC60FootBulk	FNCC60FootBulk_
+item.tc:minecartSteamRedTender	Tender 4-4-0	train.common.entity.rollingStock.tender.EntityTender4_4_0	4-4-0-loco_tender_
+item.tc:minecartFPA4	FPA4	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselFPA4	FPA4_
+item.tc:minecartSB18E	SB18E	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSB18E	SB18E_
+item.tc:minecartIceWagon	Freight Ice Wagon	train.common.entity.rollingStock.freight.EntityFreightIceWagon	icewagon
+item.tc:minecartLocoBerk765	Loco Berkshire 765	train.common.entity.rollingStock.steam.EntityLocoSteamBerk765	Berk765_Locomotive
+item.tc:minecartICE1_Loco	Loco Electric ICE 1	train.common.entity.rollingStock.electric.EntityLocoElectricICE1	ICE1_Engine_
+item.tc:minecartSW8	SW8	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSW8	SW8_
+item.tc:minecartBuddCN59SeatCoach_Observation	Budd CN 59 Seat Coach-Observation	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.BuddCN59SeatCoach_Observation	Budd_lightweight_CN59SeatCoach_Observation_
+item.tc:minecartCE8	CE8	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselCE8	CE8_
+item.tc:minecartPSCNW36SeatCoach_Dinette	PS CNW 36 Seat Coach-Dinette	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PSCNW36SeatCoach_Dinette	PS_lightweight_CNW36SeatCoach_Dinette_
+item.tc:minecartKawasakiLRV	KawasakiLRV	com.jcirmodelsquad.tcjcir.vehicles.locomotives.eletric.ElectricKawasakiLRV	kawasaki_white
+item.tc:minecartShay3TruckTender	3 Truck Shay Tender	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.tender.TenderShay3Truck	3truckShay_
+item.tc:minecartTwoBilTail	TwoBilTail	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PassengerTwoBilTail	2-bil_
+item.tc:minecartU50	U50	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselU50	U50_
+item.tc:minecartRS1	RS1	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselRS1	rs1_
+item.tc:minecartTenderC62Class	Tender C62Class	train.common.entity.rollingStock.tender.EntityTenderC62Class	c62_tender_
+item.tc:minecartTankWagon2	Tank Wagon Grey	train.common.entity.rollingStock.tanker.EntityTankWagon2	tankwagon2_
+item.tc:minecartGS4_Tender	Tender GS4	train.common.entity.rollingStock.tender.EntityTenderGS4	GS4_tender_
+item.tc:minecartDash841C	Dash841C	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselDash841C	c41-8_
+item.tc:minecartPSBM56SeatCoach	PS B&M 56 Seat Coach	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PSBM56SeatCoach	PS_lightweight_BM56SeatCoach_
+item.tc:minecartBoxCartUS	Freight Box Cart US	train.common.entity.rollingStock.freight.EntityBoxCartUS	boxCartUS_
+item.tc:minecartPropagandaUs	Propaganda USA	train.common.entity.rollingStock.EntityPropagandaUS	propaganda_new_
+item.tc:minecartLongCoveredHopper	Freight Long Covered Hopper	train.common.entity.rollingStock.freight.EntityFreightLongCoveredHopper	LongCoveredHopper_
+item.tc:minecartRS3	RS3	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselRS3	rs3_
+item.tc:minecartVersaTrans	VersaTrans	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.VersaTrans	versa_trans_
+item.tc:minecartJukeBoxCart	JukeBox Cart	train.common.entity.rollingStock.EntityJukeBoxCart	jukebox
+item.tc:minecartS2	S2	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselS2	alcos2_
+item.tc:minecartFlatCartRail_DB	Freight Flat Cart Rails DB	train.common.entity.rollingStock.freight.EntityFlatCarRails_DB	flatCarRails_DB_
+item.tc:minecartPassengerRheingoldDining2	Rheingold Dining Alternate	train.common.entity.rollingStock.passenger.EntityPassengerRheingoldDining2	Rheingold_passenger_dining2_
+item.tc:minecartM636	M636	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselM636	M636_
+item.tc:minecartFreightWellcar	Freight Well Car	train.common.entity.rollingStock.freight.EntityFreightWellcar	wellcar_
+item.tc:minecartLima2_8_0	Lima2-8-0	com.jcirmodelsquad.tcjcir.vehicles.locomotives.steam.SteamLima2_8_0	Lima2_8_0_
+item.tc:minecartPS54SeatCoach_Lounge_1950	PS 54 Seat Coach-Lounge 1950	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.PS54SeatCoach_Lounge_1950	PS_lightweight_54SeatCoach_Lounge_1950_
+item.tc:minecartDash839C	Dash839C	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselDash839C	c39-8_
+item.tc:minecartDS441000	DS441000	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselDS441000	DS441000_
+item.tc:minecartFreightTrailer	Freight Trailer	train.common.entity.rollingStock.freight.EntityFreightTrailer	freightTrailer_
+item.tc:minecartLoco44TonSwitcher	GE 44-ton Diesel switcher	train.common.entity.rollingStock.diesel.EntityLocoDiesel44TonSwitcher	loco_44tonswitcher_
+item.tc:minecartNSCCNBaggage	NSC CN Baggage	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.baggagecar.NSCCNBaggage	NSC_lightweight_CNBaggage_
+item.tc:minecartGWRBrakeVan	GWR Toad Brake Van	train.common.entity.rollingStock.workcart.EntityGWRBrakeVan	GWRBrakeVan
+item.tc:minecartGP40Dash2	GP40Dash2	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP40Dash2	gp40Dash2_
+item.tc:minecartLocoCoranationClassTender	Tender Coranation Class	train.common.entity.rollingStock.tender.EntityTenderCoranationClass	CoranationClassTender
+item.tc:minecartC855a	C855a	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselC855a	c855_
+item.tc:minecartRibbedHopper	Freight Ribbed Covered Hopper	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.RibbedHopper	ribbed_hopper_
+item.tc:minecartACFGNDiner_Observation	AC&F GN Diner-Observation	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.ACFGNDinerObservation	AC&F_lightweight_GNDiner_Observation_
+item.tc:minecartPS85Baggage	Freight PS 85 Baggage	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.baggagecar.PS85Baggage	PS_lightweight_85_baggage_
+item.tc:minecartSB18B	SB18B	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSB18B	SB18B_
+item.tc:minecartSD70ACe	SD70ACe	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselSD70ACe	sd70ace_
+item.tc:minecartPropagandaJapan	Propaganda Japan	train.common.entity.rollingStock.EntityPropagandaJapan	propaganda_Japan_
+item.tc:minecartU18B	U18B	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselU18B	U18B_
+item.tc:minecartU36C	U36C	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselU36C	u36c_
+item.tc:minecartHeavyweightFreight	Freight Heavyweight Baggage	train.common.entity.rollingStock.passenger.baggagecar.EntityFreightHeavyweightBaggage	heavyweightBoxcar_
+item.tc:minecartEP1A	EP1A	com.jcirmodelsquad.tcjcir.vehicles.locomotives.eletric.ElectricEP1A	ep1a_
+item.tc:minecartU25B	U25B	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselU25B	u25b_
+item.tc:minecartPFEr_40_23Reefer	PFEr_40_23Reefer	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.PFEr_40_23Reefer	PFEr_40_23Reefer_
+item.tc:minecartRS2	RS2	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselRS2	rs2_
+item.tc:minecartLocoC41	Loco Steam C41	train.common.entity.rollingStock.steam.EntityLocoSteamC41	locoC41
+item.tc:minecartBuddATSF34SeatParlorObservation	Budd ATSF 34 Seat Parlor-Observation	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.BuddATSF34SeatParlor_Observation	Budd_lightweight_ATSF50SeatCoach_Observation_
+item.tc:minecartPScombine	PS Combine Coach	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.combinecar.PSCombine	PS_lightweight_baggage-coach_
+item.tc:minecartShay3Truck	3 Truck Shay	com.jcirmodelsquad.tcjcir.vehicles.locomotives.steam.SteamShay3Truck	3truckShay_
+item.tc:minecartOBLV82_92SeatCoach	OB LV 82/92 Seat Coach	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.OBLV82_92SeatCoach	OB_lightweight_LV82_92SeatCoach_
+item.tc:minecartFP7A	FP7A	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselFP7A	FP7A_
+item.tc:minecartOBNHLounge5107	OB NH Commuter Lounge 5107	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.OBNHLounge5107	OB_lightweight_NHLounge5107_
+item.tc:minecartDash840B	Dash840B	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselDash840B	b40-8_

@@ -1,0 +1,69 @@
+<!-- ## This is a comment, do no remove or modify these! ## -->
+<!-- ## Only replace the words on the right side of "=" ## -->
+<!-- ## Save the file the same way this file was saved but replace "en_US" with appropriate language name ## -->
+
+<!-- Items -->
+
+item.bipRecipeBook.name=TramsIM Recipe Book
+item.Duewag GT6ER Loco.name=Duewag GT6ER Loco
+item.Duewag GT6ER Tail.name=Duewag GT6ER Tail
+item.PT8 Loco.name=PT8 Loco
+item.PT8 Middle.name=PT8 Middle
+item.MGT-K Loco.name=MGT-K Loco
+item.MGT-K Tail.name=MGT-K Tail
+item.B80D Loco.name=B80D Loco
+item.B80D Tail.name=B80D Tail
+
+<!-- Entities -->
+entity.tc.BIPRecipeBook.name=BIP Recipe Book
+entity.tc.GT6ERLoco.name=Duewag GT6ER Loco
+entity.tc.GT6ERTail.name=Duewag GT6ER Tail
+entity.tc.PT8Loco.name=PT8 Loco
+entity.tc.PT8Middle.name=PT8 Middle
+entity.tc.MGTKLoco.name=MGT-K Loco
+entity.tc.MGTKTail.name=MGT-K Tail
+entity.tc.B80DLoco.name=B80D Loco
+entity.tc.B80DTail.name=B80D Tail
+entity.tc.CenteredPole.name=Centered Pole
+entity.tc.LFPlatformFenced.name=LF Platform Fenced
+
+<!-- ## GUI ## -->
+menu.item.country=Country
+menu.item.year=Build Year
+menu.item.=N/A
+menu.item.be=Belgium
+menu.item.uk=United Kingdom
+menu.item.us=United States
+menu.item.cz=Czech Republic
+menu.item.de=Germany
+menu.item.es=Spain
+menu.item.seats=Seats
+menu.item.weight=WhatTheFuckIsAKilogram
+menu.item.types=Type
+menu.item.fueltype=FuelType
+menu.item.speed=Speed
+menu.item.mhp=MHP
+menu.item.rollingstock=RollingStock
+menu.item.passenger=Passenger
+menu.item.locomotive=Locomotive
+menu.item.steam=Steam
+menu.item.diesel=Diesel
+menu.item.electric=Electric
+menu.item.freight=Freight
+menu.item.tanker=Tanker
+menu.item.tender=Tender
+
+train.owner.name=You are not the owner!
+train.locked.name=Locked
+train.unlocked.name=Unlocked
+
+key.categories.traincraft=Traincraft-CE
+key.traincraft.horn=Horn
+key.traincraft.inventory=Inventory
+key.traincraft.up=Up
+key.traincraft.down=Down
+key.traincraft.idle=Idle
+key.traincraft.furnace=Furnace
+
+tile.tctramsinmotion:CenteredPole.name=Centered Pole
+tile.tctramsinmotion:LFPlatformFenced.name=LF Platform Fenced
