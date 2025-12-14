@@ -32,10 +32,10 @@ public class HiAd4Axel extends ModelConverter //Same as Filename
 		bodyModel[5] = new ModelRendererTurbo(this, 41, 1, textureX, textureY); // Box 110
 		bodyModel[6] = new ModelRendererTurbo(this, 49, 1, textureX, textureY); // Box 172
 		bodyModel[7] = new ModelRendererTurbo(this, 57, 1, textureX, textureY); // Box 173
-		bodyModel[8] = new ModelRendererTurbo(this, 73, 1, textureX, textureY).setName(BoxName.wheel); // Box 9
-		bodyModel[9] = new ModelRendererTurbo(this, 89, 1, textureX, textureY).setName(BoxName.wheel); // Box 39
-		bodyModel[10] = new ModelRendererTurbo(this, 105, 1, textureX, textureY).setName(BoxName.wheel); // Box 6
-		bodyModel[11] = new ModelRendererTurbo(this, 121, 1, textureX, textureY).setName(BoxName.wheel); // Box 8
+		bodyModel[8] = new ModelRendererTurbo(this, 73, 1, textureX, textureY); // Box 9
+		bodyModel[9] = new ModelRendererTurbo(this, 89, 1, textureX, textureY); // Box 39
+		bodyModel[10] = new ModelRendererTurbo(this, 105, 1, textureX, textureY); // Box 6
+		bodyModel[11] = new ModelRendererTurbo(this, 121, 1, textureX, textureY); // Box 8
 		bodyModel[12] = new ModelRendererTurbo(this, 137, 1, textureX, textureY); // Box 120
 		bodyModel[13] = new ModelRendererTurbo(this, 145, 1, textureX, textureY); // Box 138
 		bodyModel[14] = new ModelRendererTurbo(this, 169, 1, textureX, textureY); // Box 139

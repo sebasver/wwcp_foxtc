@@ -10,11 +10,14 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import train.common.core.handlers.RecipeHandler;
+import train.common.core.managers.TierRecipeManager;
+import train.common.recipes.rollingstock.SteamRecipes;
 import wwcp.common.core.handler.AddonPackRollingStockEntityHandler;
 import wwcp.common.creativetabs.CreativeTabAddonPack;
 import wwcp.common.library.AddonPackItems;
 import wwcp.common.library.Info;
-import wwcp.common.recipes.AddonTableRecipeRegister;
+import wwcp.common.recipes.RecipesRegisterDiesel;
 
 
 @Mod(modid = Info.modID, name = Info.modName, version = Info.modVersion, dependencies = "required-after:tc")
@@ -27,13 +30,15 @@ public class wwcp
     /* TrainCraft Logger */
     public static Logger addonLog = LogManager.getLogger(Info.modName);
 
-    public static CreativeTabs Germany;
+    public static CreativeTabs European, America, WWCP;
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
         addonLog.info("preInit Addon Pack -" + Info.modName);
-        Germany = new CreativeTabAddonPack(CreativeTabs.getNextID(), "addonTabOne", Items.apple);
+        European = new CreativeTabAddonPack(CreativeTabs.getNextID(), "WWCP Europe", Items.boat);
+        America = new CreativeTabAddonPack(CreativeTabs.getNextID(), "WWCP America", Items.diamond);
+        WWCP = new CreativeTabAddonPack(CreativeTabs.getNextID(), "WWCP Special", Items.diamond_boots);
 
         AddonPackItems addonPackItems = new AddonPackItems();
         AddonPackRollingStockEntityHandler entityHandler = new AddonPackRollingStockEntityHandler();
@@ -44,14 +49,16 @@ public class wwcp
     {
         addonLog.info("load Addon Pack -" + Info.modName);
 
-        addonLog.info("Initializing recipes...");
-        new AddonTableRecipeRegister();
 
     }
 
     @EventHandler
     public void postInit(FMLPostInitializationEvent event)
     {
+        addonLog.info("Initializing recipes...");
+        new RecipeHandler();
+        new RecipesRegisterDiesel(TierRecipeManager.getInstance());
+
         addonLog.info("postInit Addon Pack -" + Info.modName);
     }
 }

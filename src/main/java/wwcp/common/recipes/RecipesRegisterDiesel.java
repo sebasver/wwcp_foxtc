@@ -1,16 +1,30 @@
 package wwcp.common.recipes;
 
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import train.common.api.crafting.ITierCraftingManager;
 import train.common.core.handlers.AbstractRecipeHandler;
 import train.common.core.managers.TierRecipeManager;
+import train.common.library.ItemIDs;
+import wwcp.common.library.AddonRollingStockItems;
 
-public class AddonTableRecipeRegister extends AbstractRecipeHandler
+import java.util.Iterator;
+
+public class RecipesRegisterDiesel extends AbstractRecipeHandler
 {
-    public AddonTableRecipeRegister()
+
+    public RecipesRegisterDiesel(ITierCraftingManager cm)
     {
+        Iterator var2 = this.ingotSteel.iterator();
 
+        while(var2.hasNext()) {
+            ItemStack k = (ItemStack) var2.next();
+            Item itemSteel = k.getItem();
+            int itemDamageSteel = k.getItemDamage();
 
+            cm.addRecipe(2, new ItemStack(ItemIDs.steelcab.item, 1), null, null, null, null,null, null,null,null,null, new ItemStack(AddonRollingStockItems.WWCPShopShunter.item, 1), 1);
+
+        }
 
     }
 

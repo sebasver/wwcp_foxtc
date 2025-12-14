@@ -24,10 +24,10 @@ public class SLRV_Bogey extends ModelConverter //Same as Filename
 
 	private void initbodyModel_1()
 	{
-		bodyModel[0] = new ModelRendererTurbo(this, 1, 1, textureX, textureY).setName(BoxName.wheel); // Box 713
-		bodyModel[1] = new ModelRendererTurbo(this, 17, 1, textureX, textureY).setName(BoxName.wheel); // Box 713
-		bodyModel[2] = new ModelRendererTurbo(this, 33, 1, textureX, textureY).setName(BoxName.wheel); // Box 713
-		bodyModel[3] = new ModelRendererTurbo(this, 49, 1, textureX, textureY).setName(BoxName.wheel); // Box 713
+		bodyModel[0] = new ModelRendererTurbo(this, 1, 1, textureX, textureY); // Box 713
+		bodyModel[1] = new ModelRendererTurbo(this, 17, 1, textureX, textureY); // Box 713
+		bodyModel[2] = new ModelRendererTurbo(this, 33, 1, textureX, textureY); // Box 713
+		bodyModel[3] = new ModelRendererTurbo(this, 49, 1, textureX, textureY); // Box 713
 		bodyModel[4] = new ModelRendererTurbo(this, 1, 1, textureX, textureY); // Box 717
 		bodyModel[5] = new ModelRendererTurbo(this, 33, 1, textureX, textureY); // Box 717
 		bodyModel[6] = new ModelRendererTurbo(this, 65, 1, textureX, textureY); // Box 719

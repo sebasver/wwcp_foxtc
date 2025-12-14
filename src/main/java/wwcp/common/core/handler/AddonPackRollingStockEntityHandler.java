@@ -1,10 +1,9 @@
 package wwcp.common.core.handler;
 
 import train.common.Traincraft;
-import train.common.library.EnumTrainType;
 import train.common.library.register.TrainRecord;
-import wwcp.common.entity.locomotives.EntityWWCPShopShunter;
-import wwcp.common.library.AddonPackItems;
+import wwcp.common.entity.locomotives.diesels.EntitySD90MACH;
+import wwcp.common.entity.locomotives.diesels.EntityWWCPShopShunter;
 import wwcp.common.library.AddonRollingStockItems;
 import wwcp.common.wwcp;
 
@@ -33,10 +32,17 @@ public class AddonPackRollingStockEntityHandler
 
         Traincraft.traincraftRegistry
                 .RegisterRollingStockEntity(AddonRollingStockItems.WWCPShopShunter.item,
-                                                    new TrainRecord(AddonRollingStockItems.WWCPShopShunter.name(), EntityWWCPShopShunter.class, AddonRollingStockItems.WWCPShopShunter.item, "freight", 1,
-                                                            new String[] {"Red"}, 18, 0, .95, 164, 4120, 60, 160,
-                                                            0.65, -2, 10000),
+                                                    new TrainRecord(AddonRollingStockItems.WWCPShopShunter.name(), EntityWWCPShopShunter.class, AddonRollingStockItems.WWCPShopShunter.item, "Freight Locomotive", 1,
+                                                            new String[] {"Red", "Blue"}, 18, 0, .95, 164, 4120, 60, 160,
+                                                            0.65, -1.5, 10000),
                                                     Instance()
                                             );
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(AddonRollingStockItems.SD90MACH.item,
+                        new TrainRecord(AddonRollingStockItems.SD90MACH.name(), EntitySD90MACH.class, AddonRollingStockItems.SD90MACH.item, "Freight Locomotive", 1,
+                                new String[] {"Yellow", "Orange", "Red"}, 10, 0, .95, 164, 4120, 60, 160,
+                                0.65, 7, 10000),
+                        Instance()
+                );
     }
 }

@@ -9,7 +9,8 @@ import train.common.library.TypeOfRollingStock;
  */
 public enum AddonRollingStockItems
 {
-    WWCPShopShunter("template-icon", train.common.library.TypeOfRollingStock.DIESEL),
+    WWCPShopShunter("template-icon", train.common.library.TypeOfRollingStock.DIESEL, "WWCP"),
+    SD90MACH("template-icon", train.common.library.TypeOfRollingStock.DIESEL, "American")
     //minecraftTemplateUntradeable("template-icon", STEAM)
     ;
 
@@ -17,20 +18,23 @@ public enum AddonRollingStockItems
     /**
      * @param iconName
      * @param typeOfRollingStock the type of rollingstock
+     * @param tabName
      * @param amountForEmerald amount for Emerald
      */
-    AddonRollingStockItems(String iconName, train.common.library.TypeOfRollingStock typeOfRollingStock, int amountForEmerald)
+    AddonRollingStockItems(String iconName, train.common.library.TypeOfRollingStock typeOfRollingStock, String tabName, int amountForEmerald)
     {
         this.iconName = iconName;
         TypeOfRollingStock = typeOfRollingStock;
+        this.tabName = tabName;
         this.amountForEmerald = (byte) amountForEmerald;
         ItemName = this.name();
     }
 
-    AddonRollingStockItems(String itemName, String iconName, train.common.library.TypeOfRollingStock typeOfRollingStock, int amountForEmerald)
+    AddonRollingStockItems(String itemName, String iconName, train.common.library.TypeOfRollingStock typeOfRollingStock, String tabName, int amountForEmerald)
     {
         this.iconName = iconName;
         TypeOfRollingStock = typeOfRollingStock;
+        this.tabName = tabName;
         this.amountForEmerald = (byte) amountForEmerald;
         ItemName = itemName;
     }
@@ -38,20 +42,23 @@ public enum AddonRollingStockItems
     /** USED FOR ROLLINGSTOCK THAT IS NOT ALLOWED TO BE TRADED FOR
      * @param iconName
      * @param typeOfRollingStock the type of rollingstock
+     * @param tabName the tab the stock should be assigend to;
      */
 
-    AddonRollingStockItems(String iconName, TypeOfRollingStock typeOfRollingStock)
+    AddonRollingStockItems(String iconName, TypeOfRollingStock typeOfRollingStock, String tabName)
     {
         this.iconName = iconName;
         TypeOfRollingStock = typeOfRollingStock;
+        this.tabName = tabName;
         this.amountForEmerald = -1;
         ItemName = this.name();
     }
 
-    AddonRollingStockItems(String itemName, String iconName, TypeOfRollingStock typeOfRollingStock)
+    AddonRollingStockItems(String itemName, String iconName, TypeOfRollingStock typeOfRollingStock, String tabName)
     {
         this.iconName = iconName;
         TypeOfRollingStock = typeOfRollingStock;
+        this.tabName = tabName;
         this.amountForEmerald = -1;
         ItemName = itemName;
     }
@@ -59,6 +66,7 @@ public enum AddonRollingStockItems
     public Item item;
     public final String iconName;
     public final TypeOfRollingStock TypeOfRollingStock;
+    public final String tabName;
 
     public final String ItemName;
 

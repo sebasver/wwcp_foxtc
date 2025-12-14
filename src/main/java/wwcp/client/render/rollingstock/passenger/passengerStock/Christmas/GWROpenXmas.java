@@ -452,95 +452,95 @@ public class GWROpenXmas extends FVTMFormatBase {
 		);
 		clipboard.add(new ModelRendererTurbo(clipboard, 152, 0, textureX, textureY)
 			.addShapeBox(0, -1, -1, 21, 1, 1, 0, 0, 0, 0, 0, -1, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0)
-			.setRotationPoint(-57, -6.5f, 23).setRotationAngle(0, 0, 0).setName(BoxName.lamp)
+			.setRotationPoint(-57, -6.5f, 23).setRotationAngle(0, 0, 0)
 		);
 		clipboard.add(new ModelRendererTurbo(clipboard, 107, 0, textureX, textureY)
 			.addShapeBox(0, -1, -1, 21, 1, 1, 0, 0, -1, 0, 0, 0, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0)
-			.setRotationPoint(-36, -6.5f, 23).setRotationAngle(0, 0, 0).setName(BoxName.lamp)
+			.setRotationPoint(-36, -6.5f, 23).setRotationAngle(0, 0, 0)
 		);
 		clipboard.add(new ModelRendererTurbo(clipboard, 395, 17, textureX, textureY).addBox(0, -1, -1, 1, 1, 1)
-			.setRotationPoint(-57, -5.5f, -0.5f).setRotationAngle(0, 0, 0).setName(BoxName.lamp)
+			.setRotationPoint(-57, -5.5f, -0.5f).setRotationAngle(0, 0, 0)
 		);
 		clipboard.add(new ModelRendererTurbo(clipboard, 390, 17, textureX, textureY).addBox(0, -1, -1, 1, 1, 1)
-			.setRotationPoint(-39, -5.5f, 23.5f).setRotationAngle(0, 0, 0).setName(BoxName.lamp)
+			.setRotationPoint(-39, -5.5f, 23.5f).setRotationAngle(0, 0, 0)
 		);
 		clipboard.add(new ModelRendererTurbo(clipboard, 385, 17, textureX, textureY, BoxName.lamp).addBox(0, -1, -1, 1, 1, 1)
-			.setRotationPoint(-57, -5.5f, 23.5f).setRotationAngle(0, 0, 0).setName(BoxName.lamp)
+			.setRotationPoint(-57, -5.5f, 23.5f).setRotationAngle(0, 0, 0)
 		);
 		clipboard.add(new ModelRendererTurbo(clipboard, 380, 17, textureX, textureY).addBox(0, -1, -1, 1, 1, 1)
-			.setRotationPoint(-54, -5.5f, 23.5f).setRotationAngle(0, 0, 0).setName(BoxName.lamp)
+			.setRotationPoint(-54, -5.5f, 23.5f).setRotationAngle(0, 0, 0)
 		);
 		clipboard.add(new ModelRendererTurbo(clipboard, 375, 17, textureX, textureY).addBox(0, -1, -1, 1, 1, 1)
-			.setRotationPoint(-51, -5.5f, 23.5f).setRotationAngle(0, 0, 0).setName(BoxName.lamp)
+			.setRotationPoint(-51, -5.5f, 23.5f).setRotationAngle(0, 0, 0)
 		);
 		clipboard.add(new ModelRendererTurbo(clipboard, 370, 17, textureX, textureY).addBox(0, -1, -1, 1, 1, 1)
-			.setRotationPoint(-48, -5.5f, 23.5f).setRotationAngle(0, 0, 0).setName(BoxName.lamp)
+			.setRotationPoint(-48, -5.5f, 23.5f).setRotationAngle(0, 0, 0)
 		);
 		clipboard.add(new ModelRendererTurbo(clipboard, 365, 17, textureX, textureY).addBox(0, -1, -1, 1, 1, 1)
-			.setRotationPoint(-45, -5.5f, 23.5f).setRotationAngle(0, 0, 0).setName(BoxName.lamp)
+			.setRotationPoint(-45, -5.5f, 23.5f).setRotationAngle(0, 0, 0)
 		);
 		clipboard.add(new ModelRendererTurbo(clipboard, 360, 17, textureX, textureY).addBox(0, -1, -1, 1, 1, 1)
-			.setRotationPoint(-42, -5.5f, 23.5f).setRotationAngle(0, 0, 0).setName(BoxName.lamp)
+			.setRotationPoint(-42, -5.5f, 23.5f).setRotationAngle(0, 0, 0)
 		);
 		clipboard.add(new ModelRendererTurbo(clipboard, 355, 17, textureX, textureY).addBox(0, -1, -1, 1, 1, 1)
-			.setRotationPoint(-34, -5.5f, 23.5f).setRotationAngle(0, 0, 0).setName(BoxName.lamp)
+			.setRotationPoint(-34, -5.5f, 23.5f).setRotationAngle(0, 0, 0)
 		);
 		clipboard.add(new ModelRendererTurbo(clipboard, 350, 17, textureX, textureY).addBox(0, -1, -1, 1, 1, 1)
-			.setRotationPoint(-31, -5.5f, 23.5f).setRotationAngle(0, 0, 0).setName(BoxName.lamp)
+			.setRotationPoint(-31, -5.5f, 23.5f).setRotationAngle(0, 0, 0)
 		);
 		clipboard.add(new ModelRendererTurbo(clipboard, 345, 17, textureX, textureY).addBox(0, -1, -1, 1, 1, 1)
-			.setRotationPoint(-28, -5.5f, 23.5f).setRotationAngle(0, 0, 0).setName(BoxName.lamp)
+			.setRotationPoint(-28, -5.5f, 23.5f).setRotationAngle(0, 0, 0)
 		);
 		clipboard.add(new ModelRendererTurbo(clipboard, 340, 17, textureX, textureY).addBox(0, -1, -1, 1, 1, 1)
-			.setRotationPoint(-25, -5.5f, 23.5f).setRotationAngle(0, 0, 0).setName(BoxName.lamp)
+			.setRotationPoint(-25, -5.5f, 23.5f).setRotationAngle(0, 0, 0)
 		);
 		clipboard.add(new ModelRendererTurbo(clipboard, 335, 17, textureX, textureY).addBox(0, -1, -1, 1, 1, 1)
-			.setRotationPoint(-22, -5.5f, 23.5f).setRotationAngle(0, 0, 0).setName(BoxName.lamp)
+			.setRotationPoint(-22, -5.5f, 23.5f).setRotationAngle(0, 0, 0)
 		);
 		clipboard.add(new ModelRendererTurbo(clipboard, 330, 17, textureX, textureY).addBox(0, -1, -1, 1, 1, 1)
-			.setRotationPoint(-19, -5.5f, 23.5f).setRotationAngle(0, 0, 0).setName(BoxName.lamp)
+			.setRotationPoint(-19, -5.5f, 23.5f).setRotationAngle(0, 0, 0)
 		);
 		clipboard.add(new ModelRendererTurbo(clipboard, 325, 17, textureX, textureY).addBox(0, -1, -1, 1, 1, 1)
-			.setRotationPoint(-16, -5.5f, 23.5f).setRotationAngle(0, 0, 0).setName(BoxName.lamp)
+			.setRotationPoint(-16, -5.5f, 23.5f).setRotationAngle(0, 0, 0)
 		);
 		clipboard.add(new ModelRendererTurbo(clipboard, 15, 17, textureX, textureY).addBox(0, -1, -1, 1, 1, 1)
-			.setRotationPoint(-54, -5.5f, -0.5f).setRotationAngle(0, 0, 0).setName(BoxName.lamp)
+			.setRotationPoint(-54, -5.5f, -0.5f).setRotationAngle(0, 0, 0)
 		);
 		clipboard.add(new ModelRendererTurbo(clipboard, 503, 15, textureX, textureY).addBox(0, -1, -1, 1, 1, 1)
-			.setRotationPoint(-51, -5.5f, -0.5f).setRotationAngle(0, 0, 0).setName(BoxName.lamp)
+			.setRotationPoint(-51, -5.5f, -0.5f).setRotationAngle(0, 0, 0)
 		);
 		clipboard.add(new ModelRendererTurbo(clipboard, 15, 14, textureX, textureY).addBox(0, -1, -1, 1, 1, 1)
-			.setRotationPoint(-48, -5.5f, -0.5f).setRotationAngle(0, 0, 0).setName(BoxName.lamp)
+			.setRotationPoint(-48, -5.5f, -0.5f).setRotationAngle(0, 0, 0)
 		);
 		clipboard.add(new ModelRendererTurbo(clipboard, 507, 12, textureX, textureY).addBox(0, -1, -1, 1, 1, 1)
-			.setRotationPoint(-45, -5.5f, -0.5f).setRotationAngle(0, 0, 0).setName(BoxName.lamp)
+			.setRotationPoint(-45, -5.5f, -0.5f).setRotationAngle(0, 0, 0)
 		);
 		clipboard.add(new ModelRendererTurbo(clipboard, 502, 12, textureX, textureY).addBox(0, -1, -1, 1, 1, 1)
-			.setRotationPoint(-42, -5.5f, -0.5f).setRotationAngle(0, 0, 0).setName(BoxName.lamp)
+			.setRotationPoint(-42, -5.5f, -0.5f).setRotationAngle(0, 0, 0)
 		);
 		clipboard.add(new ModelRendererTurbo(clipboard, 507, 9, textureX, textureY).addBox(0, -1, -1, 1, 1, 1)
-			.setRotationPoint(-39, -5.5f, -0.5f).setRotationAngle(0, 0, 0).setName(BoxName.lamp)
+			.setRotationPoint(-39, -5.5f, -0.5f).setRotationAngle(0, 0, 0)
 		);
 		clipboard.add(new ModelRendererTurbo(clipboard, 502, 9, textureX, textureY).addBox(0, -1, -1, 1, 1, 1)
-			.setRotationPoint(-34, -5.5f, -0.5f).setRotationAngle(0, 0, 0).setName(BoxName.lamp)
+			.setRotationPoint(-34, -5.5f, -0.5f).setRotationAngle(0, 0, 0)
 		);
 		clipboard.add(new ModelRendererTurbo(clipboard, 507, 6, textureX, textureY).addBox(0, -1, -1, 1, 1, 1)
-			.setRotationPoint(-31, -5.5f, -0.5f).setRotationAngle(0, 0, 0).setName(BoxName.lamp)
+			.setRotationPoint(-31, -5.5f, -0.5f).setRotationAngle(0, 0, 0)
 		);
 		clipboard.add(new ModelRendererTurbo(clipboard, 502, 6, textureX, textureY).addBox(0, -1, -1, 1, 1, 1)
-			.setRotationPoint(-28, -5.5f, -0.5f).setRotationAngle(0, 0, 0).setName(BoxName.lamp)
+			.setRotationPoint(-28, -5.5f, -0.5f).setRotationAngle(0, 0, 0)
 		);
 		clipboard.add(new ModelRendererTurbo(clipboard, 507, 3, textureX, textureY).addBox(0, -1, -1, 1, 1, 1)
-			.setRotationPoint(-25, -5.5f, -0.5f).setRotationAngle(0, 0, 0).setName(BoxName.lamp)
+			.setRotationPoint(-25, -5.5f, -0.5f).setRotationAngle(0, 0, 0)
 		);
 		clipboard.add(new ModelRendererTurbo(clipboard, 502, 3, textureX, textureY).addBox(0, -1, -1, 1, 1, 1)
-			.setRotationPoint(-22, -5.5f, -0.5f).setRotationAngle(0, 0, 0).setName(BoxName.lamp)
+			.setRotationPoint(-22, -5.5f, -0.5f).setRotationAngle(0, 0, 0)
 		);
 		clipboard.add(new ModelRendererTurbo(clipboard, 507, 0, textureX, textureY).addBox(0, -1, -1, 1, 1, 1)
-			.setRotationPoint(-19, -5.5f, -0.5f).setRotationAngle(0, 0, 0).setName(BoxName.lamp)
+			.setRotationPoint(-19, -5.5f, -0.5f).setRotationAngle(0, 0, 0)
 		);
 		clipboard.add(new ModelRendererTurbo(clipboard, 502, 0, textureX, textureY).addBox(0, -1, -1, 1, 1, 1)
-			.setRotationPoint(-16, -5.5f, -0.5f).setRotationAngle(0, 0, 0).setName(BoxName.lamp)
+			.setRotationPoint(-16, -5.5f, -0.5f).setRotationAngle(0, 0, 0)
 		);
 		this.groups.add(clipboard);
 		//

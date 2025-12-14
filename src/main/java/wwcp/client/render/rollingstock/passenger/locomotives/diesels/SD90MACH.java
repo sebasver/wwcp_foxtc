@@ -2,9 +2,16 @@
 //Using PER-GROUP-INIT mode with limit '500'!
 package wwcp.client.render.rollingstock.passenger.locomotives.diesels;
 
+import net.minecraft.entity.Entity;
+import net.minecraft.util.ResourceLocation;
+import org.lwjgl.opengl.GL11;
 import tmt.FVTMFormatBase;
+import tmt.Tessellator;
 import train.common.enums.BoxName;
 import tmt.ModelRendererTurbo;
+import wwcp.client.render.rollingstock.bogies.AmericanTrucks.MacBogieFront;
+import wwcp.client.render.rollingstock.passenger.bogies.AmericanTrucks.MacBogieBack;
+import wwcp.common.library.Info;
 
 /** This file was exported via the TiM Exporter V1.0 of<br>
  *  FMT (Fex's Modelling Toolbox) v.2.6.5 &copy; 2021 - Fexcraft.net<br>
@@ -1846,6 +1853,23 @@ public class SD90MACH extends FVTMFormatBase {
 				.setRotationPoint(-34, -21, -7).setRotationAngle(0, 0, 0)
 		);
 		this.groups.add(SD90MACH_Oldcb);
+	}
+
+	MacBogieFront bogie = new MacBogieFront();
+	MacBogieBack bogieBack = new MacBogieBack();
+
+	@Override
+	public void render(Entity entity, float f, float f1, float f2, float f3, float f4, float f5) {
+		super.render(entity, f, f1, f2, f3, f4, f5);
+		Tessellator.bindTexture(new ResourceLocation(Info.modID, "textures/bogies/HTSCtruck_Black.png"));
+		GL11.glPushMatrix();
+		GL11.glTranslatef(2.9f,0.02734375f,0);
+		bogie.render(entity, f, f1, f2, f3, f4, f5);
+		GL11.glPopMatrix();
+		GL11.glPushMatrix();
+		GL11.glTranslatef(-3.6f,0.02734375f,0);
+		bogieBack.render(entity, f, f1, f2, f3, f4, f5);
+		GL11.glPopMatrix();
 	}
 
 }

@@ -24,12 +24,12 @@ public class FlexicoilC2 extends ModelConverter //Same as Filename
 
 	private void initbodyModel_1()
 	{
-		bodyModel[0] = new ModelRendererTurbo(this, 1, 1, textureX, textureY).setName(BoxName.wheel); // Wheel
-		bodyModel[1] = new ModelRendererTurbo(this, 17, 1, textureX, textureY).setName(BoxName.wheel); // Wheel
-		bodyModel[2] = new ModelRendererTurbo(this, 33, 1, textureX, textureY).setName(BoxName.wheel); // Wheel
-		bodyModel[3] = new ModelRendererTurbo(this, 49, 1, textureX, textureY).setName(BoxName.wheel); // Wheel
-		bodyModel[4] = new ModelRendererTurbo(this, 65, 1, textureX, textureY).setName(BoxName.wheel); // Wheel
-		bodyModel[5] = new ModelRendererTurbo(this, 81, 1, textureX, textureY).setName(BoxName.wheel); // Wheel
+		bodyModel[0] = new ModelRendererTurbo(this, 1, 1, textureX, textureY); // Wheel
+		bodyModel[1] = new ModelRendererTurbo(this, 17, 1, textureX, textureY); // Wheel
+		bodyModel[2] = new ModelRendererTurbo(this, 33, 1, textureX, textureY); // Wheel
+		bodyModel[3] = new ModelRendererTurbo(this, 49, 1, textureX, textureY); // Wheel
+		bodyModel[4] = new ModelRendererTurbo(this, 65, 1, textureX, textureY); // Wheel
+		bodyModel[5] = new ModelRendererTurbo(this, 81, 1, textureX, textureY); // Wheel
 		bodyModel[6] = new ModelRendererTurbo(this, 97, 1, textureX, textureY); // Box 17
 		bodyModel[7] = new ModelRendererTurbo(this, 105, 1, textureX, textureY); // Box 173
 		bodyModel[8] = new ModelRendererTurbo(this, 129, 1, textureX, textureY); // Box 17
