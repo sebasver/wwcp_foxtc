@@ -12,7 +12,7 @@ public enum WWCPItems
     WWCPShopShunter("template-icon", train.common.library.TypeOfRollingStock.DIESEL, "WWCP"),
     SD90MACH("template-icon", train.common.library.TypeOfRollingStock.DIESEL, "American"),
     Eurofima1stClassOpen("item.compartmentEurofima", train.common.library.TypeOfRollingStock.PASSENGER,"European"),
-    BR103("item.wwcp.BR103", train.common.library.TypeOfRollingStock.ELECTRIC, "European")
+    BR103("item.BR103", train.common.library.TypeOfRollingStock.ELECTRIC, "European")
     //minecraftTemplateUntradeable("template-icon", STEAM)
     ;
 

@@ -1,7 +1,7 @@
 package wwcp.common.library;
 
 import cpw.mods.fml.common.registry.GameRegistry;
-import wwcp.common.items.ItemAddonPackRollingStock;
+import wwcp.common.items.ItemWWCPRollingStock;
 
 public class AddonPackItems
 {
@@ -18,7 +18,7 @@ public class AddonPackItems
     {
         for (WWCPItems item : WWCPItems.values())
         {
-            item.item = new ItemAddonPackRollingStock(item.iconName, item.TypeOfRollingStock, item.tabName);
+            item.item = new ItemWWCPRollingStock(item.iconName, item.TypeOfRollingStock, item.tabName);
         }
     }
 

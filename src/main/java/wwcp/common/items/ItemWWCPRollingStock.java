@@ -5,16 +5,15 @@ import train.common.library.TypeOfRollingStock;
 import wwcp.common.library.Info;
 import wwcp.common.wwcp;
 
-import javax.xml.validation.TypeInfoProvider;
 import java.util.ArrayList;
 import java.util.List;
 
 
-public class ItemAddonPackRollingStock extends ItemAbstractRollingStock
+public class ItemWWCPRollingStock extends ItemAbstractRollingStock
 {
     private final List<String> subtext = new ArrayList<>();
 
-    public ItemAddonPackRollingStock(String iconName, TypeOfRollingStock trainType, String CreativeTab) {
+    public ItemWWCPRollingStock(String iconName, TypeOfRollingStock trainType, String CreativeTab) {
         super(iconName);
         switch (CreativeTab) {
             case "WWCP":

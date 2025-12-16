@@ -11,11 +11,11 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
-public final class CreativeTabAddonPack extends CreativeTabs
+public final class CreativeTabWWCP extends CreativeTabs
 {
 	private final Item itemForIcon;
 
-	public CreativeTabAddonPack(int tabID, String tabName, Item tabIcon) {
+	public CreativeTabWWCP(int tabID, String tabName, Item tabIcon) {
 		super(tabID, tabName);
 		setBackgroundImageName("item_search.png");
 		itemForIcon = tabIcon;
