@@ -27,7 +27,7 @@ public final class CreativeTabAmerican extends CreativeTabs
 
 	@Override
 	public ItemStack getIconItemStack() {
-		return new ItemStack(WWCPItems.EurofimaOpen1.item);
+		return new ItemStack(WWCPItems.EP3.item);
 	}
 
 	@Override
@@ -36,5 +36,5 @@ public final class CreativeTabAmerican extends CreativeTabs
 	}
 
 	@Override
-	public Item getTabIconItem(){return WWCPItems.EurofimaOpen1.item;}
+	public Item getTabIconItem(){return WWCPItems.EP3.item;}
 }

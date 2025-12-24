@@ -10,8 +10,16 @@
 package wwcp.client.render.rollingstock.freight; //Path where the model is located
 
 
+import net.minecraft.entity.Entity;
+import net.minecraft.util.ResourceLocation;
+import org.lwjgl.opengl.GL11;
 import tmt.ModelConverter;
 import tmt.ModelRendererTurbo;
+import tmt.Tessellator;
+import wwcp.client.render.rollingstock.bogies.AmericanTrucks.truck_70ton;
+import wwcp.client.render.rollingstock.bogies.EUBogies.GorlitzBack;
+import wwcp.client.render.rollingstock.bogies.EUBogies.GorlitzFront;
+import wwcp.common.library.Info;
 
 public class XM4A extends ModelConverter //Same as Filename
 {
@@ -2036,7 +2044,22 @@ public class XM4A extends ModelConverter //Same as Filename
 		bodyModel[499].setRotationPoint(50.8F, -22.3F, -9F);
 	}
 
-	private void initbodyModel_2()
-	{
+	 truck_70ton bogie = new truck_70ton();
+
+
+	@Override
+	public void render(Entity entity, float f, float f1, float f2, float f3, float f4, float f5) {
+		super.render(entity, f, f1, f2, f3, f4, f5);
+
+		Tessellator.bindTexture(new ResourceLocation(Info.modID, "textures/bogies/70ton_truck_black.png"));
+		GL11.glPushMatrix();
+		GL11.glTranslatef(2.55f,0f,0);
+		bogie.render(entity, f, f1, f2, f3, f4, f5);
+		GL11.glPopMatrix();
+		GL11.glPushMatrix();
+		GL11.glTranslatef(-2.55f,0f,0);
+		bogie.render(entity, f, f1, f2, f3, f4, f5);
+		GL11.glPopMatrix();
 	}
+
 }

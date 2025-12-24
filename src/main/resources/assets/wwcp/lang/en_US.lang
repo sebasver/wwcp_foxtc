@@ -173,6 +173,9 @@ item.wwcp:Fowlertender.name=LMS Fowler 3000 Gallon Tender
 
 item.wwcp:SLRVC.name=SLRV C
 item.wwcp:SLRV.name=SLRV
+item.wwcp:EF4.name=EF4
+item.wwcp:EP3.name=EP3
+item.wwcp:ES2.name=ES2
 
 item.wwcp:X10A.name=CNR X10A
 item.wwcp:U1F.name=CNR U-1-F
@@ -191,6 +194,7 @@ item.wwcp:GP7RRI.name=GP7R CRI&P
 item.wwcp:GP9R.name=GP9R
 item.wwcp:GP40-2LW.name=GP40-2LW
 item.wwcp:GP30.name=GP30
+item.wwcp:GP35.name=GP35
 item.wwcp:GP50.name=GP50
 
 
@@ -240,7 +244,7 @@ item.wwcp:HighlinerLocomotive.name=Highliner Cab Car
 
 item.wwcp:JT26C.name=JT26C
 
-item.wwcp:40ftBoxcar.name=40ft Boxcar
+item.wwcp:AAR40ft.name=40ft AAR Standard Boxcar
 item.wwcp:40ftAARBoxcar.name=40ft AAR Standard Boxcar
 item.wwcp:GN40HomebuiltBoxcar.name=GN 40' Homebuilt Boxcar
 item.wwcp:XM4A.name=XM-4A
