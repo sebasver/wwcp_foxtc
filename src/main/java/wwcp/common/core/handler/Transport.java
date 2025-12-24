@@ -712,7 +712,28 @@ public class Transport {
     public static LocomotiveNoBackspeed SLRV() {
         return new LocomotiveNoBackspeed("SLRV", "America", "1996-Present", "Electric",
                 nick, "", type, " Light Rail",
-                10000f, 750f, 70f, 116f, false, true, 0);
+                14300f, 750f, 70f, 116f, false, true, 0);
+    }
+
+    //EF4
+    public static LocomotiveNoBackspeed EF4() {
+        return new LocomotiveNoBackspeed("EF4", "America", "1948-1974", "Electric",
+                nick, "Little Joe", type, " Freight Electric",
+                75700f, 5110, 247.5f, 109f, false, true, 0);
+    }
+
+    //EP3
+    public static LocomotiveNoBackspeed EP3() {
+        return new LocomotiveNoBackspeed("EP3", "America", "1919-1957", "Electric",
+                nick, "Quill", type, " Passenger Electric",
+                105000f, 3396, 300f, 106f, false, true, 0);
+    }
+
+    //ES2
+    public static LocomotiveNoBackspeed ES2() {
+        return new LocomotiveNoBackspeed("ES2", "America", "1916-1974", "Electric",
+                nick, "", type, " Steeplecab",
+                34000f, 475, 82f, 56f, false, true, 0);
     }
 
     //C424
@@ -888,6 +909,13 @@ public class Transport {
         return new LocomotiveNoBackspeed("GP30", "America", "1961-Present", "Diesel",
                 nick, "", type, " General Purpose Locomotive",
                 50000f, 2250f, 130f, 112f, false, true, 0);
+    }
+
+    //GP35
+    public static LocomotiveNoBackspeed GP35() {
+        return new LocomotiveNoBackspeed("GP35", "America", "1963-Present", "Diesel",
+                nick, "", type, " General Purpose Locomotive",
+                50000f, 2500f, 130f, 112f, false, true, 0);
     }
 
     public static LocomotiveNoBackspeed GP7HighHood() {
@@ -1667,7 +1695,7 @@ public class Transport {
 
     //AAR 40ft Boxcar
     public static Rollingstock AAR40ft() {
-        return new Rollingstock("40ft AAR Boxcar", "America", "?", "",
+        return new Rollingstock("40ft AAR Boxcar", "America", "1937-2000", "",
                 "", type, " Boxcar", 20f, 120f, false, true, 0);
     }
 

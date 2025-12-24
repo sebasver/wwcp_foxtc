@@ -11,11 +11,19 @@ public enum WWCPItems
 {
     WWCPShopShunter("DefaultNormal", train.common.library.TypeOfRollingStock.DIESEL, "WWCP"),
     SD90MACH("DefaultNormal", train.common.library.TypeOfRollingStock.DIESEL, "American"),
+    C630M("DefaultNormal", train.common.library.TypeOfRollingStock.DIESEL, "American"),
+    GP30("DefaultNormal", train.common.library.TypeOfRollingStock.DIESEL, "American"),
+    GP35("DefaultNormal", train.common.library.TypeOfRollingStock.DIESEL, "American"),
+    SD45("DefaultNormal", train.common.library.TypeOfRollingStock.DIESEL, "American"),
     EurofimaOpen1("item.compartmentEurofima", train.common.library.TypeOfRollingStock.PASSENGER,"European"),
     EurofimaCompartment1("item.compartmentEurofima", train.common.library.TypeOfRollingStock.PASSENGER,"European"),
     EurofimaCompartment1_2("item.compartmentEurofima", train.common.library.TypeOfRollingStock.PASSENGER,"European"),
     EurofimaPanorama("item.compartmentEurofima", train.common.library.TypeOfRollingStock.PASSENGER,"European"),
     BR103("item.BR103", train.common.library.TypeOfRollingStock.ELECTRIC, "European"),
+    EP3("item.EP3", train.common.library.TypeOfRollingStock.ELECTRIC, "American"),
+    ES2("item.ES2", train.common.library.TypeOfRollingStock.ELECTRIC, "American"),
+    EF4("item.EF4", train.common.library.TypeOfRollingStock.ELECTRIC, "American"),
+    SLRV("SLRV", train.common.library.TypeOfRollingStock.ELECTRIC, "American"),
     F140AC1("DefaultNormal", train.common.library.TypeOfRollingStock.ELECTRIC, "European"),
     BR145("DefaultNormal", train.common.library.TypeOfRollingStock.ELECTRIC, "European"),
     ChristmasBR01("DefaultChristmas", train.common.library.TypeOfRollingStock.STEAM, "WWCP"),
@@ -23,9 +31,12 @@ public enum WWCPItems
     RheingoldSalon1Christmas("DefaultChristmas", train.common.library.TypeOfRollingStock.PASSENGER, "WWCP"),
     RheingoldSalon2Christmas("DefaultChristmas", train.common.library.TypeOfRollingStock.PASSENGER, "WWCP"),
     RheingoldSpeise1Christmas("DefaultChristmas", train.common.library.TypeOfRollingStock.PASSENGER, "WWCP"),
-    RheingoldSpeise2Christmas("DefaultChristmas", train.common.library.TypeOfRollingStock.PASSENGER, "WWCP")
+    RheingoldSpeise2Christmas("DefaultChristmas", train.common.library.TypeOfRollingStock.PASSENGER, "WWCP"),
+    XM4A("DefaultNormal",train.common.library.TypeOfRollingStock.FREIGHT, "American"),
+    AAR40ft("DefaultNormal",train.common.library.TypeOfRollingStock.FREIGHT, "American"),
 
-        //minecraftTemplateUntradeable("template-icon", STEAM)
+
+    //minecraftTemplateUntradeable("template-icon", STEAM)
     ;
 
 

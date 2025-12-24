@@ -10,8 +10,18 @@
 package wwcp.client.render.rollingstock.locomotives.diesels; //Path where the model is located
 
 
+import net.minecraft.entity.Entity;
+import net.minecraft.util.ResourceLocation;
+import org.lwjgl.opengl.GL11;
 import tmt.ModelConverter;
 import tmt.ModelRendererTurbo;
+import tmt.Tessellator;
+import train.client.renderhelper.ModelRenderHelper;
+import train.common.api.AbstractTrains;
+import wwcp.client.render.rollingstock.bogies.AmericanTrucks.Blomberg_B;
+import wwcp.client.render.rollingstock.bogies.AmericanTrucks.FlexicoilC1;
+import wwcp.client.render.rollingstock.bogies.AmericanTrucks.Type_B;
+import wwcp.common.library.Info;
 
 public class SD45 extends ModelConverter //Same as Filename
 {
@@ -238,23 +248,23 @@ public class SD45 extends ModelConverter //Same as Filename
 		bodyModel[202] = new ModelRendererTurbo(this, 497, 113, textureX, textureY); // Box 52
 		bodyModel[203] = new ModelRendererTurbo(this, 145, 89, textureX, textureY); // Box 52
 		bodyModel[204] = new ModelRendererTurbo(this, 289, 105, textureX, textureY); // Box 11
-		bodyModel[205] = new ModelRendererTurbo(this, 297, 105, textureX, textureY); // Light_Top-Top
-		bodyModel[206] = new ModelRendererTurbo(this, 337, 105, textureX, textureY); // Light_Top-Bottom
+		bodyModel[205] = new ModelRendererTurbo(this, 297, 105, textureX, textureY,"lamp"); // Light_Top-Top
+		bodyModel[206] = new ModelRendererTurbo(this, 337, 105, textureX, textureY,"lamp"); // Light_Top-Bottom
 		bodyModel[207] = new ModelRendererTurbo(this, 33, 121, textureX, textureY); // Box 11
 		bodyModel[208] = new ModelRendererTurbo(this, 505, 113, textureX, textureY); // Box 11
 		bodyModel[209] = new ModelRendererTurbo(this, 57, 121, textureX, textureY); // Box 11
 		bodyModel[210] = new ModelRendererTurbo(this, 81, 121, textureX, textureY); // Box 11
 		bodyModel[211] = new ModelRendererTurbo(this, 345, 105, textureX, textureY); // Box 11
-		bodyModel[212] = new ModelRendererTurbo(this, 353, 105, textureX, textureY); // Light_Nose_Top-Top
-		bodyModel[213] = new ModelRendererTurbo(this, 361, 105, textureX, textureY); // Light_Nose_Top-Bottom
+		bodyModel[212] = new ModelRendererTurbo(this, 353, 105, textureX, textureY,"lamp"); // Light_Nose_Top-Top
+		bodyModel[213] = new ModelRendererTurbo(this, 361, 105, textureX, textureY,"lamp"); // Light_Nose_Top-Bottom
 		bodyModel[214] = new ModelRendererTurbo(this, 369, 105, textureX, textureY); // Box 11
 		bodyModel[215] = new ModelRendererTurbo(this, 473, 33, textureX, textureY); // Box 11
 		bodyModel[216] = new ModelRendererTurbo(this, 425, 41, textureX, textureY); // Box 11
 		bodyModel[217] = new ModelRendererTurbo(this, 377, 105, textureX, textureY); // Box 11
 		bodyModel[218] = new ModelRendererTurbo(this, 401, 49, textureX, textureY); // Box 11
 		bodyModel[219] = new ModelRendererTurbo(this, 401, 65, textureX, textureY); // Box 11
-		bodyModel[220] = new ModelRendererTurbo(this, 385, 105, textureX, textureY); // Light_Nose_Middle-Top
-		bodyModel[221] = new ModelRendererTurbo(this, 393, 105, textureX, textureY); // Light_Nose_Middle-Bottom
+		bodyModel[220] = new ModelRendererTurbo(this, 385, 105, textureX, textureY,"lamp"); // Light_Nose_Middle-Top
+		bodyModel[221] = new ModelRendererTurbo(this, 393, 105, textureX, textureY,"lamp"); // Light_Nose_Middle-Bottom
 		bodyModel[222] = new ModelRendererTurbo(this, 337, 89, textureX, textureY); // Box 11
 		bodyModel[223] = new ModelRendererTurbo(this, 369, 97, textureX, textureY); // Box 11
 		bodyModel[224] = new ModelRendererTurbo(this, 401, 105, textureX, textureY); // Box 11
@@ -308,16 +318,16 @@ public class SD45 extends ModelConverter //Same as Filename
 		bodyModel[272] = new ModelRendererTurbo(this, 49, 1, textureX, textureY); // Box 52
 		bodyModel[273] = new ModelRendererTurbo(this, 65, 1, textureX, textureY); // Numberboard_Left_Front
 		bodyModel[274] = new ModelRendererTurbo(this, 25, 9, textureX, textureY); // Numberboard_Right_Front
-		bodyModel[275] = new ModelRendererTurbo(this, 425, 121, textureX, textureY); // Marker_Right_Front
-		bodyModel[276] = new ModelRendererTurbo(this, 433, 121, textureX, textureY); // Marker_Left_Front
+		bodyModel[275] = new ModelRendererTurbo(this, 425, 121, textureX, textureY,"lamp"); // Marker_Right_Front
+		bodyModel[276] = new ModelRendererTurbo(this, 433, 121, textureX, textureY,"lamp"); // Marker_Left_Front
 		bodyModel[277] = new ModelRendererTurbo(this, 441, 121, textureX, textureY); // Box 11
 		bodyModel[278] = new ModelRendererTurbo(this, 473, 121, textureX, textureY); // Box 128
-		bodyModel[279] = new ModelRendererTurbo(this, 489, 121, textureX, textureY); // Light_Rear_Right
-		bodyModel[280] = new ModelRendererTurbo(this, 97, 129, textureX, textureY); // Light_Rear_Left
+		bodyModel[279] = new ModelRendererTurbo(this, 489, 121, textureX, textureY,"lamp"); // Light_Rear_Right
+		bodyModel[280] = new ModelRendererTurbo(this, 97, 129, textureX, textureY,"lamp"); // Light_Rear_Left
 		bodyModel[281] = new ModelRendererTurbo(this, 41, 9, textureX, textureY); // Numberboard_Left_Rear
 		bodyModel[282] = new ModelRendererTurbo(this, 497, 9, textureX, textureY); // Numberboard_Right_Rear
-		bodyModel[283] = new ModelRendererTurbo(this, 105, 129, textureX, textureY); // Marker_Right_Rear
-		bodyModel[284] = new ModelRendererTurbo(this, 113, 129, textureX, textureY); // Marker_Left_Rear
+		bodyModel[283] = new ModelRendererTurbo(this, 105, 129, textureX, textureY,"lamp"); // Marker_Right_Rear
+		bodyModel[284] = new ModelRendererTurbo(this, 113, 129, textureX, textureY,"lamp"); // Marker_Left_Rear
 		bodyModel[285] = new ModelRendererTurbo(this, 121, 129, textureX, textureY); // Box 11
 		bodyModel[286] = new ModelRendererTurbo(this, 153, 129, textureX, textureY); // Box 11
 		bodyModel[287] = new ModelRendererTurbo(this, 129, 129, textureX, textureY); // Box 11
@@ -465,8 +475,8 @@ public class SD45 extends ModelConverter //Same as Filename
 		bodyModel[429] = new ModelRendererTurbo(this, 113, 169, textureX, textureY); // Box 454
 		bodyModel[430] = new ModelRendererTurbo(this, 233, 169, textureX, textureY); // Box 455
 		bodyModel[431] = new ModelRendererTurbo(this, 73, 177, textureX, textureY); // Box 460
-		bodyModel[432] = new ModelRendererTurbo(this, 497, 169, textureX, textureY); // SP_Left
-		bodyModel[433] = new ModelRendererTurbo(this, 89, 177, textureX, textureY); // SP_Right
+		bodyModel[432] = new ModelRendererTurbo(this, 497, 169, textureX, textureY,"lamp"); // SP_Left
+		bodyModel[433] = new ModelRendererTurbo(this, 89, 177, textureX, textureY,"lamp"); // SP_Right
 		bodyModel[434] = new ModelRendererTurbo(this, 225, 137, textureX, textureY); // Box 463
 		bodyModel[435] = new ModelRendererTurbo(this, 249, 137, textureX, textureY); // Box 464
 		bodyModel[436] = new ModelRendererTurbo(this, 265, 137, textureX, textureY); // Box 465
@@ -475,10 +485,10 @@ public class SD45 extends ModelConverter //Same as Filename
 		bodyModel[439] = new ModelRendererTurbo(this, 105, 177, textureX, textureY); // Box 471
 		bodyModel[440] = new ModelRendererTurbo(this, 201, 177, textureX, textureY); // Box 472
 		bodyModel[441] = new ModelRendererTurbo(this, 209, 177, textureX, textureY); // Box 473
-		bodyModel[442] = new ModelRendererTurbo(this, 321, 137, textureX, textureY); // Mars_light
-		bodyModel[443] = new ModelRendererTurbo(this, 337, 137, textureX, textureY); // Mars_light
-		bodyModel[444] = new ModelRendererTurbo(this, 353, 137, textureX, textureY); // Mars_light
-		bodyModel[445] = new ModelRendererTurbo(this, 369, 137, textureX, textureY); // Mars_light
+		bodyModel[442] = new ModelRendererTurbo(this, 321, 137, textureX, textureY,"prime1"); // Mars_light
+		bodyModel[443] = new ModelRendererTurbo(this, 337, 137, textureX, textureY,"prime1"); // Mars_light
+		bodyModel[444] = new ModelRendererTurbo(this, 353, 137, textureX, textureY,"prime1"); // Mars_light
+		bodyModel[445] = new ModelRendererTurbo(this, 369, 137, textureX, textureY,"prime1"); // Mars_light
 		bodyModel[446] = new ModelRendererTurbo(this, 505, 81, textureX, textureY); // Box 480
 		bodyModel[447] = new ModelRendererTurbo(this, 225, 129, textureX, textureY); // Box 481
 		bodyModel[448] = new ModelRendererTurbo(this, 153, 137, textureX, textureY); // Box 482
@@ -498,7 +508,7 @@ public class SD45 extends ModelConverter //Same as Filename
 		bodyModel[462] = new ModelRendererTurbo(this, 505, 177, textureX, textureY); // Box 209
 		bodyModel[463] = new ModelRendererTurbo(this, 377, 193, textureX, textureY); // Box 95
 		bodyModel[464] = new ModelRendererTurbo(this, 385, 193, textureX, textureY); // Exhaust
-		bodyModel[465] = new ModelRendererTurbo(this, 113, 201, textureX, textureY); // BeaconATSF
+		bodyModel[465] = new ModelRendererTurbo(this, 113, 201, textureX, textureY,"prime1"); // BeaconATSF
 		bodyModel[466] = new ModelRendererTurbo(this, 161, 137, textureX, textureY); // Box 11
 		bodyModel[467] = new ModelRendererTurbo(this, 57, 145, textureX, textureY); // Box 11
 		bodyModel[468] = new ModelRendererTurbo(this, 145, 145, textureX, textureY); // Box 11
@@ -516,7 +526,7 @@ public class SD45 extends ModelConverter //Same as Filename
 		bodyModel[480] = new ModelRendererTurbo(this, 489, 201, textureX, textureY); // Box 209
 		bodyModel[481] = new ModelRendererTurbo(this, 497, 201, textureX, textureY); // Box 209
 		bodyModel[482] = new ModelRendererTurbo(this, 129, 209, textureX, textureY); // Exhaust
-		bodyModel[483] = new ModelRendererTurbo(this, 265, 209, textureX, textureY); // Beaconbn
+		bodyModel[483] = new ModelRendererTurbo(this, 265, 209, textureX, textureY,"prime1"); // Beaconbn
 		bodyModel[484] = new ModelRendererTurbo(this, 281, 209, textureX, textureY); // Box 485
 		bodyModel[485] = new ModelRendererTurbo(this, 177, 145, textureX, textureY); // Box 486
 		bodyModel[486] = new ModelRendererTurbo(this, 505, 201, textureX, textureY); // Box 487
@@ -2107,10 +2117,10 @@ public class SD45 extends ModelConverter //Same as Filename
 		bodyModel[502] = new ModelRendererTurbo(this, 369, 209, textureX, textureY); // Box 11
 		bodyModel[503] = new ModelRendererTurbo(this, 297, 145, textureX, textureY); // Box 122
 		bodyModel[504] = new ModelRendererTurbo(this, 17, 217, textureX, textureY); // Box 122
-		bodyModel[505] = new ModelRendererTurbo(this, 33, 217, textureX, textureY); // beaconmilw
+		bodyModel[505] = new ModelRendererTurbo(this, 33, 217, textureX, textureY,"prime1"); // beaconmilw
 		bodyModel[506] = new ModelRendererTurbo(this, 49, 217, textureX, textureY); // Box 507
 		bodyModel[507] = new ModelRendererTurbo(this, 65, 217, textureX, textureY); // Exhaust
-		bodyModel[508] = new ModelRendererTurbo(this, 81, 217, textureX, textureY); // beaconcnw
+		bodyModel[508] = new ModelRendererTurbo(this, 81, 217, textureX, textureY,"prime1"); // beaconcnw
 		bodyModel[509] = new ModelRendererTurbo(this, 97, 217, textureX, textureY); // bell
 		bodyModel[510] = new ModelRendererTurbo(this, 489, 153, textureX, textureY); // Box 11
 		bodyModel[511] = new ModelRendererTurbo(this, 329, 145, textureX, textureY); // Box 11
@@ -2147,7 +2157,7 @@ public class SD45 extends ModelConverter //Same as Filename
 		bodyModel[542] = new ModelRendererTurbo(this, 257, 209, textureX, textureY); // Box 11
 		bodyModel[543] = new ModelRendererTurbo(this, 433, 209, textureX, textureY); // Box 544
 		bodyModel[544] = new ModelRendererTurbo(this, 289, 217, textureX, textureY); // Exhaust
-		bodyModel[545] = new ModelRendererTurbo(this, 305, 217, textureX, textureY); // beacongn
+		bodyModel[545] = new ModelRendererTurbo(this, 305, 217, textureX, textureY,"prime1"); // beacongn
 		bodyModel[546] = new ModelRendererTurbo(this, 9, 225, textureX, textureY); // Box 547
 		bodyModel[547] = new ModelRendererTurbo(this, 289, 209, textureX, textureY); // Box 548
 		bodyModel[548] = new ModelRendererTurbo(this, 321, 217, textureX, textureY); // Box 549
@@ -2180,16 +2190,16 @@ public class SD45 extends ModelConverter //Same as Filename
 		bodyModel[575] = new ModelRendererTurbo(this, 41, 25, textureX, textureY); // Box 576
 		bodyModel[576] = new ModelRendererTurbo(this, 297, 25, textureX, textureY); // Box 577
 		bodyModel[577] = new ModelRendererTurbo(this, 409, 217, textureX, textureY); // Flashers_ns
-		bodyModel[578] = new ModelRendererTurbo(this, 481, 217, textureX, textureY); // beaconupleft
+		bodyModel[578] = new ModelRendererTurbo(this, 481, 217, textureX, textureY,"prime3"); // beaconupleft
 		bodyModel[579] = new ModelRendererTurbo(this, 89, 225, textureX, textureY); // Box 580
-		bodyModel[580] = new ModelRendererTurbo(this, 97, 225, textureX, textureY); // beaconupright
+		bodyModel[580] = new ModelRendererTurbo(this, 97, 225, textureX, textureY,"prime4"); // beaconupright
 		bodyModel[581] = new ModelRendererTurbo(this, 105, 225, textureX, textureY); // beaconup
 		bodyModel[582] = new ModelRendererTurbo(this, 121, 225, textureX, textureY); // Box 583
 		bodyModel[583] = new ModelRendererTurbo(this, 137, 225, textureX, textureY); // Bell
 		bodyModel[584] = new ModelRendererTurbo(this, 89, 1, textureX, textureY); // Bell
 		bodyModel[585] = new ModelRendererTurbo(this, 481, 137, textureX, textureY); // Bell
 		bodyModel[586] = new ModelRendererTurbo(this, 313, 25, textureX, textureY); // Bell
-		bodyModel[587] = new ModelRendererTurbo(this, 153, 225, textureX, textureY); // beaconsp
+		bodyModel[587] = new ModelRendererTurbo(this, 153, 225, textureX, textureY,"prime1"); // beaconsp
 		bodyModel[588] = new ModelRendererTurbo(this, 169, 225, textureX, textureY); // Box 589
 		bodyModel[589] = new ModelRendererTurbo(this, 185, 225, textureX, textureY); // Box 590
 		bodyModel[590] = new ModelRendererTurbo(this, 89, 233, textureX, textureY); // Box 591
@@ -2233,10 +2243,10 @@ public class SD45 extends ModelConverter //Same as Filename
 		bodyModel[628] = new ModelRendererTurbo(this, 273, 177, textureX, textureY); // Box 629
 		bodyModel[629] = new ModelRendererTurbo(this, 497, 137, textureX, textureY); // Box 630
 		bodyModel[630] = new ModelRendererTurbo(this, 129, 145, textureX, textureY); // Box 631
-		bodyModel[631] = new ModelRendererTurbo(this, 329, 225, textureX, textureY); // mars_sp_rear
-		bodyModel[632] = new ModelRendererTurbo(this, 385, 225, textureX, textureY); // mars_sp_rear
-		bodyModel[633] = new ModelRendererTurbo(this, 401, 225, textureX, textureY); // mars_sp_rear
-		bodyModel[634] = new ModelRendererTurbo(this, 425, 225, textureX, textureY); // mars_sp_rear
+		bodyModel[631] = new ModelRendererTurbo(this, 329, 225, textureX, textureY,"prime1"); // mars_sp_rear
+		bodyModel[632] = new ModelRendererTurbo(this, 385, 225, textureX, textureY,"prime1"); // mars_sp_rear
+		bodyModel[633] = new ModelRendererTurbo(this, 401, 225, textureX, textureY,"prime1"); // mars_sp_rear
+		bodyModel[634] = new ModelRendererTurbo(this, 425, 225, textureX, textureY,"prime1"); // mars_sp_rear
 		bodyModel[635] = new ModelRendererTurbo(this, 273, 241, textureX, textureY); // Box 636
 		bodyModel[636] = new ModelRendererTurbo(this, 281, 241, textureX, textureY); // Box 637
 		bodyModel[637] = new ModelRendererTurbo(this, 289, 241, textureX, textureY); // Box 638
@@ -2253,11 +2263,11 @@ public class SD45 extends ModelConverter //Same as Filename
 		bodyModel[648] = new ModelRendererTurbo(this, 425, 241, textureX, textureY); // Box 649
 		bodyModel[649] = new ModelRendererTurbo(this, 225, 241, textureX, textureY); // Box 651
 		bodyModel[650] = new ModelRendererTurbo(this, 441, 241, textureX, textureY); // Box 652
-		bodyModel[651] = new ModelRendererTurbo(this, 73, 249, textureX, textureY); // beaconslsf
+		bodyModel[651] = new ModelRendererTurbo(this, 73, 249, textureX, textureY,"prime3"); // beaconslsf
 		bodyModel[652] = new ModelRendererTurbo(this, 89, 249, textureX, textureY); // Box 654
 		bodyModel[653] = new ModelRendererTurbo(this, 105, 249, textureX, textureY); // Box 655
-		bodyModel[654] = new ModelRendererTurbo(this, 121, 249, textureX, textureY); // lighttopicg
-		bodyModel[655] = new ModelRendererTurbo(this, 129, 249, textureX, textureY); // lightbottomicg
+		bodyModel[654] = new ModelRendererTurbo(this, 121, 249, textureX, textureY,"lamp"); // lighttopicg
+		bodyModel[655] = new ModelRendererTurbo(this, 129, 249, textureX, textureY,"lamp"); // lightbottomicg
 		bodyModel[656] = new ModelRendererTurbo(this, 137, 249, textureX, textureY); // Box 658
 		bodyModel[657] = new ModelRendererTurbo(this, 265, 241, textureX, textureY); // Box 659
 		bodyModel[658] = new ModelRendererTurbo(this, 145, 249, textureX, textureY); // Box 660
@@ -2272,22 +2282,22 @@ public class SD45 extends ModelConverter //Same as Filename
 		bodyModel[667] = new ModelRendererTurbo(this, 481, 9, textureX, textureY); // Box 550
 		bodyModel[668] = new ModelRendererTurbo(this, 57, 25, textureX, textureY); // Box 551
 		bodyModel[669] = new ModelRendererTurbo(this, 241, 249, textureX, textureY); // Box 671
-		bodyModel[670] = new ModelRendererTurbo(this, 257, 249, textureX, textureY); // Ditchlight_Left_Top
+		bodyModel[670] = new ModelRendererTurbo(this, 257, 249, textureX, textureY,"ditch"); // Ditchlight_Left_Top
 		bodyModel[671] = new ModelRendererTurbo(this, 265, 249, textureX, textureY); // box
-		bodyModel[672] = new ModelRendererTurbo(this, 273, 249, textureX, textureY); // Ditchlight_Right_Top
+		bodyModel[672] = new ModelRendererTurbo(this, 273, 249, textureX, textureY,"ditch"); // Ditchlight_Right_Top
 		bodyModel[673] = new ModelRendererTurbo(this, 281, 249, textureX, textureY); // box
 		bodyModel[674] = new ModelRendererTurbo(this, 289, 249, textureX, textureY); // box
-		bodyModel[675] = new ModelRendererTurbo(this, 297, 249, textureX, textureY); // Ditchlight_Right_Top_sp
+		bodyModel[675] = new ModelRendererTurbo(this, 297, 249, textureX, textureY,"ditch"); // Ditchlight_Right_Top_sp
 		bodyModel[676] = new ModelRendererTurbo(this, 465, 25, textureX, textureY); // Box 678
 		bodyModel[677] = new ModelRendererTurbo(this, 497, 25, textureX, textureY); // Box 679
 		bodyModel[678] = new ModelRendererTurbo(this, 305, 249, textureX, textureY); // Box 680
 		bodyModel[679] = new ModelRendererTurbo(this, 329, 249, textureX, textureY); // Box 681
 		bodyModel[680] = new ModelRendererTurbo(this, 81, 33, textureX, textureY); // Box 682
 		bodyModel[681] = new ModelRendererTurbo(this, 465, 33, textureX, textureY); // Box 683
-		bodyModel[682] = new ModelRendererTurbo(this, 345, 249, textureX, textureY); // Ditchlight_Right_Bottom_ble
+		bodyModel[682] = new ModelRendererTurbo(this, 345, 249, textureX, textureY,"ditch"); // Ditchlight_Right_Bottom_ble
 		bodyModel[683] = new ModelRendererTurbo(this, 353, 249, textureX, textureY); // box
-		bodyModel[684] = new ModelRendererTurbo(this, 361, 249, textureX, textureY); // Ditchlight_Left_Bottom_ble
-		bodyModel[685] = new ModelRendererTurbo(this, 369, 249, textureX, textureY); // Ditchlight_Left_Bottom_ble
+		bodyModel[684] = new ModelRendererTurbo(this, 361, 249, textureX, textureY,"ditch"); // Ditchlight_Left_Bottom_ble
+		bodyModel[685] = new ModelRendererTurbo(this, 369, 249, textureX, textureY,"ditch"); // Ditchlight_Left_Bottom_ble
 		bodyModel[686] = new ModelRendererTurbo(this, 390, 248, textureX, textureY); // Box 11
 		bodyModel[687] = new ModelRendererTurbo(this, 416, 253, textureX, textureY); // Box 170
 		bodyModel[688] = new ModelRendererTurbo(this, 436, 253, textureX, textureY); // Box 170
@@ -2916,4 +2926,52 @@ public class SD45 extends ModelConverter //Same as Filename
 		bodyModel[700].addShapeBox(0F, 0F, 0F, 0, 1, 1, 0F,0F, 0F, -1F, 0F, 0F, -1F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -0.5F, -0.4F, 0F, -0.5F, -0.4F, 0F, -0.5F, 0F, 0F, -0.5F, 0F); // Box 700
 		bodyModel[700].setRotationPoint(-17.99F, -16F, -8F);
 	}
+
+	FlexicoilC1 bogie = new FlexicoilC1();
+
+	@Override
+	public void render(Entity entity, float f, float f1, float f2, float f3, float f4, float f5) {
+		ModelRenderHelper.renderModelWithRollingStockLightControls(bodyModel, entity, f5);
+
+		if (entity instanceof AbstractTrains && ((AbstractTrains) entity).getColor() == 13 ||
+				entity instanceof AbstractTrains && ((AbstractTrains) entity).getColor() == 9 || entity instanceof AbstractTrains && ((AbstractTrains) entity).getColor() == 17) {
+
+			//Silver Trucks
+			Tessellator.bindTexture(new ResourceLocation(wwcp.common.library.Info.modID, "textures/bogies/AmericanTrucks/Flexicoil_C1_Silver.png"));
+			GL11.glPushMatrix();
+			GL11.glTranslated(-2.6f, -0.0, 0);//front & rear
+			bogie.render(entity, f, f1, f2, f3, f4, f5);
+
+			GL11.glTranslated(5.1f, 0, 0);//rear
+			bogie.render(entity, f, f1, f2, f3, f4, f5);
+			GL11.glPopMatrix();
+
+			//SP trucks
+		} else if (entity instanceof AbstractTrains && ((AbstractTrains) entity).getColor() == 0
+				|| entity instanceof AbstractTrains && ((AbstractTrains) entity).getColor() == 1
+				|| entity instanceof AbstractTrains && ((AbstractTrains) entity).getColor() == 2) {
+
+			Tessellator.bindTexture(new ResourceLocation(Info.modID, "textures/bogies/AmericanTrucks/Flexicoil_C1_SP.png"));
+			GL11.glPushMatrix();
+			GL11.glTranslated(-2.6f, -0.0, 0);//front & rear
+			bogie.render(entity, f, f1, f2, f3, f4, f5);
+
+			GL11.glTranslated(5.1f, 0, 0);//rear
+			bogie.render(entity, f, f1, f2, f3, f4, f5);
+			GL11.glPopMatrix();
+
+			//Regular black Flexicoil C1 Trucks
+		} else {
+
+			Tessellator.bindTexture(new ResourceLocation(Info.modID, "textures/bogies/AmericanTrucks/Flexicoil_C1_Black.png"));
+			GL11.glPushMatrix();
+			GL11.glTranslated(-2.6f, -0.0, 0);//front & rear
+			bogie.render(entity, f, f1, f2, f3, f4, f5);
+
+			GL11.glTranslated(5.1f, 0, 0);//rear
+			bogie.render(entity, f, f1, f2, f3, f4, f5);
+			GL11.glPopMatrix();
+		}
+	}
+
 }
