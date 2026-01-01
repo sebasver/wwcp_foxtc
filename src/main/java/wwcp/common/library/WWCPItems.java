@@ -46,7 +46,8 @@ public enum WWCPItems
     PS2Early3Bay("item.PS2Early3Bay_Icon",train.common.library.TypeOfRollingStock.FREIGHT, "American"),
     OpenTriLevelAutorack("item.OpenTriLevelAutorack_Icon",train.common.library.TypeOfRollingStock.FREIGHT, "American"),
     VertAPacAutorack("item.VertAPac_Icon",train.common.library.TypeOfRollingStock.FREIGHT, "American"),
-
+    Hbbins("IconHbbins",train.common.library.TypeOfRollingStock.FREIGHT, "European"),
+    Habbiins_17("IconHabbins",train.common.library.TypeOfRollingStock.FREIGHT, "European"),
 
     //minecraftTemplateUntradeable("template-icon", STEAM)
     ;

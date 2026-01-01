@@ -2,13 +2,13 @@ package wwcp.common.core.handler;
 
 import train.common.Traincraft;
 import train.common.library.register.TrainRecord;
+import wwcp.common.entity.freight.*;
 import wwcp.common.entity.locomotives.diesels.*;
 import wwcp.common.entity.locomotives.electrics.*;
 import wwcp.common.entity.locomotives.steam.EntityChristmasBR01;
 import wwcp.common.entity.locomotives.tenders.EntityT32ChristmasTender;
 import wwcp.common.entity.passenger.Christmas.*;
 import wwcp.common.entity.passenger.Eurofima.*;
-import wwcp.common.entity.rollingstock.*;
 import wwcp.common.library.WWCPItems;
 import wwcp.common.wwcp;
 
@@ -385,6 +385,24 @@ public class WWCPEntityHandler
                         Instance()
                 );
 
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.Hbbins.item,
+                        new TrainRecord(WWCPItems.Hbbins.name(), EntityHbbins.class, WWCPItems.Hbbins.item,
+                                Transport.Hbbins().additionalText2, Transport.Hbbins().weightinKGs,
+                                new String[] {"Black","Red","Green","Brown","Blue","Purple","Cyan","LightGrey","Pink"}, 5, 32, 0, 0,
+                                0, 0, 0,
+                                0, 0, 0),
+                        Instance()
+                );
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.Habbiins_17.item,
+                        new TrainRecord(WWCPItems.Habbiins_17.name(), EntityHabbiins17.class, WWCPItems.Habbiins_17.item,
+                                Transport.Habbiins_17().additionalText2, Transport.Habbiins_17().weightinKGs,
+                                new String[] {"Black","Red","Green","Brown","Blue"}, 5, 32, 0, 0,
+                                0, 0, 0,
+                                0, 0, 0),
+                        Instance()
+                );
 
         //32, 18, 9
         Traincraft.traincraftRegistry

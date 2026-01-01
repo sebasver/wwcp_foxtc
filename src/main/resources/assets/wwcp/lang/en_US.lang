@@ -53,6 +53,7 @@ menu.item.wwcp:freight=Freight
 menu.item.wwcp:tanker=Tanker
 menu.item.wwcp:tender=Tender
 menu.item.germany=Germany
+menu.item.europe=Europe
 
 train.owner.name=You are not the owner!
 train.locked.name=Locked
@@ -327,6 +328,7 @@ item.wwcp:UKCattlewagen.name=UK Cattle wagon
 item.wwcp:UKGasWagon.name=UK Gas wagon
 item.wwcp:UKOpenwagon2.name=UK Windcutter Truck
 item.wwcp:Hbbins.name=Hbbins
+entity.wwcp.Hbbins.name=Hbbins
 item.wwcp:Hbbillns.name=Hbbillns
 item.wwcp:DBSE.name=DSB E Open Wagon
 item.wwcp:ACF_Single_Dome.name=ACF Tanker Single Dome
