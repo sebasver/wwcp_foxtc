@@ -23,10 +23,10 @@ public class AddonPackItems
     }
 
     private void registerItems() {
-        for (WWCPItems item : WWCPItems.values()) {
+        for (WWCPCraftingItems item : WWCPCraftingItems.values()) {
             if (item.item != null) {
-                item.item.setUnlocalizedName(Info.modID + ":" + item.ItemName);
-                GameRegistry.registerItem(item.item, item.ItemName);
+                item.item.setUnlocalizedName(Info.modID + ":" + item.className);
+                GameRegistry.registerItem(item.item, item.className);
             }
         }
     }
