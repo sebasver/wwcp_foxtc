@@ -68,6 +68,13 @@ public class RecipeHandlerWWCP extends AbstractRecipeHandler {
                         'S', steelItem,
                         'M', new ItemStack(ItemIDs.electmotor.item),
                         'C', dyeRedItem);
+
+                TrainCraftingManager.instance.addRecipe(new ItemStack(WWCPCraftingItems.DBBogies.item, 1),
+                        "MC ", "SSS", "W W",
+                        'W', new ItemStack(ItemIDs.bogie.item),
+                        'S', steelItem,
+                        'M', new ItemStack(ItemIDs.electmotor.item),
+                        'C', dyeRedItem);
             }
         }
     }
