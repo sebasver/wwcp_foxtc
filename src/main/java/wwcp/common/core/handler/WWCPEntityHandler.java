@@ -214,7 +214,7 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.C408W.item,
                         new TrainRecord(WWCPItems.C408W.name(), EntityC408W.class, WWCPItems.C408W.item,
                                 "Freight Locomotive", 1,
-                                new String[] {"Black","Red","Green","Brown","Blue","Purple","Cyan","LightGrey"}, 5, 0, .95, 164,
+                                new String[] {"Black","Red","Green","Brown","Blue","Purple","Cyan","LightGrey","Grey","Pink","Lime","Yellow","LightBlue"}, 5, 0, .95, 164,
                                 4000, 60, 160,
                                 0.65, 5.5f, 10000),
                         Instance()
