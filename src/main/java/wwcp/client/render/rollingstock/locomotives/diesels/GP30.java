@@ -2916,10 +2916,8 @@ public class GP30 extends ModelConverter //Same as Filename
 				GL11.glPopMatrix();
 
 
-				//C&O Chessie colours
+				//C&O  colours
 		} else if (entity instanceof AbstractTrains && ((AbstractTrains) entity).getColor() == 7
-				|| entity instanceof AbstractTrains && ((AbstractTrains) entity).getColor() == 8
-				|| entity instanceof AbstractTrains && ((AbstractTrains) entity).getColor() == 13
 				|| entity instanceof AbstractTrains && ((AbstractTrains) entity).getColor() == 10
 				|| entity instanceof AbstractTrains && ((AbstractTrains) entity).getColor() == 9
 				|| entity instanceof AbstractTrains && ((AbstractTrains) entity).getColor() == 15) {
@@ -2933,6 +2931,18 @@ public class GP30 extends ModelConverter //Same as Filename
 			bogieB.render(entity, f, f1, f2, f3, f4, f5);
 			GL11.glPopMatrix();
 
+		} else if (entity instanceof AbstractTrains && ((AbstractTrains) entity).getColor() == 8
+					|| entity instanceof AbstractTrains && ((AbstractTrains) entity).getColor() == 13){
+
+			//Chessie
+			Tessellator.bindTexture(new ResourceLocation(Info.modID, "textures/bogies/blombergB_Chessie.png"));
+			GL11.glPushMatrix();
+			GL11.glTranslated(-2.1f, -0.0, 0);//front & rear
+			bogieB.render(entity, f, f1, f2, f3, f4, f5);
+
+			GL11.glTranslated(4.25f, 0, 0);//rear
+			bogieB.render(entity, f, f1, f2, f3, f4, f5);
+			GL11.glPopMatrix();
 
 			//Regular black blomberg B trucks
 		} else {

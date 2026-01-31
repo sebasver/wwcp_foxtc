@@ -291,6 +291,7 @@ item.tc:minecartLocoDD35B	DD35 B Unit	train.common.entity.rollingStock.EntityBUn
 item.tc:minecartBoxCartPRR	Freight Box Cart PRR	train.common.entity.rollingStock.freight.EntityBoxCartPRR	PRR_X31a
 item.tc:minecartBoxCartUS	Freight Box Cart US	train.common.entity.rollingStock.freight.EntityBoxCartUS	boxCartUS_
 item.tc:minecartBulkheadFlatCart	Freight Bulkhead Flat Cart	train.common.entity.rollingStock.freight.EntityBulkheadFlatCart	BulkheadFlat_
+item.wwcp:C408W	C408W	wwcp.common.entity.locomotives.diesels.EntityC408W	C408W
 item.wwcp:C424	C424	wwcp.common.entity.locomotives.diesels.EntityC424	C424
 item.wwcp:C425	C425	wwcp.common.entity.locomotives.diesels.EntityC425	C425
 item.wwcp:C430	C430	wwcp.common.entity.locomotives.diesels.EntityC430	C430
@@ -429,6 +430,7 @@ item.tc:minecartLocoSouthern1102	Loco Steam Southern 1102	train.common.entity.ro
 item.tc:minecartLocoUSATCUK	Loco Steam USATCUK	train.common.entity.rollingStock.steam.EntityLocoSteamUSATCUK	USATCUK
 item.tc:minecartLocoUSATCUS	Loco Steam USATCUS	train.common.entity.rollingStock.steam.EntityLocoSteamUSATCUS	USATCUS
 item.tc:minecartLocoSteamVBShay	Loco Steam VB Shay	train.common.entity.rollingStock.steam.EntityLocoSteamVBShay	vbshay
+item.wwcp:M630	M630	wwcp.common.entity.locomotives.diesels.EntityM630	M630
 item.wwcp:M640	M640	wwcp.common.entity.locomotives.diesels.EntityM640	M640
 item.tc:minecartMailWagon_DB	Mail Wagon DB	train.common.entity.rollingStock.workcart.EntityMailWagen_DB	mailWagen_DB
 item.wwcp:OpenTriLevelAutorack	OpenTriLevelAutorack	wwcp.common.entity.freight.EntityOpenTriLevelAutorack	OpenTriLevelAutorack
@@ -463,6 +465,9 @@ item.tc:minecartPropagandaBritish	Propaganda Britain	train.common.entity.rolling
 item.tc:minecartPropagandaJapan	Propaganda Japan	train.common.entity.rollingStock.EntityPropagandaJapan	propaganda_Japan_
 item.tc:minecartPropagandaUs	Propaganda USA	train.common.entity.rollingStock.EntityPropagandaUS	propaganda_new_
 item.tc:minecartPropagandaUSSR	Propaganda USSR	train.common.entity.rollingStock.EntityPropagandaUSSR	propaganda_USSR_
+item.wwcp:RS10	RS10	wwcp.common.entity.locomotives.diesels.EntityRS10	RS10
+item.wwcp:RS18	RS18	wwcp.common.entity.locomotives.diesels.EntityRS18	RS18
+item.wwcp:RS18C	RS18C	wwcp.common.entity.locomotives.diesels.EntityRS18C	RS18C
 item.wwcp:SD45	SD45	wwcp.common.entity.locomotives.diesels.EntitySD45	SD45
 item.wwcp:SD45X	SD45X	wwcp.common.entity.locomotives.diesels.EntitySD45X	SD45X
 item.wwcp:SLRV	SLRV	wwcp.common.entity.locomotives.electrics.EntitySLRV	SLRV

@@ -54,8 +54,13 @@ public class RecipesRegisterDiesel extends AbstractRecipeHandler
                         new ItemStack(ItemIDs.controls.item, 1), new ItemStack(ItemIDs.generator.item, 3), new ItemStack(ItemIDs.dieselengine.item, 3),
                         new ItemStack(ItemIDs.bogie.item, 6), new ItemStack(ItemIDs.steelframe.item, 4), new ItemStack(itemSteel, 2, itemDamageSteel), new ItemStack(WWCPItems.C630M.item), 1);
             }
-            for (ItemStack dye : dyeRed) {//M640
+            for (ItemStack dye : dyeRed) {//M630
                 betterAddRecipe(2, new ItemStack(ItemIDs.partComponentALCO.item, 3), new ItemStack(ItemIDs.partTurboExhaust.item, 1), new ItemStack(ItemIDs.steelcab.item, 1), dye,
+                        new ItemStack(ItemIDs.controls.item, 1), new ItemStack(ItemIDs.generator.item, 3), new ItemStack(ItemIDs.dieselengine.item, 3),
+                        new ItemStack(ItemIDs.bogie.item, 6), new ItemStack(ItemIDs.steelframe.item, 4), new ItemStack(itemSteel, 2, itemDamageSteel), new ItemStack(WWCPItems.M630.item), 1);
+            }
+            for (ItemStack dye : dyeRed) {//M640
+                betterAddRecipe(2, new ItemStack(ItemIDs.partComponentALCO.item, 4), new ItemStack(ItemIDs.partTurboExhaust.item, 1), new ItemStack(ItemIDs.steelcab.item, 1), dye,
                         new ItemStack(ItemIDs.controls.item, 1), new ItemStack(ItemIDs.generator.item, 4), new ItemStack(ItemIDs.dieselengine.item, 4),
                         new ItemStack(ItemIDs.bogie.item, 6), new ItemStack(ItemIDs.steelframe.item, 4), new ItemStack(itemSteel, 6, itemDamageSteel), new ItemStack(WWCPItems.M640.item), 1);
             }
@@ -68,6 +73,26 @@ public class RecipesRegisterDiesel extends AbstractRecipeHandler
                 betterAddRecipe(2, new ItemStack(ItemIDs.partComponentALCO.item, 2), new ItemStack(ItemIDs.partTurboExhaust.item, 1), new ItemStack(ItemIDs.steelcab.item, 1), dye,
                         new ItemStack(ItemIDs.controls.item, 1), new ItemStack(ItemIDs.generator.item, 3), new ItemStack(ItemIDs.dieselengine.item, 3),
                         new ItemStack(ItemIDs.partTypeB.item, 2), new ItemStack(ItemIDs.steelframe.item, 2), new ItemStack(itemSteel, 2, itemDamageSteel), new ItemStack(WWCPItems.C425.item), 1);
+            }
+            for (ItemStack dye : dyeGreen) {//RS10
+                betterAddRecipe(2, new ItemStack(ItemIDs.partComponentALCO.item, 1), new ItemStack(ItemIDs.partTurboExhaust.item, 1), new ItemStack(ItemIDs.steelcab.item, 1), dye,
+                        new ItemStack(ItemIDs.controls.item, 1), new ItemStack(ItemIDs.generator.item, 2), new ItemStack(ItemIDs.dieselengine.item, 2),
+                        new ItemStack(ItemIDs.partTypeB.item, 2), new ItemStack(ItemIDs.steelframe.item, 2), new ItemStack(itemSteel, 4, itemDamageSteel), new ItemStack(WWCPItems.RS10.item), 1);
+            }
+            for (ItemStack dye : dyeGreen) {//RS18
+                betterAddRecipe(2, new ItemStack(ItemIDs.partComponentALCO.item, 2), new ItemStack(ItemIDs.partTurboExhaust.item, 1), new ItemStack(ItemIDs.steelcab.item, 1), dye,
+                        new ItemStack(ItemIDs.controls.item, 1), new ItemStack(ItemIDs.generator.item, 2), new ItemStack(ItemIDs.dieselengine.item, 2),
+                        new ItemStack(ItemIDs.partTypeB.item, 2), new ItemStack(ItemIDs.steelframe.item, 2), new ItemStack(itemSteel, 4, itemDamageSteel), new ItemStack(WWCPItems.RS18.item), 1);
+            }
+            for (ItemStack dye : dyeGreen) {//RS18C
+                betterAddRecipe(2, new ItemStack(ItemIDs.partComponentALCO.item, 2), new ItemStack(ItemIDs.partTurboExhaust.item, 1), new ItemStack(ItemIDs.steelcab.item, 1), dye,
+                        new ItemStack(ItemIDs.controls.item, 1), new ItemStack(ItemIDs.generator.item, 2), new ItemStack(ItemIDs.dieselengine.item, 2),
+                        new ItemStack(ItemIDs.partTypeB.item, 2), new ItemStack(ItemIDs.steelframe.item, 2), new ItemStack(itemSteel, 2, itemDamageSteel), new ItemStack(WWCPItems.RS18C.item), 1);
+            }
+            for (ItemStack dye : dyeRed) {//C408W
+                betterAddRecipe(2, new ItemStack(ItemIDs.partComponentGE.item, 3), new ItemStack(ItemIDs.partTurboExhaust.item, 1), new ItemStack(ItemIDs.steelcab.item, 1), dye,
+                        new ItemStack(ItemIDs.controls.item, 1), new ItemStack(ItemIDs.generator.item, 4), new ItemStack(ItemIDs.dieselengine.item, 4),
+                        new ItemStack(ItemIDs.partFlexicoil.item, 2), new ItemStack(ItemIDs.steelframe.item, 4), new ItemStack(itemSteel, 4, itemDamageSteel), new ItemStack(WWCPItems.C408W.item), 1);
             }
         }
 

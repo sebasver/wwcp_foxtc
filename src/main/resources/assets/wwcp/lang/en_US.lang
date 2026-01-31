@@ -106,8 +106,6 @@ item.wwcp:F7A.name=F7A
 item.wwcp:GP7.name=GP7
 item.wwcp:GP50.name=GP50
 item.wwcp:FP7A.name=FP7A
-item.wwcp:RS18.name=RS18
-item.wwcp:M640.name=M640
 item.wwcp:AC4400CW.name=AC4400CW
 item.wwcp:SD70Mac.name=SD70MAC
 item.wwcp:SD60Mac.name=SD60MAC
@@ -223,13 +221,15 @@ item.wwcp:SD90MACH.name=SD90MAC-H
 item.wwcp:SD70ACU.name=SD70ACU
 
 item.wwcp:RS3.name=RS3
+item.wwcp:RS10.name=RS10
 item.wwcp:RS18.name=RS18
+item.wwcp:RS18C.name=RS18C
 item.wwcp:RS23.name=RS23
 item.wwcp:C424.name=C424
 item.wwcp:C425.name=C425
 item.wwcp:C430.name=C430
 item.wwcp:C630M.name=C630M
-
+item.wwcp:M630.name=M630
 item.wwcp:M640.name=M640
 
 item.wwcp:U33B.name=U33B
@@ -237,6 +237,7 @@ item.wwcp:B307a.name=B30-7a Highood
 item.wwcp:B307.name=B30-7
 item.wwcp:B398.name=B39-8
 item.wwcp:B408.name=B40-8
+item.wwcp:C408W.name=C40-8W
 
 item.wwcp:MK5000C.name=MK5000C
 

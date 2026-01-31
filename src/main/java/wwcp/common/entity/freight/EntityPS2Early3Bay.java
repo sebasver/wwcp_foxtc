@@ -28,6 +28,10 @@ public class EntityPS2Early3Bay extends AbstractStandardFreightCar {
     {
         InsertTexture(0, "Northern Pacific");
         InsertTexture(1, "Rock Island");
+        InsertTexture(1, "DRGW");
+        InsertTexture(1, "BN");
+        InsertTexture(1, "ATSF Early");
+        InsertTexture(1, "ATSF");
         InsertTexture(2, "Generic");
     }
 
@@ -67,7 +71,7 @@ public class EntityPS2Early3Bay extends AbstractStandardFreightCar {
                     public ResourceLocation getTextureFile(String colorAsString) {
                         String texturePath = "";
                         switch (colorAsString.toLowerCase()) {
-                            case "brown":
+                            case "black":
                                 texturePath = "textures/freightskins/PS2Early3Bay/PS2CD3Bay_NP";
                                 break;
                             case "red":
@@ -75,6 +79,21 @@ public class EntityPS2Early3Bay extends AbstractStandardFreightCar {
                                 break;
                             case "green":
                                 texturePath = "textures/freightskins/PS2Early3Bay/PS2CD3Bay_Generic";
+                                break;
+                            case "brown":
+                                texturePath = "textures/freightskins/PS2Early3Bay/PS2CD3Bay_DRGW";
+                                break;
+                            case "blue":
+                                texturePath = "textures/freightskins/PS2Early3Bay/PS2CD3Bay_BN";
+                                break;
+                            case "purple":
+                                texturePath = "textures/freightskins/PS2Early3Bay/PS2CD3Bay_ATSF_Early";
+                                break;
+                            case "cyan":
+                                texturePath = "textures/freightskins/PS2Early3Bay/PS2CD3Bay_ATSF_Late";
+                                break;
+                            case "lightgrey":
+                                texturePath = "textures/freightskins/PS2Early3Bay/PS2CD3Bay_UP";
                                 break;
 
                         }
