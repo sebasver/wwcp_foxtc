@@ -35,6 +35,7 @@ public class EntityOpenTriLevelAutorack extends AbstractStandardFreightCar {
     public void setupTextureDescription()
     {
         InsertTexture(0, "MILW");
+        InsertTexture(1, "ATSF");
 
     }
 
@@ -76,6 +77,9 @@ public class EntityOpenTriLevelAutorack extends AbstractStandardFreightCar {
                         switch (colorAsString.toLowerCase()) {
                             case "black":
                                 texturePath = "textures/freightskins/OpenTriLevelAutorack/OpenTriLevelAutorack_MILW";
+                                break;
+                            case "red":
+                                texturePath = "textures/freightskins/OpenTriLevelAutorack/OpenTriLevelAutorack_ATSF";
                                 break;
 
 

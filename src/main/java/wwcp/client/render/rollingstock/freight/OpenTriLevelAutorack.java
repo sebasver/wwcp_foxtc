@@ -27,7 +27,7 @@ public class OpenTriLevelAutorack extends ModelConverter //Same as Filename
 
 	public OpenTriLevelAutorack() //Same as Filename
 	{
-		bodyModel = new ModelRendererTurbo[373];
+		bodyModel = new ModelRendererTurbo[377];
 
 		initbodyModel_1();
 
@@ -412,6 +412,10 @@ public class OpenTriLevelAutorack extends ModelConverter //Same as Filename
 		bodyModel[370] = new ModelRendererTurbo(this, 33, 137, textureX, textureY); // Box 972
 		bodyModel[371] = new ModelRendererTurbo(this, 113, 137, textureX, textureY); // Box 973
 		bodyModel[372] = new ModelRendererTurbo(this, 305, 145, textureX, textureY); // Box 974
+		bodyModel[373] = new ModelRendererTurbo(this, 463, 424, textureX, textureY); // Box 373
+		bodyModel[374] = new ModelRendererTurbo(this, 438, 424, textureX, textureY); // Box 374
+		bodyModel[375] = new ModelRendererTurbo(this, 438, 438, textureX, textureY); // Box 375
+		bodyModel[376] = new ModelRendererTurbo(this, 463, 438, textureX, textureY); // Box 376
 
 		bodyModel[0].addShapeBox(0F, 0F, 0F, 177, 1, 20, 0F,0F, -0.99F, 0F, 0F, -0.99F, 0F, 0F, -0.99F, 0F, 0F, -0.99F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F); // Box 0
 		bodyModel[0].setRotationPoint(-88.5F, 3F, -10F);
@@ -1536,6 +1540,18 @@ public class OpenTriLevelAutorack extends ModelConverter //Same as Filename
 		bodyModel[372].addShapeBox(0F, 0F, 0F, 8, 7, 1, 0F,0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -0.75F, 0F, 0F, -0.75F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -0.75F, 0F, 0F, -0.75F); // Box 974
 		bodyModel[372].setRotationPoint(-45F, -18.5F, -11F);
 		bodyModel[372].rotateAngleY = 3.14159265F;
+
+		bodyModel[373].addShapeBox(0F, 0F, 0F, 16, 11, 1, 0F,0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -0.75F, 0F, 0F, -0.75F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -0.75F, 0F, 0F, -0.75F); // Box 373
+		bodyModel[373].setRotationPoint(61F, -8.5F, 11F);
+
+		bodyModel[374].addShapeBox(0F, 0F, 0F, 10, 10, 1, 0F,0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -0.75F, 0F, 0F, -0.75F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -0.75F, 0F, 0F, -0.75F); // Box 374
+		bodyModel[374].setRotationPoint(-34F, -19.5F, 11F);
+
+		bodyModel[375].addShapeBox(0F, 0F, 0F, 10, 10, 1, 0F,0F, 0F, -0.75F, 0F, 0F, -0.75F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -0.75F, 0F, 0F, -0.75F, 0F, 0F, 0F, 0F, 0F, 0F); // Box 375
+		bodyModel[375].setRotationPoint(24F, -19.5F, -12F);
+
+		bodyModel[376].addShapeBox(0F, 0F, 0F, 16, 11, 1, 0F,0F, 0F, -0.75F, 0F, 0F, -0.75F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -0.75F, 0F, 0F, -0.75F, 0F, 0F, 0F, 0F, 0F, 0F); // Box 376
+		bodyModel[376].setRotationPoint(-77F, -8.5F, -12F);
 	}
 
 	truck_70ton bogie = new truck_70ton();

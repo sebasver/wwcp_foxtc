@@ -576,11 +576,25 @@ public class Transport {
                 53000f, 1000f, 123.3f, 120f, false, true, 0);
     }
 
+    //RS10
+    public static LocomotiveNoBackspeed RS10() {
+        return new LocomotiveNoBackspeed("RS10", "CA", "1954-1984", "Diesel",
+                "", "", type, " Road Switcher",
+                50875f, 1600f, 124f, 120f, false, true, 0);
+    }
+
     //RS18
     public static LocomotiveNoBackspeed RS18() {
-        return new LocomotiveNoBackspeed("RS18", "Canada", "1956-1993", "Diesel",
+        return new LocomotiveNoBackspeed("RS18", "CA", "1956-1993", "Diesel",
                 "", "", type, " Road Switcher",
                 53000f, 1800f, 124f, 120f, false, true, 0);
+    }
+
+    //RS18C
+    public static LocomotiveNoBackspeed RS18C() {
+        return new LocomotiveNoBackspeed("RS18C", "CA", "1956-1993", "Diesel",
+                "", "", type, " Road Switcher",
+                53000f, 1800f, 120f, 120f, false, true, 0);
     }
 
     //Highliner
@@ -766,11 +780,25 @@ public class Transport {
                 79500f, 3000f, 197f, 105f, false, true, 0);
     }
 
+    //M630
+    public static LocomotiveNoBackspeed M630() {
+        return new LocomotiveNoBackspeed("M630", "CA", "1969-Present", "Diesel",
+                nick, "", type, " Road Diesel",
+                77100f, 3000f, 197f, 105f, false, true, 0);
+    }
+
     //M640
     public static LocomotiveNoBackspeed M640() {
         return new LocomotiveNoBackspeed("M640", "CA", "1971-1992", "Diesel",
                 nick, "", type, " Road Diesel",
                 93000f, 4000f, 198f, 105f, false, true, 0);
+    }
+
+    //C408W
+    public static LocomotiveNoBackspeed C408W() {
+        return new LocomotiveNoBackspeed("C408W", "US", "1989-Present", "Diesel",
+                nick, "", type, " Road Diesel",
+                108600, 4000f, 196f, 113f, false, true, 0);
     }
 
     //GP7
