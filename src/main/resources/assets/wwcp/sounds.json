@@ -182,5 +182,11 @@
   "br_horn": {"category": "master", "sounds": [{"name": "br_horn", "stream": true}]},
   "Class68Thrash": {"category": "master", "sounds" :  [{"name": "Class68Thrash", "stream": true}]},
   "Class88Horn": {"category": "master", "sounds" :  [{"name": "Class88Horn", "stream": true}]},
-  "GWRWhistle": {"category": "master", "sounds" :  [{"name": "GWRWhistle", "stream": true}]}
+  "GWRWhistle": {"category": "master", "sounds" :  [{"name": "GWRWhistle", "stream": true}]},
+  "DSBMH_WHISTLE":  {"category": "master", "sounds" :  [{"name": "DSBMH_Whistle", "stream": true}]},
+  "G322_Run_Idle":  {"category": "master", "sounds" :  [{"name": "G322_Run_Idle", "stream": true}]},
+  "G322_Run_Max":  {"category": "master", "sounds" :  [{"name": "G322_Run_Max", "stream": true}]},
+  "G322_Run_Mid":  {"category": "master", "sounds" :  [{"name": "G322_Run_Mid", "stream": true}]},
+  "G322Horn":  {"category": "master", "sounds" :  [{"name": "G322Horn", "stream": true}]},
+  "MzHorn":  {"category": "master", "sounds" :  [{"name": "MzHorn", "stream": true}]}
 }

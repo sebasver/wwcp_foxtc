@@ -18,6 +18,7 @@ import wwcp.common.creativetabs.CreativeTabEuropean;
 import wwcp.common.creativetabs.CreativeTabWWCP;
 import wwcp.common.library.AddonPackItems;
 import wwcp.common.library.Info;
+import wwcp.common.recipes.RecipeHandlerWWCP;
 import wwcp.common.recipes.RecipesRegisterDiesel;
 import wwcp.common.recipes.RecipesRegisterElectrics;
 import wwcp.common.recipes.RecipesRegisterRollingStock;
@@ -60,6 +61,7 @@ public class wwcp
     {
         addonLog.info("Initializing recipes...");
         new RecipeHandler();
+        new RecipeHandlerWWCP();
         new RecipesRegisterDiesel(TierRecipeManager.getInstance());
         new RecipesRegisterElectrics(TierRecipeManager.getInstance());
         new RecipesRegisterRollingStock(TierRecipeManager.getInstance());

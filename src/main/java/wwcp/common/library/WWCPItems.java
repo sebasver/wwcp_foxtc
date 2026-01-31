@@ -54,7 +54,7 @@ public enum WWCPItems
     VertAPacAutorack("item.VertAPac_Icon",train.common.library.TypeOfRollingStock.FREIGHT, "American"),
     Hbbins("IconHbbins",train.common.library.TypeOfRollingStock.FREIGHT, "European"),
     Habbiins_17("IconHabbins",train.common.library.TypeOfRollingStock.FREIGHT, "European"),
-
+    G322("IconG322_400b",train.common.library.TypeOfRollingStock.FREIGHT, "European"),
     //minecraftTemplateUntradeable("template-icon", STEAM)
     ;
 
@@ -107,15 +107,26 @@ public enum WWCPItems
         ItemName = itemName;
     }
 
-    public Item item;
-    public final String iconName;
-    public final TypeOfRollingStock TypeOfRollingStock;
-    public final String tabName;
+    WWCPItems(String classMethodName, String iconName, int amountForEmerald) {
+        this.className = classMethodName;
+        this.iconName = iconName;
+        this.amountForEmerald = amountForEmerald;
+    }
 
-    public final String ItemName;
+    public Item item;
+    public String iconName;
+    public TypeOfRollingStock TypeOfRollingStock;
+    public String tabName;
+    public String ItemName;
+    public String className;
+
 
     /**
-     * amount for emerald. For ItemRollingStock, it is the price for one train
+     * @param classMethodName
+     * @param iconName
+     * @param typeOfRollingStock IE: STEAM, DIESEL, AND ELECTRIC
+     * @param amountForEmerald for one emerald. For ItemRollingStock, it is the price for one train
      */
-    public byte amountForEmerald;
+
+    public int amountForEmerald;
 }

@@ -354,6 +354,7 @@ item.tc:minecartFreightWagon_DB	Freight Wagon DB	train.common.entity.rollingStoc
 item.tc:minecartFreightWellcar	Freight Well Car	train.common.entity.rollingStock.freight.EntityFreightWellcar	wellcar_
 item.tc:minecartWood	Freight Flat Cart Log	train.common.entity.rollingStock.freight.EntityFreightWood	wood_Full
 item.tc:minecartFreightWood2	Freight Flat Logs	train.common.entity.rollingStock.freight.EntityFreightWood2	flatCartWood2
+item.wwcp:G322	ClassMK	wwcp.common.entity.locomotives.diesels.EntityG322	G322
 item.wwcp:GP30	GP30	wwcp.common.entity.locomotives.diesels.EntityGP30	GP30
 item.wwcp:GP35	GP35	wwcp.common.entity.locomotives.diesels.EntityGP35	GP35
 item.tc:minecartGWRBrakeVan	GWR Toad Brake Van	train.common.entity.rollingStock.workcart.EntityGWRBrakeVan	GWRBrakeVan
