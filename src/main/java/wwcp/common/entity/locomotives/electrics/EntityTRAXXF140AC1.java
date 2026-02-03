@@ -61,7 +61,7 @@ public class EntityTRAXXF140AC1 extends ElectricTrain {
                         String texturePath = "";
                         switch (colorAsString.toLowerCase()) {
                             case "yellow":
-                                texturePath = "textures/locomotive/Electric/TraxxFamily/TraxxT1";
+                                texturePath = "textures/locomotive/Electric/TraxxFamily/F140AC1/TraxxT14";
                                 break;
                         }
                         texturePath += ".png";

@@ -9,8 +9,8 @@ import train.common.library.TypeOfRollingStock;
  */
 public enum WWCPCraftingItems
 {
-    DBComponent("ItemDB", "item.BR145", 1),
-    DBBogies("ItemDBBogies","DefaultNormal", 1)
+    DBComponent("ItemDB", "DBIconCrafting", 1),
+    DBBogies("ItemDBBogies","TraxxBogie", 1)
     ;
 
     WWCPCraftingItems(String classMethodName, String iconName, int amountForEmerald) {

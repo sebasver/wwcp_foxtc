@@ -1,22 +1,27 @@
-package wwcp.common.entity.locomotives.tenders;
+package wwcp.common.entity.locomotives.electrics;
 
 import net.minecraft.entity.item.EntityMinecart;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
-import net.minecraftforge.fluids.FluidRegistry;
 import train.client.render.register.TrainRenderRecord;
 import train.common.Traincraft;
-import train.common.api.LiquidManager;
-import train.common.api.Tender;
-import wwcp.client.render.rollingstock.tenders.ChristmasTenderT32;
+import train.common.api.ElectricTrain;
+import train.common.core.util.TraincraftUtil;
+import train.common.library.EnumSounds;
+import train.common.library.sounds.SoundRecord;
+import wwcp.client.render.rollingstock.locomotives.electrics.ES64U2;
+import wwcp.client.render.rollingstock.locomotives.electrics.Traxx.TraxxSecondGen;
 import wwcp.common.core.handler.Transport;
-import wwcp.common.core.handler.WWCPEntityHandler;
 
-public class EntityT32ChristmasTender extends Tender {
+public class EntityES64U2 extends ElectricTrain {
 
-    public EntityT32ChristmasTender(World world) {
-        super(world, LiquidManager.WATER_FILTER);
-        InsertTexture(0, "T32 Christmas Tender");
+    public EntityES64U2(World world) {
+        super(world);    
+        InsertTexture(0, "ES64U2");
+    }
+    
+    public void updateRiderPosition() {
+        TraincraftUtil.updateRider(this, 6.2f, 0.1f, -0.2f);
     }
 
     public float getOptimalDistance(EntityMinecart cart) {
@@ -25,38 +30,38 @@ public class EntityT32ChristmasTender extends Tender {
 
     @Override
     public String transportCountry() {
-        return Transport.T32TenderChristmas().country;
+        return Transport.ES64U2().country;
     }
 
     @Override
     public String transportYear() {
-        return Transport.T32TenderChristmas().year;
+        return Transport.ES64U2().year;
     }
 
     public String getInventoryName() {
-        return Transport.T32TenderChristmas().name;
+        return Transport.ES64U2().name;
     }
 
     @Override
     public boolean isFictional() {
-        return Transport.T32TenderChristmas().fictional;
+        return Transport.ES64U2().fictional;
     }
 
     @Override
     public void onRenderInsertRecord() {
         Traincraft.traincraftRegistry.RegisterRollingStockModel(
                 new TrainRenderRecord(wwcp.common.library.Info.modID,
-                        EntityT32ChristmasTender.class, new ChristmasTenderT32(),
-                        "ChristmasTenderT32",
-                        new float[]{-0.50f, 0.15F, 0.0F},
+                        EntityES64U2.class, new ES64U2(),
+                        "ES64U2",
+                        new float[]{-2.5f, 0.15F, 0.0F},
                         new float[]{0F, 180F, 180F},
                         null) {
                     @Override
                     public ResourceLocation getTextureFile(String colorAsString) {
                         String texturePath = "";
                         switch (colorAsString.toLowerCase()) {
-                            case "yellow":
-                                texturePath = "textures/passengerstock/ChristmasStock/ChristmasT32";
+                            case "black":
+                                texturePath = "textures/locomotive/Electric/Taurus/TaurusU2OBB";
                                 break;
                         }
                         texturePath += ".png";
@@ -64,5 +69,10 @@ public class EntityT32ChristmasTender extends Tender {
                         return new ResourceLocation(wwcp.common.library.Info.modID, texturePath);
                     }
                 });
+    }
+
+    @Override
+    public SoundRecord getSoundRecord() {
+        return EnumSounds.locoElectricBR185;
     }
 }

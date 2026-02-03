@@ -307,6 +307,7 @@ item.wwcp:EP2	EP2	wwcp.common.entity.locomotives.electrics.EntityEP2	EP2
 item.wwcp:EP2_Center	EP2_Center	wwcp.common.entity.freight.EntityEP2_Center	EntityEP2_Center
 item.wwcp:EP3	EP3	wwcp.common.entity.locomotives.electrics.EntityEP3	EP3
 item.wwcp:ES2	ES2	wwcp.common.entity.locomotives.electrics.EntityES2	ES2
+item.wwcp:ES64U2	ES64U2	wwcp.common.entity.locomotives.electrics.EntityES64U2	ES64U2
 item.wwcp:EurofimaCompartment1_2	EurofimaCompartments1_2	wwcp.common.entity.passenger.Eurofima.EntityEurofima1st2ndClassCompartment	Eurofima1_2_Compartment
 item.wwcp:EurofimaOpen1	Eurofima Open 1	wwcp.common.entity.passenger.Eurofima.EntityEurofima1stClass	Eurofima1stClass
 item.wwcp:EurofimaCompartment1	EurofimaCompartments1	wwcp.common.entity.passenger.Eurofima.EntityEurofima1stClassCompartment	Eurofima1stClassCompartment
@@ -476,6 +477,7 @@ item.tc:minecartStockCar	Stock Cart	train.common.entity.rollingStock.EntityStock
 item.tc:minecartDRWGStockCar	DRWG Stock Cart	train.common.entity.rollingStock.EntityStockCarDRWG	drwgstockcar
 item.wwcp:T32TenderChristmas	T32TenderChristmas	wwcp.common.entity.locomotives.tenders.EntityT32ChristmasTender	ChristmasTenderT32
 item.wwcp:F140AC1	F140AC1	wwcp.common.entity.locomotives.electrics.EntityTRAXXF140AC1	F140AC1
+item.wwcp:TraxxF140MS2	F140MS2E	wwcp.common.entity.locomotives.electrics.EntityTRAXXF140MS2	F140MS2
 item.tc:minecartWatertransp	Tank Lava	train.common.entity.rollingStock.tanker.EntityTankLava	lavacar_
 item.tc:minecartTankWagon	Tank Wagon Yellow	train.common.entity.rollingStock.tanker.EntityTankWagon	tankwagon
 item.tc:minecartTankWagon2	Tank Wagon Grey	train.common.entity.rollingStock.tanker.EntityTankWagon2	tankwagon2_
@@ -547,6 +549,7 @@ item.tc:minecartMILW1935_44SeatCoach_Observation	MILW 1935 44 Seat Coach Observa
 item.tc:minecartMILW1935_48SeatCoach	MILW 1935 48 Seat Coach	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.MILW1935_48SeatCoach	MILW1935_48SeatCoach_
 item.tc:minecartMILW40boxcar	MILW40boxcar	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.MILW40boxcar	milw40_
 item.tc:minecartMILWPrewarBaggage	MILW Prewar Baggage	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.baggagecar.MILWPrewarBaggage	MILW_prewar_baggage_
+item.tc:minecartMON_lightweightCoach	Monon 21 Series Lightweight Coach	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.MON_LightweightCoach	MON_LightweightCoach_
 item.tc:minecartMaPa35FootFlatcar	MaPa_35Flatcar	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.MaPa35FootFlat	MaPa_35flat_
 item.tc:minecartMaPa35FootGondola	MaPa_35Gondola	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.MaPa35FootGondola	MaPa_35gondola_
 item.tc:minecartMillGondola	52footMillGondola	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.MillGondola	MillGondola_

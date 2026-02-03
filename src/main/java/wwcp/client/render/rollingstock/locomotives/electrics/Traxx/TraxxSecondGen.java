@@ -9,8 +9,14 @@
 
 package wwcp.client.render.rollingstock.locomotives.electrics.Traxx; //Path where the model is located
 
+import net.minecraft.entity.Entity;
+import net.minecraft.util.ResourceLocation;
+import org.lwjgl.opengl.GL11;
 import tmt.ModelConverter;
 import tmt.ModelRendererTurbo;
+import tmt.Tessellator;
+import wwcp.client.render.rollingstock.bogies.EUBogies.flexxpower;
+import wwcp.common.library.Info;
 
 public class TraxxSecondGen extends ModelConverter //Same as Filename
 {
@@ -2186,5 +2192,22 @@ public class TraxxSecondGen extends ModelConverter //Same as Filename
 
 		bodyModel[523].addShapeBox(0F, 0F, 0F, 3, 1, 1, 0F,0F, 0F, -0.75F, -0.5F, 0F, 0F, -0.5F, 0F, -0.65F, 0F, 0F, 0.2F, 0F, 0F, -0.75F, -0.5F, 0F, 0F, -0.5F, 0F, -0.65F, 0F, 0F, 0.2F); // Box 523
 		bodyModel[523].setRotationPoint(68.5F, 0F, 9F);
+	}
+
+
+	flexxpower bogie = new flexxpower();
+
+	@Override
+	public void render(Entity entity, float f, float f1, float f2, float f3, float f4, float f5) {
+		super.render(entity, f, f1, f2, f3, f4, f5);
+		Tessellator.bindTexture(new ResourceLocation(Info.modID, "textures/bogies/Flexxpower.png"));
+		GL11.glPushMatrix();
+		GL11.glTranslatef(2.55f,0f,0);
+		bogie.render(entity, f, f1, f2, f3, f4, f5);
+		GL11.glPopMatrix();
+		GL11.glPushMatrix();
+		GL11.glTranslatef(-2.45f,0f,0);
+		bogie.render(entity, f, f1, f2, f3, f4, f5);
+		GL11.glPopMatrix();
 	}
 }

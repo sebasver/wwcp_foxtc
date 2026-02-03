@@ -1257,7 +1257,7 @@ public class Transport {
     //T32 Christmas Tender
     public static Rollingstock T32TenderChristmas() {
         return new Rollingstock("T322'2'Christmas", "Germany", "1926-1982", "",
-                "", type, " Tender", 17.5f, 0f, false, true, 0);
+                "", type, " Tender", 17.5f, 140f, false, true, 1);
     }
 
     /**
@@ -1308,8 +1308,8 @@ public class Transport {
 
     //SSB Re 484 / F 140MS2
     public static LocomotiveNoBackspeed F140MS2() {
-        return new LocomotiveNoBackspeed("F140MS2E", "Switzerland", "2004-", "Electric",
-                aditional, " SSB Re 484", type, " Freight Locomotive",
+        return new LocomotiveNoBackspeed("F140MS2E", "Europe", "2004-", "Electric",
+                aditional, "", type, " Freight Locomotive",
                 67000f, 7500f, 85.0f, 140f, false, true, 0);
     }
 

@@ -33,7 +33,7 @@ configFile.withReader {
 }
 
 
-version = "1.0.0"
+version = "1.2.0"
 group= "src.trainaddon" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "wwcp"
 

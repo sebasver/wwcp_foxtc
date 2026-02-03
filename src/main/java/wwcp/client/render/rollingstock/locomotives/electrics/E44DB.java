@@ -9,8 +9,18 @@
 
 package wwcp.client.render.rollingstock.locomotives.electrics; //Path where the model is located
 
+import net.minecraft.entity.Entity;
+import net.minecraft.util.ResourceLocation;
+import org.lwjgl.opengl.GL11;
 import tmt.ModelConverter;
 import tmt.ModelRendererTurbo;
+import tmt.Tessellator;
+import train.client.renderhelper.ModelRenderHelper;
+import wwcp.client.render.rollingstock.bogies.GermanBRBogies.BR01BackBogie;
+import wwcp.client.render.rollingstock.bogies.GermanBRBogies.BR01FrontBogie;
+import wwcp.client.render.rollingstock.bogies.GermanBRBogies.E44BogieBack;
+import wwcp.client.render.rollingstock.bogies.GermanBRBogies.E44BogieFront;
+import wwcp.common.library.Info;
 
 public class E44DB extends ModelConverter //Same as Filename
 {
@@ -1457,5 +1467,26 @@ public class E44DB extends ModelConverter //Same as Filename
 
 		bodyModel[355].addShapeBox(0F, 0F, 0F, 1, 1, 1, 0F,0F, 0F, 0F, 0F, 0F, 0F, 0F, -1F, 0F, 0F, -1F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F); // Box 355
 		bodyModel[355].setRotationPoint(26.5F, -19F, 9F);
+	}
+
+
+	E44BogieFront frontBogie = new E44BogieFront();
+	E44BogieBack backBogie = new E44BogieBack();
+
+	@Override
+	public void render(Entity entity, float f, float f1, float f2, float f3, float f4, float f5) {
+		ModelRenderHelper.renderModelWithRollingStockLightControls(bodyModel, entity, f5);
+
+		Tessellator.bindTexture(new ResourceLocation(Info.modID, "textures/bogies/EUBogies/E44/BogiesBlack.png"));
+		GL11.glPushMatrix();
+		GL11.glTranslatef(2.75f,0f,0);
+		backBogie.render(entity, f, f1, f2, f3, f4, f5);
+		GL11.glPopMatrix();
+
+		Tessellator.bindTexture(new ResourceLocation(Info.modID, "textures/bogies/EUBogies/E44/BogiesBlack.png"));
+		GL11.glPushMatrix();
+		GL11.glTranslatef(-2.58f,0f,0);
+		frontBogie.render(entity, f, f1, f2, f3, f4, f5);
+		GL11.glPopMatrix();
 	}
 }

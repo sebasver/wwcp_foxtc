@@ -54,6 +54,7 @@ menu.item.wwcp:tanker=Tanker
 menu.item.wwcp:tender=Tender
 menu.item.germany=Germany
 menu.item.europe=Europe
+menu.item.denmark=Denmark
 
 train.owner.name=You are not the owner!
 train.locked.name=Locked
@@ -72,6 +73,7 @@ tile.tctramsinmotion:LFPlatformFenced.name=LF Platform Fenced
 
 <!-- ## Trains ## -->
 <!-- ## These are actually defined from the item name, so one name covers all areas § ## -->
+item.wwcp:ChristmasBR01.name=BR01 (Christmas)
 item.wwcp:TraxxF140MS2E.name=F140 MS2E
 item.wwcp:DRGBR01.name=DRG BR 01
 item.wwcp:DRBR01.name=DR BR 01
@@ -240,6 +242,7 @@ item.wwcp:B408.name=B40-8
 item.wwcp:C408W.name=C40-8W
 
 item.wwcp:MK5000C.name=MK5000C
+item.wwcp:G322.name=G322
 
 item.wwcp:AC4400CW.name=AC4400CW
 
@@ -380,8 +383,16 @@ item.wwcp:EurofimaGettingPaint.name=Eurofima undergoing painting
 item.wwcp:EurofimaInteriorFitting.name=Eurofima last construction stage
 item.wwcp:EurofimaAssemblingBase.name=Eurofima second construction stage
 item.wwcp:GS.name=GS Wagon
-
-
+item.wwcp:ItemDB.name=DB Component
+item.wwcp:ItemDBBogies.name=DB Electric Bogies
+entity.wwcp.Habbiins_17.name=Habiins 17
+item.wwcp:RheingoldSpeise1Christmas.name=Rheingold Speise 1st Class (Christmas)
+item.wwcp:RheingoldSpeise2Christmas.name=Rheingold Speise 2nd Class (Christmas)
+item.wwcp:RheingoldSalon1Christmas.name=Rheingold Salon 1st Class (Christmas)
+item.wwcp:RheingoldSalon2Christmas.name=Rheingold Salon 2nd Class (Christmas)
+item.wwcp:EurofimaCompartment1_2.name=Eurofima Compartment 1st & 2nd Class
+item.wwcp:EurofimaCompartment1.name=Eurofima Compartment 1st Class
+item.wwcp:TraxxF140MS2.name=F140 MS2
 <!-- ## Railbusses ## -->
 item.wwcp:BR626.name=BR 626
 item.wwcp:BR798Advertising.name=BR 798 Advertising
@@ -404,6 +415,7 @@ T322'2'.name=T32 2'2'
 item.wwcp:T322'2'Christmas.name=T32 2'2' Christmas
 item.wwcp:Class812Tender.name=Class 812 Tender
 item.wwcp:VanderBuilt.name=CNR Vanderbuilt Tender
+item.wwcp:T32TenderChristmas.name=T32 2'2' (Christmas)
 
 <!-- ## Blocks ## --!>
 tile.wwcp.blockBorderPlatform.name=Boarding Platform
