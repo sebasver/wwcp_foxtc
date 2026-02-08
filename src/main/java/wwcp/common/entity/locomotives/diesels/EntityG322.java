@@ -39,7 +39,7 @@ public class EntityG322 extends DieselTrain
     }
 
     public float getOptimalDistance(EntityMinecart cart) {
-        return 1.3F;
+        return 1.25F;
     }
 
     @Override
@@ -78,7 +78,7 @@ public class EntityG322 extends DieselTrain
                         "smoke",
                         new ArrayList<double[]>() {
                             {
-                                add(new double[]{1D, 1.5D, -0.3D});
+                                add(new double[]{1D, 1.5D, -0.25D});
                             }},
                         "", null, 10, 2)
                 {
@@ -89,13 +89,13 @@ public class EntityG322 extends DieselTrain
                         switch (colorAsString.toLowerCase())
                         {
                             case "black":
-                                texturePath = "textures/locomotive/Diesel/G322-400B/MKDBRed.png";
+                                texturePath = "textures/locomotive/Diesel/G322-400B/MKYellowDSB.png";
                                 break;
                             case "red":
                                 texturePath = "textures/locomotive/Diesel/G322-400B/MKYellowDB.png";
                                 break;
                             case "green":
-                                texturePath = "textures/locomotive/Diesel/G322-400B/MKYellowDSB.png";
+                                texturePath = "textures/locomotive/Diesel/G322-400B/MKDBRed.png";
                                 break;
                             case "brown":
                                 texturePath = "textures/locomotive/Diesel/G322-400B/MKYellowDSB625.png";
