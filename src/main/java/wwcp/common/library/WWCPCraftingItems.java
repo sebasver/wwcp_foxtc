@@ -14,7 +14,10 @@ public enum WWCPCraftingItems
     TraxxComponent("TRAXXComponent", "partTRAXX",1),
     EurofimaBogie("EurofimaBogie","EurofimaBogie",1),
     LeatherSeats("LeatherSeats","LeatherSeats",1),
-    clothSeats("ClothSeats","ClothSeats",1)
+    clothSeats("ClothSeats","ClothSeats",1),
+    SGGNSBogie("SGGNSBogie","SGGNSBogie",1),
+    OBBComponent("OBBComponent","OBBComponent",1);
+
     ;
 
     WWCPCraftingItems(String classMethodName, String iconName, int amountForEmerald) {

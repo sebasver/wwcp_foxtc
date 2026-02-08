@@ -489,7 +489,7 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.Habbiins_17.item,
                         new TrainRecord(WWCPItems.Habbiins_17.name(), EntityHabbiins17.class, WWCPItems.Habbiins_17.item,
                                 Transport.Habbiins_17().additionalText2, Transport.Habbiins_17().weightinKGs,
-                                new String[] {"Black","Red","Green","Brown","Blue"}, 5, 63, 0, 0,
+                                new String[] {"Black","Red","Green","Brown","Blue"}, 5, 54, 0, 0,
                                 0, 0, 0,
                                 0, 0, 0),
                         Instance()

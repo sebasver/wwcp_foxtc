@@ -48,6 +48,19 @@ public class RecipesRegisterElectrics extends AbstractRecipeHandler {
                         new ItemStack(ItemIDs.controls.item, 1), new ItemStack(ItemIDs.transformer.item, 2), new ItemStack(ItemIDs.copperWireFine.item, 3),
                         new ItemStack(ItemIDs.ironBogie.item, 4), new ItemStack(ItemIDs.steelframe.item, 1), new ItemStack(itemSteel, 4, itemDamageSteel), new ItemStack(WWCPItems.SLRV.item), 1);
             }
+
+            betterAddRecipe(3, new ItemStack(ItemIDs.steelcab.item, 1), //BR103
+                    new ItemStack(ItemIDs.pantograph.item, 1),
+                    new ItemStack(WWCPCraftingItems.DBComponent.item, 1),
+                    null,
+                    new ItemStack(ItemIDs.controls.item, 1),
+                    new ItemStack(ItemIDs.transformer.item, 2),
+                    new ItemStack(ItemIDs.copperWireFine.item, 2),
+                    new ItemStack(WWCPCraftingItems.DBBogies.item, 2),
+                    new ItemStack(ItemIDs.steelframe.item, 1),
+                    new ItemStack(itemSteel, 4, itemDamageSteel),
+                    new ItemStack(WWCPItems.BR103.item), 1);
+
             betterAddRecipe(3, new ItemStack(ItemIDs.steelcab.item, 1), //BR145
                     new ItemStack(ItemIDs.pantograph.item, 1),
                     new ItemStack(WWCPCraftingItems.DBComponent.item, 1),
@@ -60,8 +73,43 @@ public class RecipesRegisterElectrics extends AbstractRecipeHandler {
                     new ItemStack(itemSteel, 4, itemDamageSteel),
                     new ItemStack(WWCPItems.BR145.item), 1);
 
-        }
+            betterAddRecipe(3, new ItemStack(ItemIDs.steelcab.item, 1), //TRAXXF140AC1
+                    new ItemStack(ItemIDs.pantograph.item, 1),
+                    new ItemStack(WWCPCraftingItems.TraxxComponent.item, 1),
+                    null,
+                    new ItemStack(ItemIDs.controls.item, 1),
+                    new ItemStack(ItemIDs.transformer.item, 2),
+                    new ItemStack(ItemIDs.copperWireFine.item, 3),
+                    new ItemStack(ItemIDs.bogie.item, 2),
+                    new ItemStack(ItemIDs.steelframe.item, 1),
+                    new ItemStack(itemSteel, 4, itemDamageSteel),
+                    new ItemStack(WWCPItems.F140AC1.item), 1);
 
+            betterAddRecipe(3, new ItemStack(ItemIDs.steelcab.item, 1), //TRAXXF140MS2
+                    new ItemStack(ItemIDs.pantograph.item, 2),
+                    new ItemStack(WWCPCraftingItems.TraxxComponent.item, 1),
+                    null,
+                    new ItemStack(ItemIDs.controls.item, 1),
+                    new ItemStack(ItemIDs.transformer.item, 2),
+                    new ItemStack(ItemIDs.copperWireFine.item, 3),
+                    new ItemStack(ItemIDs.bogie.item, 2),
+                    new ItemStack(ItemIDs.steelframe.item, 1),
+                    new ItemStack(itemSteel, 4, itemDamageSteel),
+                    new ItemStack(WWCPItems.TraxxF140MS2.item), 1);
+
+            betterAddRecipe(3, new ItemStack(ItemIDs.steelcab.item, 1), //Taurus ES64U2
+                    new ItemStack(ItemIDs.pantograph.item, 1),
+                    new ItemStack(WWCPCraftingItems.OBBComponent.item, 1),
+                    null,
+                    new ItemStack(ItemIDs.controls.item, 1),
+                    new ItemStack(ItemIDs.transformer.item, 2),
+                    new ItemStack(ItemIDs.copperWireFine.item, 3),
+                    new ItemStack(ItemIDs.bogie.item, 2),
+                    new ItemStack(ItemIDs.steelframe.item, 1),
+                    new ItemStack(itemSteel, 4, itemDamageSteel),
+                    new ItemStack(WWCPItems.ES64U2.item), 1);
+
+        }
     }
 
     public static void betterAddRecipe(int tier, ItemStack top1, ItemStack top2,
