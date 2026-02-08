@@ -21,7 +21,7 @@ public class G322 extends ModelConverter //Same as Filename
 
 	public G322() //Same as Filename
 	{
-		bodyModel = new ModelRendererTurbo[319];
+		bodyModel = new ModelRendererTurbo[321];
 
 		initbodyModel_1();
 
@@ -60,8 +60,8 @@ public class G322 extends ModelConverter //Same as Filename
 		bodyModel[24] = new ModelRendererTurbo(this, 161, 26, textureX, textureY); // Import Box26
 		bodyModel[25] = new ModelRendererTurbo(this, 450, 88, textureX, textureY); // Import Box27
 		bodyModel[26] = new ModelRendererTurbo(this, 417, 88, textureX, textureY); // Import Box28
-		bodyModel[27] = new ModelRendererTurbo(this, 193, 25, textureX, textureY); // Import Box29
-		bodyModel[28] = new ModelRendererTurbo(this, 337, 25, textureX, textureY); // Import Box30
+		bodyModel[27] = new ModelRendererTurbo(this, 193, 26, textureX, textureY); // Import Box29
+		bodyModel[28] = new ModelRendererTurbo(this, 337, 26, textureX, textureY); // Import Box30
 		bodyModel[29] = new ModelRendererTurbo(this, 377, 25, textureX, textureY); // Import Box31
 		bodyModel[30] = new ModelRendererTurbo(this, 1, 33, textureX, textureY); // Import Box32
 		bodyModel[31] = new ModelRendererTurbo(this, 1, 115, textureX, textureY); // Import Box33
@@ -352,6 +352,8 @@ public class G322 extends ModelConverter //Same as Filename
 		bodyModel[316] = new ModelRendererTurbo(this, 158, 119, textureX, textureY); // Import G400BControlTopFront
 		bodyModel[317] = new ModelRendererTurbo(this, 155, 90, textureX, textureY); // Import G322ControlTopFront
 		bodyModel[318] = new ModelRendererTurbo(this, 173, 121, textureX, textureY); // Import G400BControlTopFront
+		bodyModel[319] = new ModelRendererTurbo(this, 106, 150, textureX, textureY); // Import ControlBoard
+		bodyModel[320] = new ModelRendererTurbo(this, 106, 150, textureX, textureY); // Import ControlBoard
 
 		bodyModel[0].addBox(0F, 0F, 0F, 42, 2, 22, 0F); // Import Box0
 		bodyModel[0].setRotationPoint(-21F, 0F, -11F);
@@ -1315,5 +1317,11 @@ public class G322 extends ModelConverter //Same as Filename
 
 		bodyModel[318].addShapeBox(0F, 0F, 0F, 1, 2, 1, 0F,0F, 0F, 0F, -1F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -1F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F); // Import G400BControlTopFront
 		bodyModel[318].setRotationPoint(6F, -15F, 2F);
+
+		bodyModel[319].addShapeBox(0F, 0F, 0F, 1, 0, 4, 0F,0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F); // Import ControlBoard
+		bodyModel[319].setRotationPoint(3F, -10F, -10F);
+
+		bodyModel[320].addShapeBox(0F, 0F, 0F, 1, 0, 4, 0F,0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F); // Import ControlBoard
+		bodyModel[320].setRotationPoint(15.5F, -10F, 6F);
 	}
 }
