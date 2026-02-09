@@ -445,9 +445,9 @@ public class Transport {
 
     //E94
     public static LocomotiveNoBackspeed BR103() {
-        return new LocomotiveNoBackspeed("BR103", "Germany", "1940-1995", "Electric",
+        return new LocomotiveNoBackspeed("BR103", "Germany", "1970-2003", "Electric",
                 nick, "", type, " Passenger Locomotive",
-                40000.0f, 4429.0f, 118.5f, 100f, false, true, 0);
+                70000f, 9980f, 114f, 200f, false, true, 0);
     }
 
     public static LocomotiveNoBackspeed ES64U2() {

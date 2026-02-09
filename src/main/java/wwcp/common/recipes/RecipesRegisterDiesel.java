@@ -6,6 +6,7 @@ import train.common.api.crafting.ITierCraftingManager;
 import train.common.core.handlers.AbstractRecipeHandler;
 import train.common.core.managers.TierRecipeManager;
 import train.common.library.ItemIDs;
+import wwcp.common.library.WWCPCraftingItems;
 import wwcp.common.library.WWCPItems;
 
 import java.util.Iterator;
@@ -111,6 +112,30 @@ public class RecipesRegisterDiesel extends AbstractRecipeHandler
             }
         }
 
+            betterAddRecipe(3, new ItemStack(ItemIDs.controls.item, 1), //G322
+                    null,
+                    new ItemStack(ItemIDs.steelframe.item, 2),
+                    null,
+                    null,
+                    new ItemStack(ItemIDs.transmition.item, 2),
+                    new ItemStack(ItemIDs.dieselengine.item, 3),
+                    new ItemStack(ItemIDs.bogie.item, 2),
+                    new ItemStack(ItemIDs.steelframe.item, 1),
+                    new ItemStack(itemSteel, 2, itemDamageSteel),
+                    new ItemStack(WWCPItems.G322.item), 1);
+
+            betterAddRecipe(3, new ItemStack(ItemIDs.controls.item, 1), //Shopshunter
+                    new ItemStack(ItemIDs.partTurboExhaust.item,1),
+                    new ItemStack(ItemIDs.steelframe.item, 2),
+                    null,
+                    null,
+                    new ItemStack(ItemIDs.transmition.item, 2),
+                    new ItemStack(ItemIDs.dieselengine.item, 3),
+                    new ItemStack(ItemIDs.bogie.item, 2),
+                    new ItemStack(ItemIDs.steelframe.item, 1),
+                    new ItemStack(itemSteel, 2, itemDamageSteel),
+                    new ItemStack(WWCPItems.WWCPShopShunter.item), 1);
+        }
     }
 
     public static void betterAddRecipe(int tier, ItemStack top1, ItemStack top2,

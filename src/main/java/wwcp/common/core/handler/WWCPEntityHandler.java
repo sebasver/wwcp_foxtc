@@ -256,11 +256,20 @@ public class WWCPEntityHandler
                                 Transport.ClassMK().additionalText2, Transport.ClassMK().weightinKGs,
                                 new String[] {"Black","Red","Green","Brown","Blue","White","Lime","Magenta","LightGrey","Grey","Pink"},
                                 5, 2, 0.95, (int)Transport.ClassMK().topSpeed,
-                                (int)Transport.ClassMK().metric_horsepower, 40, 0,
-                                0.95, -2, 10000),
+                                (int)Transport.ClassMK().metric_horsepower, 20, 0,
+                                0.95, -2, 1000),
                         Instance()
                 );
-
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.MZIV.item,
+                        new TrainRecord(Transport.MZIV().name, EntityMZIV.class, WWCPItems.MZIV.item,
+                                Transport.MZIV().additionalText2, Transport.MZIV().weightinKGs,
+                                new String[] {"Black","Red","Green","Brown","Magenta","Blue"},
+                                5, 2, 1.25, (int)Transport.MZIV().topSpeed,
+                                (int)Transport.MZIV().metric_horsepower, 60, 0,
+                                0.65, -5.5, 10000),
+                        Instance()
+                );
 
         /**
          * ELECTRIC LOCOMOTIVES
@@ -519,7 +528,7 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.Habbiins_17.item,
                         new TrainRecord(WWCPItems.Habbiins_17.name(), EntityHabbiins17.class, WWCPItems.Habbiins_17.item,
                                 Transport.Habbiins_17().additionalText2, Transport.Habbiins_17().weightinKGs,
-                                new String[] {"Black","Red","Green","Brown","Blue"}, 5, 63, 0, 0,
+                                new String[] {"Black","Red","Green","Brown","Blue"}, 5, 54, 0, 0,
                                 0, 0, 0,
                                 0, 0, 0),
                         Instance()

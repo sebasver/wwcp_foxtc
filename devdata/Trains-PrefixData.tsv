@@ -143,7 +143,9 @@ item.tc:minecart25Ton	GE 25-ton	com.jcirmodelsquad.tcjcir.vehicles.locomotives.d
 item.tc:minecart44Ton	GE 44-ton	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGE44Ton	44_ton_
 item.tc:minecartGP13	GP13	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP13	gp13_
 item.tc:minecartGP15	GP15	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP15	gp15_
+item.tc:minecartGP15T	GP15T	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP15T	gp15t_
 item.tc:minecartGP18	GP18	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP18	gp18_
+item.tc:minecartGP20	GP20	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP20	gp20_
 item.tc:minecartGP30	GP30	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP30	gp30_
 item.tc:minecartGP35	GP35	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP35	gp35_
 item.tc:minecartGP38	GP38	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP38	gp38_
@@ -433,6 +435,7 @@ item.tc:minecartLocoUSATCUS	Loco Steam USATCUS	train.common.entity.rollingStock.
 item.tc:minecartLocoSteamVBShay	Loco Steam VB Shay	train.common.entity.rollingStock.steam.EntityLocoSteamVBShay	vbshay
 item.wwcp:M630	M630	wwcp.common.entity.locomotives.diesels.EntityM630	M630
 item.wwcp:M640	M640	wwcp.common.entity.locomotives.diesels.EntityM640	M640
+item.wwcp:MZIV	MZIV	wwcp.common.entity.locomotives.diesels.EntityMZIV	DSB MZ IV
 item.tc:minecartMailWagon_DB	Mail Wagon DB	train.common.entity.rollingStock.workcart.EntityMailWagen_DB	mailWagen_DB
 item.wwcp:OpenTriLevelAutorack	OpenTriLevelAutorack	wwcp.common.entity.freight.EntityOpenTriLevelAutorack	OpenTriLevelAutorack
 item.wwcp:PS2Early3Bay	PS2Early3Bay	wwcp.common.entity.freight.EntityPS2Early3Bay	PS2Early3Bay
@@ -652,6 +655,7 @@ item.tc:minecartRoundHopper	Freight Round Covered Hopper	com.jcirmodelsquad.tcjc
 item.tc:minecartSBMS	SBMS	com.jcirmodelsquad.tcjcir.vehicles.locomotives.SBMS	SBMS_
 item.tc:minecartSMSC1	SMSC1	com.jcirmodelsquad.tcjcir.vehicles.locomotives.SMSC1	SMSC1_
 item.tc:minecartSP_B50	SP_B50	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.SP_B50	sp_b_50_
+item.tc:minecartSP_B50_AAR	SP_B50_AAR	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.SP_B50_AAR	sp_b_50_28_
 item.tc:minecartSkeletonLogCar	Skeleton	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.SkeletonLogCar	SkeletonLogCar_
 item.tc:minecartSlugMA	SlugMA	com.jcirmodelsquad.tcjcir.vehicles.locomotives.SlugMA	SMA_
 item.tc:minecartStampedeRack	StampedeRack	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.misc.StampedeRack	cswr_stampederack_

@@ -460,4 +460,6 @@ item.wwcp:LeatherSeats.name=Leather Seats
 item.wwcp:ClothSeats.name=Cloth Seats
 item.wwcp:ItemDB.name=DB Component
 item.wwcp:ItemDBBogies.name=DB Electric Bogies
+item.wwcp:SGGNSBogie.name=SGGNS Bogie
+item.wwcp:OBBComponent.name=OBB Component
 <!-- ## Extra types ## -->

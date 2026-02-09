@@ -78,13 +78,28 @@ public class RecipeHandlerWWCP extends AbstractRecipeHandler {
                             'S', steelItem,
                             'M', new ItemStack(ItemIDs.electmotor.item),
                             'C', redstoneItem);
+
+                    for (ItemStack whiteDye : dyeWhite){
+                        TrainCraftingManager.instance.addRecipe(new ItemStack(WWCPCraftingItems.OBBComponent.item, 2),
+                                " C ", "CRC", " C ",
+                                'R', whiteDye,
+                                'C', dyeRedItem);
+                    }
                 }
                 for (ItemStack cyanItem : dyeCyan){
                     TrainCraftingManager.instance.addRecipe(new ItemStack(WWCPCraftingItems.TraxxComponent.item, 2),
                             " C ", "CRC", " C ",
                             'R', redstoneItem,
                             'C', cyanItem);
+
+                    TrainCraftingManager.instance.addRecipe(new ItemStack(WWCPCraftingItems.DBBogies.item, 2),
+                            "MCM", "S S", "W W",
+                            'W', new ItemStack(ItemIDs.bogie.item),
+                            'S', steelItem,
+                            'M', new ItemStack(ItemIDs.electmotor.item),
+                            'C', redstoneItem);
                 }
+
             }
             for (ItemStack orangeItem : dyeOrange){
                 TrainCraftingManager.instance.addRecipe(new ItemStack(WWCPCraftingItems.EurofimaBogie.item, 2),
@@ -92,6 +107,14 @@ public class RecipeHandlerWWCP extends AbstractRecipeHandler {
                         'A', new ItemStack(ItemIDs.bogie.item),
                         'S', steelItem,
                         'B', orangeItem);
+            }
+
+            for (ItemStack cyanItem : dyeCyan){
+                TrainCraftingManager.instance.addRecipe(new ItemStack(WWCPCraftingItems.SGGNSBogie.item, 2),
+                        " C ", "SSS", "W W",
+                        'W', new ItemStack(ItemIDs.bogie.item),
+                        'S', steelItem,
+                        'C', cyanItem);
             }
 
         }

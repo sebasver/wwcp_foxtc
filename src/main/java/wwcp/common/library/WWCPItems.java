@@ -60,6 +60,7 @@ public enum WWCPItems
     G322("IconG322_400b",train.common.library.TypeOfRollingStock.FREIGHT, "European"),
     TraxxF140MS2("TRAXXF140MS2",train.common.library.TypeOfRollingStock.FREIGHT, "European"),
     ES64U2("TaurusES6U2", train.common.library.TypeOfRollingStock.EMPTY,"European"),
+    MZIV("IconMzIV",train.common.library.TypeOfRollingStock.FREIGHT, "European"),
     //minecraftTemplateUntradeable("template-icon", STEAM)
     ;
 
