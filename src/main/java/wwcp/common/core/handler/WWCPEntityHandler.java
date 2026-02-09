@@ -211,10 +211,40 @@ public class WWCPEntityHandler
                 );
 
         Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.SD70M.item,
+                        new TrainRecord(WWCPItems.SD70M.name(), EntitySD70M.class, WWCPItems.SD70M.item,
+                                "Freight Locomotive", 1,
+                                new String[] {"Skin16","Green","Skin17"}, 5, 0, .95, 164,
+                                4000, 60, 160,
+                                0.65, -5.9f, 10000),
+                        Instance()
+                );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.SD75M.item,
+                        new TrainRecord(WWCPItems.SD75M.name(), EntitySD75M.class, WWCPItems.SD75M.item,
+                                "Freight Locomotive", 1,
+                                new String[] {"Black","Red","Green"}, 5, 0, .95, 164,
+                                4300, 60, 160,
+                                0.65, -5.9f, 10000),
+                        Instance()
+                );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.SD75I.item,
+                        new TrainRecord(WWCPItems.SD75I.name(), EntitySD75I.class, WWCPItems.SD75I.item,
+                                "Freight Locomotive", 1,
+                                new String[] {"Black"}, 5, 0, .95, 164,
+                                4300, 60, 160,
+                                0.65, -5.9f, 10000),
+                        Instance()
+                );
+
+        Traincraft.traincraftRegistry
                 .RegisterRollingStockEntity(WWCPItems.C408W.item,
                         new TrainRecord(WWCPItems.C408W.name(), EntityC408W.class, WWCPItems.C408W.item,
                                 "Freight Locomotive", 1,
-                                new String[] {"Black","Red","Green","Brown","Blue","Purple","Cyan","LightGrey","Grey","Pink","Lime","Yellow","LightBlue"}, 5, 0, .95, 164,
+                                new String[] {"Black","Red","Green","Brown","Blue","Purple","Cyan","LightGrey","Grey","Pink","Lime","Yellow","LightBlue","Orange","White"}, 5, 0, .95, 164,
                                 4000, 60, 160,
                                 0.65, -5.5f, 10000),
                         Instance()
@@ -299,7 +329,7 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.EF4.item,
                         new TrainRecord(Transport.EF4().name, EntityEF4.class, WWCPItems.EF4.item,
                                 Transport.EF4().additionalText2, Transport.EF4().weightinKGs,
-                                new String[] {"Red","Orange"}, 5, 0, 0.95, (int)Transport.EF4().topSpeed,
+                                new String[] {"Red","Orange"}, 5, 0, 2.00, (int)Transport.EF4().topSpeed,
                                 (int)Transport.EF4().metric_horsepower, 40, 0,
                                 0.95, -8, 0),
                         Instance()
@@ -309,7 +339,7 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.EP3.item,
                         new TrainRecord(Transport.EP3().name, EntityEP3.class, WWCPItems.EP3.item,
                                 Transport.EP3().additionalText2, Transport.EP3().weightinKGs,
-                                new String[] {"Red","Yellow","Orange"}, 5, 0, 0.95, (int)Transport.EP3().topSpeed,
+                                new String[] {"Red","Yellow","Orange"}, 5, 0, 2.00, (int)Transport.EP3().topSpeed,
                                 (int)Transport.EP3().metric_horsepower, 40, 0,
                                 0.95, -8, 0),
                         Instance()
@@ -329,7 +359,7 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.EP2.item,
                         new TrainRecord(Transport.EP2().name, EntityEP2.class, WWCPItems.EP2.item,
                                 Transport.EP2().additionalText2, Transport.EP2().weightinKGs,
-                                new String[] {"Black","Red","Green","Brown","Blue","Purple","Cyan","LightGrey","Pink","Lime"}, 5, 0, 0.95, (int)Transport.EP2().topSpeed,
+                                new String[] {"Black","Red","Green","Brown","Blue","Purple","Cyan","LightGrey","Pink","Lime"}, 5, 0, 2.00, (int)Transport.EP2().topSpeed,
                                 (int)Transport.EP2().metric_horsepower, 40, 0,
                                 0.95, -3, 0),
                         Instance()

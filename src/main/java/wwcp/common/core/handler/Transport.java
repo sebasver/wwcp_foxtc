@@ -754,21 +754,21 @@ public class Transport {
 
     //C424
     public static LocomotiveNoBackspeed C424() {
-        return new LocomotiveNoBackspeed("C424", "America", "1963-Present", "Diesel",
+        return new LocomotiveNoBackspeed("C424", "US", "1963-Present", "Diesel",
                 nick, "", type, " Road Diesel",
                 47000f, 2400f, 130f, 105f, false, true, 0);
     }
 
     //C425
     public static LocomotiveNoBackspeed C425() {
-        return new LocomotiveNoBackspeed("C425", "America", "1964-Present", "Diesel",
+        return new LocomotiveNoBackspeed("C425", "US", "1964-Present", "Diesel",
                 nick, "", type, " Road Diesel",
                 50000f, 2500f, 130f, 105f, false, true, 0);
     }
 
     //C430
     public static LocomotiveNoBackspeed C430() {
-        return new LocomotiveNoBackspeed("C430", "America", "1966-Present", "Diesel",
+        return new LocomotiveNoBackspeed("C430", "US", "1966-Present", "Diesel",
                 nick, "", type, " Road Diesel",
                 57200f, 3000f, 136f, 105f, false, true, 0);
     }
@@ -908,14 +908,21 @@ public class Transport {
 
     //SD70M
     public static LocomotiveNoBackspeed SD70M() {
-        return new LocomotiveNoBackspeed("SD70M", "America", "1992-Present", "Diesel",
+        return new LocomotiveNoBackspeed("SD70M", "US", "1992-Present", "Diesel",
                 nick, "", type, " Special Duty Locomotive",
                 113100f, 4000f, 197f, 121f, false, true, 0);
     }
 
     //SD75M
     public static LocomotiveNoBackspeed SD75M() {
-        return new LocomotiveNoBackspeed("SD75M", "America", "1994-Present", "Diesel",
+        return new LocomotiveNoBackspeed("SD75M", "US", "1994-Present", "Diesel",
+                nick, "", type, " Special Duty Locomotive",
+                137000f, 4300f, 197f, 121f, false, true, 0);
+    }
+
+    //SD75I
+    public static LocomotiveNoBackspeed SD75I() {
+        return new LocomotiveNoBackspeed("SD75I", "US", "1996-Present", "Diesel",
                 nick, "", type, " Special Duty Locomotive",
                 137000f, 4300f, 197f, 121f, false, true, 0);
     }
@@ -1756,7 +1763,7 @@ public class Transport {
 
     //PS2Early3Bay
     public static Rollingstock PS2Early3Bay() {
-        return new Rollingstock("PS2Early3Bay", "America", "1965-2000~", "",
+        return new Rollingstock("PS2Early3Bay", "US", "1965-2000~", "",
                 "", type, " Hopper", 31.7f, 120f, false, true, 0);
     }
 
@@ -1845,7 +1852,7 @@ public class Transport {
 
     //Gunderson 59'6 Woodchip
     public static Rollingstock Gunderson596Woodchip() {
-        return new Rollingstock("Gunderson596Woodchip", "America", "1960~2000", "",
+        return new Rollingstock("Gunderson596Woodchip", "US", "1960~2000", "",
                 "", type, " Woodchip Gondola", 25f, 120f, false, true, 0);
     }
 

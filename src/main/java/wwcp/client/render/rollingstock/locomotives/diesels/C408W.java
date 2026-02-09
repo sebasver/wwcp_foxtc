@@ -30,7 +30,7 @@ public class C408W extends ModelConverter //Same as Filename
 
 	public C408W() //Same as Filename
 	{
-		bodyModel = new ModelRendererTurbo[470];
+		bodyModel = new ModelRendererTurbo[471];
 
 		initbodyModel_1();
 
@@ -512,6 +512,8 @@ public class C408W extends ModelConverter //Same as Filename
 		bodyModel[467] = new ModelRendererTurbo(this, 448, 192, textureX, textureY); // newhorn
 		bodyModel[468] = new ModelRendererTurbo(this, 447, 198, textureX, textureY); // newhorn
         bodyModel[469] = new ModelRendererTurbo(this, 438, 179, textureX, textureY); // Box 469
+		bodyModel[470] = new ModelRendererTurbo(this, 49, 386, textureX, textureY); // Box 546
+
 
 		bodyModel[0].addShapeBox(0F, 0F, 0F, 131, 2, 22, 0F,0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -0.5F, 0F, 0F, -0.5F, 0F, 0F, -0.5F, 0F, 0F, -0.5F, 0F); // Box 1
 		bodyModel[0].setRotationPoint(-65.5F, -1.5F, -11F);
@@ -1956,6 +1958,9 @@ public class C408W extends ModelConverter //Same as Filename
 
         bodyModel[469].addShapeBox(0F, 0F, 0F, 1, 1, 3, 0F,0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -0.5F, 0F, 0F, -0.5F, 0F, 0F, -0.5F, 0F, 0F, -0.5F, 0F); // Box 469
         bodyModel[469].setRotationPoint(-26F, -3.75F, -10.5F);
+
+		bodyModel[470].addShapeBox(0F, 0F, 0F, 4, 1, 1, 0F,-0.5F, 0F, -0.25F, -0.5F, 0F, -0.25F, -0.5F, 0F, -0.25F, -0.5F, 0F, -0.25F, 0F, 0F, -0.25F, -0.5F, 0F, -0.25F, -0.5F, 0F, -0.25F, 0F, 0F, -0.25F); // Box 546
+		bodyModel[470].setRotationPoint(-48.5F, -23.5F, -0.25F);
 	}
 
 	GE_Flexicoil bogie = new GE_Flexicoil();
@@ -1965,6 +1970,7 @@ public class C408W extends ModelConverter //Same as Filename
 		ModelRenderHelper.renderModelWithRollingStockLightControls(bodyModel, entity, f5);
 
 		if (entity instanceof AbstractTrains && ((AbstractTrains) entity).getColor() == 0 || entity instanceof AbstractTrains && ((AbstractTrains) entity).getColor() == 1 || entity instanceof AbstractTrains && ((AbstractTrains) entity).getColor() == 2
+				|| entity instanceof AbstractTrains && ((AbstractTrains) entity).getColor() == 3 || entity instanceof AbstractTrains && ((AbstractTrains) entity).getColor() == 4
 		) {
 			Tessellator.bindTexture(new ResourceLocation(Info.modID, "textures/bogies/AmericanTrucks/GE_Flexicoil_Silver.png"));
 			GL11.glPushMatrix();

@@ -19,18 +19,20 @@ public class EntityC408W extends DieselTrain
     public EntityC408W(World world) {
         super(world, LiquidManager.dieselFilter());
         InsertTexture(0, "ATSF Warbonnet");
-        InsertTexture(1, "BNSF Patched");
-        InsertTexture(2, "BNSF H2");
-        InsertTexture(3, "Conrail");
-        InsertTexture(4, "Conrail Quality");
-        InsertTexture(5, "LMS Leasing");
-        InsertTexture(6, "CSX YN2");
-        InsertTexture(7, "CSX YN2 Ex CR");
-        InsertTexture(8, "CSX YN2 Ex CR Rebuilt");
-        InsertTexture(9, "CSX YN3");
-        InsertTexture(10, "NS");
-        InsertTexture(11, "NS Whiteface");
-        InsertTexture(12, "NS Late");
+        InsertTexture(1, "BNSF Warbonnet 1");
+        InsertTexture(2, "BNSF Warbonned 2");
+        InsertTexture(3, "BNSF Warbonnet 3");
+        InsertTexture(4, "BNSF H2");
+        InsertTexture(5, "Conrail");
+        InsertTexture(6, "Conrail Quality");
+        InsertTexture(7, "LMS Leasing");
+        InsertTexture(8, "CSX YN2");
+        InsertTexture(9, "CSX YN2 Ex CR");
+        InsertTexture(10, "CSX YN2 Ex CR Rebuilt");
+        InsertTexture(11, "CSX YN3");
+        InsertTexture(12, "NS");
+        InsertTexture(13, "NS Whiteface");
+        InsertTexture(14, "NS Late");
     }
 
     public void updateRiderPosition() {
@@ -62,7 +64,7 @@ public class EntityC408W extends DieselTrain
 
 
     public final SoundRecord sound = new SoundRecord(this.getClass(), " ", 1.0F, "GE_7FDL_16_Notch8", 0.85F, 28, "GE_7FDL_16_Idle", 0.85F, 30, false, "alco_bronzebell_3", 18,
-            new String[]{"leslie_s3l_1","leslie_s3l_1","leslie_s3l_1","leslie_s3l_1","leslie_s3l_1","leslie_s3l_1","leslie_s3l_1","leslie_s3l_1","leslie_s3l_1","leslie_s3l_1","leslie_s3l_1","leslie_s3l_1","leslie_s3l_1"});
+            new String[]{"leslie_s3l_1","leslie_s3l_1","leslie_s3l_1","leslie_s3l_1","leslie_s3l_1","leslie_s3l_1","leslie_s3l_1","leslie_s3l_1","leslie_s3l_1","leslie_s3l_1","leslie_s3l_1","leslie_s3l_1","leslie_s3l_1","leslie_s3l_1","leslie_s3l_1"});
     public SoundRecord getSoundRecord() {
         return sound;
     }
@@ -94,39 +96,45 @@ public class EntityC408W extends DieselTrain
                                 texturePath = "textures/locomotive/Diesel/C408W/C408W_ATSF";
                                 break;
                             case "red":
-                                texturePath = "textures/locomotive/Diesel/C408W/C408W_BNSF_Patch";
+                                texturePath = "textures/locomotive/Diesel/C408W/C408W_BNSF_Patch_S";
                                 break;
                             case "green":
-                                texturePath = "textures/locomotive/Diesel/C408W/C408W_BNSF";
+                                texturePath = "textures/locomotive/Diesel/C408W/C408W_BNSF_Patch";
                                 break;
                             case "brown":
-                                texturePath = "textures/locomotive/Diesel/C408W/C408W_CR";
+                                texturePath = "textures/locomotive/Diesel/C408W/C408W_BNSF_Patch_L";
                                 break;
                             case "blue":
-                                texturePath = "textures/locomotive/Diesel/C408W/C408W_CR_Quality";
+                                texturePath = "textures/locomotive/Diesel/C408W/C408W_BNSF";
                                 break;
                             case "purple":
-                                texturePath = "textures/locomotive/Diesel/C408W/C408W_LMS";
+                                texturePath = "textures/locomotive/Diesel/C408W/C408W_CR";
                                 break;
                             case "cyan":
-                                texturePath = "textures/locomotive/Diesel/C408W/C408W_CSX_YN2";
+                                texturePath = "textures/locomotive/Diesel/C408W/C408W_CR_Quality";
                                 break;
                             case "lightgrey":
-                                texturePath = "textures/locomotive/Diesel/C408W/C408W_CSX_YN2_CR";
+                                texturePath = "textures/locomotive/Diesel/C408W/C408W_LMS";
                                 break;
                             case "grey":
-                                texturePath = "textures/locomotive/Diesel/C408W/C408W_CSX_YN2_CR2";
+                                texturePath = "textures/locomotive/Diesel/C408W/C408W_CSX_YN2";
                                 break;
                             case "pink":
-                                texturePath = "textures/locomotive/Diesel/C408W/C408W_CSX_YN3";
+                                texturePath = "textures/locomotive/Diesel/C408W/C408W_CSX_YN2_CR";
                                 break;
                             case "lime":
-                                texturePath = "textures/locomotive/Diesel/C408W/C408W_NS";
+                                texturePath = "textures/locomotive/Diesel/C408W/C408W_CSX_YN2_CR2";
                                 break;
                             case "yellow":
-                                texturePath = "textures/locomotive/Diesel/C408W/C408W_NS_W";
+                                texturePath = "textures/locomotive/Diesel/C408W/C408W_CSX_YN3";
                                 break;
                             case "lightblue":
+                                texturePath = "textures/locomotive/Diesel/C408W/C408W_NS";
+                                break;
+                            case "orange":
+                                texturePath = "textures/locomotive/Diesel/C408W/C408W_NS_W";
+                                break;
+                            case "white":
                                 texturePath = "textures/locomotive/Diesel/C408W/C408W_NS_M";
                                 break;
 

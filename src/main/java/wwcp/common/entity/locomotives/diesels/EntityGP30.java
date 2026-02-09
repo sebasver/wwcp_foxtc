@@ -34,8 +34,7 @@ public class EntityGP30 extends DieselTrain
         InsertTexture(13,"CSX YN Ghost Blue");
         InsertTexture(14,"CSX Slug Ghost");
         InsertTexture(15,"CSX Slug YN Ghost");
-        InsertTexture(16,"BN Whiteface GP39E");
-
+        InsertTexture(16,"BN Whiteface GP39V");
 
     }
 

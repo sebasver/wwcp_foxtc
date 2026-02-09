@@ -474,6 +474,9 @@ item.wwcp:RS18	RS18	wwcp.common.entity.locomotives.diesels.EntityRS18	RS18
 item.wwcp:RS18C	RS18C	wwcp.common.entity.locomotives.diesels.EntityRS18C	RS18C
 item.wwcp:SD45	SD45	wwcp.common.entity.locomotives.diesels.EntitySD45	SD45
 item.wwcp:SD45X	SD45X	wwcp.common.entity.locomotives.diesels.EntitySD45X	SD45X
+item.wwcp:SD70M	SD70M	wwcp.common.entity.locomotives.diesels.EntitySD70M	SD70M
+item.wwcp:SD75I	SD75I	wwcp.common.entity.locomotives.diesels.EntitySD75I	SD75I
+item.wwcp:SD75M	SD75M	wwcp.common.entity.locomotives.diesels.EntitySD75M	SD75M
 item.wwcp:SLRV	SLRV	wwcp.common.entity.locomotives.electrics.EntitySLRV	SLRV
 item.wwcp:SLRVC	SLRVC	wwcp.common.entity.passenger.EntitySLRVC	SLRVC
 item.tc:minecartStockCar	Stock Cart	train.common.entity.rollingStock.EntityStockCar	stockcar_
@@ -552,7 +555,6 @@ item.tc:minecartMILW1935_44SeatCoach_Observation	MILW 1935 44 Seat Coach Observa
 item.tc:minecartMILW1935_48SeatCoach	MILW 1935 48 Seat Coach	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.MILW1935_48SeatCoach	MILW1935_48SeatCoach_
 item.tc:minecartMILW40boxcar	MILW40boxcar	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.MILW40boxcar	milw40_
 item.tc:minecartMILWPrewarBaggage	MILW Prewar Baggage	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.baggagecar.MILWPrewarBaggage	MILW_prewar_baggage_
-item.tc:minecartMON_lightweightCoach	Monon 21 Series Lightweight Coach	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.passenger.MON_LightweightCoach	MON_LightweightCoach_
 item.tc:minecartMaPa35FootFlatcar	MaPa_35Flatcar	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.MaPa35FootFlat	MaPa_35flat_
 item.tc:minecartMaPa35FootGondola	MaPa_35Gondola	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.MaPa35FootGondola	MaPa_35gondola_
 item.tc:minecartMillGondola	52footMillGondola	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.MillGondola	MillGondola_
