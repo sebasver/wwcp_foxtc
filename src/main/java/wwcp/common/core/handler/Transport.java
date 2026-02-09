@@ -1922,10 +1922,10 @@ public class Transport {
                 "", type, " Boxcar", 15f, 120f, false, true, 0);
     }
 
-    //Sggnss 60 3 TATEU
-    public static TankCars Sgnss60Load1() {
-        return new TankCars("SGNSS 60 3 TATEU", "Europe", "2006-", "",
-                "", type, " Freight Container", 21.5f, 120f, false, true, 0, 60000);
+    //Hbbillns
+    public static Rollingstock SGNSS60() {
+        return new Rollingstock("SGNSS60", "Europe", "1990s", "",
+                "", type, " Freight container", 15f, 120f, false, true, 0);
     }
 
     //Sggnss 60 2 TATEU

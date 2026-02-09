@@ -308,6 +308,7 @@ item.wwcp:EP2_Center	EP2_Center	wwcp.common.entity.freight.EntityEP2_Center	Enti
 item.wwcp:EP3	EP3	wwcp.common.entity.locomotives.electrics.EntityEP3	EP3
 item.wwcp:ES2	ES2	wwcp.common.entity.locomotives.electrics.EntityES2	ES2
 item.wwcp:ES64U2	ES64U2	wwcp.common.entity.locomotives.electrics.EntityES64U2	ES64U2
+item.wwcp:ES64U4	ES64U4	wwcp.common.entity.locomotives.electrics.EntityES64U4	ES64U4
 item.wwcp:EurofimaCompartment1_2	EurofimaCompartments1_2	wwcp.common.entity.passenger.Eurofima.EntityEurofima1st2ndClassCompartment	Eurofima1_2_Compartment
 item.wwcp:EurofimaOpen1	Eurofima Open 1	wwcp.common.entity.passenger.Eurofima.EntityEurofima1stClass	Eurofima1stClass
 item.wwcp:EurofimaCompartment1	EurofimaCompartments1	wwcp.common.entity.passenger.Eurofima.EntityEurofima1stClassCompartment	Eurofima1stClassCompartment
@@ -475,6 +476,7 @@ item.wwcp:SD45X	SD45X	wwcp.common.entity.locomotives.diesels.EntitySD45X	SD45X
 item.wwcp:SD70M	SD70M	wwcp.common.entity.locomotives.diesels.EntitySD70M	SD70M
 item.wwcp:SD75I	SD75I	wwcp.common.entity.locomotives.diesels.EntitySD75I	SD75I
 item.wwcp:SD75M	SD75M	wwcp.common.entity.locomotives.diesels.EntitySD75M	SD75M
+item.wwcp:SGNSS60	SGNSS60	wwcp.common.entity.freight.EntitySGNSS60	SGGNS60
 item.wwcp:SLRV	SLRV	wwcp.common.entity.locomotives.electrics.EntitySLRV	SLRV
 item.wwcp:SLRVC	SLRVC	wwcp.common.entity.passenger.EntitySLRVC	SLRVC
 item.tc:minecartStockCar	Stock Cart	train.common.entity.rollingStock.EntityStockCar	stockcar_

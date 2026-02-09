@@ -1,59 +1,56 @@
-package wwcp.common.entity.locomotives.electrics;
+package wwcp.common.entity.freight;
 
 import net.minecraft.entity.item.EntityMinecart;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
 import train.client.render.register.TrainRenderRecord;
 import train.common.Traincraft;
-import train.common.api.ElectricTrain;
-import train.common.core.util.TraincraftUtil;
-import train.common.library.EnumSounds;
-import train.common.library.sounds.SoundRecord;
-import wwcp.client.render.rollingstock.locomotives.electrics.ES64U2;
-import wwcp.client.render.rollingstock.locomotives.electrics.Traxx.TraxxSecondGen;
+import train.common.api.AbstractStandardFixedFreightCar;
+import wwcp.client.render.rollingstock.freight.SGGNS60;
 import wwcp.common.core.handler.Transport;
 
-public class EntityES64U2 extends ElectricTrain {
+public class EntitySGNSS60 extends AbstractStandardFixedFreightCar {
 
-    public EntityES64U2(World world) {
-        super(world);    
-        InsertTexture(0, "ES64U2");
+    public EntitySGNSS60(World world) {
+        super(world);
     }
-    
-    public void updateRiderPosition() {
-        TraincraftUtil.updateRider(this, 6.2f, 0.1f, -0.2f);
+
+    @Override
+    public void setupTextureDescription()
+    {
+        InsertTexture(0, "Hamburg Containers");
     }
 
     public float getOptimalDistance(EntityMinecart cart) {
-        return 2F;
+        return 3.65F;
     }
 
     @Override
     public String transportCountry() {
-        return Transport.ES64U2().country;
+        return Transport.SGNSS60().country;
     }
 
     @Override
     public String transportYear() {
-        return Transport.ES64U2().year;
+        return Transport.SGNSS60().year;
     }
 
     public String getInventoryName() {
-        return Transport.ES64U2().name;
+        return Transport.SGNSS60().name;
     }
 
     @Override
     public boolean isFictional() {
-        return Transport.ES64U2().fictional;
+        return Transport.SGNSS60().fictional;
     }
 
     @Override
     public void onRenderInsertRecord() {
         Traincraft.traincraftRegistry.RegisterRollingStockModel(
                 new TrainRenderRecord(wwcp.common.library.Info.modID,
-                        EntityES64U2.class, new ES64U2(),
-                        "ES64U2",
-                        new float[]{-2.5f, 0.15F, 0.0F},
+                        EntitySGNSS60.class, new SGGNS60(),
+                        "SGGNS60",
+                        new float[]{-0.0f, 0.15F, 0.0F},
                         new float[]{0F, 180F, 180F},
                         null) {
                     @Override
@@ -61,10 +58,16 @@ public class EntityES64U2 extends ElectricTrain {
                         String texturePath = "";
                         switch (colorAsString.toLowerCase()) {
                             case "black":
-                                texturePath = "textures/locomotive/Electric/Taurus/TaurusU2OBB";
+                                texturePath = "textures/freightskins/SGNSS60/1";
                                 break;
                             case "grey":
-                                texturePath = "textures/locomotive/Electric/Taurus/Taurus_RER";
+                                texturePath = "textures/freightskins/SGNSS60/2";
+                                break;
+                            case "lightgrey":
+                                texturePath = "textures/freightskins/SGNSS60/3";
+                                break;
+                            case "purple":
+                                texturePath = "textures/freightskins/SGNSS60/4";
                                 break;
                         }
                         texturePath += ".png";
@@ -72,10 +75,5 @@ public class EntityES64U2 extends ElectricTrain {
                         return new ResourceLocation(wwcp.common.library.Info.modID, texturePath);
                     }
                 });
-    }
-
-    @Override
-    public SoundRecord getSoundRecord() {
-        return EnumSounds.locoElectricBR185;
     }
 }

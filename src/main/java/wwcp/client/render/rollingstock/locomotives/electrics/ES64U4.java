@@ -15,6 +15,8 @@ import org.lwjgl.opengl.GL11;
 import tmt.ModelConverter;
 import tmt.ModelRendererTurbo;
 import tmt.Tessellator;
+import wwcp.client.render.rollingstock.bogies.EUBogies.TaurusBogieBack;
+import wwcp.client.render.rollingstock.bogies.EUBogies.TaurusBogieFront;
 import wwcp.client.render.rollingstock.bogies.EUBogies.flexxpower;
 import wwcp.common.library.Info;
 
@@ -2561,19 +2563,22 @@ public class ES64U4 extends ModelConverter //Same as Filename
 		bodyModel[616].setRotationPoint(-66.5F, -21F, 0F);
 	}
 
-	flexxpower bogie = new flexxpower();
+	TaurusBogieFront bogieFront = new TaurusBogieFront();
+	TaurusBogieBack bogieBack = new TaurusBogieBack();
 
 	@Override
 	public void render(Entity entity, float f, float f1, float f2, float f3, float f4, float f5) {
 		super.render(entity, f, f1, f2, f3, f4, f5);
-		Tessellator.bindTexture(new ResourceLocation(Info.modID, "textures/bogies/Flexxpower.png"));
+		Tessellator.bindTexture(new ResourceLocation(Info.modID, "textures/bogies/EUBogies/TaurusBogie.png"));
 		GL11.glPushMatrix();
-		GL11.glTranslatef(2.55f,0f,0);
-		bogie.render(entity, f, f1, f2, f3, f4, f5);
+		GL11.glTranslatef(2.35f,0f,0);
+		bogieBack.render(entity, f, f1, f2, f3, f4, f5);
+
+		Tessellator.bindTexture(new ResourceLocation(Info.modID, "textures/bogies/EUBogies/TaurusBogie.png"));
 		GL11.glPopMatrix();
 		GL11.glPushMatrix();
-		GL11.glTranslatef(-2.45f,0f,0);
-		bogie.render(entity, f, f1, f2, f3, f4, f5);
+		GL11.glTranslatef(-2.3f,0f,0);
+		bogieFront.render(entity, f, f1, f2, f3, f4, f5);
 		GL11.glPopMatrix();
 	}
 }

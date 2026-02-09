@@ -16,9 +16,7 @@ import org.lwjgl.opengl.GL11;
 import tmt.ModelConverter;
 import tmt.ModelRendererTurbo;
 import tmt.Tessellator;
-import wwcp.client.render.rollingstock.bogies.EUBogies.GorlitzBack;
-import wwcp.client.render.rollingstock.bogies.EUBogies.GorlitzFront;
-import wwcp.client.render.rollingstock.bogies.EUBogies.SGNSSBogie;
+import wwcp.client.render.rollingstock.bogies.EUBogies.SGGNSBogie;
 import wwcp.common.library.Info;
 
 public class Habbiins_17 extends ModelConverter //Same as Filename
@@ -1122,7 +1120,7 @@ public class Habbiins_17 extends ModelConverter //Same as Filename
 		bodyModel[269].setRotationPoint(87.5F, 3.4F, -10F);
 	}
 
-	SGNSSBogie bogie = new SGNSSBogie();
+	SGGNSBogie bogie = new SGGNSBogie();
 
 
 	@Override

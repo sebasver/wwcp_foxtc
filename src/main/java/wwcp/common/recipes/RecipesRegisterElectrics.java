@@ -109,6 +109,17 @@ public class RecipesRegisterElectrics extends AbstractRecipeHandler {
                     new ItemStack(itemSteel, 4, itemDamageSteel),
                     new ItemStack(WWCPItems.ES64U2.item), 1);
 
+            betterAddRecipe(3, new ItemStack(ItemIDs.steelcab.item, 1), //Taurus ES64U4
+                    new ItemStack(ItemIDs.pantograph.item, 1),
+                    new ItemStack(WWCPCraftingItems.OBBComponent.item, 1),
+                    null,
+                    new ItemStack(ItemIDs.controls.item, 1),
+                    new ItemStack(ItemIDs.transformer.item, 2),
+                    new ItemStack(ItemIDs.copperWireFine.item, 3),
+                    new ItemStack(ItemIDs.bogie.item, 2),
+                    new ItemStack(ItemIDs.steelframe.item, 1),
+                    new ItemStack(itemSteel, 4, itemDamageSteel),
+                    new ItemStack(WWCPItems.ES64U4.item), 1);
         }
     }
 

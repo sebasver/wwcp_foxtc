@@ -318,9 +318,20 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.ES64U2.item,
                         new TrainRecord(Transport.ES64U2().name, EntityES64U2.class, WWCPItems.ES64U2.item,
                                 Transport.ES64U2().additionalText2, Transport.ES64U2().weightinKGs,
-                                new String[] {"Black"},
-                                5, 0, 0.95, (int)Transport.ES64U2().topSpeed,
+                                new String[] {"Black", "Grey"},
+                                5, 0, 1, (int)Transport.ES64U2().topSpeed,
                                 (int)Transport.ES64U2().metric_horsepower, 40, 0,
+                                0.95, -5, 0),
+                        Instance()
+                );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.ES64U4.item,
+                        new TrainRecord(Transport.ES64U4().name, EntityES64U4.class, WWCPItems.ES64U4.item,
+                                Transport.ES64U4().additionalText2, Transport.ES64U4().weightinKGs,
+                                new String[] {"Black", "Grey", "LightGrey"},
+                                5, 0, 1, (int)Transport.ES64U4().topSpeed,
+                                (int)Transport.ES64U4().metric_horsepower, 40, 0,
                                 0.95, -5, 0),
                         Instance()
                 );
@@ -410,7 +421,7 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.EurofimaCompartment1_2.item,
                         new TrainRecord(Transport.EurofimaCompartment1_2().name, EntityEurofima1st2ndClassCompartment.class, WWCPItems.EurofimaCompartment1_2.item,
                                 Transport.EurofimaCompartment1_2().additionalText2, Transport.EurofimaCompartment1_2().weightinKGs,
-                                new String[] {"Yellow"}, 5, 0, 0, 0,
+                                new String[] {"Yellow","Red"}, 5, 0, 0, 0,
                                 0, 0, 0,
                                 0, 0, 0),
                         Instance()
@@ -564,6 +575,15 @@ public class WWCPEntityHandler
                         Instance()
                 );
 
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.SGNSS60.item,
+                        new TrainRecord(WWCPItems.SGNSS60.name(), EntitySGNSS60.class, WWCPItems.SGNSS60.item,
+                                Transport.SGNSS60().additionalText2, Transport.SGNSS60().weightinKGs,
+                                new String[] {"Black","Grey","LightGrey","Purple"}, 5, 54, 0, 0,
+                                0, 0, 0,
+                                0, 0, 0),
+                        Instance()
+                );
 
     }
 }

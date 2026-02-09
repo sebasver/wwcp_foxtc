@@ -13,12 +13,12 @@ package wwcp.client.render.rollingstock.bogies.EUBogies; //Path where the model 
 import tmt.ModelConverter;
 import tmt.ModelRendererTurbo;
 
-public class ModelBRDMUBogie extends ModelConverter //Same as Filename
+public class BRDMUBogie extends ModelConverter //Same as Filename
 {
 	int textureX = 512;
 	int textureY = 512;
 
-	public ModelBRDMUBogie() //Same as Filename
+	public BRDMUBogie() //Same as Filename
 	{
 		bodyModel = new ModelRendererTurbo[59];
 

@@ -10,12 +10,12 @@ import train.common.core.util.TraincraftUtil;
 import train.common.library.EnumSounds;
 import train.common.library.sounds.SoundRecord;
 import wwcp.client.render.rollingstock.locomotives.electrics.ES64U2;
-import wwcp.client.render.rollingstock.locomotives.electrics.Traxx.TraxxSecondGen;
+import wwcp.client.render.rollingstock.locomotives.electrics.ES64U4;
 import wwcp.common.core.handler.Transport;
 
-public class EntityES64U2 extends ElectricTrain {
+public class EntityES64U4 extends ElectricTrain {
 
-    public EntityES64U2(World world) {
+    public EntityES64U4(World world) {
         super(world);    
         InsertTexture(0, "ES64U2");
     }
@@ -25,7 +25,7 @@ public class EntityES64U2 extends ElectricTrain {
     }
 
     public float getOptimalDistance(EntityMinecart cart) {
-        return 2F;
+        return 1.8F;
     }
 
     @Override
@@ -51,8 +51,8 @@ public class EntityES64U2 extends ElectricTrain {
     public void onRenderInsertRecord() {
         Traincraft.traincraftRegistry.RegisterRollingStockModel(
                 new TrainRenderRecord(wwcp.common.library.Info.modID,
-                        EntityES64U2.class, new ES64U2(),
-                        "ES64U2",
+                        EntityES64U4.class, new ES64U4(),
+                        "ES64U4",
                         new float[]{-2.5f, 0.15F, 0.0F},
                         new float[]{0F, 180F, 180F},
                         null) {
@@ -61,10 +61,13 @@ public class EntityES64U2 extends ElectricTrain {
                         String texturePath = "";
                         switch (colorAsString.toLowerCase()) {
                             case "black":
-                                texturePath = "textures/locomotive/Electric/Taurus/TaurusU2OBB";
+                                texturePath = "textures/locomotive/Electric/Taurus/TaurusU4OBB";
                                 break;
                             case "grey":
                                 texturePath = "textures/locomotive/Electric/Taurus/Taurus_RER";
+                                break;
+                            case "lightgrey":
+                                texturePath = "textures/locomotive/Electric/Taurus/CD";
                                 break;
                         }
                         texturePath += ".png";
