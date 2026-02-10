@@ -6,12 +6,13 @@ import net.minecraft.world.World;
 import train.client.render.register.TrainRenderRecord;
 import train.common.Traincraft;
 import train.common.api.AbstractPassengerCar;
+import train.common.api.AbstractWorkCart;
 import train.common.core.util.TraincraftUtil;
 import wwcp.client.render.rollingstock.passengerStock.Rheingold.Rheingold1928Baggage;
 import wwcp.client.render.rollingstock.passengerStock.Rheingold.Rheingold1928Kitchen1;
 import wwcp.common.core.handler.Transport;
 
-public class EntityRheingoldBaggage extends AbstractPassengerCar {
+public class EntityRheingoldBaggage extends AbstractWorkCart {
 
     public EntityRheingoldBaggage(World world) {
         super(world);

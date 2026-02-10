@@ -22,7 +22,7 @@ public class EntitySGNSS60 extends AbstractStandardFixedFreightCar {
     }
 
     public float getOptimalDistance(EntityMinecart cart) {
-        return 3.65F;
+        return 4.8F;
     }
 
     @Override
@@ -50,7 +50,7 @@ public class EntitySGNSS60 extends AbstractStandardFixedFreightCar {
                 new TrainRenderRecord(wwcp.common.library.Info.modID,
                         EntitySGNSS60.class, new SGGNS60(),
                         "SGGNS60",
-                        new float[]{-0.0f, 0.15F, 0.0F},
+                        new float[]{-0.05f, 0.15F, 0.0F},
                         new float[]{0F, 180F, 180F},
                         null) {
                     @Override

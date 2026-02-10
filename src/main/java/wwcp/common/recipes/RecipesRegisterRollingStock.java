@@ -1,6 +1,8 @@
 package wwcp.common.recipes;
 
+import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.OreDictionary;
@@ -190,6 +192,18 @@ public class RecipesRegisterRollingStock extends AbstractRecipeHandler {
                             new ItemStack(ItemIDs.steelframe.item, 1),
                             null,
                             new ItemStack(WWCPItems.RheingoldSalon1.item), 1);
+
+                    betterAddRecipe(3, new ItemStack(Blocks.glass, 2), //Eurofima Panorama
+                            null,
+                            null,
+                            new ItemStack(Items.diamond,1),
+                            new ItemStack(WWCPCraftingItems.LeatherSeats.item, 2),
+                            new ItemStack(Blocks.wool, 3),
+                            new ItemStack(GoldItem.getItem(),2),
+                            new ItemStack(WWCPCraftingItems.EurofimaBogie.item, 2),
+                            new ItemStack(ItemIDs.steelframe.item, 1),
+                            null,
+                            new ItemStack(WWCPItems.EurofimaPresidentiale.item), 1);
                 }
 
                 betterAddRecipe(2, new ItemStack(Blocks.glass, 2), //Rheingold Christmas Kitchen 1
