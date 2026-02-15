@@ -306,6 +306,7 @@ item.tc:minecartCabooseLogging	Caboose Logging	train.common.entity.rollingStock.
 item.tc:minecartCabooseLoggingPRR	PRR Caboose Logging	train.common.entity.rollingStock.workcart.EntityCabooseLoggingPRR	PRRCaboose_
 item.tc:minecartCabooseWork	Work Caboose	train.common.entity.rollingStock.workcart.EntityCabooseWorkCart	workcaboose
 item.wwcp:ChristmasBR01	ChristmasBR01	wwcp.common.entity.locomotives.steam.EntityChristmasBR01	ChristmasBR01
+item.wwcp:DSBMH	ClassMH	wwcp.common.entity.locomotives.diesels.EntityDSBMH	DSB MH
 item.wwcp:EF4	EF4	wwcp.common.entity.locomotives.electrics.EntityEF4	EF4
 item.wwcp:EP2	EP2	wwcp.common.entity.locomotives.electrics.EntityEP2	EP2
 item.wwcp:EP2_Center	EP2_Center	wwcp.common.entity.freight.EntityEP2_Center	EntityEP2_Center
@@ -367,8 +368,10 @@ item.wwcp:GP35	GP35	wwcp.common.entity.locomotives.diesels.EntityGP35	GP35
 item.tc:minecartGWRBrakeVan	GWR Toad Brake Van	train.common.entity.rollingStock.workcart.EntityGWRBrakeVan	GWRBrakeVan
 item.wwcp:Gunderson596Woodchip	Gunderson596Woodchip	wwcp.common.entity.freight.EntityGunderson596Woodchip	Gunderson596Woodchip
 item.wwcp:Habbiins_17	Habbiins_17	wwcp.common.entity.freight.EntityHabbiins17	Habbiins_17
+item.wwcp:Hbbillns	Hbbillns	wwcp.common.entity.freight.EntityHbbillns	Hbbillns
 item.wwcp:Hbbins	Hbbins	wwcp.common.entity.freight.EntityHbbins	Hbbins
 item.tc:minecartJukeBoxCart	JukeBox Cart	train.common.entity.rollingStock.EntityJukeBoxCart	jukebox
+item.wwcp:Lgns	Lgns	wwcp.common.entity.freight.EntityLgns	Lgns
 item.tc:minecartLoco44TonSwitcher	GE 44-ton Diesel switcher	train.common.entity.rollingStock.diesel.EntityLocoDiesel44TonSwitcher	loco_44tonswitcher_
 item.tc:minecartTrainBamboo	Bamboo Flatcar Engine	train.common.entity.rollingStock.diesel.EntityLocoDieselBamboo	loco_bamboo_
 item.tc:minecartCD742	Loco Diesel CD742	train.common.entity.rollingStock.diesel.EntityLocoDieselCD742	cd742_
@@ -439,6 +442,7 @@ item.tc:minecartLocoUSATCUS	Loco Steam USATCUS	train.common.entity.rollingStock.
 item.tc:minecartLocoSteamVBShay	Loco Steam VB Shay	train.common.entity.rollingStock.steam.EntityLocoSteamVBShay	vbshay
 item.wwcp:M630	M630	wwcp.common.entity.locomotives.diesels.EntityM630	M630
 item.wwcp:M640	M640	wwcp.common.entity.locomotives.diesels.EntityM640	M640
+item.wwcp:MZIII	MZIII	wwcp.common.entity.locomotives.diesels.EntityMZIII	DSB MZ III
 item.wwcp:MZIV	MZIV	wwcp.common.entity.locomotives.diesels.EntityMZIV	DSB MZ IV
 item.tc:minecartMailWagon_DB	Mail Wagon DB	train.common.entity.rollingStock.workcart.EntityMailWagen_DB	mailWagen_DB
 item.wwcp:OpenTriLevelAutorack	OpenTriLevelAutorack	wwcp.common.entity.freight.EntityOpenTriLevelAutorack	OpenTriLevelAutorack

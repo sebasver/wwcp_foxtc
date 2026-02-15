@@ -1088,7 +1088,7 @@ public class Transport {
     public static LocomotiveNoBackspeed MZIII() {
         return new LocomotiveNoBackspeed("MZIII", "Denmark", "1972-", "Diesel",
                 nick, " Cake Tins", type, " Universal Locomotive",
-                88000f, 3854f, 121.2f, 165f, false, true, 0);
+                88000f, 3854f, 125.0f, 165f, false, true, 0);
     }
 
     //MZ Class III 1972
@@ -1114,9 +1114,9 @@ public class Transport {
 
     //Class Me
     public static LocomotiveNoBackspeed ClassME() {
-        return new LocomotiveNoBackspeed("ClassME", "Denmark", "1981-", "Diesel",
+        return new LocomotiveNoBackspeed("ClassME", "Denmark", "1981-2021", "Diesel",
                 nick, "", type, " Universal Locomotive",
-                88000f, 3253f, 116.5f, 143f, false, true, 0);
+                88000f, 3253f, 116.5f, 175f, false, true, 0);
     }
 
     //Class MK

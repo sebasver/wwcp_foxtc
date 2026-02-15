@@ -102,12 +102,24 @@ public class RecipesRegisterRollingStock extends AbstractRecipeHandler {
                         null,
                         new ItemStack(plankItem.getItem(),2),
                         null,
-                        new ItemStack(WWCPCraftingItems.SGGNSBogie.item, 2),
+                        new ItemStack(ItemIDs.bogie.item, 2),
                         new ItemStack(ItemIDs.steelframe.item, 2),
                         null,
                         new ItemStack(WWCPItems.Hbbins.item),1);
 
-                betterAddRecipe(3, null, //Hbbins
+                betterAddRecipe(3, null, //Hbbillns
+                        new ItemStack(ItemIDs.boxcarDoor.item,4),
+                        null,
+                        null,
+                        null,
+                        new ItemStack(plankItem.getItem(),2),
+                        null,
+                        new ItemStack(ItemIDs.bogie.item, 2),
+                        new ItemStack(ItemIDs.steelframe.item, 2),
+                        null,
+                        new ItemStack(WWCPItems.Hbbillns.item),1);
+
+                betterAddRecipe(3, null, //Habbiins-17
                         new ItemStack(ItemIDs.boxcarDoor.item,4),
                         null,
                         null,

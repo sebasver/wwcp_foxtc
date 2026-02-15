@@ -9,14 +9,14 @@ import train.common.api.DieselTrain;
 import train.common.api.LiquidManager;
 import train.common.core.util.TraincraftUtil;
 import train.common.library.sounds.SoundRecord;
-import wwcp.client.render.rollingstock.locomotives.diesels.DSBMzIV;
+import wwcp.client.render.rollingstock.locomotives.diesels.DSBMzIII;
 import wwcp.common.core.handler.Transport;
 
 import java.util.ArrayList;
 
-public class EntityMZIV extends DieselTrain
+public class EntityMZIII extends DieselTrain
 {
-    public EntityMZIV(World world) {
+    public EntityMZIII(World world) {
         super(world, LiquidManager.dieselFilter());
         InsertTexture(0, "");
 
@@ -32,21 +32,21 @@ public class EntityMZIV extends DieselTrain
 
     @Override
     public String transportCountry() {
-        return Transport.MZIV().country;
+        return Transport.MZIII().country;
     }
 
     @Override
     public String transportYear() {
-        return Transport.MZIV().year;
+        return Transport.MZIII().year;
     }
 
     public String getInventoryName() {
-        return Transport.MZIV().name;
+        return Transport.MZIII().name;
     }
 
     @Override
     public boolean isFictional() {
-        return Transport.MZIV().fictional;
+        return Transport.MZIII().fictional;
     }
 
     //EMD_16_645E3_Notch3
@@ -62,15 +62,15 @@ public class EntityMZIV extends DieselTrain
     {
         Traincraft.traincraftRegistry.RegisterRollingStockModel(
                 new TrainRenderRecord(wwcp.common.library.Info.modID,
-                        EntityMZIV.class, new DSBMzIV(),
-                        "DSB MZ IV",
+                        EntityMZIII.class, new DSBMzIII(),
+                        "DSB MZ III",
                         new float[] { -2.74f,0.15F,0.0F },
                         new float[] { 0F, 180F, 180F },
                         null,
                         "smoke",
                         new ArrayList<double[]>() {
                             {
-                                add(new double[]{0.1D, 1.35D, 0.0D});
+                                add(new double[]{-0.15D, 1.35D, 0.0D});
                             }},
                         "", null, 10, 2)
                 {
@@ -81,22 +81,13 @@ public class EntityMZIV extends DieselTrain
                         switch (colorAsString.toLowerCase())
                         {
                             case "black":
-                                texturePath = "textures/locomotive/Diesel/MZ/MZIV/MzIVDSB";
+                                texturePath = "textures/locomotive/Diesel/MZ/MZIII/MzIIIDSB1980s-2000s";
                                 break;
                             case "red":
-                                texturePath = "textures/locomotive/Diesel/MZ/MZIV/MzIVRDK";
+                                texturePath = "textures/locomotive/Diesel/MZ/MZIII/MzIIIDSB1972-1980s";
                                 break;
                             case "green":
-                                texturePath = "textures/locomotive/Diesel/MZ/MZIV/MzIVRSC";
-                                break;
-                            case "magenta":
-                                texturePath = "textures/locomotive/Diesel/MZ/MZIV/MzIVDBCSC";
-                                break;
-                            case "brown":
-                                texturePath = "textures/locomotive/Diesel/MZ/MZIV/MzIVDBCSC1459";
-                                break;
-                            case "blue":
-                                texturePath = "textures/locomotive/Diesel/MZ/MZIV/NRFAB-TMZIV";
+                                texturePath = "textures/locomotive/Diesel/MZ/MZIII/NEGMZ1439";
                                 break;
 
                         }

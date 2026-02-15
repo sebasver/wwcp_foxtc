@@ -271,6 +271,26 @@ public class WWCPEntityHandler
                                 0.65, -5.5, 10000),
                         Instance()
                 );
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.MZIII.item,
+                        new TrainRecord(Transport.MZIII().name, EntityMZIII.class, WWCPItems.MZIII.item,
+                                Transport.MZIII().additionalText2, Transport.MZIII().weightinKGs,
+                                new String[] {"Black","Red","Green"},
+                                5, 2, 1.25, (int)Transport.MZIII().topSpeed,
+                                (int)Transport.MZIII().metric_horsepower, 60, 0,
+                                0.65, -5.5, 10000),
+                        Instance()
+                );
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.DSBMH.item,
+                        new TrainRecord(Transport.ClassMH().name, EntityDSBMH.class, WWCPItems.DSBMH.item,
+                                Transport.ClassMH().additionalText2, Transport.ClassMH().weightinKGs,
+                                new String[] {"Black","Red","Green"},
+                                5, 2, 0.95, (int)Transport.ClassMH().topSpeed,
+                                (int)Transport.ClassMH().metric_horsepower, 20, 0,
+                                0.95, -2, 1000),
+                        Instance()
+                );
 
         /**
          * ELECTRIC LOCOMOTIVES
@@ -605,6 +625,15 @@ public class WWCPEntityHandler
                                 0, 0, 0),
                         Instance()
                 );
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.Hbbillns.item,
+                        new TrainRecord(WWCPItems.Hbbillns.name(), EntityHbbillns.class, WWCPItems.Hbbillns.item,
+                                Transport.Hbbillns().additionalText2, Transport.Hbbins().weightinKGs,
+                                new String[] {"Black","Red","Green","Brown"}, 5, 32, 0, 0,
+                                0, 0, 0,
+                                0, 0, 0),
+                        Instance()
+                );
 
         //32, 18, 9
         Traincraft.traincraftRegistry
@@ -637,6 +666,16 @@ public class WWCPEntityHandler
                 );
 
         Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.Lgns.item,
+                        new TrainRecord(WWCPItems.Lgns.name(), EntityLgns.class, WWCPItems.Lgns.item,
+                                Transport.Lgns().additionalText2, Transport.Lgns().weightinKGs,
+                                new String[] {"Black","Red","Green","Brown","Blue","Purple","Cyan","LightGrey","Pink","Lime","Magenta"}, 5, 32, 0, 0,
+                                0, 0, 0,
+                                0, 0, 0),
+                        Instance()
+                );
+      
+        Traincraft.traincraftRegistry                                        
                 .RegisterRollingStockEntity(WWCPItems.SGNSS60.item,
                         new TrainRecord(WWCPItems.SGNSS60.name(), EntitySGNSS60.class, WWCPItems.SGNSS60.item,
                                 Transport.SGNSS60().additionalText2, Transport.SGNSS60().weightinKGs,

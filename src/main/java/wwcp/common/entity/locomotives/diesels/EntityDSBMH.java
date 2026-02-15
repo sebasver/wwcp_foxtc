@@ -9,52 +9,52 @@ import train.common.api.DieselTrain;
 import train.common.api.LiquidManager;
 import train.common.core.util.TraincraftUtil;
 import train.common.library.sounds.SoundRecord;
-import wwcp.client.render.rollingstock.locomotives.diesels.DSBMzIV;
+import wwcp.client.render.rollingstock.locomotives.diesels.DSBMH;
 import wwcp.common.core.handler.Transport;
 
 import java.util.ArrayList;
 
-public class EntityMZIV extends DieselTrain
+import static wwcp.common.core.handler.EnumSoundsWWCP.locoDieselDSBMH;
+
+public class EntityDSBMH extends DieselTrain
 {
-    public EntityMZIV(World world) {
+    public EntityDSBMH(World world) {
         super(world, LiquidManager.dieselFilter());
-        InsertTexture(0, "");
+        InsertTexture(0, "DSB Green");
+        InsertTexture(1, "DSB Red and Black");
+        InsertTexture(2,"DSB Red and Black MH 374");
 
     }
 
     public void updateRiderPosition() {
-        TraincraftUtil.updateRider(this, 6.97F, 0.375f, -0.25f);
+        TraincraftUtil.updateRider(this, 1.15F, 0.3f, -0.3f);
     }
 
     public float getOptimalDistance(EntityMinecart cart) {
-        return 2.31F;
+        return 1.3F;
     }
 
     @Override
     public String transportCountry() {
-        return Transport.MZIV().country;
+        return Transport.ClassMH().country;
     }
 
     @Override
     public String transportYear() {
-        return Transport.MZIV().year;
+        return Transport.ClassMH().year;
     }
 
     public String getInventoryName() {
-        return Transport.MZIV().name;
+        return Transport.ClassMH().name;
     }
 
     @Override
     public boolean isFictional() {
-        return Transport.MZIV().fictional;
+        return Transport.ClassMH().fictional;
     }
 
-    //EMD_16_645E3_Notch3
-    //Replaced with a similar sounding idle engine sound that makes more sense
-    public final SoundRecord sound = new SoundRecord(this.getClass(), "MZHorn", 1.0F, "EMD_20_645E3_Notch8", 0.45F, 28, "EMD_20_645E3_Idle", 0.45F, 30, false, "", 0,
-            new String[]{""});
     public SoundRecord getSoundRecord() {
-        return sound;
+        return locoDieselDSBMH;
     }
 
     @Override
@@ -62,15 +62,15 @@ public class EntityMZIV extends DieselTrain
     {
         Traincraft.traincraftRegistry.RegisterRollingStockModel(
                 new TrainRenderRecord(wwcp.common.library.Info.modID,
-                        EntityMZIV.class, new DSBMzIV(),
-                        "DSB MZ IV",
-                        new float[] { -2.74f,0.15F,0.0F },
+                        EntityDSBMH.class, new DSBMH(),
+                        "DSB MH",
+                        new float[] { -1.0F,0.15F,0.0F },
                         new float[] { 0F, 180F, 180F },
                         null,
                         "smoke",
                         new ArrayList<double[]>() {
                             {
-                                add(new double[]{0.1D, 1.35D, 0.0D});
+                                add(new double[]{0.45D, 1.35D, -0.0D});
                             }},
                         "", null, 10, 2)
                 {
@@ -81,27 +81,16 @@ public class EntityMZIV extends DieselTrain
                         switch (colorAsString.toLowerCase())
                         {
                             case "black":
-                                texturePath = "textures/locomotive/Diesel/MZ/MZIV/MzIVDSB";
+                                texturePath = "textures/locomotive/Diesel/DSBMH/DSBMhGreen.png";
                                 break;
                             case "red":
-                                texturePath = "textures/locomotive/Diesel/MZ/MZIV/MzIVRDK";
+                                texturePath = "textures/locomotive/Diesel/DSBMH/DSBMhRedBlack.png";
                                 break;
                             case "green":
-                                texturePath = "textures/locomotive/Diesel/MZ/MZIV/MzIVRSC";
-                                break;
-                            case "magenta":
-                                texturePath = "textures/locomotive/Diesel/MZ/MZIV/MzIVDBCSC";
-                                break;
-                            case "brown":
-                                texturePath = "textures/locomotive/Diesel/MZ/MZIV/MzIVDBCSC1459";
-                                break;
-                            case "blue":
-                                texturePath = "textures/locomotive/Diesel/MZ/MZIV/NRFAB-TMZIV";
+                                texturePath = "textures/locomotive/Diesel/DSB/DSBRedBlack374.png";
                                 break;
 
                         }
-
-                        texturePath += ".png";
 
                         return new ResourceLocation(wwcp.common.library.Info.modID, texturePath);
                     }
