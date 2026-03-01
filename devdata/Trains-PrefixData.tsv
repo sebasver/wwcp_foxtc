@@ -89,6 +89,7 @@ item.tc:minecartCE8	CE8	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.Di
 item.tc:minecartCF7angle	CF7angle	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselCF7angle	CF7_Angle_
 item.tc:minecartCF7angle2	CF7angle2	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselCF7angle2	CF7_Angle_DBRR_
 item.tc:minecartCF7angle3	CF7angle3	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselCF7angle3	CF7a_
+item.tc:minecartCF7b	CF7b	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselCF7b	CF7b_
 item.tc:minecartCF7hh	CF7hh	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselCF7hh	CF7_highhood_
 item.tc:minecartCF7round	CF7round	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselCF7round	CF7_Round_
 item.tc:minecartCF7round3	CF7round3	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselCF7round3	CF7_Round_F_
@@ -143,7 +144,9 @@ item.tc:minecart25Ton	GE 25-ton	com.jcirmodelsquad.tcjcir.vehicles.locomotives.d
 item.tc:minecart44Ton	GE 44-ton	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGE44Ton	44_ton_
 item.tc:minecartGP13	GP13	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP13	gp13_
 item.tc:minecartGP15	GP15	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP15	gp15_
+item.tc:minecartGP15T	GP15T	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP15T	gp15t_
 item.tc:minecartGP18	GP18	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP18	gp18_
+item.tc:minecartGP20	GP20	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP20	gp20_
 item.tc:minecartGP30	GP30	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP30	gp30_
 item.tc:minecartGP35	GP35	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP35	gp35_
 item.tc:minecartGP38	GP38	com.jcirmodelsquad.tcjcir.vehicles.locomotives.diesel.DieselGP38	gp38_
@@ -291,6 +294,7 @@ item.wwcp:RheingoldSalon2	RheingoldSalon2	wwcp.common.entity.passenger.Rheingold
 item.wwcp:AAR40ft	AAR40ft	wwcp.common.entity.freight.EntityAAR40ft	AAR40ft
 item.wwcp:BR103	BR103	wwcp.common.entity.locomotives.electrics.EntityBR103	BR103
 item.wwcp:BR145	BR145	wwcp.common.entity.locomotives.electrics.EntityBR145	BR145
+item.wwcp:BR215	V160	wwcp.common.entity.locomotives.diesels.EntityBR215	DB BR 215
 item.tc:minecartLocoDD35B	DD35 B Unit	train.common.entity.rollingStock.EntityBUnitDD35	dd35b_
 item.tc:minecartBoxCartPRR	Freight Box Cart PRR	train.common.entity.rollingStock.freight.EntityBoxCartPRR	PRR_X31a
 item.tc:minecartBoxCartUS	Freight Box Cart US	train.common.entity.rollingStock.freight.EntityBoxCartUS	boxCartUS_
@@ -306,7 +310,12 @@ item.tc:minecartCabooseLogging	Caboose Logging	train.common.entity.rollingStock.
 item.tc:minecartCabooseLoggingPRR	PRR Caboose Logging	train.common.entity.rollingStock.workcart.EntityCabooseLoggingPRR	PRRCaboose_
 item.tc:minecartCabooseWork	Work Caboose	train.common.entity.rollingStock.workcart.EntityCabooseWorkCart	workcaboose
 item.wwcp:ChristmasBR01	ChristmasBR01	wwcp.common.entity.locomotives.steam.EntityChristmasBR01	ChristmasBR01
+item.wwcp:DSB735	DSB735	wwcp.common.entity.freight.EntityDSB735	GS
+item.wwcp:DSBE	DSBE	wwcp.common.entity.freight.EntityDSBEHopper	DSBE
+item.wwcp:DSBFII	DSBFII	wwcp.common.entity.locomotives.steam.EntityDSBFII	DSB F II
+item.wwcp:DSBFIII	DSBFIII	wwcp.common.entity.locomotives.steam.EntityDSBFIII	DSB F III
 item.wwcp:DSBMH	ClassMH	wwcp.common.entity.locomotives.diesels.EntityDSBMH	DSB MH
+item.wwcp:DSBZE	DSBZE	wwcp.common.entity.freight.EntityDSBZETanker	DSBZETanker
 item.wwcp:EF4	EF4	wwcp.common.entity.locomotives.electrics.EntityEF4	EF4
 item.wwcp:EP2	EP2	wwcp.common.entity.locomotives.electrics.EntityEP2	EP2
 item.wwcp:EP2_Center	EP2_Center	wwcp.common.entity.freight.EntityEP2_Center	EntityEP2_Center
@@ -365,6 +374,7 @@ item.tc:minecartFreightWood2	Freight Flat Logs	train.common.entity.rollingStock.
 item.wwcp:G322	ClassMK	wwcp.common.entity.locomotives.diesels.EntityG322	G322
 item.wwcp:GP30	GP30	wwcp.common.entity.locomotives.diesels.EntityGP30	GP30
 item.wwcp:GP35	GP35	wwcp.common.entity.locomotives.diesels.EntityGP35	GP35
+item.wwcp:GS	GS	wwcp.common.entity.freight.EntityGS	GS
 item.tc:minecartGWRBrakeVan	GWR Toad Brake Van	train.common.entity.rollingStock.workcart.EntityGWRBrakeVan	GWRBrakeVan
 item.wwcp:Gunderson596Woodchip	Gunderson596Woodchip	wwcp.common.entity.freight.EntityGunderson596Woodchip	Gunderson596Woodchip
 item.wwcp:Habbiins_17	Habbiins_17	wwcp.common.entity.freight.EntityHabbiins17	Habbiins_17
@@ -442,6 +452,9 @@ item.tc:minecartLocoUSATCUS	Loco Steam USATCUS	train.common.entity.rollingStock.
 item.tc:minecartLocoSteamVBShay	Loco Steam VB Shay	train.common.entity.rollingStock.steam.EntityLocoSteamVBShay	vbshay
 item.wwcp:M630	M630	wwcp.common.entity.locomotives.diesels.EntityM630	M630
 item.wwcp:M640	M640	wwcp.common.entity.locomotives.diesels.EntityM640	M640
+item.wwcp:ME	ClassME	wwcp.common.entity.locomotives.diesels.EntityME	DSB ME
+item.wwcp:MZI	MZI	wwcp.common.entity.locomotives.diesels.EntityMZI	DSB MZ I
+item.wwcp:MZII	MZII	wwcp.common.entity.locomotives.diesels.EntityMZII	DSB MZ II
 item.wwcp:MZIII	MZIII	wwcp.common.entity.locomotives.diesels.EntityMZIII	DSB MZ III
 item.wwcp:MZIV	MZIV	wwcp.common.entity.locomotives.diesels.EntityMZIV	DSB MZ IV
 item.tc:minecartMailWagon_DB	Mail Wagon DB	train.common.entity.rollingStock.workcart.EntityMailWagen_DB	mailWagen_DB
@@ -666,6 +679,7 @@ item.tc:minecartRoundHopper	Freight Round Covered Hopper	com.jcirmodelsquad.tcjc
 item.tc:minecartSBMS	SBMS	com.jcirmodelsquad.tcjcir.vehicles.locomotives.SBMS	SBMS_
 item.tc:minecartSMSC1	SMSC1	com.jcirmodelsquad.tcjcir.vehicles.locomotives.SMSC1	SMSC1_
 item.tc:minecartSP_B50	SP_B50	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.SP_B50	sp_b_50_
+item.tc:minecartSP_B50_AAR	SP_B50_AAR	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.SP_B50_AAR	sp_b_50_28_
 item.tc:minecartSkeletonLogCar	Skeleton	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.freight.SkeletonLogCar	SkeletonLogCar_
 item.tc:minecartSlugMA	SlugMA	com.jcirmodelsquad.tcjcir.vehicles.locomotives.SlugMA	SMA_
 item.tc:minecartStampedeRack	StampedeRack	com.jcirmodelsquad.tcjcir.vehicles.rollingstock.misc.StampedeRack	cswr_stampederack_

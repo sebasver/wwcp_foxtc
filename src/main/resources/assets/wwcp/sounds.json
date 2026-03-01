@@ -183,10 +183,15 @@
   "Class68Thrash": {"category": "master", "sounds" :  [{"name": "Class68Thrash", "stream": true}]},
   "Class88Horn": {"category": "master", "sounds" :  [{"name": "Class88Horn", "stream": true}]},
   "GWRWhistle": {"category": "master", "sounds" :  [{"name": "GWRWhistle", "stream": true}]},
-  "DSBMH_WHISTLE":  {"category": "master", "sounds" :  [{"name": "DSBMH_Whistle", "stream": true}]},
+  "DSBMH_Whistle":  {"category": "master", "sounds" :  [{"name": "DSBMH_Whistle", "stream": true}]},
   "G322_Run_Idle":  {"category": "master", "sounds" :  [{"name": "G322_Run_Idle", "stream": true}]},
   "G322_Run_Max":  {"category": "master", "sounds" :  [{"name": "G322_Run_Max", "stream": true}]},
   "G322_Run_Mid":  {"category": "master", "sounds" :  [{"name": "G322_Run_Mid", "stream": true}]},
   "G322Horn":  {"category": "master", "sounds" :  [{"name": "G322Horn", "stream": true}]},
-  "MzHorn":  {"category": "master", "sounds" :  [{"name": "MzHorn", "stream": true}]}
+  "MzHorn":  {"category": "master", "sounds" :  [{"name": "MzHorn", "stream": true}]},
+  "V160_Horn":  {"category": "master", "sounds" :  [{"name": "V160_Horn", "stream": true}]},
+  "218_1_Idle":  {"category": "master", "sounds" :  [{"name": "218_1_Idle", "stream": true}]},
+  "218_1_Run":  {"category": "master", "sounds" :  [{"name": "218_1_Run", "stream": true}]},
+  "218_2_Idle":  {"category": "master", "sounds" :  [{"name": "218_2_Idle", "stream": true}]},
+  "218_2_Run":  {"category": "master", "sounds" :  [{"name": "218_2_Run", "stream": true}]}
 }

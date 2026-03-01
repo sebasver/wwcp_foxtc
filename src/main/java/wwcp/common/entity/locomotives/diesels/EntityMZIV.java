@@ -18,7 +18,12 @@ public class EntityMZIV extends DieselTrain
 {
     public EntityMZIV(World world) {
         super(world, LiquidManager.dieselFilter());
-        InsertTexture(0, "");
+        InsertTexture(0, "DSB MZ IV");
+        InsertTexture(1, "Railon Denmark MZ IV");
+        InsertTexture(2, "DB Schenker Scandinavia MZ IV");
+        InsertTexture(3, "DB Cargo Scandinavia MZ IV");
+        InsertTexture(4, "DB Cargo Scandinavia MZ 1459");
+        InsertTexture(5, "Nordic Refinance AB MZ IV");
 
     }
 
@@ -70,7 +75,7 @@ public class EntityMZIV extends DieselTrain
                         "smoke",
                         new ArrayList<double[]>() {
                             {
-                                add(new double[]{0.1D, 1.35D, 0.0D});
+                                add(new double[]{0.1D, 1.5D, 0.0D});
                             }},
                         "", null, 10, 2)
                 {
