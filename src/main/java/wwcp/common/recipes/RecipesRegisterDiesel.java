@@ -125,6 +125,11 @@ public class RecipesRegisterDiesel extends AbstractRecipeHandler {
                         new ItemStack(ItemIDs.controls.item, 2), new ItemStack(ItemIDs.generator.item, 1), new ItemStack(ItemIDs.dieselengine.item, 1),
                         new ItemStack(ItemIDs.transmition.item, 2), new ItemStack(ItemIDs.steelframe.item, 2), new ItemStack(itemSteel, 2, itemDamageSteel), new ItemStack(WWCPItems.BR215.item), 1);
             }
+            //for (ItemStack dye : dyeRed) {//BR217
+                //betterAddRecipe(2, new ItemStack(WWCPItems.BR215.item), new ItemStack(ItemIDs.partTurboExhaust.item, 4), new ItemStack(ItemIDs.steelcab.item, 2), dye,
+                        //new ItemStack(ItemIDs.controls.item, 2), new ItemStack(ItemIDs.generator.item, 1), new ItemStack(ItemIDs.dieselengine.item, 1),
+                        //new ItemStack(ItemIDs.transmition.item, 2), new ItemStack(ItemIDs.steelframe.item, 2), new ItemStack(itemSteel, 2, itemDamageSteel), new ItemStack(WWCPItems.BR215.item), 1);
+            //}
             for (ItemStack dye : dyeGreen) {//DSB MH
                 betterAddRecipe(2, new ItemStack(WWCPCraftingItems.Fan.item, 1), new ItemStack(ItemIDs.partTurboExhaust.item, 1), new ItemStack(ItemIDs.steelcab.item, 1), dye,
                         new ItemStack(ItemIDs.controls.item, 2), new ItemStack(ItemIDs.generator.item, 1), new ItemStack(ItemIDs.dieselengine.item, 1),
@@ -159,8 +164,8 @@ public class RecipesRegisterDiesel extends AbstractRecipeHandler {
             betterAddRecipe(3, new ItemStack(ItemIDs.controls.item, 2), //MZIV
                     null,
                     new ItemStack(ItemIDs.steelcab.item, 2),
-                    new ItemStack(WWCPCraftingItems.Fan.item, 3),
-                    new ItemStack(WWCPCraftingItems.Fan.item, 2),
+                    new ItemStack(WWCPCraftingItems.Fan.item, 5),
+                    new ItemStack(ItemIDs.electmotor.item, 2),
                     new ItemStack(ItemIDs.partTurboExhaust.item, 3),
                     new ItemStack(ItemIDs.dieselengine.item, 3),
                     new ItemStack(ItemIDs.bogie.item, 6),
@@ -172,13 +177,49 @@ public class RecipesRegisterDiesel extends AbstractRecipeHandler {
                     null,
                     new ItemStack(ItemIDs.steelcab.item, 2),
                     new ItemStack(WWCPCraftingItems.Fan.item, 3),
-                    null,
+                    new ItemStack(ItemIDs.boiler.item, 1),
                     new ItemStack(ItemIDs.partTurboExhaust.item, 2),
                     new ItemStack(ItemIDs.dieselengine.item, 2),
                     new ItemStack(ItemIDs.bogie.item, 6),
                     new ItemStack(ItemIDs.steelframe.item, 2),
                     new ItemStack(itemSteel, 2, itemDamageSteel),
                     new ItemStack(WWCPItems.MZIII.item), 1);
+
+            betterAddRecipe(3, new ItemStack(ItemIDs.controls.item, 2), //MZI
+                    null,
+                    new ItemStack(ItemIDs.steelcab.item, 2),
+                    new ItemStack(WWCPCraftingItems.Fan.item, 3),
+                    new ItemStack(ItemIDs.partComponentEMD.item, 1),
+                    new ItemStack(ItemIDs.partTurboExhaust.item, 1),
+                    new ItemStack(ItemIDs.dieselengine.item, 1),
+                    new ItemStack(ItemIDs.bogie.item, 6),
+                    new ItemStack(ItemIDs.steelframe.item, 2),
+                    new ItemStack(ItemIDs.boiler.item, 1),
+                    new ItemStack(WWCPItems.MZI.item), 1);
+
+            betterAddRecipe(3, new ItemStack(WWCPItems.MZI.item ,1), //MZII
+                    null,
+                    new ItemStack(ItemIDs.partAlternator.item, 2),
+                    new ItemStack(ItemIDs.partComponentEMD.item, 2),
+                    new ItemStack(ItemIDs.boiler.item, 1),
+                    new ItemStack(ItemIDs.electmotor.item),
+                    null,
+                    new ItemStack(itemSteel, 2, itemDamageSteel),
+                    null,
+                    null,
+                    new ItemStack(WWCPItems.MZII.item), 1);
+
+            betterAddRecipe(3, new ItemStack(ItemIDs.controls.item, 2), //Class ME
+                    null,
+                    new ItemStack(ItemIDs.steelcab.item, 2),
+                    new ItemStack(WWCPCraftingItems.Fan.item, 3),
+                    new ItemStack(ItemIDs.electmotor.item, 2),
+                    new ItemStack(ItemIDs.partTurboExhaust.item, 2),
+                    new ItemStack(ItemIDs.dieselengine.item, 2),
+                    new ItemStack(ItemIDs.bogie.item, 6),
+                    new ItemStack(ItemIDs.steelframe.item, 2),
+                    new ItemStack(ItemIDs.partAlternator.item, 2),
+                    new ItemStack(WWCPItems.ME.item), 1);
         }
     }
 
