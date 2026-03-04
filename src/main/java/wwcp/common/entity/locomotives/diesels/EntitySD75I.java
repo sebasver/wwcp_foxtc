@@ -19,11 +19,14 @@ public class EntitySD75I extends DieselTrain
     public EntitySD75I(World world) {
         super(world, LiquidManager.dieselFilter());
         InsertTexture(0, "BNSF Warbonnet");
+        InsertTexture(1, "BNSF Warbonnet 2");
+        InsertTexture(2, "Ontario Northland");
+
 
     }
 
     public void updateRiderPosition() {
-        TraincraftUtil.updateRider(this, 6.15F, 0.375f, -0.3f);
+        TraincraftUtil.updateRider(this, 6.15F, 0.225f, -0.3f);
     }
 
     public float getOptimalDistance(EntityMinecart cart) {
@@ -50,7 +53,7 @@ public class EntitySD75I extends DieselTrain
     }
 
     public final SoundRecord sound = new SoundRecord(this.getClass(), " ", 1.0F, "EMD_20_710G3B_Notch8", 0.9F, 28, "EMD_16_710G3B_Idle", 0.65F, 30, false, "emd_steelbell_3", 18,
-            new String[]{"leslie_s3l_1"});
+            new String[]{"leslie_s3l_1","leslie_s3l_1","nathan_m3_6"});
     public SoundRecord getSoundRecord() {
         return sound;
     }
@@ -80,6 +83,15 @@ public class EntitySD75I extends DieselTrain
                         {
                             case "black":
                                 texturePath = "textures/locomotive/Diesel/SD75M/SD75I_BNSF_Early";
+                                break;
+                            case "red":
+                                texturePath = "textures/locomotive/Diesel/SD75M/SD75I_BNSF_Early2";
+                                break;
+                            case "skin18":
+                                texturePath = "textures/locomotive/Diesel/SD75M/SD75I_BNSF_H2_L";
+                                break;
+                            case "green":
+                                texturePath = "textures/locomotive/Diesel/SD75M/SD75I_ONR";
                                 break;
 
                         }

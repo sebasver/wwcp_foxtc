@@ -20,12 +20,14 @@ public class EntitySD75M extends DieselTrain
         super(world, LiquidManager.dieselFilter());
         InsertTexture(0, "ATSF Warbonnet");
         InsertTexture(1, "BNSF Warbonnet");
-        InsertTexture(2, "NS");
+        InsertTexture(2, "BNSF H2");
+        InsertTexture(3, "BNSF H2 nose light");
+        InsertTexture(4, "NS");
 
     }
 
     public void updateRiderPosition() {
-        TraincraftUtil.updateRider(this, 6.15F, 0.375f, -0.3f);
+        TraincraftUtil.updateRider(this, 6.15F, 0.225f, -0.3f);
     }
 
     public float getOptimalDistance(EntityMinecart cart) {
@@ -85,6 +87,12 @@ public class EntitySD75M extends DieselTrain
                                 break;
                             case "red":
                                 texturePath = "textures/locomotive/Diesel/SD75M/SD75M_BNSF_Patch";
+                                break;
+                            case "skin18":
+                                texturePath = "textures/locomotive/Diesel/SD75M/SD75M_BNSF_H2";
+                                break;
+                            case "skin19":
+                                texturePath = "textures/locomotive/Diesel/SD75M/SD75M_BNSF_H2_L";
                                 break;
                             case "green":
                                 texturePath = "textures/locomotive/Diesel/SD75M/SD75M_NS";

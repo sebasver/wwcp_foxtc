@@ -20,12 +20,14 @@ public class EntitySD70M extends DieselTrain
         super(world, LiquidManager.dieselFilter());
         InsertTexture(0, "SP");
         InsertTexture(1, "CSX YN2");
-        InsertTexture(2, "UP as Delivered");
+        InsertTexture(2, "CSX YN2 Spirit of Mulberry");
+        InsertTexture(3, "CSX YN3");
+        InsertTexture(4, "UP as Delivered");
 
     }
 
     public void updateRiderPosition() {
-        TraincraftUtil.updateRider(this, 6.15F, 0.375f, -0.3f);
+        TraincraftUtil.updateRider(this, 6.15F, 0.225f, -0.3f);
     }
 
     public float getOptimalDistance(EntityMinecart cart) {
@@ -52,7 +54,7 @@ public class EntitySD70M extends DieselTrain
     }
 
     public final SoundRecord sound = new SoundRecord(this.getClass(), " ", 1.0F, "EMD_20_710G3B_Notch8", 0.9F, 28, "EMD_16_710G3B_Idle", 0.65F, 30, false, "emd_steelbell_3", 18,
-            new String[]{"nathan_m3_6","leslie_s3l_1","nathan_m3_6"});
+            new String[]{"nathan_m3_6","leslie_s3l_1","leslie_s3l_1","leslie_s3l_1","nathan_m3_6"});
     public SoundRecord getSoundRecord() {
         return sound;
     }
@@ -85,6 +87,12 @@ public class EntitySD70M extends DieselTrain
                                 break;
                             case "green":
                                 texturePath = "textures/locomotive/Diesel/SD70M/SD70M_CSXYN2";
+                                break;
+                            case "brown":
+                                texturePath = "textures/locomotive/Diesel/SD70M/SD70M_CSXYN2_S";
+                                break;
+                            case "blue":
+                                texturePath = "textures/locomotive/Diesel/SD70M/SD70M_CSXYN3";
                                 break;
                             case "skin17":
                                 texturePath = "textures/locomotive/Diesel/SD70M/SD70M_UP";

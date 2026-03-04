@@ -192,6 +192,7 @@ item.wwcp:X10A.name=CNR X10A
 item.wwcp:U1F.name=CNR U-1-F
 
 item.wwcp:F7A.name=F7A
+entity.wwcp.F7A.name=F7A
 item.wwcp:F7B.name=EMD F7B
 item.wwcp:FP7A.name=FP7A
 item.wwcp:CFA-16-4.name=CFA-16-4
@@ -208,6 +209,8 @@ entity.wwcp.GP30.name=GP30
 item.wwcp:GP30.name=GP30
 entity.wwcp.GP35.name=GP35
 item.wwcp:GP35.name=GP35
+entity.wwcp.GP60M.name=GP60M
+item.wwcp:GP60M.name=GP60M
 item.wwcp:GP50.name=GP50
 
 

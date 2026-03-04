@@ -22,11 +22,13 @@ public class EntityGP35 extends DieselTrain
         InsertTexture(0, "SLSF Stripes");
         InsertTexture(1, "CP Action Red");
         InsertTexture(2,"CSX Ghost Blue");
-
+        InsertTexture(3,"MILW");
+        InsertTexture(4,"MP Screaming Eagle");
+        InsertTexture(5,"ATSF Pinstripe");
     }
 
     public void updateRiderPosition() {
-        TraincraftUtil.updateRider(this, 3.85F, 0.15f, -0.3f);
+        TraincraftUtil.updateRider(this, 3.85F, 0.05f, -0.3f);
     }
 
     public float getOptimalDistance(EntityMinecart cart) {
@@ -53,7 +55,7 @@ public class EntityGP35 extends DieselTrain
     }
 
     public final SoundRecord sound = new SoundRecord(this.getClass(), " ", 1.0F, "EMD_16_567D3_Notch8", 0.45F, 28, "EMD_16_567D3_Idle", 0.45F, 30, false, "emd_steelbell_3", 18,
-            new String[]{"leslie_s5t_2","nathan_m3h_1","leslie_s3l_2"});
+            new String[]{"leslie_s5t_2","nathan_m3h_1","leslie_s3l_2","leslie_s3l_2","leslie_s3l_2","leslie_s3l_2"});
     public SoundRecord getSoundRecord() {
         return sound;
     }
@@ -89,6 +91,15 @@ public class EntityGP35 extends DieselTrain
                                 break;
                             case "green":
                                 texturePath = "textures/locomotive/Diesel/GP35/GP35_CSXGB";
+                                break;
+                            case "brown":
+                                texturePath = "textures/locomotive/Diesel/GP35/GP35_MILW";
+                                break;
+                            case "blue":
+                                texturePath = "textures/locomotive/Diesel/GP35/GP35_MP_SE";
+                                break;
+                            case "purple":
+                                texturePath = "textures/locomotive/Diesel/GP35/GP35_ATSF_Pinstripe";
                                 break;
 
                         }

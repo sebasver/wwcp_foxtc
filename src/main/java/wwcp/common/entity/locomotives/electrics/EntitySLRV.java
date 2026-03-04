@@ -22,7 +22,7 @@ public class EntitySLRV extends ElectricTrain {
     }
     
     public void updateRiderPosition() {
-        TraincraftUtil.updateRider(this, 5.05f, -0.25f, 0.0f);
+        TraincraftUtil.updateRider(this, 5.05f, -0.1f, 0.0f);
     }
 
     public float getOptimalDistance(EntityMinecart cart) {

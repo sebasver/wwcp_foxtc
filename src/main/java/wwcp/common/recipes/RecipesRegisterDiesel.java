@@ -21,6 +21,12 @@ public class RecipesRegisterDiesel extends AbstractRecipeHandler {
             Item itemSteel = k.getItem();
             int itemDamageSteel = k.getItemDamage();
 
+
+            for (ItemStack dye : dyeBlack) {//F7A
+                betterAddRecipe(2, new ItemStack(ItemIDs.partComponentEMD.item, 1), new ItemStack(ItemIDs.partTurboExhaust.item, 2), new ItemStack(ItemIDs.steelcab.item, 1), dye,
+                        new ItemStack(ItemIDs.controls.item, 1), new ItemStack(ItemIDs.generator.item, 3), new ItemStack(ItemIDs.dieselengine.item, 3),
+                        new ItemStack(ItemIDs.partBlombergB.item, 2), new ItemStack(ItemIDs.steelframe.item, 2), new ItemStack(itemSteel, 2, itemDamageSteel), new ItemStack(WWCPItems.F7A.item), 1);
+            }
             for (ItemStack dye : dyeBlack) {//GP30
                 betterAddRecipe(2, new ItemStack(ItemIDs.partComponentEMD.item, 2), new ItemStack(ItemIDs.partTurboExhaust.item, 1), new ItemStack(ItemIDs.steelcab.item, 1), dye,
                         new ItemStack(ItemIDs.controls.item, 1), new ItemStack(ItemIDs.generator.item, 3), new ItemStack(ItemIDs.dieselengine.item, 3),
@@ -31,6 +37,12 @@ public class RecipesRegisterDiesel extends AbstractRecipeHandler {
                 betterAddRecipe(2, new ItemStack(ItemIDs.partComponentEMD.item, 2), new ItemStack(ItemIDs.partTurboExhaust.item, 1), new ItemStack(ItemIDs.steelcab.item, 1), dye,
                         new ItemStack(ItemIDs.controls.item, 1), new ItemStack(ItemIDs.generator.item, 3), new ItemStack(ItemIDs.dieselengine.item, 3),
                         new ItemStack(ItemIDs.partBlombergB.item, 2), new ItemStack(ItemIDs.steelframe.item, 2), new ItemStack(itemSteel, 3, itemDamageSteel), new ItemStack(WWCPItems.GP35.item), 1);
+            }
+
+            for (ItemStack dye : dyeWhite) {//GP60M
+                betterAddRecipe(2, new ItemStack(ItemIDs.partComponentEMD.item, 4), new ItemStack(ItemIDs.partTurboExhaust.item, 1), new ItemStack(ItemIDs.steelcab.item, 1), dye,
+                        new ItemStack(ItemIDs.controls.item, 1), new ItemStack(ItemIDs.generator.item, 4), new ItemStack(ItemIDs.dieselengine.item, 4),
+                        new ItemStack(ItemIDs.partBlombergB.item, 2), new ItemStack(ItemIDs.steelframe.item, 2), new ItemStack(itemSteel, 3, itemDamageSteel), new ItemStack(WWCPItems.GP60M.item), 1);
             }
 
             for (ItemStack dye : dyeRed) {//SD45

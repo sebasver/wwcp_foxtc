@@ -111,7 +111,7 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.C430.item,
                         new TrainRecord(WWCPItems.C430.name(), EntityC430.class, WWCPItems.C430.item,
                                 "Freight Locomotive", 1,
-                                new String[] {"Black","Red","Green","Brown","Blue","Purple","Cyan"}, 5, 0, .95, 164,
+                                new String[] {"Black","Red","Green","Brown","Blue","Purple","Cyan"}, 8, 0, .95, 164,
                                 3000, 60, 160,
                                 0.65, -5f, 10000),
                         Instance()
@@ -120,7 +120,7 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.C630M.item,
                         new TrainRecord(WWCPItems.C630M.name(), EntityC630M.class, WWCPItems.C630M.item,
                                 "Freight Locomotive", 1,
-                                new String[] {"Red","Black","Green","Lime","Blue","White"}, 5, 0, .95, 164,
+                                new String[] {"Red","Black","Green","Lime","Blue","White"}, 8, 0, .95, 164,
                                 3000, 60, 160,
                                 0.65, -6f, 10000),
                         Instance()
@@ -130,7 +130,7 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.M630.item,
                         new TrainRecord(WWCPItems.M630.name(), EntityM630.class, WWCPItems.M630.item,
                                 "Freight Locomotive", 1,
-                                new String[] {"Red","Black","Green"}, 5, 0, .95, 164,
+                                new String[] {"Red","Black","Green"}, 8, 0, .95, 164,
                                 3000, 60, 160,
                                 0.65, -6f, 10000),
                         Instance()
@@ -140,9 +140,20 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.M640.item,
                         new TrainRecord(WWCPItems.M640.name(), EntityM640.class, WWCPItems.M640.item,
                                 "Freight Locomotive", 1,
-                                new String[] {"Red","Black"}, 5, 0, .95, 164,
+                                new String[] {"Red","Black"}, 8, 0, .95, 164,
                                 4000, 60, 160,
                                 0.65, -6f, 10000),
+                        Instance()
+                );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.F7A.item,
+                        new TrainRecord(WWCPItems.F7A.name(), EntityF7A.class, WWCPItems.F7A.item,
+                                "Freight Locomotive", 1,
+                                new String[] {"Black","Orange","Yellow","Blue","Red","Green","Brown","Purple","Cyan","LightGrey","Grey","Magenta","Lime","LightBlue","Pink","White"}, 10, 0, .95, 164,
+                                2250, 60, 160,
+                                //FRONT TRUCK Relative to rear truck pos set in entity file
+                                0.65, -4.3f, 10000),
                         Instance()
                 );
 
@@ -150,7 +161,7 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.GP30.item,
                         new TrainRecord(WWCPItems.GP30.name(), EntityGP30.class, WWCPItems.GP30.item,
                                 "Freight Locomotive", 1,
-                                new String[] {"Black","Orange","Yellow","Blue","Red","Green","Brown","Purple","Cyan","LightGrey","Grey","Magenta","Lime","LightBlue","Pink","White","Skin16"}, 5, 0, .95, 164,
+                                new String[] {"Black","Orange","Yellow","Blue","Red","Green","Brown","Purple","Cyan","LightGrey","Grey","Magenta","Lime","LightBlue","Pink","White","Skin16"}, 10, 0, .95, 164,
                                 2250, 60, 160,
                                 0.65, -4.05f, 10000),
                         Instance()
@@ -160,8 +171,17 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.GP35.item,
                         new TrainRecord(WWCPItems.GP35.name(), EntityGP35.class, WWCPItems.GP35.item,
                                 "Freight Locomotive", 1,
-                                new String[] {"Black","Red","Green"}, 5, 0, .95, 164,
+                                new String[] {"Black","Red","Green","Brown","Blue","Purple"}, 10, 0, .95, 164,
                                 2500, 60, 160,
+                                0.65, -4.05f, 10000),
+                        Instance()
+                );
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.GP60M.item,
+                        new TrainRecord(WWCPItems.GP60M.name(), EntityGP60M.class, WWCPItems.GP60M.item,
+                                "Freight Locomotive", 1,
+                                new String[] {"Black","Red","Green","Brown"}, 10, 0, .95, 164,
+                                3800, 60, 160,
                                 0.65, -4.05f, 10000),
                         Instance()
                 );
@@ -169,7 +189,7 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.RS10.item,
                         new TrainRecord(WWCPItems.RS10.name(), EntityRS10.class, WWCPItems.RS10.item,
                                 "Freight Locomotive", 1,
-                                new String[] {"Red","Black"}, 5, 0, .95, 164,
+                                new String[] {"Red","Black"}, 10, 0, .95, 164,
                                 1600, 60, 160,
                                 0.65, -4.25, 10000),
                         Instance()
@@ -178,7 +198,7 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.RS18.item,
                         new TrainRecord(WWCPItems.RS18.name(), EntityRS18.class, WWCPItems.RS18.item,
                                 "Freight Locomotive", 1,
-                                new String[] {"Red","Black","Green","Brown","Blue","Purple"}, 5, 0, .95, 164,
+                                new String[] {"Red","Black","Green","Brown","Blue","Purple"}, 10, 0, .95, 164,
                                 1800, 60, 160,
                                 0.65, -4.25, 10000),
                         Instance()
@@ -188,7 +208,7 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.RS18C.item,
                         new TrainRecord(WWCPItems.RS18C.name(), EntityRS18C.class, WWCPItems.RS18C.item,
                                 "Freight Locomotive", 1,
-                                new String[] {"Red","Black","Green","Brown"}, 5, 0, .95, 164,
+                                new String[] {"Red","Black","Green","Brown"}, 10, 0, .95, 164,
                                 1800, 60, 160,
                                 0.65, -4.25, 10000),
                         Instance()
@@ -198,7 +218,7 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.C424.item,
                         new TrainRecord(WWCPItems.C424.name(), EntityC424.class, WWCPItems.C424.item,
                                 "Freight Locomotive", 1,
-                                new String[] {"Black","Red","Green","Brown"}, 5, 0, .95, 164,
+                                new String[] {"Black","Red","Green","Brown"}, 10, 0, .95, 164,
                                 2400, 60, 160,
                                 0.65, -4.25, 10000),
                         Instance()
@@ -208,7 +228,7 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.C425.item,
                         new TrainRecord(WWCPItems.C425.name(), EntityC425.class, WWCPItems.C425.item,
                                 "Freight Locomotive", 1,
-                                new String[] {"Black","Red","Green","Brown","Blue","Purple","Cyan"}, 5, 0, .95, 164,
+                                new String[] {"Black","Red","Green","Brown","Blue","Purple","Cyan"}, 10, 0, .95, 164,
                                 2500, 60, 160,
                                 0.65, -4.125f, 10000),
                         Instance()
@@ -218,7 +238,7 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.SD45.item,
                         new TrainRecord(WWCPItems.SD45.name(), EntitySD45.class, WWCPItems.SD45.item,
                                 "Freight Locomotive", 1,
-                                new String[] {"Black","Red","Green","Magenta","Brown","Blue","Purple","Cyan","LightGrey","Grey","Pink","Lime","Yellow","LightBlue","Orange","White","Skin16","Skin17"}, 5, 0, .95, 164,
+                                new String[] {"Black","Red","Green","Magenta","Brown","Blue","Purple","Cyan","LightGrey","Grey","Pink","Lime","Yellow","LightBlue","Orange","White","Skin16","Skin17"}, 8, 0, .95, 164,
                                 3600, 60, 160,
                                 0.65, -5f, 10000),
                         Instance()
@@ -227,7 +247,7 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.SD45X.item,
                         new TrainRecord(WWCPItems.SD45X.name(), EntitySD45X.class, WWCPItems.SD45X.item,
                                 "Freight Locomotive", 1,
-                                new String[] {"Black","Red","Green","Brown"}, 5, 0, .95, 164,
+                                new String[] {"Black","Red","Green","Brown"}, 8, 0, .95, 164,
                                 4200, 60, 160,
                                 0.65, -5.5f, 10000),
                         Instance()
@@ -237,7 +257,7 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.SD70M.item,
                         new TrainRecord(WWCPItems.SD70M.name(), EntitySD70M.class, WWCPItems.SD70M.item,
                                 "Freight Locomotive", 1,
-                                new String[] {"Skin16","Green","Skin17"}, 5, 0, .95, 164,
+                                new String[] {"Skin16","Green","Brown","Blue","Skin17"}, 8, 0, .95, 164,
                                 4000, 60, 160,
                                 0.65, -5.9f, 10000),
                         Instance()
@@ -247,7 +267,7 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.SD75M.item,
                         new TrainRecord(WWCPItems.SD75M.name(), EntitySD75M.class, WWCPItems.SD75M.item,
                                 "Freight Locomotive", 1,
-                                new String[] {"Black","Red","Green"}, 5, 0, .95, 164,
+                                new String[] {"Black","Red","Skin18","Skin19","Green"}, 8, 0, .95, 164,
                                 4300, 60, 160,
                                 0.65, -5.9f, 10000),
                         Instance()
@@ -257,7 +277,7 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.SD75I.item,
                         new TrainRecord(WWCPItems.SD75I.name(), EntitySD75I.class, WWCPItems.SD75I.item,
                                 "Freight Locomotive", 1,
-                                new String[] {"Black"}, 5, 0, .95, 164,
+                                new String[] {"Black","Red","Skin18","Green"}, 8, 0, .95, 164,
                                 4300, 60, 160,
                                 0.65, -5.9f, 10000),
                         Instance()
@@ -267,7 +287,7 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.C408W.item,
                         new TrainRecord(WWCPItems.C408W.name(), EntityC408W.class, WWCPItems.C408W.item,
                                 "Freight Locomotive", 1,
-                                new String[] {"Black","Red","Green","Brown","Blue","Purple","Cyan","LightGrey","Grey","Pink","Lime","Yellow","LightBlue","Orange","White"}, 5, 0, .95, 164,
+                                new String[] {"Black","Red","Green","Brown","Blue","Purple","Cyan","LightGrey","Grey","Pink","Lime","Yellow","LightBlue","Orange","White"}, 8, 0, .95, 164,
                                 4000, 60, 160,
                                 0.65, -5.5f, 10000),
                         Instance()
@@ -426,7 +446,7 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.EF4.item,
                         new TrainRecord(Transport.EF4().name, EntityEF4.class, WWCPItems.EF4.item,
                                 Transport.EF4().additionalText2, Transport.EF4().weightinKGs,
-                                new String[] {"Red","Orange"}, 5, 0, 2.00, (int)Transport.EF4().topSpeed,
+                                new String[] {"Red","Orange"}, 7, 0, 2.00, (int)Transport.EF4().topSpeed,
                                 (int)Transport.EF4().metric_horsepower, 40, 0,
                                 0.95, -8, 0),
                         Instance()
@@ -436,7 +456,7 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.EP3.item,
                         new TrainRecord(Transport.EP3().name, EntityEP3.class, WWCPItems.EP3.item,
                                 Transport.EP3().additionalText2, Transport.EP3().weightinKGs,
-                                new String[] {"Red","Yellow","Orange"}, 5, 0, 2.00, (int)Transport.EP3().topSpeed,
+                                new String[] {"Red","Yellow","Orange"}, 7, 0, 2.00, (int)Transport.EP3().topSpeed,
                                 (int)Transport.EP3().metric_horsepower, 40, 0,
                                 0.95, -8, 0),
                         Instance()
@@ -446,7 +466,7 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.ES2.item,
                         new TrainRecord(Transport.ES2().name, EntityES2.class, WWCPItems.ES2.item,
                                 Transport.ES2().additionalText2, Transport.ES2().weightinKGs,
-                                new String[] {"Red","Orange","Yellow","Blue"}, 5, 0, 0.95, (int)Transport.ES2().topSpeed,
+                                new String[] {"Red","Orange","Yellow","Blue"}, 10, 0, 0.95, (int)Transport.ES2().topSpeed,
                                 (int)Transport.ES2().metric_horsepower, 40, 0,
                                 0.95, -3, 0),
                         Instance()
@@ -456,7 +476,7 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.EP2.item,
                         new TrainRecord(Transport.EP2().name, EntityEP2.class, WWCPItems.EP2.item,
                                 Transport.EP2().additionalText2, Transport.EP2().weightinKGs,
-                                new String[] {"Black","Red","Green","Brown","Blue","Purple","Cyan","LightGrey","Pink","Lime"}, 5, 0, 2.00, (int)Transport.EP2().topSpeed,
+                                new String[] {"Black","Red","Green","Brown","Blue","Purple","Cyan","LightGrey","Pink","Lime"}, 10, 0, 2.00, (int)Transport.EP2().topSpeed,
                                 (int)Transport.EP2().metric_horsepower, 40, 0,
                                 0.95, -3, 0),
                         Instance()
@@ -466,7 +486,7 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.SLRV.item,
                         new TrainRecord(Transport.SLRV().name, EntitySLRV.class, WWCPItems.SLRV.item,
                                 Transport.SLRV().additionalText2, Transport.SLRV().weightinKGs,
-                                new String[] {"Black","Red"}, 5, 0, 0.95, (int)Transport.SLRV().topSpeed,
+                                new String[] {"Black","Red"}, 10, 0, 0.95, (int)Transport.SLRV().topSpeed,
                                 (int)Transport.SLRV().metric_horsepower, 40, 0,
                                 0.95, -3.5f, 0),
                         Instance()
@@ -480,7 +500,7 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.SLRVC.item,
                         new TrainRecord(Transport.SLRVC().name, EntitySLRVC.class, WWCPItems.SLRVC.item,
                                 Transport.SLRVC().additionalText2, Transport.SLRVC().weightinKGs,
-                                new String[] {"Black"}, 5, 0, 0, 0,
+                                new String[] {"Black"}, 10, 0, 0, 0,
                                 0, 0, 0,
                                 0, 0, 0),
                         Instance()
@@ -627,7 +647,7 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.XM4A.item,
                         new TrainRecord(WWCPItems.XM4A.name(), EntityXM4A.class, WWCPItems.XM4A.item,
                                 Transport.XM4A().additionalText2, Transport.XM4A().weightinKGs,
-                                new String[] {"Brown","Green","Blue","Lime"}, 5, 32, 0, 0,
+                                new String[] {"Brown","Green","Blue","Lime"}, 10, 32, 0, 0,
                                 0, 0, 0,
                                 0, 0, 0),
                         Instance()
@@ -656,7 +676,7 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.PS2Early3Bay.item,
                         new TrainRecord(WWCPItems.PS2Early3Bay.name(), EntityPS2Early3Bay.class, WWCPItems.PS2Early3Bay.item,
                                 Transport.PS2Early3Bay().additionalText2, Transport.PS2Early3Bay().weightinKGs,
-                                new String[] {"Black","Red","Green","Brown","Blue","Purple","Cyan","LightGrey"}, 5, 32, 0, 0,
+                                new String[] {"Black","Red","Green","Brown","Blue","Purple","Cyan","LightGrey"}, 10, 32, 0, 0,
                                 0, 0, 0,
                                 0, 0, 0),
                         Instance()
@@ -666,7 +686,7 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.AAR40ft.item,
                         new TrainRecord(WWCPItems.AAR40ft.name(), EntityAAR40ft.class, WWCPItems.AAR40ft.item,
                                 Transport.AAR40ft().additionalText2, Transport.AAR40ft().weightinKGs,
-                                new String[] {"Black","Red","Green","Brown","Blue","Purple","Cyan","LightGrey","Pink","Lime"}, 5, 32, 0, 0,
+                                new String[] {"Black","Red","Green","Brown","Blue","Purple","Cyan","LightGrey","Pink","Lime"}, 10, 32, 0, 0,
                                 0, 0, 0,
                                 0, 0, 0),
                         Instance()
@@ -705,7 +725,7 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.EP2_Center.item,
                         new TrainRecord(WWCPItems.EP2_Center.name(), EntityEP2_Center.class, WWCPItems.EP2_Center.item,
                                 Transport.EP2_Center().additionalText2, Transport.EP2_Center().weightinKGs,
-                                new String[] {"Black","Red","Green","Brown","Blue"}, 5, 9, 0, 0,
+                                new String[] {"Black","Red","Green","Brown","Blue"}, 10, 9, 0, 0,
                                 0, 0, 0,
                                 0, 0, 0),
                         Instance()
@@ -715,7 +735,7 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.Paccar64Woodchip.item,
                         new TrainRecord(WWCPItems.Paccar64Woodchip.name(), EntityPaccar64Woodchip.class, WWCPItems.Paccar64Woodchip.item,
                                 Transport.Paccar64Woodchip().additionalText2, Transport.Paccar64Woodchip().weightinKGs,
-                                new String[] {"Black","Red"}, 5, 32, 0, 0,
+                                new String[] {"Black","Red"}, 8, 32, 0, 0,
                                 0, 0, 0,
                                 0, 0, 0),
                         Instance()
@@ -724,7 +744,7 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.Gunderson596Woodchip.item,
                         new TrainRecord(WWCPItems.Gunderson596Woodchip.name(), EntityGunderson596Woodchip.class, WWCPItems.Gunderson596Woodchip.item,
                                 Transport.Gunderson596Woodchip().additionalText2, Transport.Gunderson596Woodchip().weightinKGs,
-                                new String[] {"Black","Red"}, 5, 32, 0, 0,
+                                new String[] {"Black","Red"}, 8, 32, 0, 0,
                                 0, 0, 0,
                                 0, 0, 0),
                         Instance()

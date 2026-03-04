@@ -962,6 +962,13 @@ public class Transport {
                 50000f, 2500f, 130f, 112f, false, true, 0);
     }
 
+    //GP60M
+    public static LocomotiveNoBackspeed GP60M() {
+        return new LocomotiveNoBackspeed("GP60M", "US", "1990-Present", "Diesel",
+                nick, "", type, " General Purpose Locomotive",
+                76435f, 3800f, 143.5f, 112f, false, true, 0);
+    }
+
     public static LocomotiveNoBackspeed GP7HighHood() {
         return new LocomotiveNoBackspeed("GP7HighHood", "America", "1949-Present", "Diesel",
                 nick, "", type, " Freight Locomotive",

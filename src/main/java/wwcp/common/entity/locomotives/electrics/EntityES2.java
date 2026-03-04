@@ -24,7 +24,7 @@ public class EntityES2 extends ElectricTrain {
     }
     
     public void updateRiderPosition() {
-        TraincraftUtil.updateRider(this, 1.5f, 0.225f, -0.3f);
+        TraincraftUtil.updateRider(this, 1.5f, 0.075f, -0.3f);
     }
 
     public float getOptimalDistance(EntityMinecart cart) {
