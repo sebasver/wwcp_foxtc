@@ -72,7 +72,7 @@ public enum WWCPItems
     RheingoldKitchen2("RheingoldKitchen2",PASSENGER,"European"),
     RheingoldBagage("RheingoldBagage",BAGGAGE,"European"),
     EurofimaPresidentiale("EurofimaPresidentiale",PASSENGER,"European"),
-    MZIII("IconMzI-III",DIESEL, "European"),
+    MZIII("IconMzIII",DIESEL, "European"),
     DSBMH("IconDSBMH",DIESEL, "European"),
     Hbbillns("IconHbbillns",FREIGHT, "European"),
     Lgns("IconLgns",FREIGHT, "European"),
@@ -80,12 +80,15 @@ public enum WWCPItems
     DSB735("IconDSB735",FREIGHT, "European"),
     DSBZE("IconDSBZE",FREIGHT, "European"),
     DSBE("IconDSBE",FREIGHT, "European"),
-    MZI("IconMzI-III",DIESEL, "European"),
-    MZII("IconMzI-III",DIESEL, "European"),
+    MZI("IconMzI-II",DIESEL, "European"),
+    MZII("IconMzI-II",DIESEL, "European"),
     ME("IconME",DIESEL, "European"),
     DSBFII("IconFII",STEAM, "European"),
     DSBFIII("IconFIII",STEAM, "European"),
     BR215("IconV160",DIESEL, "European"),
+    BR217("IconV163",DIESEL, "European"),
+    BR218("IconV164",DIESEL, "European"),
+    BR218_2("IconV164II",DIESEL, "European"),
     //minecraftTemplateUntradeable("template-icon", STEAM)
     ;
 

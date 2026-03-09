@@ -113,15 +113,20 @@ public class RecipesRegisterDiesel extends AbstractRecipeHandler {
                         new ItemStack(ItemIDs.controls.item, 2), new ItemStack(ItemIDs.generator.item, 1), new ItemStack(ItemIDs.dieselengine.item, 1),
                         new ItemStack(ItemIDs.transmition.item, 2), new ItemStack(ItemIDs.steelframe.item, 2), new ItemStack(itemSteel, 2, itemDamageSteel), new ItemStack(WWCPItems.BR215.item), 1);
             }
-            //for (ItemStack dye : dyeRed) {//BR217
-                //betterAddRecipe(2, new ItemStack(WWCPItems.BR215.item), new ItemStack(ItemIDs.partTurboExhaust.item, 4), new ItemStack(ItemIDs.steelcab.item, 2), dye,
-                        //new ItemStack(ItemIDs.controls.item, 2), new ItemStack(ItemIDs.generator.item, 1), new ItemStack(ItemIDs.dieselengine.item, 1),
-                        //new ItemStack(ItemIDs.transmition.item, 2), new ItemStack(ItemIDs.steelframe.item, 2), new ItemStack(itemSteel, 2, itemDamageSteel), new ItemStack(WWCPItems.BR215.item), 1);
-            //}
+            for (ItemStack dye : dyeRed) {//BR217
+                betterAddRecipe(2, new ItemStack(WWCPItems.BR215.item), null, new ItemStack(ItemIDs.ironChimney.item, 2), dye,
+                        new ItemStack(ItemIDs.steelchimney.item, 2), new ItemStack(ItemIDs.generator.item, 1), null,
+                        null, new ItemStack(ItemIDs.electmotor.item, 1), new ItemStack(itemSteel, 2, itemDamageSteel), new ItemStack(WWCPItems.BR217.item), 1);
+            }
             for (ItemStack dye : dyeGreen) {//DSB MH
                 betterAddRecipe(2, new ItemStack(WWCPCraftingItems.Fan.item, 1), new ItemStack(ItemIDs.partTurboExhaust.item, 1), new ItemStack(ItemIDs.steelcab.item, 1), dye,
                         new ItemStack(ItemIDs.controls.item, 2), new ItemStack(ItemIDs.generator.item, 1), new ItemStack(ItemIDs.dieselengine.item, 1),
                         new ItemStack(ItemIDs.transmition.item, 2), new ItemStack(ItemIDs.steelframe.item, 2), new ItemStack(itemSteel, 2, itemDamageSteel), new ItemStack(WWCPItems.DSBMH.item), 1);
+            }
+            for (ItemStack dye : dyeRed) {//BR218
+                betterAddRecipe(2, new ItemStack(WWCPItems.BR217.item), null, new ItemStack(ItemIDs.ironChimney.item, 2), dye,
+                        null, new ItemStack(ItemIDs.generator.item, 2), null,
+                        null, new ItemStack(ItemIDs.electmotor.item, 2), new ItemStack(itemSteel, 2, itemDamageSteel), new ItemStack(WWCPItems.BR218.item), 1);
             }
 
 
