@@ -1140,11 +1140,32 @@ public class Transport {
                 130f, 440f, 40.5f, 60f, false, true, 0);
     }
 
-    //V160 215 - 218
-    public static LocomotiveNoBackspeed V160() {
-        return new LocomotiveNoBackspeed("V160", "Germany", "1968-2022", "Diesel",
+    //V160 - 217
+    public static LocomotiveNoBackspeed V162() {
+        return new LocomotiveNoBackspeed("V162 / BR 217", "Germany", "1968-2026", "Diesel",
                 nick, "", type, " Universal Locomotive",
-                40000f, 2470f, 79f, 140f, false, true, 0);
+                23600f, 1914f, 79f, 140f, false, true, 0);
+    }
+
+    //V160 - 215
+    public static LocomotiveNoBackspeed V163() {
+        return new LocomotiveNoBackspeed("V163 / BR 215", "Germany", "1967-2015", "Diesel",
+                nick, "", type, " Universal Locomotive",
+                23500f, 2470f, 79f, 140f, false, true, 0);
+    }
+
+    //V160 - 218_TB11
+    public static LocomotiveNoBackspeed V164_TB11() {
+        return new LocomotiveNoBackspeed("V164 / BR 218", "Germany", "1969-2020s", "Diesel",
+                nick, "Harnisse", type, " Universal Locomotive",
+                23500f, 2764f, 79.5f, 140f, false, true, 0);
+    }
+
+    //V160 - 218_TB10
+    public static LocomotiveNoBackspeed V164_TB10() {
+        return new LocomotiveNoBackspeed("V164 / BR 218_TB10", "Germany", "1969-2020s", "Diesel",
+                nick, "Harnisse", type, " Universal Locomotive",
+                23500f, 2470f, 79.5f, 140f, false, true, 0);
     }
 
     //NE 81 / BR626

@@ -368,14 +368,48 @@ public class WWCPEntityHandler
 
         Traincraft.traincraftRegistry
                 .RegisterRollingStockEntity(WWCPItems.BR215.item,
-                        new TrainRecord(Transport.V160().name, EntityBR215.class, WWCPItems.BR215.item,
-                                Transport.V160().additionalText2, Transport.V160().weightinKGs,
+                        new TrainRecord(Transport.V163().name, EntityBR215.class, WWCPItems.BR215.item,
+                                Transport.V163().additionalText2, Transport.V163().weightinKGs,
                                 new String[] {"Black","Red","Green","Blue","Brown"},
-                                5, 2, 1.75, (int)Transport.V160().topSpeed,
-                                (int)Transport.V160().metric_horsepower, 60, 160,
-                                0.65, -5.9f, 8000),
+                                5, 2, 1.75, (int)Transport.V163().topSpeed,
+                                (int)Transport.V163().metric_horsepower, 50, 160,
+                                0.65, -5.2f, 2700),
                         Instance()
                 );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.BR217.item,
+                        new TrainRecord(Transport.V162().name, EntityBR217.class, WWCPItems.BR217.item,
+                                Transport.V162().additionalText2, Transport.V162().weightinKGs,
+                                new String[] {"Black","Red","Green","Blue"},
+                                5, 2, 1.75, (int)Transport.V162().topSpeed,
+                                (int)Transport.V162().metric_horsepower, 60, 160,
+                                0.65, -5.2f, 3150),
+                        Instance()
+                );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.BR218.item,
+                        new TrainRecord(Transport.V164_TB11().name, EntityBR218_1.class, WWCPItems.BR218.item,
+                                Transport.V164_TB11().additionalText2, Transport.V164_TB11().weightinKGs,
+                                new String[] {"Black","Red","Green","Magenta","Brown","Blue","Purple","Cyan","LightGrey","Grey","Pink","Lime"},
+                                5, 2, 1.75, (int)Transport.V164_TB11().topSpeed,
+                                (int)Transport.V164_TB11().metric_horsepower, 60, 160,
+                                0.65, -5.9f, 3150),
+                        Instance()
+                );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.BR218_2.item,
+                        new TrainRecord(Transport.V164_TB10().name, EntityBR218_2.class, WWCPItems.BR218_2.item,
+                                Transport.V164_TB10().additionalText2, Transport.V164_TB10().weightinKGs,
+                                new String[] {"Black","Red","Green","Magenta","Brown","Blue","Purple","Cyan","LightGrey","Grey","Pink","Lime"},
+                                5, 2, 1.75, (int)Transport.V164_TB10().topSpeed,
+                                (int)Transport.V164_TB10().metric_horsepower, 50, 160,
+                                0.65, -5.9f, 2975),
+                        Instance()
+                );
+
 
         /**
          * ELECTRIC LOCOMOTIVES

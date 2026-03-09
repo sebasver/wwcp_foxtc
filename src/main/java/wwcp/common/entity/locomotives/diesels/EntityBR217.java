@@ -14,18 +14,17 @@ import wwcp.common.core.handler.Transport;
 
 import java.util.ArrayList;
 
-import static wwcp.common.core.handler.EnumSoundsWWCP.locoDieselBR215;
+import static wwcp.common.core.handler.EnumSoundsWWCP.locoDieselBR217;
 
 
-public class EntityBR215 extends DieselTrain
+public class EntityBR217 extends DieselTrain
 {
-    public EntityBR215(World world) {
+    public EntityBR217(World world) {
         super(world, LiquidManager.dieselFilter());
         InsertTexture(0, "DB Altrot");
         InsertTexture(1, "DB Ozeanblau Beige");
         InsertTexture(2, "DB Orientrot");
         InsertTexture(3, "DB Verkehrsrot");
-        InsertTexture(4, "DB Verkehrsrot Sylt Shuttle");
 
     }
 
@@ -39,25 +38,25 @@ public class EntityBR215 extends DieselTrain
 
     @Override
     public String transportCountry() {
-        return Transport.V163().country;
+        return Transport.V162().country;
     }
 
     @Override
     public String transportYear() {
-        return Transport.V163().year;
+        return Transport.V162().year;
     }
 
     public String getInventoryName() {
-        return Transport.V163().name;
+        return Transport.V162().name;
     }
 
     @Override
     public boolean isFictional() {
-        return Transport.V163().fictional;
+        return Transport.V162().fictional;
     }
 
     public SoundRecord getSoundRecord() {
-        return locoDieselBR215;
+        return locoDieselBR217;
     }
 
     @Override
@@ -65,18 +64,18 @@ public class EntityBR215 extends DieselTrain
     {
         Traincraft.traincraftRegistry.RegisterRollingStockModel(
                 new TrainRenderRecord(wwcp.common.library.Info.modID,
-                        EntityBR215.class, new V160_164(),
-                        "DB BR 215",
+                        EntityBR217.class, new V160_164(),
+                        "DB BR 217",
                         new float[] { -2.99F,0.15F,0.0F },
                         new float[] { 0F, 180F, 180F },
                         null,
                         "smoke",
                         new ArrayList<double[]>() {
                             {
-                                add(new double[]{4.7D, 1.5D, 0.125D});
+                                add(new double[]{4.7D, 1.7D, 0.195D});
                             }
                             {
-                                add(new double[]{4.7D, 1.5D, -0.125D});
+                                add(new double[]{3.65D, 1.7D, -0.195D});
                             }},
                         "", null, 10, 2)
                 {
@@ -87,19 +86,16 @@ public class EntityBR215 extends DieselTrain
                         switch (colorAsString.toLowerCase())
                         {
                             case "black":
-                                texturePath = "textures/locomotive/Diesel/V160/215/BR215AR";
+                                texturePath = "textures/locomotive/Diesel/V160/217/BR217RB";
                                 break;
                             case "red":
-                                texturePath = "textures/locomotive/Diesel/V160/215/BR215OB";
+                                texturePath = "textures/locomotive/Diesel/V160/217/BR217OB";
                                 break;
                             case "green":
-                                texturePath = "textures/locomotive/Diesel/V160/215/BR215OR";
+                                texturePath = "textures/locomotive/Diesel/V160/217/BR217OR";
                                 break;
                             case "blue":
-                                texturePath = "textures/locomotive/Diesel/V160/215/BR215VR";
-                                break;
-                            case "brown":
-                                texturePath = "textures/locomotive/Diesel/V160/215/BR215VRSS";
+                                texturePath = "textures/locomotive/Diesel/V160/217/BR217VR";
                                 break;
 
                         }
