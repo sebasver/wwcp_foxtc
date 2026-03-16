@@ -1983,6 +1983,12 @@ public class Transport {
     //Lgns
     public static Rollingstock Lgns() {
         return new Rollingstock("Lgns", "Europe", "1980s", "",
+                "", type, " Freight Container", 12f, 120f, false, true, 0);
+    }
+
+    //R-Flatcars
+    public static Rollingstock R_Flatcars() {
+        return new Rollingstock("RES-X, RNS-U and RS", "Europe", "1980s", "",
                 "", type, " Flatcar", 15f, 120f, false, true, 0);
     }
 }
