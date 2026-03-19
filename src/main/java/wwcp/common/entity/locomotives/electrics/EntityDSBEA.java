@@ -25,11 +25,11 @@ public class EntityDSBEA extends ElectricTrain {
     }
     
     public void updateRiderPosition() {
-        TraincraftUtil.updateRider(this, 7.65f, 0f, -0.2f);
+        TraincraftUtil.updateRider(this, 7.37f, 0.115f, -0.25f);
     }
 
     public float getOptimalDistance(EntityMinecart cart) {
-        return 0.5F;
+        return 1.2F;
     }
 
     @Override
@@ -43,7 +43,7 @@ public class EntityDSBEA extends ElectricTrain {
     }
 
     public String getInventoryName() {
-        return Transport.BR145().name;
+        return Transport.DSBClassEA().name;
     }
 
     @Override
@@ -56,8 +56,8 @@ public class EntityDSBEA extends ElectricTrain {
         Traincraft.traincraftRegistry.RegisterRollingStockModel(
                 new TrainRenderRecord(wwcp.common.library.Info.modID,
                         EntityDSBEA.class, new DSBClassEA(),
-                        "BR145",
-                        new float[]{-4f, 0.15F, 0.0F},
+                        "DSB EA",
+                        new float[]{-3.5f, 0.15F, 0.0F},
                         new float[]{0F, 180F, 180F},
                         null) {
                     @Override
