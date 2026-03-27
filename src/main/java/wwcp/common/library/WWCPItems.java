@@ -97,6 +97,9 @@ public enum WWCPItems
     F7A("item.F7A_Icon", DIESEL, "American"),
     R_Flatcars("IconRESX", FREIGHT, "European"),
     DSBEA("IconEA",ELECTRIC, "European"),
+    FrichsArdelt("IconFrAd",DIESEL, "European"),
+    FrichsKoef("IconFrKf",DIESEL, "European"),
+    DSBMT("IconMT",DIESEL, "European"),
     //minecraftTemplateUntradeable("template-icon", STEAM)
     ;
 

@@ -10,6 +10,6 @@ public class EnumSoundsWWCP {
     public static final SoundRecord locoDieselBR217 = new SoundRecord(EntityBR217.class, "wwcp:V160_horn", 0.8F, "wwcp:218_1_Run", 0.65F, 20, "wwcp:218_1_Idle", 0.65F, 3, true, " ", 0);
     public static final SoundRecord locoDieselBR218_1 = new SoundRecord(EntityBR218_1.class, "wwcp:V160_horn", 0.8F, "wwcp:218_1_Run", 0.65F, 20, "wwcp:218_1_Idle", 0.65F, 3, true, " ", 0);
     public static final SoundRecord locoDieselBR218_2 = new SoundRecord(EntityBR218_2.class, "wwcp:V160_horn", 0.8F, "wwcp:218_2_Run", 0.65F, 20, "wwcp:218_2_Idle", 0.65F, 3, true, " ", 0);
+    public static final SoundRecord locoDieselDSBMT = new SoundRecord(EntityDSBMT.class, "wwcp:DSBMH_Whistle", 0.8F, "wwcp:FM_38D_6_Notch8", 0.25F, 20, "wwcp:FM_38D_6_Idle", 0.15F, 3, true, " ", 0);
 
 }
-

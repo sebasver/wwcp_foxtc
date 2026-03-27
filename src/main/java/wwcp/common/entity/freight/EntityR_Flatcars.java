@@ -163,7 +163,7 @@ public class EntityR_Flatcars extends AbstractStandardFreightCar {
     }
 
     public float getOptimalDistance(EntityMinecart cart) {
-        return 5.80F;
+        return 4.94F;
     }
 
     @Override

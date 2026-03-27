@@ -410,6 +410,39 @@ public class WWCPEntityHandler
                         Instance()
                 );
 
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.FrichsArdelt.item,
+                        new TrainRecord(Transport.FrichsArdelt().name, EntityFrichsArdelt.class, WWCPItems.FrichsArdelt.item,
+                                Transport.FrichsArdelt().additionalText2, Transport.FrichsArdelt().weightinKGs,
+                                new String[] {"Black","Red","Green"},
+                                5, 2, 0.95, (int)Transport.FrichsArdelt().topSpeed,
+                                (int)Transport.FrichsArdelt().metric_horsepower, 20, 80,
+                                0.95, -1.65f, 1000),
+                        Instance()
+                );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.FrichsKoef.item,
+                        new TrainRecord(Transport.FrichsKoef().name, EntityFrichsKoef.class, WWCPItems.FrichsKoef.item,
+                                Transport.FrichsKoef().additionalText2, Transport.FrichsKoef().weightinKGs,
+                                new String[] {"Green","Black","Red","Orange"},
+                                5, 2, 0.95, (int)Transport.FrichsKoef().topSpeed,
+                                (int)Transport.FrichsKoef().metric_horsepower, 50, 30,
+                                0.95, -1.175f, 1000),
+                        Instance()
+                );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.DSBMT.item,
+                        new TrainRecord(Transport.ClassMT().name, EntityDSBMT.class, WWCPItems.DSBMT.item,
+                                Transport.ClassMT().additionalText2, Transport.ClassMT().weightinKGs,
+                                new String[] {"Green","Red"},
+                                5, 2, 0.95, (int)Transport.ClassMT().topSpeed,
+                                (int)Transport.ClassMT().metric_horsepower, 50, 60,
+                                0.95, -1.175f, 2000),
+                        Instance()
+                );
+
 
         /**
          * ELECTRIC LOCOMOTIVES

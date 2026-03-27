@@ -446,13 +446,13 @@ public class R_Flatcars extends ModelConverter //Same as Filename
 
 		Tessellator.bindTexture(new ResourceLocation(Info.modID, "textures/bogies/EUBogies/SGNSSBogie.png"));
 		GL11.glPushMatrix();
-		GL11.glTranslatef(3.6f,0f,0);
+		GL11.glTranslatef(3.65f,0f,0);
 		bogie.render(entity, f, f1, f2, f3, f4, f5);
 		GL11.glPopMatrix();
 
 		Tessellator.bindTexture(new ResourceLocation(Info.modID, "textures/bogies/EUBogies/SGNSSBogie.png"));
 		GL11.glPushMatrix();
-		GL11.glTranslatef(-3.6f,0f,0);
+		GL11.glTranslatef(-3.65f,0f,0);
 		bogie.render(entity, f, f1, f2, f3, f4, f5);
 		GL11.glPopMatrix();
 		((AbstractTrains) entity).getCargoManager().renderCargo((AbstractTrains) entity, f, f1, f2, f3, f4, f5);
