@@ -8,20 +8,17 @@ import train.common.Traincraft;
 import train.common.api.LiquidManager;
 import train.common.api.SteamTrain;
 import train.common.core.util.TraincraftUtil;
-import train.common.library.EnumSounds;
 import train.common.library.sounds.SoundRecord;
 import wwcp.client.render.rollingstock.locomotives.steamers.DSBFIII;
 import wwcp.common.core.handler.Transport;
-
 import java.util.ArrayList;
+import static wwcp.common.core.handler.EnumSoundsWWCP.locoSteamDSBFIII;
 
 public class EntityDSBFIII extends SteamTrain {
 
     public EntityDSBFIII(World world) {
         super(world, LiquidManager.WATER_FILTER);
         InsertTexture(0, "DSB F III");
-
-
     }
 
     public void updateRiderPosition() {
@@ -82,6 +79,6 @@ public class EntityDSBFIII extends SteamTrain {
 
     @Override
     public SoundRecord getSoundRecord() {
-        return EnumSounds.locoSteamBR01_DB;
+        return locoSteamDSBFIII;
     }
 }

@@ -193,5 +193,10 @@
   "218_1_Idle":  {"category": "master", "sounds" :  [{"name": "218_1_Idle", "stream": true}]},
   "218_1_Run":  {"category": "master", "sounds" :  [{"name": "218_1_Run", "stream": true}]},
   "218_2_Idle":  {"category": "master", "sounds" :  [{"name": "218_2_Idle", "stream": true}]},
-  "218_2_Run":  {"category": "master", "sounds" :  [{"name": "218_2_Run", "stream": true}]}
+  "218_2_Run":  {"category": "master", "sounds" :  [{"name": "218_2_Run", "stream": true}]},
+  "DSBSteam_Whistle":  {"category": "master", "sounds" :  [{"name": "DSBSteam_Whistle", "stream": true}]},
+  "DSBSteam_Run":  {"category": "master", "sounds" :  [{"name": "DSBSteam_Run", "stream": true}]},
+  "DSBSteam_Idle":  {"category": "master", "sounds" :  [{"name": "DSBSteam_Idle", "stream": true}]}
+
+
 }

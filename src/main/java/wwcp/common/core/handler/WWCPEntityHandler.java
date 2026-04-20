@@ -439,7 +439,7 @@ public class WWCPEntityHandler
                                 new String[] {"Green","Red"},
                                 5, 2, 0.95, (int)Transport.ClassMT().topSpeed,
                                 (int)Transport.ClassMT().metric_horsepower, 50, 60,
-                                0.95, -1.175f, 2000),
+                                0.95, -2.0f, 2000),
                         Instance()
                 );
 

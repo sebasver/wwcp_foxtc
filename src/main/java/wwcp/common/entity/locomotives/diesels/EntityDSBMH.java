@@ -87,7 +87,7 @@ public class EntityDSBMH extends DieselTrain
                                 texturePath = "textures/locomotive/Diesel/DSBMH/DSBMhRedBlack.png";
                                 break;
                             case "green":
-                                texturePath = "textures/locomotive/Diesel/DSB/DSBRedBlack374.png";
+                                texturePath = "textures/locomotive/Diesel/DSBMH/DSBRedBlack374.png";
                                 break;
 
                         }
