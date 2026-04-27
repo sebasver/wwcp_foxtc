@@ -25,7 +25,7 @@ public class EntityES64U4 extends ElectricTrain {
     }
 
     public float getOptimalDistance(EntityMinecart cart) {
-        return 1.8F;
+        return 1F;
     }
 
     @Override
@@ -53,7 +53,7 @@ public class EntityES64U4 extends ElectricTrain {
                 new TrainRenderRecord(wwcp.common.library.Info.modID,
                         EntityES64U4.class, new ES64U4(),
                         "ES64U4",
-                        new float[]{-2.5f, 0.15F, 0.0F},
+                        new float[]{-3.75f, 0.10F, 0.0F},
                         new float[]{0F, 180F, 180F},
                         null) {
                     @Override

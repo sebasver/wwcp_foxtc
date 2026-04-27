@@ -1,74 +1,67 @@
-package wwcp.common.entity.locomotives.steam;
+package wwcp.common.entity.locomotives.electrics;
 
 import net.minecraft.entity.item.EntityMinecart;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
 import train.client.render.register.TrainRenderRecord;
 import train.common.Traincraft;
-import train.common.api.LiquidManager;
-import train.common.api.SteamTrain;
+import train.common.api.ElectricTrain;
 import train.common.core.util.TraincraftUtil;
 import train.common.library.EnumSounds;
 import train.common.library.sounds.SoundRecord;
-import wwcp.client.render.rollingstock.locomotives.steamers.German.ChristmasBR01;
+import wwcp.client.render.rollingstock.locomotives.electrics.E94;
+import wwcp.client.render.rollingstock.locomotives.electrics.ES64U4;
 import wwcp.common.core.handler.Transport;
 
-import java.util.ArrayList;
+public class EntityE94 extends ElectricTrain {
 
-public class EntityChristmasBR01 extends SteamTrain {
-
-    public EntityChristmasBR01(World world) {
-        super(world, LiquidManager.WATER_FILTER);
-        InsertTexture(0, "ChristmasBR01");
-
+    public EntityE94(World world) {
+        super(world);    
+        InsertTexture(0, "E94");
     }
-
+    
     public void updateRiderPosition() {
-        TraincraftUtil.updateRider(this, -0.2f, 0.2f, -0.15f);
+        TraincraftUtil.updateRider(this, 6.2f, 0.1f, -0.2f);
     }
 
     public float getOptimalDistance(EntityMinecart cart) {
-        return 0.75F;
+        return 1.075F;
     }
 
     @Override
     public String transportCountry() {
-        return Transport.DRBR01WitteChristmas().country;
+        return Transport.E94().country;
     }
 
     @Override
     public String transportYear() {
-        return Transport.DRBR01WitteChristmas().year;
+        return Transport.E94().year;
     }
 
     public String getInventoryName() {
-        return Transport.DRBR01WitteChristmas().name;
+        return Transport.E94().name;
     }
 
     @Override
     public boolean isFictional() {
-        return Transport.DRBR01WitteChristmas().fictional;
+        return Transport.E94().fictional;
     }
 
     @Override
     public void onRenderInsertRecord() {
         Traincraft.traincraftRegistry.RegisterRollingStockModel(
                 new TrainRenderRecord(wwcp.common.library.Info.modID,
-                        EntityChristmasBR01.class, new ChristmasBR01(),
-                        "ChristmasBR01",
-                        new float[]{-3f, 0.15F, 0.0F},
+                        EntityE94.class, new E94(),
+                        "E94",
+                        new float[]{-3.5f, 0.15F, 0.0F},
                         new float[]{0F, 180F, 180F},
-
-                        null, "largesmoke", new ArrayList<double[]>() { {add(new double[] { 5.5D, 1.7D, 0.0D }); }},
-                        "explode", new ArrayList<double[]>() { { add(new double[] { 5.5D, -0.1875D, 0.6875D }); }}, 10, 2)
-
-                {
+                        null) {
                     @Override
                     public ResourceLocation getTextureFile(String colorAsString) {
                         String texturePath = "";
                         switch (colorAsString.toLowerCase()) {
-                            case "yellow":
-                                texturePath = "textures/passengerstock/ChristmasStock/ChristmasBR01";
+                            case "black":
+                                texturePath = "textures/locomotive/Electric/E94/E94";
                                 break;
                         }
                         texturePath += ".png";
@@ -80,6 +73,6 @@ public class EntityChristmasBR01 extends SteamTrain {
 
     @Override
     public SoundRecord getSoundRecord() {
-        return EnumSounds.locoSteamBR01_DB;
+        return EnumSounds.locoElectricBR185;
     }
 }

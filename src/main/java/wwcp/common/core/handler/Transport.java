@@ -209,13 +209,13 @@ public class Transport {
                 35070f, 2120f, 114.3f, 150f, 50f, false, true, 0);
     }
 
-    public static LocomotiveWithBackspeed DBBR01Umbau() {
-        return new LocomotiveWithBackspeed("DBBR01Umbau", "Germany", "1950-1968", "Steam",
+    public static LocomotiveWithBackspeed DBBR01Henschel() {
+        return new LocomotiveWithBackspeed("DBBR01Henschel", "Germany", "1950-1968", "Steam",
                 "", "", type, " Passenger Locomotive",
                 33721f, 2450f, 111.2f, 130f, 50f, false, true, 0);
     }
 
-    public static LocomotiveWithBackspeed DBBR012() {
+    public static LocomotiveWithBackspeed DBBR01_11() {
         return new LocomotiveWithBackspeed("DBBR01_10", "Germany", "1945-1953", "Steam",
                 "", "", type, " Passenger Locomotive",
                 35070f, 2120f, 114.3f, 140f, 50f, false, true, 0);

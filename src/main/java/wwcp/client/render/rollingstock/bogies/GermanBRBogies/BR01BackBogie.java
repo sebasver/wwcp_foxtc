@@ -1,14 +1,13 @@
 //This File was created with the Minecraft-SMP Modelling Toolbox 2.3.0.0
-// Copyright (C) 2019 Minecraft-SMP.de
+// Copyright (C) 2026 Minecraft-SMP.de
 // This file is for Flan's Flying Mod Version 4.0.x+
 
-// Model: BackBogieDRBR01
+// Model: 
 // Model Creator: 
-// Created on: -
-// Last changed on: -
+// Created on: 28.01.2019 - 21:10:01
+// Last changed on: 28.01.2019 - 21:10:01
 
 package wwcp.client.render.rollingstock.bogies.GermanBRBogies; //Path where the model is located
-
 
 import tmt.ModelConverter;
 import tmt.ModelRendererTurbo;

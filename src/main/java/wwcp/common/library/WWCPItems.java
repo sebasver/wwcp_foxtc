@@ -12,8 +12,6 @@ import static wwcp.common.core.handler.TypeOfRollingStockWWCP.*;
  */
 public enum WWCPItems
 {
-
-
     WWCPShopShunter("WWCPShopShunterIcon", DIESEL, "WWCP"),
 //    SD90MACH("DefaultNormal", DIESEL, "American"),
     M630("item.M630_Icon", DIESEL, "American"),
@@ -45,6 +43,8 @@ public enum WWCPItems
     ES2("item.ES2", ELECTRIC, "American"),
     EF4("item.EF4", ELECTRIC, "American"),
     SLRV("SLRV", ELECTRIC, "American"),
+    GP60M("item.GP60M_Icon", DIESEL, "American"),
+    F7A("item.F7A_Icon", DIESEL, "American"),
     F140AC1("item.BombardierTRAXXF140MS2", ELECTRIC, "European"),
     BR145("item.BR145", ELECTRIC, "European"),
     ChristmasBR01("BR01ChristmasIcon", STEAM, "WWCP"),
@@ -100,6 +100,13 @@ public enum WWCPItems
     FrichsArdelt("IconFrAd",DIESEL, "European"),
     FrichsKoef("IconFrKf",DIESEL, "European"),
     DSBMT("IconMT",DIESEL, "European"),
+    DBBR01("DBBR01",STEAM,"European"),
+    DBBR01_11("DBBR011",STEAM,"European"),
+    DBBR01_neubaukessel("DBBR01Neukessel",STEAM,"European"),
+    DBBR01_henschel("DBRB01Henschel",STEAM,"European"),
+    E94("E94",ELECTRIC,"European"),
+    E44("E44", ELECTRIC,"European")
+
     //minecraftTemplateUntradeable("template-icon", STEAM)
     ;
 

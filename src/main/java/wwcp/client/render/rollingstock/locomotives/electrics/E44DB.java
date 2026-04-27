@@ -1479,13 +1479,13 @@ public class E44DB extends ModelConverter //Same as Filename
 
 		Tessellator.bindTexture(new ResourceLocation(Info.modID, "textures/bogies/EUBogies/E44/BogiesBlack.png"));
 		GL11.glPushMatrix();
-		GL11.glTranslatef(2.75f,0f,0);
+		GL11.glTranslatef(1.9f,0f,0);
 		backBogie.render(entity, f, f1, f2, f3, f4, f5);
 		GL11.glPopMatrix();
 
 		Tessellator.bindTexture(new ResourceLocation(Info.modID, "textures/bogies/EUBogies/E44/BogiesBlack.png"));
 		GL11.glPushMatrix();
-		GL11.glTranslatef(-2.58f,0f,0);
+		GL11.glTranslatef(-1.9f,0f,0);
 		frontBogie.render(entity, f, f1, f2, f3, f4, f5);
 		GL11.glPopMatrix();
 	}

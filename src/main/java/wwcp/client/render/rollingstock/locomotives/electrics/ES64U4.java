@@ -2571,13 +2571,13 @@ public class ES64U4 extends ModelConverter //Same as Filename
 		super.render(entity, f, f1, f2, f3, f4, f5);
 		Tessellator.bindTexture(new ResourceLocation(Info.modID, "textures/bogies/EUBogies/TaurusBogie.png"));
 		GL11.glPushMatrix();
-		GL11.glTranslatef(2.35f,0f,0);
+		GL11.glTranslatef(2.35f,-0.05f,0);
 		bogieBack.render(entity, f, f1, f2, f3, f4, f5);
 
 		Tessellator.bindTexture(new ResourceLocation(Info.modID, "textures/bogies/EUBogies/TaurusBogie.png"));
 		GL11.glPopMatrix();
 		GL11.glPushMatrix();
-		GL11.glTranslatef(-2.3f,0f,0);
+		GL11.glTranslatef(-2.3f,-0.05f,0);
 		bogieFront.render(entity, f, f1, f2, f3, f4, f5);
 		GL11.glPopMatrix();
 	}
