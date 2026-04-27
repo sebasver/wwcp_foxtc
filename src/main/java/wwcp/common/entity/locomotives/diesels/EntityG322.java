@@ -20,9 +20,9 @@ public class EntityG322 extends DieselTrain
 {
     public EntityG322(World world) {
         super(world, LiquidManager.dieselFilter());
-        InsertTexture(0, "DB RED");
+        InsertTexture(0, "DSB Yellow");
         InsertTexture(1, "DB Yellow");
-        InsertTexture(2,"DSB Yellow");
+        InsertTexture(2,"DB Red");
         InsertTexture(3,"DSB 625");
         InsertTexture(4,"Mittelweserbahn");
         InsertTexture(5,"NRail G322");
@@ -35,7 +35,7 @@ public class EntityG322 extends DieselTrain
     }
 
     public void updateRiderPosition() {
-        TraincraftUtil.updateRider(this, 0.4F, 0.15f, -0.3f);
+        TraincraftUtil.updateRider(this, 0.4F, 0.35f, -0.3f);
     }
 
     public float getOptimalDistance(EntityMinecart cart) {

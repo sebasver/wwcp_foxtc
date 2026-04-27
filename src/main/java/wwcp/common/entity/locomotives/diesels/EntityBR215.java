@@ -39,21 +39,21 @@ public class EntityBR215 extends DieselTrain
 
     @Override
     public String transportCountry() {
-        return Transport.V160().country;
+        return Transport.V163().country;
     }
 
     @Override
     public String transportYear() {
-        return Transport.V160().year;
+        return Transport.V163().year;
     }
 
     public String getInventoryName() {
-        return Transport.V160().name;
+        return Transport.V163().name;
     }
 
     @Override
     public boolean isFictional() {
-        return Transport.V160().fictional;
+        return Transport.V163().fictional;
     }
 
     public SoundRecord getSoundRecord() {

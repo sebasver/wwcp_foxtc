@@ -10,8 +10,14 @@
 package wwcp.client.render.rollingstock.freight; //Path where the model is located
 
 
+import net.minecraft.entity.Entity;
+import net.minecraft.util.ResourceLocation;
+import org.lwjgl.opengl.GL11;
 import tmt.ModelConverter;
 import tmt.ModelRendererTurbo;
+import tmt.Tessellator;
+import wwcp.client.render.rollingstock.bogies.EUBogies.SGGNSBogie;
+import wwcp.common.library.Info;
 
 public class Habbiins_14 extends ModelConverter //Same as Filename
 {
@@ -924,5 +930,25 @@ public class Habbiins_14 extends ModelConverter //Same as Filename
 
 		bodyModel[222].addShapeBox(0F, 0F, 0F, 1, 2, 1, 0F,-0.5F, 0.4F, 0F, 0F, 0.4F, 0F, 0F, 0.4F, -0.5F, -0.5F, 0.4F, -0.5F, -0.5F, 0F, 0F, 0F, 0F, 0F, 0F, 0F, -0.5F, -0.5F, 0F, -0.5F); // Box 189
 		bodyModel[222].setRotationPoint(87.5F, 3.4F, -10F);
+	}
+
+	SGGNSBogie bogie = new SGGNSBogie();
+
+
+	@Override
+	public void render(Entity entity, float f, float f1, float f2, float f3, float f4, float f5) {
+		super.render(entity, f, f1, f2, f3, f4, f5);
+
+		Tessellator.bindTexture(new ResourceLocation(Info.modID, "textures/bogies/EUBogies/SGNSSBogie.png"));
+		GL11.glPushMatrix();
+		GL11.glTranslatef(4.55f,0f,0);
+		bogie.render(entity, f, f1, f2, f3, f4, f5);
+		GL11.glPopMatrix();
+
+		Tessellator.bindTexture(new ResourceLocation(Info.modID, "textures/bogies/EUBogies/SGNSSBogie.png"));
+		GL11.glPushMatrix();
+		GL11.glTranslatef(-4.55f,0f,0);
+		bogie.render(entity, f, f1, f2, f3, f4, f5);
+		GL11.glPopMatrix();
 	}
 }

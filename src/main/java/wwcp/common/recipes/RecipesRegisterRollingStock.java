@@ -119,6 +119,20 @@ public class RecipesRegisterRollingStock extends AbstractRecipeHandler {
                         new ItemStack(WWCPItems.SGNSS60.item),1);
             }
 
+            for (ItemStack dye : dyeRed){
+                betterAddRecipe(3, null, //Lgns
+                        new ItemStack(WWCPCraftingItems.ContainerItem.item, 1),
+                        new ItemStack(WWCPCraftingItems.ContainerItem.item, 1),
+                        null,
+                        null,
+                        new ItemStack(ItemIDs.steelframe.item,2),
+                        null,
+                        new ItemStack(ItemIDs.bogie.item, 2),
+                        dye,
+                        null,
+                        new ItemStack(WWCPItems.Lgns.item),1);
+            }
+
             for (ItemStack plankItem : planks) {
                 betterAddRecipe(3, null, //Hbbins
                         new ItemStack(ItemIDs.boxcarDoor.item,2),
