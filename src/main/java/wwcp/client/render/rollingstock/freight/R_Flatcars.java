@@ -10,17 +10,24 @@
 package wwcp.client.render.rollingstock.freight; //Path where the model is located
 
 
+import net.minecraft.entity.Entity;
+import net.minecraft.util.ResourceLocation;
+import org.lwjgl.opengl.GL11;
 import tmt.ModelConverter;
 import tmt.ModelRendererTurbo;
+import tmt.Tessellator;
+import train.common.api.AbstractTrains;
+import wwcp.client.render.rollingstock.bogies.EUBogies.SGGNSBogie;
+import wwcp.common.library.Info;
 
-public class RES_X_BlockLoad extends ModelConverter //Same as Filename
+public class R_Flatcars extends ModelConverter //Same as Filename
 {
 	int textureX = 512;
 	int textureY = 512;
 
-	public RES_X_BlockLoad() //Same as Filename
+	public R_Flatcars() //Same as Filename
 	{
-		bodyModel = new ModelRendererTurbo[108];
+		bodyModel = new ModelRendererTurbo[99];
 
 		initbodyModel_1();
 
@@ -131,15 +138,6 @@ public class RES_X_BlockLoad extends ModelConverter //Same as Filename
 		bodyModel[96] = new ModelRendererTurbo(this, 1, 1, textureX, textureY); // Box 396
 		bodyModel[97] = new ModelRendererTurbo(this, 9, 1, textureX, textureY); // Box 397
 		bodyModel[98] = new ModelRendererTurbo(this, 25, 1, textureX, textureY); // Box 398
-		bodyModel[99] = new ModelRendererTurbo(this, 209, 136, textureX, textureY); // BlockLoad8.2
-		bodyModel[100] = new ModelRendererTurbo(this, 278, 136, textureX, textureY); // BlockLoad9.2
-		bodyModel[101] = new ModelRendererTurbo(this, 140, 136, textureX, textureY); // BlockLoad7
-		bodyModel[102] = new ModelRendererTurbo(this, 70, 136, textureX, textureY); // BlockLoad6
-		bodyModel[103] = new ModelRendererTurbo(this, 1, 136, textureX, textureY); // BlockLoad5
-		bodyModel[104] = new ModelRendererTurbo(this, 209, 100, textureX, textureY); // BlockLoad4
-		bodyModel[105] = new ModelRendererTurbo(this, 140, 100, textureX, textureY); // BlockLoad3
-		bodyModel[106] = new ModelRendererTurbo(this, 70, 100, textureX, textureY); // BlockLoad2
-		bodyModel[107] = new ModelRendererTurbo(this, 1, 100, textureX, textureY); // BlockLoad1
 
 		bodyModel[0].addBox(0F, 0F, 0F, 1, 11, 1, 0F); // Box 0
 		bodyModel[0].setRotationPoint(-43.5F, -9F, -11F);
@@ -437,32 +435,26 @@ public class RES_X_BlockLoad extends ModelConverter //Same as Filename
 
 		bodyModel[98].addShapeBox(0F, 0F, 0F, 1, 1, 1, 0F,0F, -1F, -0.25F, 0F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, -1F, -0.25F, 0F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, 0F, -0.25F, 0F, 0F, -0.25F); // Box 398
 		bodyModel[98].setRotationPoint(-76.75F, 1F, -0.5F);
+	}
 
-		bodyModel[99].addBox(0F, 0F, 0F, 16, 16, 16, 0F); // BlockLoad8.2
-		bodyModel[99].setRotationPoint(40F, -16F, -8F);
+	SGGNSBogie bogie = new SGGNSBogie();
 
-		bodyModel[100].addBox(0F, 0F, 0F, 16, 16, 16, 0F); // BlockLoad9.2
-		bodyModel[100].setRotationPoint(56F, -16F, -8F);
 
-		bodyModel[101].addBox(0F, 0F, 0F, 16, 16, 16, 0F); // BlockLoad7
-		bodyModel[101].setRotationPoint(24F, -16F, -8F);
+	@Override
+	public void render(Entity entity, float f, float f1, float f2, float f3, float f4, float f5) {
+		super.render(entity, f, f1, f2, f3, f4, f5);
 
-		bodyModel[102].addBox(0F, 0F, 0F, 16, 16, 16, 0F); // BlockLoad6
-		bodyModel[102].setRotationPoint(8F, -16F, -8F);
+		Tessellator.bindTexture(new ResourceLocation(Info.modID, "textures/bogies/EUBogies/SGNSSBogie.png"));
+		GL11.glPushMatrix();
+		GL11.glTranslatef(3.65f,0f,0);
+		bogie.render(entity, f, f1, f2, f3, f4, f5);
+		GL11.glPopMatrix();
 
-		bodyModel[103].addBox(0F, 0F, 0F, 16, 16, 16, 0F); // BlockLoad5
-		bodyModel[103].setRotationPoint(-8F, -16F, -8F);
-
-		bodyModel[104].addBox(0F, 0F, 0F, 16, 16, 16, 0F); // BlockLoad4
-		bodyModel[104].setRotationPoint(-24F, -16F, -8F);
-
-		bodyModel[105].addBox(0F, 0F, 0F, 16, 16, 16, 0F); // BlockLoad3
-		bodyModel[105].setRotationPoint(-40F, -16F, -8F);
-
-		bodyModel[106].addBox(0F, 0F, 0F, 16, 16, 16, 0F); // BlockLoad2
-		bodyModel[106].setRotationPoint(-56F, -16F, -8F);
-
-		bodyModel[107].addBox(0F, 0F, 0F, 16, 16, 16, 0F); // BlockLoad1
-		bodyModel[107].setRotationPoint(-72F, -16F, -8F);
+		Tessellator.bindTexture(new ResourceLocation(Info.modID, "textures/bogies/EUBogies/SGNSSBogie.png"));
+		GL11.glPushMatrix();
+		GL11.glTranslatef(-3.65f,0f,0);
+		bogie.render(entity, f, f1, f2, f3, f4, f5);
+		GL11.glPopMatrix();
+		((AbstractTrains) entity).getCargoManager().renderCargo((AbstractTrains) entity, f, f1, f2, f3, f4, f5);
 	}
 }

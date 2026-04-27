@@ -92,7 +92,7 @@ public class RecipesRegisterRollingStock extends AbstractRecipeHandler {
                 new ItemStack(ItemIDs.bogie.item, 1), new ItemStack(ItemIDs.steelframe.item, 1), new ItemStack(ItemIDs.bogie.item, 1), new ItemStack(WWCPItems.DSB735.item), 1);
 
 
-        betterAddRecipe(3, null, //Hbbins
+        betterAddRecipe(3, null, //SGNSS60
                 new ItemStack(WWCPCraftingItems.ContainerItem.item, 1),
                 new ItemStack(WWCPCraftingItems.ContainerItem.item, 1),
                 null,
@@ -116,6 +116,18 @@ public class RecipesRegisterRollingStock extends AbstractRecipeHandler {
                 new ItemStack(ItemIDs.steelframe.item, 2),
                 null,
                 new ItemStack(WWCPItems.Hbbins.item), 1);
+
+        betterAddRecipe(3, null, //Lgns
+                new ItemStack(WWCPCraftingItems.ContainerItem.item, 1),
+                new ItemStack(WWCPCraftingItems.ContainerItem.item, 1),
+                null,
+                null,
+                new ItemStack(ItemIDs.steelframe.item,2),
+                null,
+                new ItemStack(ItemIDs.bogie.item, 2),
+                RED_DYE,
+                null,
+                new ItemStack(WWCPItems.Lgns.item),1);
 
         betterAddRecipe(3, null, //Hbbillns
                 new ItemStack(ItemIDs.boxcarDoor.item, 4),

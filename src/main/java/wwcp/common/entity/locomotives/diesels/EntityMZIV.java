@@ -28,7 +28,7 @@ public class EntityMZIV extends DieselTrain
     }
 
     public void updateRiderPosition() {
-        TraincraftUtil.updateRider(this, 6.97F, 0.375f, -0.25f);
+        TraincraftUtil.updateRider(this, 6.97F, 0.39f, -0.25f);
     }
 
     public float getOptimalDistance(EntityMinecart cart) {

@@ -8,12 +8,11 @@ import train.common.Traincraft;
 import train.common.api.LiquidManager;
 import train.common.api.SteamTrain;
 import train.common.core.util.TraincraftUtil;
-import train.common.library.EnumSounds;
 import train.common.library.sounds.SoundRecord;
 import wwcp.client.render.rollingstock.locomotives.steamers.DSBFII;
 import wwcp.common.core.handler.Transport;
-
 import java.util.ArrayList;
+import static wwcp.common.core.handler.EnumSoundsWWCP.*;
 
 public class EntityDSBFII extends SteamTrain {
 
@@ -52,7 +51,7 @@ public class EntityDSBFII extends SteamTrain {
     }
 
     public SoundRecord getSoundRecord() {
-        return EnumSounds.locoSteamBR01_DB;
+        return locoSteamDSBFII;
     }
 
     @Override

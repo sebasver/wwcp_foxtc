@@ -27,7 +27,7 @@ public class EntityDSBMH extends DieselTrain
     }
 
     public void updateRiderPosition() {
-        TraincraftUtil.updateRider(this, 1.15F, 0.3f, -0.3f);
+        TraincraftUtil.updateRider(this, 1.15F, 0.35f, -0.3f);
     }
 
     public float getOptimalDistance(EntityMinecart cart) {
@@ -87,7 +87,7 @@ public class EntityDSBMH extends DieselTrain
                                 texturePath = "textures/locomotive/Diesel/DSBMH/DSBMhRedBlack.png";
                                 break;
                             case "green":
-                                texturePath = "textures/locomotive/Diesel/DSB/DSBRedBlack374.png";
+                                texturePath = "textures/locomotive/Diesel/DSBMH/DSBRedBlack374.png";
                                 break;
 
                         }
