@@ -123,7 +123,7 @@ public class RecipesRegisterDiesel extends AbstractRecipeHandler {
             for (ItemStack dye : dyeRed) {//BR215
                 betterAddRecipe(2, new ItemStack(WWCPCraftingItems.Fan.item, 2), new ItemStack(ItemIDs.partTurboExhaust.item, 4), new ItemStack(ItemIDs.steelcab.item, 2), dye,
                         new ItemStack(ItemIDs.controls.item, 2), new ItemStack(ItemIDs.generator.item, 1), new ItemStack(ItemIDs.dieselengine.item, 1),
-                        new ItemStack(ItemIDs.transmition.item, 2), new ItemStack(ItemIDs.steelframe.item, 2), new ItemStack(itemSteel, 2, itemDamageSteel), new ItemStack(WWCPItems.BR215.item), 1);
+                        new ItemStack(ItemIDs.transmition.item, 2), new ItemStack(ItemIDs.steelframe.item, 2), new ItemStack(ItemIDs.bogie.item, 4), new ItemStack(WWCPItems.BR215.item), 1);
             }
             for (ItemStack dye : dyeRed) {//BR217
                 betterAddRecipe(2, new ItemStack(WWCPItems.BR215.item), null, new ItemStack(ItemIDs.ironChimney.item, 2), dye,
@@ -133,14 +133,28 @@ public class RecipesRegisterDiesel extends AbstractRecipeHandler {
             for (ItemStack dye : dyeGreen) {//DSB MH
                 betterAddRecipe(2, new ItemStack(WWCPCraftingItems.Fan.item, 1), new ItemStack(ItemIDs.partTurboExhaust.item, 1), new ItemStack(ItemIDs.steelcab.item, 1), dye,
                         new ItemStack(ItemIDs.controls.item, 2), new ItemStack(ItemIDs.generator.item, 1), new ItemStack(ItemIDs.dieselengine.item, 1),
-                        new ItemStack(ItemIDs.transmition.item, 2), new ItemStack(ItemIDs.steelframe.item, 2), new ItemStack(itemSteel, 2, itemDamageSteel), new ItemStack(WWCPItems.DSBMH.item), 1);
+                        new ItemStack(ItemIDs.transmition.item, 2), new ItemStack(ItemIDs.steelframe.item, 2), new ItemStack(ItemIDs.bogie.item, 3), new ItemStack(WWCPItems.DSBMH.item), 1);
             }
             for (ItemStack dye : dyeRed) {//BR218
                 betterAddRecipe(2, new ItemStack(WWCPItems.BR217.item), null, new ItemStack(ItemIDs.ironChimney.item, 2), dye,
                         null, new ItemStack(ItemIDs.generator.item, 2), null,
                         null, new ItemStack(ItemIDs.electmotor.item, 2), new ItemStack(itemSteel, 2, itemDamageSteel), new ItemStack(WWCPItems.BR218.item), 1);
             }
-
+        for (ItemStack dye : dyeGreen) {//DSB MT
+            betterAddRecipe(2, new ItemStack(WWCPCraftingItems.Fan.item, 1), new ItemStack(ItemIDs.partTurboExhaust.item, 1), new ItemStack(ItemIDs.steelcab.item, 1), dye,
+                    new ItemStack(ItemIDs.controls.item, 2), new ItemStack(ItemIDs.generator.item, 1), new ItemStack(ItemIDs.dieselengine.item, 1),
+                    new ItemStack(ItemIDs.electmotor.item, 2), new ItemStack(ItemIDs.steelframe.item, 2), new ItemStack(ItemIDs.bogie.item, 4), new ItemStack(WWCPItems.DSBMT.item), 1);
+        }
+        for (ItemStack dye : dyeGreen) {//DSB Koeff
+            betterAddRecipe(2, new ItemStack(WWCPCraftingItems.Fan.item, 1), new ItemStack(ItemIDs.partTurboExhaust.item, 1), new ItemStack(ItemIDs.steelcab.item, 1), dye,
+                    new ItemStack(ItemIDs.controls.item, 2), new ItemStack(ItemIDs.generator.item, 1), new ItemStack(ItemIDs.dieselengine.item, 1),
+                    new ItemStack(ItemIDs.transmition.item, 1), new ItemStack(ItemIDs.steelframe.item, 2), new ItemStack(ItemIDs.bogie.item, 2), new ItemStack(WWCPItems.FrichsKoef.item), 1);
+        }
+        for (ItemStack dye : dyeGreen) {//DSB Ardelt
+            betterAddRecipe(2, new ItemStack(WWCPCraftingItems.Fan.item, 1), new ItemStack(ItemIDs.partTurboExhaust.item, 1), new ItemStack(ItemIDs.steelcab.item, 1), dye,
+                    new ItemStack(ItemIDs.controls.item, 2), new ItemStack(ItemIDs.generator.item, 1), new ItemStack(ItemIDs.dieselengine.item, 1),
+                    new ItemStack(ItemIDs.transmition.item, 2), new ItemStack(ItemIDs.steelframe.item, 3), new ItemStack(ItemIDs.bogie.item, 2), new ItemStack(WWCPItems.FrichsKoef.item), 1);
+        }
 
             betterAddRecipe(3, new ItemStack(ItemIDs.controls.item, 1), //G322
                     null,
