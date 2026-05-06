@@ -60,6 +60,9 @@ public class EntityEurofima1st2ndClassCompartment extends AbstractPassengerCar {
                             case "yellow":
                                 texturePath = "textures/passengerstock/Eurofima/EurofimaCompartment/Class1_2/C1_2_BaseLivery";
                                 break;
+                            case "red":
+                                texturePath = "textures/passengerstock/Eurofima/EurofimaCompartment/Class1_2/C1_2_CD";
+                                break;
                         }
                         texturePath += ".png";
 

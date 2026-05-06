@@ -8,7 +8,6 @@ import train.common.Traincraft;
 import train.common.api.AbstractPassengerCar;
 import train.common.core.util.TraincraftUtil;
 import wwcp.client.render.rollingstock.passengerStock.Eurofima.EurofimaCompartment1;
-import wwcp.client.render.rollingstock.passengerStock.Eurofima.EurofimaOpen1;
 import wwcp.common.core.handler.Transport;
 
 public class EntityEurofima1stClassCompartment extends AbstractPassengerCar {

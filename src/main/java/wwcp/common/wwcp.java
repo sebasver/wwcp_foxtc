@@ -18,10 +18,7 @@ import wwcp.common.creativetabs.CreativeTabEuropean;
 import wwcp.common.creativetabs.CreativeTabWWCP;
 import wwcp.common.library.AddonPackItems;
 import wwcp.common.library.Info;
-import wwcp.common.recipes.RecipeHandlerWWCP;
-import wwcp.common.recipes.RecipesRegisterDiesel;
-import wwcp.common.recipes.RecipesRegisterElectrics;
-import wwcp.common.recipes.RecipesRegisterRollingStock;
+import wwcp.common.recipes.*;
 
 
 @Mod(modid = Info.modID, name = Info.modName, version = Info.modVersion, dependencies = "required-after:tc")
@@ -65,6 +62,7 @@ public class wwcp
         new RecipesRegisterDiesel(TierRecipeManager.getInstance());
         new RecipesRegisterElectrics(TierRecipeManager.getInstance());
         new RecipesRegisterRollingStock(TierRecipeManager.getInstance());
+        new RecipesRegisterSteam(TierRecipeManager.getInstance());
 
         addonLog.info("postInit Addon Pack -" + Info.modName);
     }

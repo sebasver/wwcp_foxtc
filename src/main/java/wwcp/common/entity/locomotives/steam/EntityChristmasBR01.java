@@ -10,7 +10,7 @@ import train.common.api.SteamTrain;
 import train.common.core.util.TraincraftUtil;
 import train.common.library.EnumSounds;
 import train.common.library.sounds.SoundRecord;
-import wwcp.client.render.rollingstock.locomotives.steamers.GermanBR.BR01.ChristmasBR01;
+import wwcp.client.render.rollingstock.locomotives.steamers.German.ChristmasBR01;
 import wwcp.common.core.handler.Transport;
 
 import java.util.ArrayList;

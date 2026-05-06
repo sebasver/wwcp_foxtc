@@ -1,5 +1,5 @@
 //This File was created with the Minecraft-SMP Modelling Toolbox 2.3.0.0
-// Copyright (C) 2021 Minecraft-SMP.de
+// Copyright (C) 2026 Minecraft-SMP.de
 // This file is for Flan's Flying Mod Version 4.0.x+
 
 // Model: 
@@ -1965,7 +1965,6 @@ public class EurofimaPresidentiale extends ModelConverter //Same as Filename
 		bodyModel[480].addShapeBox(0F, 0F, 0F, 60, 18, 1, 0F,-25F, -7.5F, -0.8F, -25F, -7.5F, -0.8F, -25F, -7.5F, 0F, -25F, -7.5F, 0F, -25F, -7.5F, -0.8F, -25F, -7.5F, -0.8F, -25F, -7.5F, 0F, -25F, -7.5F, 0F); // Box 480
 		bodyModel[480].setRotationPoint(20F, -8.8F, -11.95F);
 	}
-
 
 	EurofimaBogie bogie = new EurofimaBogie();
 

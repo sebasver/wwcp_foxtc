@@ -63,6 +63,9 @@ public class EntityES64U2 extends ElectricTrain {
                             case "black":
                                 texturePath = "textures/locomotive/Electric/Taurus/TaurusU2OBB";
                                 break;
+                            case "grey":
+                                texturePath = "textures/locomotive/Electric/Taurus/Taurus_RER";
+                                break;
                         }
                         texturePath += ".png";
 

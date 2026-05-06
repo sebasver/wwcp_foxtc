@@ -9,8 +9,17 @@
 
 package wwcp.client.render.rollingstock.locomotives.electrics; //Path where the model is located
 
+import net.minecraft.entity.Entity;
+import net.minecraft.util.ResourceLocation;
+import org.lwjgl.opengl.GL11;
 import tmt.ModelConverter;
 import tmt.ModelRendererTurbo;
+import tmt.Tessellator;
+import wwcp.client.render.rollingstock.bogies.EUBogies.EABogie1;
+import wwcp.client.render.rollingstock.bogies.EUBogies.EABogie2;
+import wwcp.client.render.rollingstock.bogies.EUBogies.TaurusBogieBack;
+import wwcp.client.render.rollingstock.bogies.EUBogies.TaurusBogieFront;
+import wwcp.common.library.Info;
 
 public class DSBClassEA extends ModelConverter //Same as Filename
 {
@@ -1331,5 +1340,24 @@ public class DSBClassEA extends ModelConverter //Same as Filename
 
 		bodyModel[322].addShapeBox(0F, 0F, 0F, 1, 2, 10, 0F,7F, 0F, 0F, -7F, 0F, 0F, 0F, -1F, 0F, 0F, 0F, 0F, 9F, 0F, 0F, -9F, 0F, 0F, -2F, 1F, 0F, 2F, 1F, 0F); // Box 159
 		bodyModel[322].setRotationPoint(70.5F, 3F, -10F);
+	}
+
+	EABogie1 bogieFront = new EABogie1();
+	EABogie2 bogieBack = new EABogie2();
+
+	@Override
+	public void render(Entity entity, float f, float f1, float f2, float f3, float f4, float f5) {
+		super.render(entity, f, f1, f2, f3, f4, f5);
+		Tessellator.bindTexture(new ResourceLocation(Info.modID, "textures/bogies/EUBogies/EABogie.png"));
+		GL11.glPushMatrix();
+		GL11.glTranslatef(2.55f,0f,0);
+		bogieBack.render(entity, f, f1, f2, f3, f4, f5);
+
+		Tessellator.bindTexture(new ResourceLocation(Info.modID, "textures/bogies/EUBogies/EABogie.png"));
+		GL11.glPopMatrix();
+		GL11.glPushMatrix();
+		GL11.glTranslatef(-2.55f,0f,0);
+		bogieFront.render(entity, f, f1, f2, f3, f4, f5);
+		GL11.glPopMatrix();
 	}
 }

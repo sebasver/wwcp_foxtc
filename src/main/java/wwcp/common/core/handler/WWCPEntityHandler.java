@@ -6,10 +6,12 @@ import wwcp.common.entity.freight.*;
 import wwcp.common.entity.locomotives.diesels.*;
 import wwcp.common.entity.locomotives.electrics.*;
 import wwcp.common.entity.locomotives.steam.EntityChristmasBR01;
+import wwcp.common.entity.locomotives.steam.*;
 import wwcp.common.entity.locomotives.tenders.EntityT32ChristmasTender;
 import wwcp.common.entity.passenger.Christmas.*;
 import wwcp.common.entity.passenger.EntitySLRVC;
 import wwcp.common.entity.passenger.Eurofima.*;
+import wwcp.common.entity.passenger.Rheingold1928.*;
 import wwcp.common.library.WWCPItems;
 import wwcp.common.wwcp;
 
@@ -45,9 +47,67 @@ public class WWCPEntityHandler
                                 Transport.DRBR01WitteChristmas().additionalText2, Transport.DRBR01WitteChristmas().weightinKGs,
                                 new String[] {"Yellow"}, 5, 0, 1.1, (int)Transport.DRBR01WitteChristmas().topSpeed,
                                 (int)Transport.DRBR01WitteChristmas().metric_horsepower, 40, 200,
-                                1.1, -6.2, 20000),
+                                1.1, -6.2, 5000),
                         Instance()
                 );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.DSBFII.item,
+                        new TrainRecord(WWCPItems.DSBFII.name(), EntityDSBFII.class, WWCPItems.DSBFII.item,
+                                Transport.DSBFII().additionalText2, Transport.DSBFII().weightinKGs,
+                                new String[] {"black","brown"}, 5, 0, 1.1, (int)Transport.DSBFII().topSpeed,
+                                (int)Transport.DSBFII().metric_horsepower, 30, 200,
+                                0.8, -2f, 8000),
+                        Instance()
+                );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.DSBFIII.item,
+                        new TrainRecord(WWCPItems.DSBFIII.name(), EntityDSBFIII.class, WWCPItems.DSBFIII.item,
+                                Transport.DSBFIII().additionalText2, Transport.DSBFIII().weightinKGs,
+                                new String[] {"black"}, 5, 0, 1.1, (int)Transport.DSBFIII().topSpeed,
+                                (int)Transport.DSBFIII().metric_horsepower, 30, 200,
+                                0.8, -2f, 8000),
+                        Instance()
+                );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.DBBR01.item,
+                        new TrainRecord(WWCPItems.DBBR01.name(), EntityDBBR01.class, WWCPItems.DBBR01.item,
+                                Transport.DBBR01().additionalText2, Transport.DBBR01().weightinKGs,
+                                new String[] {"Black","Red","Green","Brown","Blue","Purple"}, 5, 0, 1.1, (int)Transport.DBBR01().topSpeed,
+                                (int)Transport.DBBR01().metric_horsepower, 50, 200,
+                                0.8, -6.2f, 5000),
+                        Instance()
+                );
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.DBBR01_henschel.item,
+                        new TrainRecord(WWCPItems.DBBR01_henschel.name(), EntityDBBR01_henschel.class, WWCPItems.DBBR01_henschel.item,
+                                Transport.DBBR01Henschel().additionalText2, Transport.DBBR01Henschel().weightinKGs,
+                                new String[] {"Black"}, 5, 0, 1.1, (int)Transport.DBBR01Henschel().topSpeed,
+                                (int)Transport.DBBR01Henschel().metric_horsepower, 50, 200,
+                                0.8, -6.2f, 5000),
+                        Instance()
+                );
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.DBBR01_neubaukessel.item,
+                        new TrainRecord(WWCPItems.DBBR01_neubaukessel.name(), EntityDBBR01_neubaukessel.class, WWCPItems.DBBR01_neubaukessel.item,
+                                Transport.DBBR01NeuKessel().additionalText2, Transport.DBBR01NeuKessel().weightinKGs,
+                                new String[] {"Black","Red","Green","Brown"}, 5, 0, 1.1, (int)Transport.DBBR01NeuKessel().topSpeed,
+                                (int)Transport.DBBR01NeuKessel().metric_horsepower, 50, 200,
+                                0.8, -6.2f, 5000),
+                        Instance()
+                );
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.DBBR01_11.item,
+                        new TrainRecord(WWCPItems.DBBR01_11.name(), EntityDBBR01_11.class, WWCPItems.DBBR01_11.item,
+                                Transport.DBBR01_11().additionalText2, Transport.DBBR01_11().weightinKGs,
+                                new String[] {"Black","Red","Green","Brown","Blue","Purple"}, 5, 0, 1.1, (int)Transport.DBBR01_11().topSpeed,
+                                (int)Transport.DBBR01_11().metric_horsepower, 50, 200,
+                                0.8, -6.2f, 5000),
+                        Instance()
+                );
+
         /**
          * TENDERS
          */
@@ -58,7 +118,7 @@ public class WWCPEntityHandler
                                 Transport.T32TenderChristmas().additionalText2, Transport.T32TenderChristmas().weightinKGs,
                                 new String[] {"Yellow"}, 5, 2, 0, 0,
                                 0, 0, 0,
-                                0, 0, 50000),
+                                0, 0, 30000),
                         Instance()
                 );
 
@@ -275,9 +335,148 @@ public class WWCPEntityHandler
                         new TrainRecord(Transport.ClassMK().name, EntityG322.class, WWCPItems.G322.item,
                                 Transport.ClassMK().additionalText2, Transport.ClassMK().weightinKGs,
                                 new String[] {"Black","Red","Green","Brown","Blue","White","Lime","Magenta","LightGrey","Grey","Pink"},
-                                8, 2, 0.95, (int)Transport.ClassMK().topSpeed,
-                                (int)Transport.ClassMK().metric_horsepower, 40, 0,
-                                0.95, -2, 10000),
+                                5, 2, 0.95, (int)Transport.ClassMK().topSpeed,
+                                (int)Transport.ClassMK().metric_horsepower, 20, 80,
+                                0.95, -2, 1000),
+                        Instance()
+                );
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.MZIV.item,
+                        new TrainRecord(Transport.MZIV().name, EntityMZIV.class, WWCPItems.MZIV.item,
+                                Transport.MZIV().additionalText2, Transport.MZIV().weightinKGs,
+                                new String[] {"Black","Red","Green","Brown","Magenta","Blue"},
+                                5, 2, 1.75, (int)Transport.MZIV().topSpeed,
+                                (int)Transport.MZIV().metric_horsepower, 60, 180,
+                                0.65, -6.9f, 10000),
+                        Instance()
+                );
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.MZIII.item,
+                        new TrainRecord(Transport.MZIII().name, EntityMZIII.class, WWCPItems.MZIII.item,
+                                Transport.MZIII().additionalText2, Transport.MZIII().weightinKGs,
+                                new String[] {"Black","Red","Green"},
+                                5, 2, 1.75, (int)Transport.MZIII().topSpeed,
+                                (int)Transport.MZIII().metric_horsepower, 60, 160,
+                                0.65, -6.9f, 10000),
+                        Instance()
+                );
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.DSBMH.item,
+                        new TrainRecord(Transport.ClassMH().name, EntityDSBMH.class, WWCPItems.DSBMH.item,
+                                Transport.ClassMH().additionalText2, Transport.ClassMH().weightinKGs,
+                                new String[] {"Black","Red","Green"},
+                                5, 2, 0.95, (int)Transport.ClassMH().topSpeed,
+                                (int)Transport.ClassMH().metric_horsepower, 20, 80,
+                                0.95, -2f, 1000),
+                        Instance()
+                );
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.MZI.item,
+                        new TrainRecord(Transport.MZI().name, EntityMZI.class, WWCPItems.MZI.item,
+                                Transport.MZI().additionalText2, Transport.MZI().weightinKGs,
+                                new String[] {"Black","Red","Green","Brown","Blue","Purple","Cyan","Lightgrey","Grey"},
+                                5, 2, 1.75, (int)Transport.MZI().topSpeed,
+                                (int)Transport.MZI().metric_horsepower, 60, 180,
+                                0.65, -6.8f, 10000),
+                        Instance()
+                );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.MZII.item,
+                        new TrainRecord(Transport.MZII().name, EntityMZII.class, WWCPItems.MZII.item,
+                                Transport.MZII().additionalText2, Transport.MZII().weightinKGs,
+                                new String[] {"Black","Red","Green","Brown","Blue","Yellow","Cyan","Lightgrey","Grey"},
+                                5, 2, 1.75, (int)Transport.MZII().topSpeed,
+                                (int)Transport.MZII().metric_horsepower, 60, 180,
+                                0.65, -6.8f, 10000),
+                        Instance()
+                );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.ME.item,
+                        new TrainRecord(Transport.ClassME().name, EntityME.class, WWCPItems.ME.item,
+                                Transport.ClassME().additionalText2, Transport.ClassME().weightinKGs,
+                                new String[] {"Black","Red","Green","Blue","Brown","Cyan","Purple"},
+                                5, 2, 1.75, (int)Transport.ClassME().topSpeed,
+                                (int)Transport.ClassME().metric_horsepower, 60, 180,
+                                0.65, -6.9f, 10000),
+                        Instance()
+                );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.BR215.item,
+                        new TrainRecord(Transport.V163().name, EntityBR215.class, WWCPItems.BR215.item,
+                                Transport.V163().additionalText2, Transport.V163().weightinKGs,
+                                new String[] {"Black","Red","Green","Blue","Brown"},
+                                5, 2, 1.75, (int)Transport.V163().topSpeed,
+                                (int)Transport.V163().metric_horsepower, 50, 160,
+                                0.65, -5.2f, 2700),
+                        Instance()
+                );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.BR217.item,
+                        new TrainRecord(Transport.V162().name, EntityBR217.class, WWCPItems.BR217.item,
+                                Transport.V162().additionalText2, Transport.V162().weightinKGs,
+                                new String[] {"Black","Red","Green","Blue"},
+                                5, 2, 1.75, (int)Transport.V162().topSpeed,
+                                (int)Transport.V162().metric_horsepower, 60, 160,
+                                0.65, -5.2f, 3150),
+                        Instance()
+                );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.BR218.item,
+                        new TrainRecord(Transport.V164_TB11().name, EntityBR218_1.class, WWCPItems.BR218.item,
+                                Transport.V164_TB11().additionalText2, Transport.V164_TB11().weightinKGs,
+                                new String[] {"Black","Red","Green","Magenta","Brown","Blue","Purple","Cyan","LightGrey","Grey","Pink","Lime"},
+                                5, 2, 1.75, (int)Transport.V164_TB11().topSpeed,
+                                (int)Transport.V164_TB11().metric_horsepower, 60, 160,
+                                0.65, -5.9f, 3150),
+                        Instance()
+                );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.BR218_2.item,
+                        new TrainRecord(Transport.V164_TB10().name, EntityBR218_2.class, WWCPItems.BR218_2.item,
+                                Transport.V164_TB10().additionalText2, Transport.V164_TB10().weightinKGs,
+                                new String[] {"Black","Red","Green","Magenta","Brown","Blue","Purple","Cyan","LightGrey","Grey","Pink","Lime"},
+                                5, 2, 1.75, (int)Transport.V164_TB10().topSpeed,
+                                (int)Transport.V164_TB10().metric_horsepower, 50, 160,
+                                0.65, -5.9f, 2975),
+                        Instance()
+                );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.FrichsArdelt.item,
+                        new TrainRecord(Transport.FrichsArdelt().name, EntityFrichsArdelt.class, WWCPItems.FrichsArdelt.item,
+                                Transport.FrichsArdelt().additionalText2, Transport.FrichsArdelt().weightinKGs,
+                                new String[] {"Black","Red","Green"},
+                                5, 2, 0.95, (int)Transport.FrichsArdelt().topSpeed,
+                                (int)Transport.FrichsArdelt().metric_horsepower, 20, 80,
+                                0.95, -1.65f, 1000),
+                        Instance()
+                );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.FrichsKoef.item,
+                        new TrainRecord(Transport.FrichsKoef().name, EntityFrichsKoef.class, WWCPItems.FrichsKoef.item,
+                                Transport.FrichsKoef().additionalText2, Transport.FrichsKoef().weightinKGs,
+                                new String[] {"Green","Black","Red","Orange"},
+                                5, 2, 0.95, (int)Transport.FrichsKoef().topSpeed,
+                                (int)Transport.FrichsKoef().metric_horsepower, 50, 30,
+                                0.95, -1.175f, 1000),
+                        Instance()
+                );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.DSBMT.item,
+                        new TrainRecord(Transport.ClassMT().name, EntityDSBMT.class, WWCPItems.DSBMT.item,
+                                Transport.ClassMT().additionalText2, Transport.ClassMT().weightinKGs,
+                                new String[] {"Green","Red"},
+                                5, 2, 0.95, (int)Transport.ClassMT().topSpeed,
+                                (int)Transport.ClassMT().metric_horsepower, 50, 60,
+                                0.95, -2.0f, 2000),
                         Instance()
                 );
 
@@ -329,10 +528,43 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.ES64U2.item,
                         new TrainRecord(Transport.ES64U2().name, EntityES64U2.class, WWCPItems.ES64U2.item,
                                 Transport.ES64U2().additionalText2, Transport.ES64U2().weightinKGs,
-                                new String[] {"Black"},
-                                5, 0, 0.95, (int)Transport.ES64U2().topSpeed,
+                                new String[] {"Black", "Grey"},
+                                5, 0, 1, (int)Transport.ES64U2().topSpeed,
                                 (int)Transport.ES64U2().metric_horsepower, 40, 0,
                                 0.95, -5, 0),
+                        Instance()
+                );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.ES64U4.item,
+                        new TrainRecord(Transport.ES64U4().name, EntityES64U4.class, WWCPItems.ES64U4.item,
+                                Transport.ES64U4().additionalText2, Transport.ES64U4().weightinKGs,
+                                new String[] {"Black", "Grey", "LightGrey"},
+                                5, 0, 1, (int)Transport.ES64U4().topSpeed,
+                                (int)Transport.ES64U4().metric_horsepower, 40, 0,
+                                0.95, -7.5, 0),
+                        Instance()
+                );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.E94.item,
+                        new TrainRecord(Transport.E94().name, EntityE94.class, WWCPItems.E94.item,
+                                Transport.E94().additionalText2, Transport.E94().weightinKGs,
+                                new String[] {"Black"},
+                                5, 0, 1, (int)Transport.E94().topSpeed,
+                                (int)Transport.E94().metric_horsepower, 40, 0,
+                                0.95, -7, 0),
+                        Instance()
+                );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.E44.item,
+                        new TrainRecord(Transport.E44DB().name, EntityE44.class, WWCPItems.E44.item,
+                                Transport.E44DB().additionalText2, Transport.E44DB().weightinKGs,
+                                new String[] {"Black"},
+                                5, 0, 1, (int)Transport.E44DB().topSpeed,
+                                (int)Transport.E44DB().metric_horsepower, 40, 0,
+                                0.95, -3.5, 0),
                         Instance()
                 );
 
@@ -386,6 +618,17 @@ public class WWCPEntityHandler
                         Instance()
                 );
 
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.DSBEA.item,
+                        new TrainRecord(Transport.DSBClassEA().name, EntityDSBEA.class, WWCPItems.DSBEA.item,
+                                Transport.DSBClassEA().additionalText2, Transport.DSBClassEA().weightinKGs,
+                                new String[] {"Black","Red","Green","Blue","Brown","Cyan"},
+                                5, 0, 0.95, (int)Transport.DSBClassEA().topSpeed,
+                                (int)Transport.DSBClassEA().metric_horsepower, 40, 60,
+                                0.95, -7, 0),
+                        Instance()
+                );
+
         /**
          * Passenger Stock
          */
@@ -421,7 +664,7 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.EurofimaCompartment1_2.item,
                         new TrainRecord(Transport.EurofimaCompartment1_2().name, EntityEurofima1st2ndClassCompartment.class, WWCPItems.EurofimaCompartment1_2.item,
                                 Transport.EurofimaCompartment1_2().additionalText2, Transport.EurofimaCompartment1_2().weightinKGs,
-                                new String[] {"Yellow"}, 5, 0, 0, 0,
+                                new String[] {"Yellow","Red"}, 5, 0, 0, 0,
                                 0, 0, 0,
                                 0, 0, 0),
                         Instance()
@@ -431,6 +674,16 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.EurofimaPanorama.item,
                         new TrainRecord(Transport.EurofimaPanorama().name, EntityEurofimaPanorama.class, WWCPItems.EurofimaPanorama.item,
                                 Transport.EurofimaPanorama().additionalText2, Transport.EurofimaPanorama().weightinKGs,
+                                new String[] {"Yellow"}, 5, 0, 0, 0,
+                                0, 0, 0,
+                                0, 0, 0),
+                        Instance()
+                );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.EurofimaPresidentiale.item,
+                        new TrainRecord(Transport.EurofimaPresidentiale().name, EntityEurofimaPresidentiale.class, WWCPItems.EurofimaPresidentiale.item,
+                                Transport.EurofimaPresidentiale().additionalText2, Transport.EurofimaPresidentiale().weightinKGs,
                                 new String[] {"Yellow"}, 5, 0, 0, 0,
                                 0, 0, 0,
                                 0, 0, 0),
@@ -468,6 +721,56 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.RheingoldSpeise2Christmas.item,
                         new TrainRecord(WWCPItems.RheingoldSpeise2Christmas.name(), Entity2ndClassRheingoldKitchenChristmas.class, WWCPItems.RheingoldSpeise2Christmas.item,
                                 Transport.RheingoldKitchen2Christmas().additionalText2, Transport.RheingoldKitchen2Christmas().weightinKGs,
+                                new String[] {"Yellow"}, 5, 1, 0, 0,
+                                0, 0, 0,
+                                0, 0, 0),
+                        Instance()
+                );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.RheingoldSalon1.item,
+                        new TrainRecord(WWCPItems.RheingoldSalon1.name(), Entity1stClassRheingoldSalon.class, WWCPItems.RheingoldSalon1.item,
+                                Transport.RheingoldSalon1().additionalText2, Transport.RheingoldSalon1().weightinKGs,
+                                new String[] {"Yellow"}, 5, 1, 0, 0,
+                                0, 0, 0,
+                                0, 0, 0),
+                        Instance()
+                );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.RheingoldSalon2.item,
+                        new TrainRecord(WWCPItems.RheingoldSalon2.name(), Entity2ndClassRheingoldSalon.class, WWCPItems.RheingoldSalon2.item,
+                                Transport.RheingoldSalon2().additionalText2, Transport.RheingoldSalon2().weightinKGs,
+                                new String[] {"Yellow"}, 5, 1, 0, 0,
+                                0, 0, 0,
+                                0, 0, 0),
+                        Instance()
+                );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.RheingoldKitchen1.item,
+                        new TrainRecord(WWCPItems.RheingoldKitchen1.name(), Entity1stClassRheingoldKitchen.class, WWCPItems.RheingoldKitchen1.item,
+                                Transport.RheingoldKitchen1().additionalText2, Transport.RheingoldKitchen1().weightinKGs,
+                                new String[] {"Yellow"}, 5, 1, 0, 0,
+                                0, 0, 0,
+                                0, 0, 0),
+                        Instance()
+                );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.RheingoldKitchen2.item,
+                        new TrainRecord(WWCPItems.RheingoldKitchen2.name(), Entity2ndClassRheingoldKitchen.class, WWCPItems.RheingoldKitchen2.item,
+                                Transport.RheingoldKitchen2().additionalText2, Transport.RheingoldKitchen2().weightinKGs,
+                                new String[] {"Yellow"}, 5, 1, 0, 0,
+                                0, 0, 0,
+                                0, 0, 0),
+                        Instance()
+                );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.RheingoldBagage.item,
+                        new TrainRecord(WWCPItems.RheingoldBagage.name(), EntityRheingoldBaggage.class, WWCPItems.RheingoldBagage.item,
+                                Transport.RheingoldBaggage().additionalText2, Transport.RheingoldBaggage().weightinKGs,
                                 new String[] {"Yellow"}, 5, 1, 0, 0,
                                 0, 0, 0,
                                 0, 0, 0),
@@ -549,7 +852,35 @@ public class WWCPEntityHandler
                 .RegisterRollingStockEntity(WWCPItems.Habbiins_17.item,
                         new TrainRecord(WWCPItems.Habbiins_17.name(), EntityHabbiins17.class, WWCPItems.Habbiins_17.item,
                                 Transport.Habbiins_17().additionalText2, Transport.Habbiins_17().weightinKGs,
-                                new String[] {"Black","Red","Green","Brown","Blue"}, 5, 63, 0, 0,
+                                new String[] {"Black","Red","Green","Brown","Blue"}, 5, 50, 0, 0,
+                                0, 0, 0,
+                                0, 0, 0),
+                        Instance()
+                );
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.Habbiins_14.item,
+                        new TrainRecord(WWCPItems.Habbiins_14.name(), EntityHabbiins14.class, WWCPItems.Habbiins_14.item,
+                                Transport.Habbiins_14().additionalText2, Transport.Habbiins_14().weightinKGs,
+                                new String[] {"Black","Red","Green"}, 5, 50, 0, 0,
+                                0, 0, 0,
+                                0, 0, 0),
+                        Instance()
+                );
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.Habiins_12.item,
+                        new TrainRecord(WWCPItems.Habiins_12.name(), EntityHabiins12.class, WWCPItems.Habiins_12.item,
+                                Transport.Habiins_12().additionalText2, Transport.Habiins_12().weightinKGs,
+                                new String[] {"Black","Red","Green","Blue"}, 5, 56, 0, 0,
+                                0, 0, 0,
+                                0, 0, 0),
+                        Instance()
+                );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.Hbbillns.item,
+                        new TrainRecord(WWCPItems.Hbbillns.name(), EntityHbbillns.class, WWCPItems.Hbbillns.item,
+                                Transport.Hbbillns().additionalText2, Transport.Hbbins().weightinKGs,
+                                new String[] {"Black","Red","Green","Brown"}, 5, 32, 0, 0,
                                 0, 0, 0,
                                 0, 0, 0),
                         Instance()
@@ -585,6 +916,75 @@ public class WWCPEntityHandler
                         Instance()
                 );
 
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.Lgns.item,
+                        new TrainRecord(WWCPItems.Lgns.name(), EntityLgns.class, WWCPItems.Lgns.item,
+                                Transport.Lgns().additionalText2, Transport.Lgns().weightinKGs,
+                                new String[] {"Black","Red","Green","Brown","Blue","Purple","Cyan","LightGrey","Pink","Lime","Magenta"}, 5, 32, 0, 0,
+                                0, 0, 0,
+                                0, 0, 0),
+                        Instance()
+                );
+      
+        Traincraft.traincraftRegistry                                        
+                .RegisterRollingStockEntity(WWCPItems.SGNSS60.item,
+                        new TrainRecord(WWCPItems.SGNSS60.name(), EntitySGNSS60.class, WWCPItems.SGNSS60.item,
+                                Transport.SGNSS60().additionalText2, Transport.SGNSS60().weightinKGs,
+                                new String[] {"Black","Grey","LightGrey","Purple"}, 5, 54, 0, 0,
+                                0, 0, 0,
+                                0, 0, 0),
+                        Instance()
+                );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.GS.item,
+                        new TrainRecord(WWCPItems.GS.name(), EntityGS.class, WWCPItems.GS.item,
+                                Transport.GSVan().additionalText2, Transport.GSVan().weightinKGs,
+                                new String[] {"Black","Red","Green","Brown","Blue"}, 5, 32, 0, 0,
+                                0, 0, 0,
+                                0, 0, 0),
+                        Instance()
+                );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.DSB735.item,
+                        new TrainRecord(WWCPItems.DSB735.name(), EntityDSB735.class, WWCPItems.DSB735.item,
+                                Transport.DSB735Tanker().additionalText2, Transport.DSB735Tanker().weightinKGs,
+                                new String[] {"Black"}, 5, 32, 0, 0,
+                                0, 0, 0,
+                                0, 0, 0),
+                        Instance()
+                );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.DSBZE.item,
+                        new TrainRecord(WWCPItems.DSBZE.name(), EntityDSBZETanker.class, WWCPItems.DSBZE.item,
+                                Transport.DSBZETanker().additionalText2, Transport.DSBZETanker().weightinKGs,
+                                new String[] {"Black"}, 5, 32, 0, 0,
+                                0, 0, 0,
+                                0, 0, 0),
+                        Instance()
+                );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.DSBE.item,
+                        new TrainRecord(WWCPItems.DSBE.name(), EntityDSBEHopper.class, WWCPItems.DSBE.item,
+                                Transport.DSBCarE().additionalText2, Transport.DSBCarE().weightinKGs,
+                                new String[] {"Black"}, 5, 32, 0, 0,
+                                0, 0, 0,
+                                0, 0, 0),
+                        Instance()
+                );
+
+        Traincraft.traincraftRegistry
+                .RegisterRollingStockEntity(WWCPItems.R_Flatcars.item,
+                        new TrainRecord(WWCPItems.R_Flatcars.name(), EntityR_Flatcars.class, WWCPItems.R_Flatcars.item,
+                                Transport.R_Flatcars().additionalText2, Transport.R_Flatcars().weightinKGs,
+                                new String[] {"Black","Red","Green"}, 5, 56, 0, 0,
+                                0, 0, 0,
+                                0, 0, 0),
+                        Instance()
+                );
 
     }
 }
