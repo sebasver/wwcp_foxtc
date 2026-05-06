@@ -75,7 +75,7 @@ public class EntityBR217 extends DieselTrain
                                 add(new double[]{4.7D, 1.7D, 0.195D});
                             }
                             {
-                                add(new double[]{3.65D, 1.7D, -0.195D});
+                                add(new double[]{3.60D, 1.7D, -0.195D});
                             }},
                         "", null, 10, 2)
                 {

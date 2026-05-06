@@ -27,7 +27,7 @@ public class EntityDSBMT extends DieselTrain
     }
 
     public void updateRiderPosition() {
-        TraincraftUtil.updateRider(this, 0.55F, 0.3f, -0.3f);
+        TraincraftUtil.updateRider(this, 0.55F, 0.2f, -0.3f);
     }
 
     public float getOptimalDistance(EntityMinecart cart) {

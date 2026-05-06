@@ -190,13 +190,13 @@
   "G322Horn":  {"category": "master", "sounds" :  [{"name": "G322Horn", "stream": true}]},
   "MzHorn":  {"category": "master", "sounds" :  [{"name": "MzHorn", "stream": true}]},
   "V160_Horn":  {"category": "master", "sounds" :  [{"name": "V160_Horn", "stream": true}]},
-  "218_1_Idle":  {"category": "master", "sounds" :  [{"name": "218_1_Idle", "stream": true}]},
-  "218_1_Run":  {"category": "master", "sounds" :  [{"name": "218_1_Run", "stream": true}]},
-  "218_2_Idle":  {"category": "master", "sounds" :  [{"name": "218_2_Idle", "stream": true}]},
-  "218_2_Run":  {"category": "master", "sounds" :  [{"name": "218_2_Run", "stream": true}]},
+  "218_1_Idle":  {"category": "master", "sounds" :  [{"name": "218_1_Idle", "stream": false}]},
+  "218_1_Run":  {"category": "master", "sounds" :  [{"name": "218_1_Run", "stream": false}]},
+  "218_2_Idle":  {"category": "master", "sounds" :  [{"name": "218_2_Idle", "stream": false}]},
+  "218_2_Run":  {"category": "master", "sounds" :  [{"name": "218_2_Run", "stream": false}]},
   "DSBSteam_Whistle":  {"category": "master", "sounds" :  [{"name": "DSBSteam_Whistle", "stream": true}]},
-  "DSBSteam_Run":  {"category": "master", "sounds" :  [{"name": "DSBSteam_Run", "stream": true}]},
-  "DSBSteam_Idle":  {"category": "master", "sounds" :  [{"name": "DSBSteam_Idle", "stream": true}]}
+  "DSBSteam_Run":  {"category": "master", "sounds" :  [{"name": "DSBSteam_Run", "stream": false}]},
+  "DSBSteam_Idle":  {"category": "master", "sounds" :  [{"name": "DSBSteam_Idle", "stream": false}]}
 
 
 }
