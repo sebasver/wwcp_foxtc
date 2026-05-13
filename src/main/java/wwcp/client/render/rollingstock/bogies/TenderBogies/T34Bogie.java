@@ -1,5 +1,5 @@
 //This File was created with the Minecraft-SMP Modelling Toolbox 2.3.0.0
-// Copyright (C) 2019 Minecraft-SMP.de
+// Copyright (C) 2026 Minecraft-SMP.de
 // This file is for Flan's Flying Mod Version 4.0.x+
 
 // Model: 
@@ -7,7 +7,7 @@
 // Created on: 28.01.2019 - 21:17:44
 // Last changed on: 28.01.2019 - 21:17:44
 
-package wwcp.client.render.rollingstock.bogies.TenderBogies.BR01Line; //Path where the model is located
+package wwcp.client.render.rollingstock.bogies.TenderBogies; //Path where the model is located
 
 import tmt.ModelConverter;
 import tmt.ModelRendererTurbo;

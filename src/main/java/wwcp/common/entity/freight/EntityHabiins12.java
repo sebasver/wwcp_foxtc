@@ -52,7 +52,7 @@ public class EntityHabiins12 extends AbstractStandardFixedFreightCar {
         Traincraft.traincraftRegistry.RegisterRollingStockModel(
                 new TrainRenderRecord(wwcp.common.library.Info.modID,
                         EntityHabiins12.class, new Habiins_12(),
-                        "Habbiins_14",
+                        "Habbiins_12",
                         new float[]{-0.0f, 0.15F, 0.0F},
                         new float[]{0F, 180F, 180F},
                         null) {

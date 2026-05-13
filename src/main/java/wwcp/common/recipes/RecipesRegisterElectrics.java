@@ -110,6 +110,30 @@ public class RecipesRegisterElectrics extends AbstractRecipeHandler {
                 SteelIngot(4),
                 new ItemStack(WWCPItems.ES64U4.item), 1);
 
+        betterAddRecipe(2, new ItemStack(ItemIDs.steelcab.item, 1), //E44
+                new ItemStack(ItemIDs.pantograph.item, 2),
+                null,
+                null,
+                new ItemStack(ItemIDs.controls.item, 2),
+                new ItemStack(ItemIDs.transformer.item, 1),
+                new ItemStack(ItemIDs.copperWireFine.item, 2),
+                new ItemStack(ItemIDs.bogie.item, 4),
+                new ItemStack(ItemIDs.steelframe.item, 1),
+                SteelIngot(4),
+                new ItemStack(WWCPItems.E44.item), 1);
+
+        betterAddRecipe(2, new ItemStack(ItemIDs.steelcab.item, 1), //E44
+                new ItemStack(ItemIDs.pantograph.item, 2),
+                null,
+                null,
+                new ItemStack(ItemIDs.controls.item, 2),
+                new ItemStack(ItemIDs.transformer.item, 1),
+                new ItemStack(ItemIDs.copperWireFine.item, 2),
+                new ItemStack(ItemIDs.bogie.item, 6),
+                new ItemStack(ItemIDs.steelframe.item, 2),
+                SteelIngot(4),
+                new ItemStack(WWCPItems.E94.item), 1);
+
     }
 
     public static void betterAddRecipe(int tier, ItemStack top1, ItemStack top2,

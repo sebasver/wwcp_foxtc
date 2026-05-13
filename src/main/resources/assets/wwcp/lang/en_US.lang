@@ -56,6 +56,8 @@ menu.item.germany=Germany
 menu.item.europe=Europe
 menu.item.denmark=Denmark
 menu.item.america=America
+menu.item.belgiumluxembourgdenmarkgermanysweden=Belgium, Luxembourg, Denmark, Germany, Sweden
+menu.item.denkmarkbulgariaromainia=Denmark, Bulgaria, Romainia
 
 train.owner.name=You are not the owner!
 train.locked.name=Locked
@@ -179,6 +181,12 @@ item.wwcp:BR145.name=BR 145
 item.wwcp:Class76.name=Class 76
 item.wwcp:RoyalScot.name=LMS Original Royal Scot
 item.wwcp:Fowlertender.name=LMS Fowler 3000 Gallon Tender
+item.wwcp:T32Tender.name= T32 Tender
+item.wwcp:DBBR01_henschel.name=DB BR01 Henschel
+item.wwcp:DBBR01_11.name=DB BR01.11
+item.wwcp:DBBR01_neubaukessel.name=DB BR01 Neubaukessel
+item.wwcp:E44.name=E44
+
 //American Tab
 
 entity.wwcp.SLRVC.name=SLRV C
