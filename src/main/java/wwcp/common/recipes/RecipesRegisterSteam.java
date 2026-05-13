@@ -72,6 +72,18 @@ public class RecipesRegisterSteam extends AbstractRecipeHandler {
                 null,
                 new ItemStack(WWCPItems.DBBR01_henschel.item), 1);
 
+        betterAddRecipe(2, new ItemStack(ItemIDs.steelchimney.item, 1), //Christmas BR01
+                new ItemStack(ItemIDs.tankcarDome.item, 1),
+                null,
+                new ItemStack(ItemIDs.steelcab.item, 1),
+                SteelIngot(6),
+                new ItemStack(ItemIDs.boiler.item, 2),
+                new ItemStack(ItemIDs.firebox.item, 1),
+                new ItemStack(ItemIDs.bogie.item, 6),
+                new ItemStack(ItemIDs.steelframe.item, 2),
+                null,
+                new ItemStack(WWCPItems.DBBR01_10_Streamline.item), 1);
+
         betterAddRecipe(1, new ItemStack(ItemIDs.steelchimney.item, 1), //DSB FII
                 new ItemStack(ItemIDs.tankcarDome.item, 1),
                 null,
@@ -119,6 +131,18 @@ public class RecipesRegisterSteam extends AbstractRecipeHandler {
                 new ItemStack(ItemIDs.steelframe.item, 2),
                 null,
                 new ItemStack(WWCPItems.T32Tender.item), 1);
+
+        betterAddRecipe(1, null, //Tender T32 Christmas
+                null,
+                null,
+                null,
+                CoalItem(2),
+                TCItemStack(WaterBucketItem, 1),
+                SteelIngot(4),
+                new ItemStack(ItemIDs.bogie.item, 4),
+                new ItemStack(ItemIDs.steelframe.item, 2),
+                null,
+                new ItemStack(WWCPItems.T34Streamline.item), 1);
     }
 
     public static void betterAddRecipe(int tier, ItemStack top1, ItemStack top2,

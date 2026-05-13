@@ -49,7 +49,7 @@ public class EntityT34Streamline extends Tender {
                 new TrainRenderRecord(wwcp.common.library.Info.modID,
                         EntityT34Streamline.class, new T34Streamline(),
                         "T34Streamline",
-                        new float[]{-0.50f, 0.35F, 0.0F},
+                        new float[]{-0.50f, 0.15F, 0.0F},
                         new float[]{0F, 180F, 180F},
                         null) {
                     @Override

@@ -27,9 +27,40 @@ public class RecipesRegisterRollingStock extends AbstractRecipeHandler {
 
 
         //Paccar64Woodchip
-        betterAddRecipe(2, null, null, null, BROWN_DYE,
-                null, new ItemStack(Blocks.chest, 1), null,
-                new ItemStack(ItemIDs.freightCarTruck.item, 2), new ItemStack(ItemIDs.steelframe.item, 2), SteelIngot(6), new ItemStack(WWCPItems.Paccar64Woodchip.item), 1);
+        betterAddRecipe(2, null,
+                null,
+                null, BROWN_DYE,
+                null,
+                new ItemStack(Blocks.chest, 1),
+                null,
+                new ItemStack(ItemIDs.freightCarTruck.item, 2),
+                new ItemStack(ItemIDs.steelframe.item, 2),
+                SteelIngot(6),
+                new ItemStack(WWCPItems.Paccar64Woodchip.item), 1);
+
+        betterAddRecipe(2,
+                null,
+                null,
+                null, BROWN_DYE,
+                null,
+                getAnyPlankType(4),
+                null,
+                new ItemStack(ItemIDs.freightCarTruck.item, 2),
+                new ItemStack(ItemIDs.steelframe.item, 2),
+                SteelIngot(6),
+                new ItemStack(WWCPItems.NP65Gondola.item), 1);
+
+        betterAddRecipe(2,
+                null,
+                null,
+                null, BROWN_DYE,
+                null,
+                getAnyPlankType(4),
+                null,
+                new ItemStack(ItemIDs.bogie.item, 2),
+                new ItemStack(ItemIDs.steelframe.item, 2),
+                SteelIngot(6),
+                new ItemStack(WWCPItems.R_Flatcars.item), 1);
 
         betterAddRecipe(2, new ItemStack(ItemIDs.freightCarRibbing.item, 4), null, null, BROWN_DYE,
                 null, new ItemStack(Blocks.chest, 1), null,

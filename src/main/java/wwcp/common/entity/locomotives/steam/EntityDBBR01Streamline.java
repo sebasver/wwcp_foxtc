@@ -57,7 +57,7 @@ public class EntityDBBR01Streamline extends SteamTrain {
                 new TrainRenderRecord(wwcp.common.library.Info.modID,
                         EntityDBBR01Streamline.class, new BR01_10Streamline(),
                         "DBBR01",
-                        new float[]{-3f, 0.15F, 0.0F},
+                        new float[]{-2.9f, 0.15F, 0.0F},
                         new float[]{0F, 180F, 180F},
 
                         null, "largesmoke", new ArrayList<double[]>() { {add(new double[] { 5.5D, 1.7D, 0.0D }); }},

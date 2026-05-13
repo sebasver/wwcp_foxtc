@@ -115,7 +115,7 @@ public class WWCPEntityHandler
                                 Transport.DBBR01_10Streamlined().additionalText2, Transport.DBBR01_10Streamlined().weightinKGs,
                                 new String[] {"Black"}, 5, 0, 0.95, (int)Transport.DBBR01_10Streamlined().topSpeed,
                                 (int)Transport.DBBR01_10Streamlined().metric_horsepower, 50, 200,
-                                0.8, -6.2f, 5000).setWaterConsumption(80),
+                                0.8, -6f, 5000).setWaterConsumption(80),
                         Instance()
                 );
 

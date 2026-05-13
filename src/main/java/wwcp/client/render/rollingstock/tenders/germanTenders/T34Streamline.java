@@ -485,12 +485,12 @@ public class T34Streamline extends ModelConverter //Same as Filename
 
 		Tessellator.bindTexture(new ResourceLocation(Info.modID, "textures/bogies/EUBogies/germanTenderBogies/T34BogieBlack.png"));
 		GL11.glPushMatrix();
-		GL11.glTranslatef(1.2f,0.4f,0);
+		GL11.glTranslatef(1.1f,0f,0);
 		bogie.render(entity, f, f1, f2, f3, f4, f5);
 		GL11.glPopMatrix();
 
 		GL11.glPushMatrix();
-		GL11.glTranslatef(-0.5f,0.4f,0);
+		GL11.glTranslatef(-0.5f,0f,0);
 		bogie.render(entity, f, f1, f2, f3, f4, f5);
 		GL11.glPopMatrix();
 	}

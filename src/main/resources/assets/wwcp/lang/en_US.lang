@@ -57,7 +57,7 @@ menu.item.europe=Europe
 menu.item.denmark=Denmark
 menu.item.america=America
 menu.item.belgiumluxembourgdenmarkgermanysweden=Belgium, Luxembourg, Denmark, Germany, Sweden
-menu.item.denkmarkbulgariaromainia=Denmark, Bulgaria, Romainia
+menu.item.denmarkbulgariaromainia=Denmark, Bulgaria, Romainia
 
 train.owner.name=You are not the owner!
 train.locked.name=Locked
@@ -438,7 +438,7 @@ item.wwcp:RheingoldSalon1.name=Rheingold Salon 1st Class
 item.wwcp:RheingoldSalon2.name=Rheingold Salon 2nd Class
 item.wwcp:RheingoldKitchen2.name=Rheingold Kitchen 1st Class
 item.wwcp:RheingoldKitchen1.name=Rheingold Kitchen 2nd Class
-item.wwcp:RheingoldBagage=Rheingold Baggage
+item.wwcp:RheingoldBagage.name=Rheingold Baggage
 item.wwcp:EurofimaCompartment1_2.name=Eurofima Compartment 1st & 2nd Class
 item.wwcp:EurofimaCompartment1.name=Eurofima Compartment 1st Class
 item.wwcp:TraxxF140MS2.name=F140 MS2
