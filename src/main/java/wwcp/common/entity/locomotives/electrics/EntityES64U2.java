@@ -19,13 +19,13 @@ public class EntityES64U2 extends ElectricTrain {
         super(world);    
         InsertTexture(0, "ES64U2");
     }
-    
+
     public void updateRiderPosition() {
-        TraincraftUtil.updateRider(this, 6.2f, 0.1f, -0.2f);
+        TraincraftUtil.updateRider(this, 7.5f, 0.1f, -0.2f);
     }
 
     public float getOptimalDistance(EntityMinecart cart) {
-        return 2F;
+        return 1F;
     }
 
     @Override
@@ -53,7 +53,7 @@ public class EntityES64U2 extends ElectricTrain {
                 new TrainRenderRecord(wwcp.common.library.Info.modID,
                         EntityES64U2.class, new ES64U2(),
                         "ES64U2",
-                        new float[]{-2.5f, 0.15F, 0.0F},
+                        new float[]{-3.75f, 0.10F, 0.0F},
                         new float[]{0F, 180F, 180F},
                         null) {
                     @Override

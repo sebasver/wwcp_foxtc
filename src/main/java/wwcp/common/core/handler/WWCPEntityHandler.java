@@ -115,7 +115,7 @@ public class WWCPEntityHandler
                                 Transport.DBBR01_10Streamlined().additionalText2, Transport.DBBR01_10Streamlined().weightinKGs,
                                 new String[] {"Black"}, 5, 0, 0.95, (int)Transport.DBBR01_10Streamlined().topSpeed,
                                 (int)Transport.DBBR01_10Streamlined().metric_horsepower, 50, 200,
-                                0.8, -6f, 5000).setWaterConsumption(80),
+                                0.8, -6.2f, 5000).setWaterConsumption(80),
                         Instance()
                 );
 
@@ -129,7 +129,7 @@ public class WWCPEntityHandler
                                 Transport.T32TenderChristmas().additionalText2, Transport.T32TenderChristmas().weightinKGs,
                                 new String[] {"Yellow"}, 5, 2, 0, 0,
                                 0, 0, 0,
-                                0, 0, 30000),
+                                0, 0, 32000),
                         Instance()
                 );
 
@@ -139,7 +139,7 @@ public class WWCPEntityHandler
                                 Transport.T32().additionalText2, Transport.T32().weightinKGs,
                                 new String[] {"Yellow", "Black"}, 5, 10, 0, 0,
                                 0, 0, 0,
-                                0, 0, 30000),
+                                0, 0, 32000),
                         Instance()
                 );
 
@@ -149,7 +149,7 @@ public class WWCPEntityHandler
                                 Transport.T34Streamlined().additionalText2, Transport.T34Streamlined().weightinKGs,
                                 new String[] {"Yellow"}, 5, 10, 0, 0,
                                 0, 0, 0,
-                                0, 0, 35000),
+                                0, 0, 34000),
                         Instance()
                 );
 
@@ -562,7 +562,7 @@ public class WWCPEntityHandler
                                 new String[] {"Black", "Grey"},
                                 5, 0, 1, (int)Transport.ES64U2().topSpeed,
                                 (int)Transport.ES64U2().metric_horsepower, 40, 0,
-                                0.95, -5, 0),
+                                0.95, -7.5, 0),
                         Instance()
                 );
 

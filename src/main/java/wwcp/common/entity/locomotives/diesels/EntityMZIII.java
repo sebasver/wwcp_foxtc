@@ -83,13 +83,13 @@ public class EntityMZIII extends DieselTrain
                         switch (colorAsString.toLowerCase())
                         {
                             case "black":
-                                texturePath = "textures/locomotive/Diesel/MZ/MZIII/MzIIIDSB1980s-2000s";
+                                texturePath = "textures/locomotive/Diesel/MZ/MzIII/MzIIIDSB1980s_2000s";
                                 break;
                             case "red":
-                                texturePath = "textures/locomotive/Diesel/MZ/MZIII/MzIIIDSB1972-1980s";
+                                texturePath = "textures/locomotive/Diesel/MZ/MzIII/MzIIIDSB1972_1980s";
                                 break;
                             case "green":
-                                texturePath = "textures/locomotive/Diesel/MZ/MZIII/NEGMZ1439";
+                                texturePath = "textures/locomotive/Diesel/MZ/MzIII/NEGMZ1439";
                                 break;
 
                         }

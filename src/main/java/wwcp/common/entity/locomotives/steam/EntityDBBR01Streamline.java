@@ -25,7 +25,7 @@ public class EntityDBBR01Streamline extends SteamTrain {
     }
 
     public void updateRiderPosition() {
-        TraincraftUtil.updateRider(this, -0.2f, 0.2f, -0.15f);
+        TraincraftUtil.updateRider(this, -0.2f, 0.2f, -0.35f);
     }
 
     public float getOptimalDistance(EntityMinecart cart) {

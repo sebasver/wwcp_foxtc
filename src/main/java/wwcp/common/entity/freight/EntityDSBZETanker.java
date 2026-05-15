@@ -6,10 +6,11 @@ import net.minecraft.world.World;
 import train.client.render.register.TrainRenderRecord;
 import train.common.Traincraft;
 import train.common.api.AbstractStandardFixedFreightCar;
+import train.common.api.AbstractStandardTankerCar;
 import wwcp.client.render.rollingstock.freight.DSBZETanker;
 import wwcp.common.core.handler.Transport;
 
-public class EntityDSBZETanker extends AbstractStandardFixedFreightCar {
+public class EntityDSBZETanker extends AbstractStandardTankerCar {
 
     public EntityDSBZETanker(World world) {
         super(world);
@@ -24,6 +25,10 @@ public class EntityDSBZETanker extends AbstractStandardFixedFreightCar {
 
     public float getOptimalDistance(EntityMinecart cart) {
         return 2.17F;
+    }
+
+    public int getTankCapacity(){
+        return 20000;
     }
 
     @Override

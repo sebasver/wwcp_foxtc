@@ -86,22 +86,22 @@ public class EntityMZIV extends DieselTrain
                         switch (colorAsString.toLowerCase())
                         {
                             case "black":
-                                texturePath = "textures/locomotive/Diesel/MZ/MZIV/MzIVDSB";
+                                texturePath = "textures/locomotive/Diesel/MZ/MzIV/MzIVDSB";
                                 break;
                             case "red":
-                                texturePath = "textures/locomotive/Diesel/MZ/MZIV/MzIVRDK";
+                                texturePath = "textures/locomotive/Diesel/MZ/MzIV/MzIVRDK";
                                 break;
                             case "green":
-                                texturePath = "textures/locomotive/Diesel/MZ/MZIV/MzIVRSC";
+                                texturePath = "textures/locomotive/Diesel/MZ/MzIV/MzIVRSC";
                                 break;
                             case "magenta":
-                                texturePath = "textures/locomotive/Diesel/MZ/MZIV/MzIVDBCSC";
+                                texturePath = "textures/locomotive/Diesel/MZ/MzIV/MzIVDBCSC";
                                 break;
                             case "brown":
-                                texturePath = "textures/locomotive/Diesel/MZ/MZIV/MzIVDBCSC1459";
+                                texturePath = "textures/locomotive/Diesel/MZ/MzIV/MzIVDBCSC1459";
                                 break;
                             case "blue":
-                                texturePath = "textures/locomotive/Diesel/MZ/MZIV/NRFAB-TMZIV";
+                                texturePath = "textures/locomotive/Diesel/MZ/MzIV/NRFAB_TMZIV";
                                 break;
 
                         }

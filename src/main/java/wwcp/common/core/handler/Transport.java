@@ -1756,7 +1756,7 @@ public class Transport {
     //Zacns 95
     public static TankCars Zacns95() {
         return new TankCars("Zacns 95", "Europe", "2006-", "",
-                "", type, " Tank wagon", 24.4f, 120f, false, true, 0, 60000);
+                "", type, " Tank wagon", 24.0f, 120f, false, true, 0, 66000);
     }
 
     //60' Hi Cube Plate F Boxcar

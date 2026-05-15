@@ -89,31 +89,31 @@ public class EntityMZII extends DieselTrain
                         switch (colorAsString.toLowerCase())
                         {
                             case "black":
-                                texturePath = "textures/locomotive/Diesel/MZ/MZII/MzIIDSB1990-2020s";
+                                texturePath = "textures/locomotive/Diesel/MZ/MzII/MzIIDSB1990_2020s";
                                 break;
                             case "red":
-                                texturePath = "textures/locomotive/Diesel/MZ/MZII/MzIIDSB1980-1990s";
+                                texturePath = "textures/locomotive/Diesel/MZ/MzII/MzIIDSB1980_1990s";
                                 break;
                             case "green":
-                                texturePath = "textures/locomotive/Diesel/MZ/MZII/MzIIRDK";
+                                texturePath = "textures/locomotive/Diesel/MZ/MzII/MzIIRDK";
                                 break;
                             case "brown":
-                                texturePath = "textures/locomotive/Diesel/MZ/MZII/MzIIBrown";
+                                texturePath = "textures/locomotive/Diesel/MZ/MzII/MzIIBrown";
                                 break;
                             case "blue":
-                                texturePath = "textures/locomotive/Diesel/MZ/MZII/MzIIDSB_1411";
+                                texturePath = "textures/locomotive/Diesel/MZ/MzII/MzIIDSB_1411";
                                 break;
                             case "yellow":
-                                texturePath = "textures/locomotive/Diesel/MZ/MZII/JBVMZ1415";
+                                texturePath = "textures/locomotive/Diesel/MZ/MzII/JBVMZ1415";
                                 break;
                             case "cyan":
-                                texturePath = "textures/locomotive/Diesel/MZ/MZII/STTTMZ1413";
+                                texturePath = "textures/locomotive/Diesel/MZ/MzII/STTTMZ1413";
                                 break;
                             case "lightgrey":
-                                texturePath = "textures/locomotive/Diesel/MZ/MZII/BLSRTMZII";
+                                texturePath = "textures/locomotive/Diesel/MZ/MzII/BLSRTMZII";
                                 break;
                             case "grey":
-                                texturePath = "textures/locomotive/Diesel/MZ/MZII/NRFABTMZ1411";
+                                texturePath = "textures/locomotive/Diesel/MZ/MzII/NRFABTMZ1411";
                                 break;
 
                         }
